@@ -1,0 +1,22 @@
+{
+ "video": "11ku7bIXA28",
+ "note": "Labeled by Claude from contact sheets (tiles ~400px wide), screen-level verdicts. new-info only where text was readable. Reaction-channel format: a face cam over browser tabs (X post, Gemini notes, CNBC clips on YouTube). About half the cues land on a talking-head-only screen, which is blank. Duplicate-screen cues (c13/c14) judged redundant.",
+ "cues": {
+  "c01": ["NNNNN", null, "X post of the AMD positions page: price 655.23, 2,555 shares, avg cost 111.61, total gain +1.39M, day +59.5K (readable). Matches 'AMD up another $59,000'; shares and cost basis are not in the audio."],
+  "c02": ["UUUUU", null, "Gemini 'Key Drivers and News Today' page for AMD (supply expansion, Citi $800, Mizuho $705, World Labs, Nov 3 earnings). He reads it out, so the transcript covers it."],
+  "c03": ["BBBBB", null, "Talking head only, no pane."],
+  "c04": ["BBBBB", null, "Talking head only, no pane."],
+  "c05": ["BBBBB", null, "Talking head only, no pane."],
+  "c06": ["UUUUU", null, "CNBC clip 'Why AMD is benefiting from the new wave of AI agents' (presenter, phone app screen, article about Meta Muse downloads). Matches the clip audio he is playing."],
+  "c07": ["UUUUU", null, "Same CNBC clip: chip renders and a hand holding a chip, matching the CPU talk. 9.6s after c06."],
+  "c08": ["BBBBB", null, "Talking head only, no pane."],
+  "c09": ["UUUUU", null, "Tom Lee clip loaded on YouTube (stock futures point to lower open). Already on screen at -2."],
+  "c10": ["BBBBB", null, "Talking head only while he lists crashed stocks."],
+  "c11": ["BBBBB", null, "Talking head only while he lists crashed stocks."],
+  "c12": ["UUUUU", null, "Second Tom Lee clip, Squawk Box Asia page, matches 'Tom Lee from today'. Already on screen at -2."],
+  "c13": ["NNNNN", null, "CNBC graphic: 10Y UST yield 5.307%, 1-year +28.81%, headline 'Lee: excessive pessimism in US equities' (readable). The 5.3% figure is not spoken."],
+  "c14": ["RRRRR", null, "Same screen as c13, 3.7s later."]
+ },
+ "control": "NUUUBUUUUUUU",
+ "control_note": "Control grid. Frame 5 is a close-up face; frames 3 and 4 are the Gemini AMD page; frame 8 is the OpenAI 'dots' launch stage from the CNBC clip."
+}

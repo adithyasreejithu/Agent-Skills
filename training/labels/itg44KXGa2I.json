@@ -1,0 +1,508 @@
+{
+  "video_id": "itg44KXGa2I",
+  "source": "https://www.youtube.com/watch?v=itg44KXGa2I",
+  "verdicts": "new-info | useful | redundant | blank | wrong  (see plan/watch-skill-testing-mode/PLAN.md)",
+  "cues": [
+    {
+      "cue_id": "c01",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 1.75,
+      "heard": "So, we are at a very interesting point in the market today. Core PCE came in",
+      "offsets": {
+        "-2": "blank",
+        "+0": "blank",
+        "+2": "blank",
+        "+4": "blank",
+        "+6": "blank"
+      },
+      "best_offset": null,
+      "notes": "Intro talking head with captions. No screen content."
+    },
+    {
+      "cue_id": "c02",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 19.59,
+      "heard": "going to talk about exactly why I sold my IEN position last week because I know",
+      "offsets": {
+        "-2": "blank",
+        "+0": "blank",
+        "+2": "blank",
+        "+4": "blank",
+        "+6": "blank"
+      },
+      "best_offset": null,
+      "notes": "IREN named (captions heard \"IEN\") over a talking head with a \"why I sold\" overlay. No chart shown."
+    },
+    {
+      "cue_id": "c03",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 42.07,
+      "heard": "exactly I added those. So, let's go ahead and dive right into it. Remember,",
+      "offsets": {
+        "-2": "blank",
+        "+0": "blank",
+        "+2": "blank",
+        "+4": "blank",
+        "+6": "blank"
+      },
+      "best_offset": null,
+      "notes": "Talking head then disclaimer slide."
+    },
+    {
+      "cue_id": "c04",
+      "term": "take-a-look",
+      "category": "pointing",
+      "t": 48.95,
+      "heard": "educational purposes only. Results may vary. Now, if we take a look at the",
+      "offsets": {
+        "-2": "blank",
+        "+0": "blank",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+2",
+      "notes": "Disclaimer slide, then account summary from +2. Same lag as the other videos."
+    },
+    {
+      "cue_id": "c05",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 52.07,
+      "heard": "account, you can see we are here at all-time highs in the account. If you",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Account summary page while he says all-time highs in the account. Subscribe popup at +6 irrelevant."
+    },
+    {
+      "cue_id": "c06",
+      "term": "take-a-look",
+      "category": "pointing",
+      "t": 78.23,
+      "heard": "the last day of September. We're going to take a look at my current month",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Realized gain/loss page (current month) as he says current month profits."
+    },
+    {
+      "cue_id": "c07",
+      "term": "as-you-can-see",
+      "category": "pointing",
+      "t": 79.83,
+      "heard": "to take a look at my current month profits. As you can see right here, this",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "1s after c06, duplicate frames."
+    },
+    {
+      "cue_id": "c08",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 79.83,
+      "heard": "to take a look at my current month profits. As you can see right here, this",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "Same timestamp as c07, duplicate frames."
+    },
+    {
+      "cue_id": "c09",
+      "term": "as-you-can-see",
+      "category": "pointing",
+      "t": 108.55,
+      "heard": "and frameworks that I share here in the community. As you can see, we had um",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+4",
+      "notes": "Client posts in Discord, then a zoomed realized gain/loss summary (gauge reads 94.30%) at +4. Promo content but real numbers."
+    },
+    {
+      "cue_id": "c10",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 145.03,
+      "heard": "so make sure to be subscribed to that. But let's go ahead and dive straight",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+2",
+      "notes": "X profile page (promo) until the cue, MarketWatch calendar from +2."
+    },
+    {
+      "cue_id": "c11",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 155.19,
+      "heard": "great. We have weekly jobless claims and US manufacturing PM PMI tomorrow, which",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "MarketWatch calendar for the jobless claims / PMI he lists. Rows unreadable at sheet size."
+    },
+    {
+      "cue_id": "c12",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 158.15,
+      "heard": "US manufacturing PM PMI tomorrow, which could move the markets a little bit. MU",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Same calendar. \"PMI\" is an acronym, not a ticker."
+    },
+    {
+      "cue_id": "c13",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 179.43,
+      "heard": "elevated levels here given the NASDAQ is near all-time highs. Um, now let's take",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+2",
+      "notes": "Calendar while he talks about NASDAQ near highs; CNBC core inflation article from +2."
+    },
+    {
+      "cue_id": "c14",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 188.55,
+      "heard": "which was below the Fed's expectations or the BLS expectations of 3.4%.",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "CNBC article, headline readable: Fed preferred gauge showed core inflation at 3.0% in August, lighter than expected. \"BLS\" is an acronym, not a ticker."
+    },
+    {
+      "cue_id": "c15",
+      "term": "inflation-data",
+      "category": "macro",
+      "t": 206.15,
+      "heard": "than the official data this BLS data that came out which um you know core CPI",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Dark inflation dashboard with a treemap, on topic. Text unreadable at sheet size."
+    },
+    {
+      "cue_id": "c16",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 221.83,
+      "heard": "uh, which is better projected because it's basing it off of AAA gas prices,",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Same dashboard. \"AAA\" is gas prices, not a ticker."
+    },
+    {
+      "cue_id": "c17",
+      "term": "inflation-data",
+      "category": "macro",
+      "t": 235.11,
+      "heard": "it's going if it's trending higher than the actual CPI data that's coming out of",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Same dashboard, scrolls toward the CPI chart by +6."
+    },
+    {
+      "cue_id": "c18",
+      "term": "chart",
+      "category": "chart",
+      "t": 239.35,
+      "heard": "the BLS, then I'm a bit more worried. Right? So, if we go down to the chart,",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+2",
+      "notes": "Dashboard top until the cue, \"the CPI Gauge and official CPI\" chart from +2."
+    },
+    {
+      "cue_id": "c19",
+      "term": "fed-watch",
+      "category": "macro",
+      "t": 531.91,
+      "heard": "right. So now if we took a look at the CME Fed watch tool in the short term the",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "A slide (\"Rising yields killed stocks exactly once in 15 years ...\") before the cue, FedWatch tool from the cue."
+    },
+    {
+      "cue_id": "c20",
+      "term": "fed-watch",
+      "category": "macro",
+      "t": 550.31,
+      "heard": "for October and then potentially we get a rate hike in December, 82% odds, but",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "FedWatch table with the cursor moving down rows as he reads the odds."
+    },
+    {
+      "cue_id": "c21",
+      "term": "volatility-index",
+      "category": "macro",
+      "t": 600.47,
+      "heard": "currently QQQ. Um, if we take a look at the VIX, you could see we're currently",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+2",
+      "notes": "QQQ chart until the cue, VIX chart (about 16.39) from +2."
+    },
+    {
+      "cue_id": "c22",
+      "term": "volatility-index",
+      "category": "macro",
+      "t": 611.03,
+      "heard": "cash allocation levels. So, we're currently trading between VIX 15 and 20,",
+      "offsets": {
+        "-2": "useful",
+        "+0": "new-info",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+0",
+      "notes": "VIX chart at -2, then slide \"VIX Levels For 2025-2026\" with cash allocation per range (readable). Appears at 0, may be earlier."
+    },
+    {
+      "cue_id": "c23",
+      "term": "strike",
+      "category": "options",
+      "t": 716.07,
+      "heard": "more inclined to start a new position selling cash secured puts. Now, when",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "new-info",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": null,
+      "notes": "IREN LIMITED chart (about 40.88). Captions heard \"IEN\", so the frame gives the real ticker."
+    },
+    {
+      "cue_id": "c24",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 741.91,
+      "heard": "me talk about why that is. Okay, if we look at this company, okay, I think that",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Same IREN chart, zooming out to the full history from +2."
+    },
+    {
+      "cue_id": "c25",
+      "term": "moving-average",
+      "category": "chart",
+      "t": 1118.55,
+      "heard": "price is such a good price. I think you know trading near the VWAP the 200 day",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Chart (about 344.08) with his annotations while he talks VWAP. Company name unreadable at sheet size."
+    },
+    {
+      "cue_id": "c26",
+      "term": "chart",
+      "category": "chart",
+      "t": 1287.03,
+      "heard": "still like to look at fundamentals even if the chart is strong. So this one uh I",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Strong uptrend chart (about 179.76) while he talks chart strength vs fundamentals."
+    },
+    {
+      "cue_id": "c27",
+      "term": "next-one",
+      "category": "transition",
+      "t": 1409.91,
+      "heard": "revenue. Okay, so I'm expecting the next one to be positive. Now, if we take a",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Chart (about 120.23), then an insider-trades table from +4 as he moves on."
+    }
+  ],
+  "control": [
+    {
+      "t": 0.0,
+      "reason": "first-frame",
+      "verdict": "blank"
+    },
+    {
+      "t": 115.47,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 130.1,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 239.5,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 531.3,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 870.87,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 920.43,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 1074.53,
+      "reason": "scene-change",
+      "verdict": "redundant"
+    },
+    {
+      "t": 1093.47,
+      "reason": "scene-change",
+      "verdict": "redundant"
+    },
+    {
+      "t": 1236.17,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 1413.0,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 1526.93,
+      "reason": "scene-change",
+      "verdict": "blank"
+    }
+  ],
+  "labeling_notes": "Labeled by Claude from contact sheets (tiles ~400px wide), screen-level verdicts. new-info only where text was readable. redundant = near-duplicate (<=1.5s) of the previous cue, otherwise judged on its own merits. Control frames labeled from a contact grid.",
+  "control_notes": "Control grid. Positions table appears three times (7-9). Frame 6 is a gamma heat zone chart.",
+  "creator": "Options With Ryan",
+  "title": "Why I Sold IREN + 2 New Stocks I Bought & My Hedge (Options With Ryan)",
+  "upload_date": "20260930",
+  "duration_seconds": 1532,
+  "trained_at": "2026-10-06"
+}

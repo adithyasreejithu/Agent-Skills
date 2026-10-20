@@ -1,0 +1,284 @@
+{
+  "video_id": "JmPBceO_UH4",
+  "creator": "Financial Education",
+  "title": "Emergency with 1 of my stocks",
+  "upload_date": "20261007",
+  "duration_seconds": 2272.4,
+  "source": "https://www.youtube.com/watch?v=JmPBceO_UH4",
+  "verdicts": "new-info | useful | redundant | blank | wrong  (see plan/watch-skill-testing-mode/PLAN.md)",
+  "cues": [
+    {
+      "cue_id": "c01",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 7.03,
+      "heard": "that are Elf on a Shelf shareholders. Look at this. We're now way over a",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "ELF positions page with the 'Comfortable over double' annotation, matching 'Elf on a Shelf shareholders'. Static at every offset."
+    },
+    {
+      "cue_id": "c02",
+      "term": "next-one",
+      "category": "transition",
+      "t": 105.75,
+      "heard": "and all those sorts of things. Okay. Number three thing we're gonna get into",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Hand-written agenda (three items) over a garage backdrop, matching 'three things'. Static."
+    },
+    {
+      "cue_id": "c03",
+      "term": "take-a-look",
+      "category": "pointing",
+      "t": 154.31,
+      "heard": "gentlemen. Listen, if we look at some of my newer buys in",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Portfolio table (positions, % of account) with a '5-20% perfect' annotation. Static; transcript covers the spoken points."
+    },
+    {
+      "cue_id": "c04",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 161.67,
+      "heard": "to be stocks like American Express and RH and Netflix. Okay? And these are",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Same portfolio table as c03 (7s later)."
+    },
+    {
+      "cue_id": "c05",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 308.07,
+      "heard": "they're going to become massive positions like look at AMD AMD for me",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Same portfolio table; spoken AMD purchase dates are not on this screen."
+    },
+    {
+      "cue_id": "c06",
+      "term": "next-one",
+      "category": "transition",
+      "t": 434.07,
+      "heard": "longer period of time, right? And so what is the number one key number one",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "new-info",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": null,
+      "notes": "META positions page: 1,000 shares, avg cost $99.13, purchase lots from Oct-Nov 2022 (readable). Matches 'Look at Meta'."
+    },
+    {
+      "cue_id": "c07",
+      "term": "next-one",
+      "category": "transition",
+      "t": 570.47,
+      "heard": "fun. Having more income than expenses is fun. And uh that's the number one thing",
+      "offsets": {
+        "-2": "blank",
+        "+0": "blank",
+        "+2": "blank",
+        "+4": "blank",
+        "+6": "blank"
+      },
+      "best_offset": null,
+      "notes": "Talking head only, no pane. Spoken line is about income vs expenses."
+    },
+    {
+      "cue_id": "c08",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 804.95,
+      "heard": "get rolling into the next subject here. Let's talk about a big problem with the",
+      "offsets": {
+        "-2": "blank",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "-2 is the private-group promo slide, then the agenda with item 1 ticked, matching 'next subject'."
+    },
+    {
+      "cue_id": "c09",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 1270.23,
+      "heard": "imploded.\" I said, \"I lost a million dollars plus on TTCF stock, right?\" I",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Discord screenshot of the Bloom / Prime thread, matching the spoken Prime story. Transcript already covers it."
+    },
+    {
+      "cue_id": "c10",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 1334.31,
+      "heard": "And so Prime just went crazy because of Logan Paul and KSI and and those are two",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Discord screenshot of the 'is CELH core brand the next Prime' question, matching the speech."
+    },
+    {
+      "cue_id": "c11",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 1426.63,
+      "heard": "assumption, but it was a wrong assumption, right? Look at this time",
+      "offsets": {
+        "-2": "useful",
+        "+0": "new-info",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+0",
+      "notes": "Moves from the quarterly Monster revenue table (annotation 'Dying dead company?') to 2013-2014 rows with 6.41%, 6.37%, 7.8% circled (readable)."
+    },
+    {
+      "cue_id": "c12",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 1469.19,
+      "heard": "some other products out there, right? But look at this. They went from 5%",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "new-info",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": null,
+      "notes": "Annual Monster revenue table: 2005 93.46%, 2006 73.63%, 2007 49.31%, 2008 14.3%, 2009 10.59% circled, plus dollar revenue (readable)."
+    },
+    {
+      "cue_id": "c13",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 1842.71,
+      "heard": "something to keep in mind there, baby. Okay. Next up here, let's talk about",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "-2 shows the CELH positions page ('when celsius goes positive this will fly', avg cost $26.24). From +0 back to the agenda, matching 'worst case' segment."
+    }
+  ],
+  "control": [
+    {
+      "t": 0.0,
+      "reason": "first-frame",
+      "verdict": "useful"
+    },
+    {
+      "t": 257.73,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 642.63,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 797.93,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 985.63,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 1183.03,
+      "reason": "scene-change",
+      "verdict": "redundant"
+    },
+    {
+      "t": 1380.27,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 1605.73,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 1840.27,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 1925.67,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 2047.63,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 2253.53,
+      "reason": "scene-change",
+      "verdict": "blank"
+    }
+  ],
+  "control_notes": "Control grid. Frames 2-4 are talking head with no pane. Frame 10 is the RH chart (115.19, -44.96% past year) with the worst-case annotations; frame 9 is the CELH positions page.",
+  "labeling_notes": "Labeled by Claude from contact sheets (tiles ~400px wide), screen-level verdicts. new-info only where text was readable. Same shape as the Options With Ryan screen shares: a talking head with a rotating pane of portfolio pages, Discord screenshots and revenue tables. Only 13 cues for a 38-minute video because most of it is a talking head.",
+  "trained_at": "2026-10-08"
+}

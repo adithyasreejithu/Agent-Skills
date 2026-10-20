@@ -1,0 +1,204 @@
+{
+  "video_id": "CLXV7Cqu33I",
+  "source": "https://www.youtube.com/watch?v=CLXV7Cqu33I",
+  "verdicts": "new-info | useful | redundant | blank | wrong  (see plan/watch-skill-testing-mode/PLAN.md)",
+  "cues": [
+    {
+      "cue_id": "c01",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 3.35,
+      "heard": "If you put $10,000 into AMD stock just 1 year ago, you'd have over $35,000 today.",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "new-info",
+        "+4": "wrong",
+        "+6": "new-info"
+      },
+      "best_offset": "+2",
+      "notes": "Chip b-roll, with an Advanced Micro Devices (AMD) stock card (633.91 USD, +273.48% past year, readable) fading in and out from +2."
+    },
+    {
+      "cue_id": "c02",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 29.19,
+      "heard": "electrical engineer and AI researcher at MIT, which helped me find great stocks",
+      "offsets": {
+        "-2": "blank",
+        "+0": "blank",
+        "+2": "blank",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+4",
+      "notes": "Talking head, then stock overlays: NVIDIA +1,211%, tsmc +519% at +4, micron +1,048% at +6 (readable)."
+    },
+    {
+      "cue_id": "c03",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 31.67,
+      "heard": "MIT, which helped me find great stocks like Nvidia, TSMC, and Micron years",
+      "offsets": {
+        "-2": "blank",
+        "+0": "blank",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+2",
+      "notes": "Talking head, then the NVIDIA / tsmc / micron percentage overlays from +2. 2s after c02."
+    },
+    {
+      "cue_id": "c04",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 76.55,
+      "heard": "the AI boom, most of the money went to one kind of chip, the GPU. When you ask",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "new-info",
+        "+6": "wrong"
+      },
+      "best_offset": "+4",
+      "notes": "GPU b-roll, an NVIDIA GPUs spec card (8x A100, 640 GB HBM2, 12 NVLinks per GPU) at +4, then an unrelated AI-agent graphic."
+    },
+    {
+      "cue_id": "c05",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 84.35,
+      "heard": "through an AI model, which generates an answer while the CPU manages workloads",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Perplexity-style AI agent b-roll (master plan, sub-agents, parallel tasks), loosely on topic for the AI model line."
+    },
+    {
+      "cue_id": "c06",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 194.51,
+      "heard": "2/3 of the demand from their major customers. Micron's DRAM prices jumped",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+2",
+      "notes": "Article \"Micron outlines grim outlook for DRAM supply ... half to two-thirds of demand\", then \"Micron DRAM prices jumped more than 60% in a single quarter\" with DRAM revenue +67% (readable)."
+    },
+    {
+      "cue_id": "c07",
+      "term": "take-a-look",
+      "category": "pointing",
+      "t": 845.83,
+      "heard": "be under $250 per share. But, let's look at it the",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "new-info",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": null,
+      "notes": "Slide \"What is already baked into each stock price\" AMD vs Micron table (market cap, fwd P/E 45.2x vs 6.7x, share price $615.73 vs $1,097.39, price under $250 vs over $2,700), readable."
+    },
+    {
+      "cue_id": "c08",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 845.83,
+      "heard": "be under $250 per share. But, let's look at it the",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "Same timestamp as c07, duplicate frames. [auto: within 1.5s of c07, marked redundant]"
+    }
+  ],
+  "control": [
+    {
+      "t": 0.0,
+      "reason": "first-frame",
+      "verdict": "useful"
+    },
+    {
+      "t": 77.78,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 132.07,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 340.14,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 347.51,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 392.06,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 738.97,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 751.32,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 755.92,
+      "reason": "scene-change",
+      "verdict": "redundant"
+    },
+    {
+      "t": 779.01,
+      "reason": "scene-change",
+      "verdict": "redundant"
+    },
+    {
+      "t": 946.85,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 1019.42,
+      "reason": "scene-change",
+      "verdict": "blank"
+    }
+  ],
+  "labeling_notes": "Labeled by Claude from contact sheets (tiles ~400px wide), screen-level verdicts. new-info only where text was readable. redundant = near-duplicate (<=1.5s) of the previous cue, otherwise judged on its own merits. Control frames labeled from a contact grid. Different creator and format: produced video with b-roll and graphic overlays, not a screen share.",
+  "control_notes": "Control grid. All b-roll. Watermarks name the company (AMD, NVIDIA, TSMC), but b-roll is mostly decorative.",
+  "creator": "Ticker Symbol: YOU",
+  "title": "NVIDIA Made Me Rich. I'm Buying This Stock Next.",
+  "upload_date": "20261003",
+  "duration_seconds": 1024,
+  "trained_at": "2026-10-06"
+}

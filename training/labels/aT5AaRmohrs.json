@@ -1,0 +1,508 @@
+{
+  "video_id": "aT5AaRmohrs",
+  "creator": "Options With Ryan",
+  "title": "Earnings Season Outlook | 3 Stocks I'm Buying + GOOGL & Iran Oil Update (Options With Ryan)",
+  "upload_date": "20261008",
+  "duration_seconds": 1150.2,
+  "source": "https://www.youtube.com/watch?v=aT5AaRmohrs",
+  "verdicts": "new-info | useful | redundant | blank | wrong  (see plan/watch-skill-testing-mode/PLAN.md)",
+  "cues": [
+    {
+      "cue_id": "c01",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 24.63,
+      "heard": "could trade for a longer term swing trade. So, let's go ahead and jump right",
+      "offsets": {
+        "-2": "blank",
+        "+0": "blank",
+        "+2": "blank",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+4",
+      "notes": "Face cam intro, then the 'This is not financial advice' card from +4, matching the spoken disclaimer."
+    },
+    {
+      "cue_id": "c02",
+      "term": "take-a-look",
+      "category": "pointing",
+      "t": 33.19,
+      "heard": "purposes only. Results may vary. Now, if we take a look at the account now, as",
+      "offsets": {
+        "-2": "blank",
+        "+0": "blank",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+2",
+      "notes": "Disclaimer card at -2/+0, then the brokerage summary (total value 2,028,441.82, day change, gain) from +2, matching 'take a look at the account'."
+    },
+    {
+      "cue_id": "c03",
+      "term": "as-you-can-see",
+      "category": "pointing",
+      "t": 34.47,
+      "heard": "we take a look at the account now, as you can see right here, we're trading up",
+      "offsets": {
+        "-2": "blank",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "Disclaimer card at -2, brokerage summary from +0. [auto: within 1.5s of c02, marked redundant]"
+    },
+    {
+      "cue_id": "c04",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 34.47,
+      "heard": "we take a look at the account now, as you can see right here, we're trading up",
+      "offsets": {
+        "-2": "blank",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "Same timestamp as c03. [auto: within 1.5s of c03, marked redundant]"
+    },
+    {
+      "cue_id": "c05",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 35.83,
+      "heard": "you can see right here, we're trading up near all-time highs. If you do want to",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "Brokerage summary, static. 1.4s after c04. [auto: within 1.5s of c04, marked redundant]"
+    },
+    {
+      "cue_id": "c06",
+      "term": "as-you-can-see",
+      "category": "pointing",
+      "t": 60.23,
+      "heard": "for transparency on the day. As you can see, nice little profit on some Google",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "new-info",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": null,
+      "notes": "Realized gain/loss page with a 100% win-rate gauge, matching 'nice profit on some Google puts'."
+    },
+    {
+      "cue_id": "c07",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 89.03,
+      "heard": "do want access to my Ryan's Trades and my LEAPS, entries, and exits channel,",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Discord (Options Trading University) client results incl. an AMZN call trade, then an Instagram profile at +6. Matches the spoken promo for clients and Instagram."
+    },
+    {
+      "cue_id": "c08",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 110.95,
+      "heard": "subscribed because they're absolutely free. Now, let's go ahead and jump",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+4",
+      "notes": "X profile page (the promo section he has just finished) until +2, then the WTI oil chart (about 88.95, Bollinger bands) from +4, matching 'oil'."
+    },
+    {
+      "cue_id": "c09",
+      "term": "take-a-look",
+      "category": "pointing",
+      "t": 141.35,
+      "heard": "it started. But why is oil heading downwards? Okay. Now, if we take a look",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+2",
+      "notes": "Oil chart at -2/+0, then the Strait of Hormuz monitor page from +2 matching 'take a look at the monitor'."
+    },
+    {
+      "cue_id": "c10",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 210.23,
+      "heard": "Now, the key figure there is this actual map right here. So, there are uh crude",
+      "offsets": {
+        "-2": "useful",
+        "+0": "new-info",
+        "+2": "new-info",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "Export chart at -2, then the EIA map of bypass pipelines (East-West, Abqaiq-Yanbu, Abu Dhabi) at +0/+2, matching 'this map right here', then back to the chart."
+    },
+    {
+      "cue_id": "c11",
+      "term": "inflation-data",
+      "category": "macro",
+      "t": 261.43,
+      "heard": "how is this going to affect you know core CPI right? We have core CPI coming",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "WTI oil chart, static, while he links oil to core CPI."
+    },
+    {
+      "cue_id": "c12",
+      "term": "fed-watch",
+      "category": "macro",
+      "t": 273.67,
+      "heard": "Federal Reserve from making more rate hikes. Right now, if we take a look at",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+4",
+      "notes": "Oil chart, then the CME FedWatch landing page at +2 and the probability table at +4/+6."
+    },
+    {
+      "cue_id": "c13",
+      "term": "fed-watch",
+      "category": "macro",
+      "t": 288.71,
+      "heard": "still 96% odds and 96% odds for another 25 basis point rate hike in March. And",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "CME FedWatch aggregate probability table, static with a cursor on rows. Matches the spoken 82% / 96% odds, which the transcript already covers."
+    },
+    {
+      "cue_id": "c14",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 329.27,
+      "heard": "slightly a bit more volatility is to be expected. As you can see, JP Morgan,",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Earnings calendar with company logos, matching the list of banks reporting."
+    },
+    {
+      "cue_id": "c15",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 333.19,
+      "heard": "Chase, City Bank, Wells Fargo. We also have ASML, uh, Bank of America, Black",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Same earnings calendar with a hover card on a company (too small to read)."
+    },
+    {
+      "cue_id": "c16",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 416.31,
+      "heard": "towards the close, we're seeing a a little bit more call buying. MU,",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "new-info",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": null,
+      "notes": "Unusual Whales market tide dashboard with the sentiment gauge at 46 (neutral), matching 'flipped from fear into neutral'. The 46 reading is not spoken."
+    },
+    {
+      "cue_id": "c17",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 418.55,
+      "heard": "little bit more call buying. MU, SanDisk, Amazon Light, SPY, CNC. Okay.",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "Same dashboard as c16, 2.2s later."
+    },
+    {
+      "cue_id": "c18",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 422.15,
+      "heard": "SanDisk, Amazon Light, SPY, CNC. Okay. And then the rest here, Nvidia, QQQ,",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "Same dashboard as c16, 5.8s later."
+    },
+    {
+      "cue_id": "c19",
+      "term": "volatility-index",
+      "category": "macro",
+      "t": 493.43,
+      "heard": "looking very, very strong today. Uh, the VIX, if we take a look at the VIX,",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+2",
+      "notes": "QQQ chart (757.5) at -2/+0, then the VIX chart (about 15.0) from +2."
+    },
+    {
+      "cue_id": "c20",
+      "term": "volatility-index",
+      "category": "macro",
+      "t": 519.99,
+      "heard": "start offloading some of our positions. Now, let's take a look at the VIX cash",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+4",
+      "notes": "VIX chart, then the 'VIX Levels For 2025-2026' table (tiers and cash percentages) at +4/+6, matching 'VIX cash allocation levels'."
+    },
+    {
+      "cue_id": "c21",
+      "term": "chart",
+      "category": "chart",
+      "t": 603.99,
+      "heard": "TSM is the first one I want to go over. TSM beautiful chart, one of the most",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "new-info",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+0",
+      "notes": "VIX chart still on screen at -2, then the TSM chart (473.59) from +0, matching 'TSM, beautiful chart'."
+    },
+    {
+      "cue_id": "c22",
+      "term": "moving-average",
+      "category": "chart",
+      "t": 614.95,
+      "heard": "2025. uh this thing has just traded, you know, above the 200 day moving average",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "TSM chart, static, while he describes the 200-day average."
+    },
+    {
+      "cue_id": "c23",
+      "term": "strike",
+      "category": "options",
+      "t": 629.51,
+      "heard": "option seller to sell some good cash secured puts and potentially get",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "TSM chart, static, while he describes the put strike and mid Bollinger band."
+    },
+    {
+      "cue_id": "c24",
+      "term": "options-chain",
+      "category": "options",
+      "t": 671.43,
+      "heard": "could take a look and let's go to the TSM options chain and see what the",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+4",
+      "notes": "Thinkorswim positions table, then the TSM trade page, then the options chain list from +4."
+    },
+    {
+      "cue_id": "c25",
+      "term": "expected-move",
+      "category": "options",
+      "t": 685.35,
+      "heard": "But the plus or minus move that the market maker expected move is plus or",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Thinkorswim options chain with expiry list. Expected-move text is too small to read here."
+    },
+    {
+      "cue_id": "c26",
+      "term": "moving-average",
+      "category": "chart",
+      "t": 767.35,
+      "heard": "discount. Okay, it's been trading below this 200 day moving average for quite",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "new-info",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": null,
+      "notes": "AXP chart (303.87) trending down below its averages, matching 'below the 200-day since the beginning of the year'. The price is not spoken."
+    },
+    {
+      "cue_id": "c27",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 911.43,
+      "heard": "look right now. I mean, we're still well off all-time highs. You know, about 21%",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "new-info",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+2",
+      "notes": "CLS chart (371.33) with a blue range box drawn at +2, matching 'still well off all-time highs, about 21% down'."
+    }
+  ],
+  "control": [
+    {
+      "t": 0.0,
+      "reason": "first-frame",
+      "verdict": "blank"
+    },
+    {
+      "t": 77.93,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 82.77,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 142.83,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 213.77,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 274.73,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 452.77,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 738.7,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 920.03,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 1094.5,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 1101.0,
+      "reason": "scene-change",
+      "verdict": "redundant"
+    },
+    {
+      "t": 1145.23,
+      "reason": "scene-change",
+      "verdict": "blank"
+    }
+  ],
+  "control_notes": "Control grid. Frames 1 and 12 are the face-cam intro and outro, frame 4 is a black screen, frame 3 is a client trade screenshot, and frames 9 to 11 are Thinkorswim position tables.",
+  "labeling_notes": "Labeled by Claude from contact sheets (tiles ~400px wide), screen-level verdicts. new-info only where text was readable. Same creator and format as the earlier Options With Ryan videos: a screen share of charts, Thinkorswim and web tools with a face-cam bubble. A produced intro (face cam, disclaimer cards) comes before the screen share. Cues within 1.5s of the previous one are auto-marked redundant.",
+  "trained_at": "2026-10-08"
+}

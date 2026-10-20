@@ -1,0 +1,508 @@
+{
+  "video_id": "rNaLuRT1O5Y",
+  "source": "https://www.youtube.com/watch?v=rNaLuRT1O5Y",
+  "verdicts": "new-info | useful | redundant | blank | wrong  (see plan/watch-skill-testing-mode/PLAN.md)",
+  "cues": [
+    {
+      "cue_id": "c01",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 31.39,
+      "heard": "list, and one of them a move in today. So, let's go ahead and dive right into",
+      "offsets": {
+        "-2": "blank",
+        "+0": "blank",
+        "+2": "blank",
+        "+4": "blank",
+        "+6": "blank"
+      },
+      "best_offset": null,
+      "notes": "Talking head then disclaimer slide."
+    },
+    {
+      "cue_id": "c02",
+      "term": "take-a-look",
+      "category": "pointing",
+      "t": 39.67,
+      "heard": "purposes only. Results may vary. Now, if we take a look at the account, you could",
+      "offsets": {
+        "-2": "blank",
+        "+0": "blank",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+2",
+      "notes": "Disclaimer slide, then account summary page (about $1.875M total) from +2."
+    },
+    {
+      "cue_id": "c03",
+      "term": "as-you-can-see",
+      "category": "pointing",
+      "t": 41.19,
+      "heard": "we take a look at the account, you could see this right here is my public",
+      "offsets": {
+        "-2": "blank",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "Account summary from the cue; first tile is still the disclaimer. Subscribe popup at +6 irrelevant."
+    },
+    {
+      "cue_id": "c04",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 41.19,
+      "heard": "we take a look at the account, you could see this right here is my public",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "Same timestamp as c03, duplicate frames. [auto: within 1.5s of c03, marked redundant]"
+    },
+    {
+      "cue_id": "c05",
+      "term": "as-you-can-see",
+      "category": "pointing",
+      "t": 76.95,
+      "heard": "here in the mentorship. As you could see, clients sharing their inspiration",
+      "offsets": {
+        "-2": "useful",
+        "+0": "new-info",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "Client posts. Readable at 0: Gain/Loss Summary card, reporting 2026-09-07 to 2026-09-11, 31 closed trades, net +$33,685.17. Promo content but real numbers."
+    },
+    {
+      "cue_id": "c06",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 107.67,
+      "heard": "to that because they're absolutely free. Now, let's go ahead and dive straight",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+4",
+      "notes": "X profile page (promo) until ~1:49, then CNBC article \"Extinction warnings ramp up as more OpenAI, Anthropic researchers join calls for an AI slowdown\"."
+    },
+    {
+      "cue_id": "c07",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 171.39,
+      "heard": "beat this uh we beat China in the race uh for the ultimate AGI or AI, right?",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "X post with an AI-related video clip. Relevance to the spoken AGI line is loose. \"AGI\" is an acronym, not a ticker."
+    },
+    {
+      "cue_id": "c08",
+      "term": "fed-watch",
+      "category": "macro",
+      "t": 184.75,
+      "heard": "really take the market down is, you know, rate hikes being priced in to an",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "CME FedWatch tool on screen as he discusses rate hikes being priced in."
+    },
+    {
+      "cue_id": "c09",
+      "term": "fed-watch",
+      "category": "macro",
+      "t": 196.15,
+      "heard": "rate hikes like we saw in 2022. That's what we don't want to happen and we",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "FedWatch tool, cursor highlights a row at +6."
+    },
+    {
+      "cue_id": "c10",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 257.15,
+      "heard": "and the 10-year Treasury heading up to new, you know, all-time highs for the",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "10-year yield chart (reads 4.998) with drawn lines as he says new all-time highs."
+    },
+    {
+      "cue_id": "c11",
+      "term": "chart",
+      "category": "chart",
+      "t": 266.07,
+      "heard": "you look at oil, okay, you look at that oil chart from here in July all the way",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "new-info",
+        "+2": "new-info",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "10-year chart at -2, then WTI crude chart (reads 101.870) at 0 and +2, then back to the 10-year chart. Both are relevant to the correlation point."
+    },
+    {
+      "cue_id": "c12",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 270.19,
+      "heard": "to now and you look at the 10-year Treasury from July, okay, right here to",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "Oil chart at -2, 10-year chart from the cue."
+    },
+    {
+      "cue_id": "c13",
+      "term": "chart",
+      "category": "chart",
+      "t": 277.35,
+      "heard": "the chart is almost directly correlated. So,",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "10-year chart then oil chart from +2, both on topic for \"almost directly correlated\"."
+    },
+    {
+      "cue_id": "c14",
+      "term": "take-a-look",
+      "category": "pointing",
+      "t": 305.83,
+      "heard": "would say we're not quite oversold, but if you take a look at some of the",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+4",
+      "notes": "10-year chart until ~5:07; NDFI chart from +4. Lag about 4s."
+    },
+    {
+      "cue_id": "c15",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 307.15,
+      "heard": "if you take a look at some of the indicators like the ND 5i, right, which",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "10-year chart at -2 and 0, NDFI chart from +2. \"ND 5i\" caption is NDFI. [auto: within 1.5s of c14, marked redundant]"
+    },
+    {
+      "cue_id": "c16",
+      "term": "moving-average",
+      "category": "chart",
+      "t": 309.91,
+      "heard": "indicators like the ND 5i, right, which is Nasdaq stocks above their 50-day",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "NDFI chart loading, then with circled peak, then zoomed out as he scrolls."
+    },
+    {
+      "cue_id": "c17",
+      "term": "breadth",
+      "category": "macro",
+      "t": 309.91,
+      "heard": "indicators like the ND 5i, right, which is Nasdaq stocks above their 50-day",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "Same timestamp as c16, duplicate frames. [auto: within 1.5s of c16, marked redundant]"
+    },
+    {
+      "cue_id": "c18",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 321.55,
+      "heard": "pretty low territory over here. I like to look at the S5 FI, gives me a little",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+2",
+      "notes": "NDFI chart until ~5:21, then S5FI chart (reads about 37.77) with boxes. S5FI heard as \"S5 FI\"."
+    },
+    {
+      "cue_id": "c19",
+      "term": "moving-average",
+      "category": "chart",
+      "t": 327.19,
+      "heard": "looking at the S&amp;P 500 stocks above their 50-day moving average. You could",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "S5FI chart with drawn boxes while he says S&P 500 stocks above their 50-day."
+    },
+    {
+      "cue_id": "c20",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 393.15,
+      "heard": "as of right now. Now, for the downside risk, let's take a look at um QQQ, okay?",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "useful",
+        "+6": "wrong"
+      },
+      "best_offset": "+4",
+      "notes": "10-year chart while he says take a look at QQQ; QQQ chart (reads 709.18) at +4, Unusual Whales dashboard flashes at +6."
+    },
+    {
+      "cue_id": "c21",
+      "term": "bollinger",
+      "category": "chart",
+      "t": 437.55,
+      "heard": "on the downside, we're already, you know, we touched this lower Bollinger",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "QQQ chart with the lower Bollinger band visible, matches the speech."
+    },
+    {
+      "cue_id": "c22",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 441.55,
+      "heard": "Band today. With, you know, the AI fears, oil being near all-time highs,",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "QQQ chart. \"all-time high\" generic."
+    },
+    {
+      "cue_id": "c23",
+      "term": "volatility-index",
+      "category": "macro",
+      "t": 450.71,
+      "heard": "you know, QQQ would really be selling off here and that the VIX or even the",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "wrong",
+        "+6": "wrong"
+      },
+      "best_offset": null,
+      "notes": "VIX named in passing; the screen stays on the QQQ chart."
+    },
+    {
+      "cue_id": "c24",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 504.07,
+      "heard": "leaps by or even um just kind of allocating a bit of capital. Uh SPY,",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+4",
+      "notes": "QQQ chart until ~8:26, then a chart reading 760.88 (SPY). SPY named in captions and shown from +4."
+    },
+    {
+      "cue_id": "c25",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 586.67,
+      "heard": "dive into the stocks I want to talk about. So, the first one is CDE, okay?",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "new-info",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+0",
+      "notes": "Slide \"VIX Levels For 2025-2026\" at -2, then Coeur Mining (CDE, about 19.88) chart from the cue. Captions heard \"CDE\"."
+    },
+    {
+      "cue_id": "c26",
+      "term": "strike",
+      "category": "options",
+      "t": 617.35,
+      "heard": "Band here, I said, \"Wow, what a great time to sell some cash-secured puts",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "CDE chart with a drawn marker while he talks cash-secured puts. No options screen."
+    },
+    {
+      "cue_id": "c27",
+      "term": "next-one",
+      "category": "transition",
+      "t": 897.55,
+      "heard": "one I want to add, up 9% today. The next one, Palo Alto Networks. Now, obviously,",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "new-info",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+0",
+      "notes": "Another stock chart at -2, then Palo Alto Networks chart (about 373.94) from the cue."
+    }
+  ],
+  "control": [
+    {
+      "t": 0.0,
+      "reason": "first-frame",
+      "verdict": "blank"
+    },
+    {
+      "t": 39.8,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 82.6,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 91.3,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 144.97,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 178.77,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 584.8,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 638.43,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 706.0,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 779.57,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 970.33,
+      "reason": "scene-change",
+      "verdict": "redundant"
+    },
+    {
+      "t": 1053.4,
+      "reason": "scene-change",
+      "verdict": "blank"
+    }
+  ],
+  "labeling_notes": "Labeled by Claude from contact sheets (tiles ~400px wide), screen-level verdicts. new-info only where text was readable. redundant = near-duplicate (<=1.5s) of the previous cue, otherwise judged on its own merits. Control frames labeled from a contact grid.",
+  "control_notes": "Control grid. Frame 4 Instagram promo, 8 unclear broker page, 7 grey loading screen. Frame 9 CDE chart (19.88).",
+  "creator": "Options With Ryan",
+  "title": "AI Stocks Warning Signs? 4 Stocks I\u2019m Watching + 1 Trade I Made (Options With Ryan)",
+  "upload_date": "20260915",
+  "duration_seconds": 1058,
+  "trained_at": "2026-10-06"
+}

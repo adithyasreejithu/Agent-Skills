@@ -1,0 +1,48 @@
+{
+ "video": "CLXV7Cqu33I",
+ "note": "Labeled by Claude from contact sheets (tiles ~400px wide), screen-level verdicts. new-info only where text was readable. redundant = near-duplicate (<=1.5s) of the previous cue, otherwise judged on its own merits. Control frames labeled from a contact grid. Different creator and format: produced video with b-roll and graphic overlays, not a screen share.",
+ "cues": {
+  "c01": [
+   "WWNWN",
+   "+2",
+   "Chip b-roll, with an Advanced Micro Devices (AMD) stock card (633.91 USD, +273.48% past year, readable) fading in and out from +2."
+  ],
+  "c02": [
+   "BBBNN",
+   "+4",
+   "Talking head, then stock overlays: NVIDIA +1,211%, tsmc +519% at +4, micron +1,048% at +6 (readable)."
+  ],
+  "c03": [
+   "BBNNN",
+   "+2",
+   "Talking head, then the NVIDIA / tsmc / micron percentage overlays from +2. 2s after c02."
+  ],
+  "c04": [
+   "UUUNW",
+   "+4",
+   "GPU b-roll, an NVIDIA GPUs spec card (8x A100, 640 GB HBM2, 12 NVLinks per GPU) at +4, then an unrelated AI-agent graphic."
+  ],
+  "c05": [
+   "UUUUU",
+   null,
+   "Perplexity-style AI agent b-roll (master plan, sub-agents, parallel tasks), loosely on topic for the AI model line."
+  ],
+  "c06": [
+   "UUNNN",
+   "+2",
+   "Article \"Micron outlines grim outlook for DRAM supply ... half to two-thirds of demand\", then \"Micron DRAM prices jumped more than 60% in a single quarter\" with DRAM revenue +67% (readable)."
+  ],
+  "c07": [
+   "NNNNN",
+   null,
+   "Slide \"What is already baked into each stock price\" AMD vs Micron table (market cap, fwd P/E 45.2x vs 6.7x, share price $615.73 vs $1,097.39, price under $250 vs over $2,700), readable."
+  ],
+  "c08": [
+   "RRRRR",
+   null,
+   "Same timestamp as c07, duplicate frames. [auto: within 1.5s of c07, marked redundant]"
+  ]
+ },
+ "control": "UUUWWUBURRUB",
+ "control_note": "Control grid. All b-roll. Watermarks name the company (AMD, NVIDIA, TSMC), but b-roll is mostly decorative."
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "note": "Cue terms for /watch testing mode. 'pattern' is a regex matched against each transcript segment. Scores are NOT stored here: `uv run agent-skills train report` derives them from training/labels/*.json.",
+  "stoplist_tickers": ["AI", "US", "PE", "ETF", "RSI", "CPI", "PPI", "VIX", "VXN", "ROI", "IV", "EPS", "ATH", "OK", "USA", "CEO", "GDP", "SMA", "NYSE", "CME", "ROE", "QE"],
+  "terms": [
+    {"id": "ticker-mention", "category": "ticker", "pattern": "\\b[A-Z]{2,5}\\b", "case_sensitive": true, "use_stoplist": true, "distinct": true, "max_per_term": 6, "per_round": 3, "note": "Captions garble tickers (AMAT heard as AAT), so the frame is the only reliable source."},
+
+    {"id": "as-you-can-see", "category": "pointing", "pattern": "as you can see|you can see (that|here)|you could see"},
+    {"id": "look-here", "category": "pointing", "pattern": "look (here|at this)|notice (this|that)|right here"},
+    {"id": "take-a-look", "category": "pointing", "pattern": "take a look|let's look|if we look|if we take a look"},
+
+    {"id": "chart", "category": "chart", "pattern": "\\bchart\\b"},
+    {"id": "bollinger", "category": "chart", "pattern": "bollin?ger"},
+    {"id": "moving-average", "category": "chart", "pattern": "moving average|\\bvwap\\b|\\b(50|200)[- ]day"},
+    {"id": "support-resistance", "category": "chart", "pattern": "\\b(support|resistance|breakout|all[- ]time high)"},
+
+    {"id": "options-chain", "category": "options", "pattern": "options chain"},
+    {"id": "expected-move", "category": "options", "pattern": "expected (market maker )?move"},
+    {"id": "strike", "category": "options", "pattern": "\\bstrike|cash[- ]secured put|covered call"},
+
+    {"id": "fed-watch", "category": "macro", "pattern": "fed ?watch|rate hike|rate cut"},
+    {"id": "inflation-data", "category": "macro", "pattern": "\\b(cpi|ppi)\\b|core inflation"},
+    {"id": "breadth", "category": "macro", "pattern": "s5fi|ndfi|above their 50"},
+    {"id": "volatility-index", "category": "macro", "pattern": "\\b(vix|vxn)\\b"},
+
+    {"id": "next-one", "category": "transition", "pattern": "next one|number (one|two|three|four|five)|the other one"},
+    {"id": "lets-dive", "category": "transition", "pattern": "let's (go ahead and )?(dive|talk|jump|look|take)"}
+  ]
+}

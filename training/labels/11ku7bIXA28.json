@@ -1,0 +1,300 @@
+{
+  "video_id": "11ku7bIXA28",
+  "creator": "Jeremy Lefebvre Makes Money",
+  "title": "This 1 Stock is changing Investors life",
+  "upload_date": "20261006",
+  "duration_seconds": 2376.8,
+  "source": "https://www.youtube.com/watch?v=11ku7bIXA28",
+  "verdicts": "new-info | useful | redundant | blank | wrong  (see plan/watch-skill-testing-mode/PLAN.md)",
+  "cues": [
+    {
+      "cue_id": "c01",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 2.87,
+      "heard": "AMD. Say it with me, ladies and gentlemen. AMD posted this on my X page",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "new-info",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": null,
+      "notes": "X post of the AMD positions page: price 655.23, 2,555 shares, avg cost 111.61, total gain +1.39M, day +59.5K (readable). Matches 'AMD up another $59,000'; shares and cost basis are not in the audio."
+    },
+    {
+      "cue_id": "c02",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 88.87,
+      "heard": "up chip production for 2027 by coordinating closely with TSMC, Foxcon,",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Gemini 'Key Drivers and News Today' page for AMD (supply expansion, Citi $800, Mizuho $705, World Labs, Nov 3 earnings). He reads it out, so the transcript covers it."
+    },
+    {
+      "cue_id": "c03",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 315.67,
+      "heard": "CPUs are going to be selling over the next few years along with the real GPU",
+      "offsets": {
+        "-2": "blank",
+        "+0": "blank",
+        "+2": "blank",
+        "+4": "blank",
+        "+6": "blank"
+      },
+      "best_offset": null,
+      "notes": "Talking head only, no pane."
+    },
+    {
+      "cue_id": "c04",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 514.79,
+      "heard": "right now. Now, the the you can look at this and you can say, \"Well, AMD is the",
+      "offsets": {
+        "-2": "blank",
+        "+0": "blank",
+        "+2": "blank",
+        "+4": "blank",
+        "+6": "blank"
+      },
+      "best_offset": null,
+      "notes": "Talking head only, no pane."
+    },
+    {
+      "cue_id": "c05",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 606.15,
+      "heard": "still is dramatically under its all-time highs, right? But I sold all my Tesla",
+      "offsets": {
+        "-2": "blank",
+        "+0": "blank",
+        "+2": "blank",
+        "+4": "blank",
+        "+6": "blank"
+      },
+      "best_offset": null,
+      "notes": "Talking head only, no pane."
+    },
+    {
+      "cue_id": "c06",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 942.07,
+      "heard": "&gt;&gt; Launched views in September. It overtook chat GPT as the most downloaded free iOS",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "CNBC clip 'Why AMD is benefiting from the new wave of AI agents' (presenter, phone app screen, article about Meta Muse downloads). Matches the clip audio he is playing."
+    },
+    {
+      "cue_id": "c07",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 951.67,
+      "heard": "here. And with it, the rise of the central processing unit or CPU. And most",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Same CNBC clip: chip renders and a hand holding a chip, matching the CPU talk. 9.6s after c06."
+    },
+    {
+      "cue_id": "c08",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 1119.99,
+      "heard": "Right? And I could be let down by CEO, CFO. It's happened before, right? I've",
+      "offsets": {
+        "-2": "blank",
+        "+0": "blank",
+        "+2": "blank",
+        "+4": "blank",
+        "+6": "blank"
+      },
+      "best_offset": null,
+      "notes": "Talking head only, no pane."
+    },
+    {
+      "cue_id": "c09",
+      "term": "next-one",
+      "category": "transition",
+      "t": 1370.39,
+      "heard": "&gt;&gt; All right, next one up here. Time for some Tom Lee spectacular. Fundstrat,",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Tom Lee clip loaded on YouTube (stock futures point to lower open). Already on screen at -2."
+    },
+    {
+      "cue_id": "c10",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 1640.87,
+      "heard": "Hood. Robin Hood's still down a ton from its all-time highs, even though the",
+      "offsets": {
+        "-2": "blank",
+        "+0": "blank",
+        "+2": "blank",
+        "+4": "blank",
+        "+6": "blank"
+      },
+      "best_offset": null,
+      "notes": "Talking head only while he lists crashed stocks."
+    },
+    {
+      "cue_id": "c11",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 1664.47,
+      "heard": "Estee is still down a billion miles from its all-time highs. American American",
+      "offsets": {
+        "-2": "blank",
+        "+0": "blank",
+        "+2": "blank",
+        "+4": "blank",
+        "+6": "blank"
+      },
+      "best_offset": null,
+      "notes": "Talking head only while he lists crashed stocks."
+    },
+    {
+      "cue_id": "c12",
+      "term": "next-one",
+      "category": "transition",
+      "t": 2021.59,
+      "heard": "just just that's how you leave it. Okay. All righty. Next one up here. Tom Lee",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Second Tom Lee clip, Squawk Box Asia page, matches 'Tom Lee from today'. Already on screen at -2."
+    },
+    {
+      "cue_id": "c13",
+      "term": "inflation-data",
+      "category": "macro",
+      "t": 2158.39,
+      "heard": "transitory impacts right now hitting CPI.",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "new-info",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": null,
+      "notes": "CNBC graphic: 10Y UST yield 5.307%, 1-year +28.81%, headline 'Lee: excessive pessimism in US equities' (readable). The 5.3% figure is not spoken."
+    },
+    {
+      "cue_id": "c14",
+      "term": "chart",
+      "category": "chart",
+      "t": 2162.07,
+      "heard": "I do think the tenure at five doesn't make sense. You had a chart just here",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "Same screen as c13, 3.7s later."
+    }
+  ],
+  "control": [
+    {
+      "t": 0.0,
+      "reason": "first-frame",
+      "verdict": "new-info"
+    },
+    {
+      "t": 47.57,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 323.2,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 460.63,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 877.2,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 957.43,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 1173.2,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 1216.8,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 1324.8,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 1368.3,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 2017.5,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 2364.13,
+      "reason": "scene-change",
+      "verdict": "useful"
+    }
+  ],
+  "control_notes": "Control grid. Frame 5 is a close-up face; frames 3 and 4 are the Gemini AMD page; frame 8 is the OpenAI 'dots' launch stage from the CNBC clip.",
+  "labeling_notes": "Labeled by Claude from contact sheets (tiles ~400px wide), screen-level verdicts. new-info only where text was readable. Reaction-channel format: a face cam over browser tabs (X post, Gemini notes, CNBC clips on YouTube). About half the cues land on a talking-head-only screen, which is blank. Duplicate-screen cues (c13/c14) judged redundant.",
+  "trained_at": "2026-10-08"
+}

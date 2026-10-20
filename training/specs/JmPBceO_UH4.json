@@ -1,0 +1,21 @@
+{
+ "video": "JmPBceO_UH4",
+ "note": "Labeled by Claude from contact sheets (tiles ~400px wide), screen-level verdicts. new-info only where text was readable. Same shape as the Options With Ryan screen shares: a talking head with a rotating pane of portfolio pages, Discord screenshots and revenue tables. Only 13 cues for a 38-minute video because most of it is a talking head.",
+ "cues": {
+  "c01": ["UUUUU", null, "ELF positions page with the 'Comfortable over double' annotation, matching 'Elf on a Shelf shareholders'. Static at every offset."],
+  "c02": ["UUUUU", null, "Hand-written agenda (three items) over a garage backdrop, matching 'three things'. Static."],
+  "c03": ["UUUUU", null, "Portfolio table (positions, % of account) with a '5-20% perfect' annotation. Static; transcript covers the spoken points."],
+  "c04": ["UUUUU", null, "Same portfolio table as c03 (7s later)."],
+  "c05": ["UUUUU", null, "Same portfolio table; spoken AMD purchase dates are not on this screen."],
+  "c06": ["NNNNN", null, "META positions page: 1,000 shares, avg cost $99.13, purchase lots from Oct-Nov 2022 (readable). Matches 'Look at Meta'."],
+  "c07": ["BBBBB", null, "Talking head only, no pane. Spoken line is about income vs expenses."],
+  "c08": ["BUUUU", "+0", "-2 is the private-group promo slide, then the agenda with item 1 ticked, matching 'next subject'."],
+  "c09": ["UUUUU", null, "Discord screenshot of the Bloom / Prime thread, matching the spoken Prime story. Transcript already covers it."],
+  "c10": ["UUUUU", null, "Discord screenshot of the 'is CELH core brand the next Prime' question, matching the speech."],
+  "c11": ["UNNNN", "+0", "Moves from the quarterly Monster revenue table (annotation 'Dying dead company?') to 2013-2014 rows with 6.41%, 6.37%, 7.8% circled (readable)."],
+  "c12": ["NNNNN", null, "Annual Monster revenue table: 2005 93.46%, 2006 73.63%, 2007 49.31%, 2008 14.3%, 2009 10.59% circled, plus dollar revenue (readable)."],
+  "c13": ["NUUUU", "+0", "-2 shows the CELH positions page ('when celsius goes positive this will fly', avg cost $26.24). From +0 back to the agenda, matching 'worst case' segment."]
+ },
+ "control": "UBBBURUUNNUB",
+ "control_note": "Control grid. Frames 2-4 are talking head with no pane. Frame 10 is the RH chart (115.19, -44.96% past year) with the worst-case annotations; frame 9 is the CELH positions page."
+}

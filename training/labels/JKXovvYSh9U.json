@@ -1,0 +1,508 @@
+{
+  "video_id": "JKXovvYSh9U",
+  "source": "https://www.youtube.com/watch?v=JKXovvYSh9U",
+  "verdicts": "new-info | useful | redundant | blank | wrong  (see plan/watch-skill-testing-mode/PLAN.md)",
+  "cues": [
+    {
+      "cue_id": "c01",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 2.55,
+      "heard": "The NASDAQ just made new all-time highs. I'm going to be talking about the",
+      "offsets": {
+        "-2": "blank",
+        "+0": "blank",
+        "+2": "blank",
+        "+4": "blank",
+        "+6": "blank"
+      },
+      "best_offset": null,
+      "notes": "Intro talking head, no screen content. \"all-time high\" is a spoken hook, not a visual cue."
+    },
+    {
+      "cue_id": "c02",
+      "term": "take-a-look",
+      "category": "pointing",
+      "t": 27.51,
+      "heard": "purposes only. Results may vary. Now, if we take a look at the account, you can",
+      "offsets": {
+        "-2": "blank",
+        "+0": "blank",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+2",
+      "notes": "Disclaimer slide until ~28s, account summary page from +2. Screen lags speech by ~2s."
+    },
+    {
+      "cue_id": "c03",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 28.79,
+      "heard": "we take a look at the account, you can see we are making new all-time highs",
+      "offsets": {
+        "-2": "blank",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "Same account page as c02; cue is only 1s after c02. Needs the ~5s merge rule."
+    },
+    {
+      "cue_id": "c04",
+      "term": "as-you-can-see",
+      "category": "pointing",
+      "t": 58.31,
+      "heard": "realized gain loss for transparency. As you can see, on the day, we closed out",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "Realized Gain/Loss page appears right at the cue; -2 is the earlier summary page."
+    },
+    {
+      "cue_id": "c05",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 60.07,
+      "heard": "you can see, on the day, we closed out some cash secured puts on AAT for a nice",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "Same screen as c04. AAT named in passing over the realized-gains page, nothing new to read."
+    },
+    {
+      "cue_id": "c06",
+      "term": "strike",
+      "category": "options",
+      "t": 60.07,
+      "heard": "you can see, on the day, we closed out some cash secured puts on AAT for a nice",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "Identical timestamp to c05 (60.07s), duplicate frames."
+    },
+    {
+      "cue_id": "c07",
+      "term": "as-you-can-see",
+      "category": "pointing",
+      "t": 74.15,
+      "heard": "and frameworks that I share in the mentorship. As you can see, Mike here",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "new-info",
+        "+4": "useful",
+        "+6": "new-info"
+      },
+      "best_offset": "+2",
+      "notes": "Client trade posts. Readable: SPCX put gain +$262.66 (+2) and WDC $410 call 1/21/28 realized +$1,410 (+6). Promo content but real info."
+    },
+    {
+      "cue_id": "c08",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 111.11,
+      "heard": "newsletter every Monday and Friday. Now, let's go ahead and dive right into it.",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+4",
+      "notes": "X profile page (promo) until ~113s, MarketWatch economic calendar from +4. Screen lags the \"let us dive\" phrase by ~4s."
+    },
+    {
+      "cue_id": "c09",
+      "term": "inflation-data",
+      "category": "macro",
+      "t": 123.51,
+      "heard": "a very volatile market, right? But next week, we do have core CPI inflation data",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "MarketWatch calendar scrolling, on topic throughout. Cannot read rows at sheet size."
+    },
+    {
+      "cue_id": "c10",
+      "term": "inflation-data",
+      "category": "macro",
+      "t": 134.07,
+      "heard": "potentially, right? And we also have PPI coming out on Thursday. So just be aware",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Calendar still scrolling (PPI week). On topic, rows unreadable at sheet size."
+    },
+    {
+      "cue_id": "c11",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 150.95,
+      "heard": "next week. The banks started off Goldman Sachs, Croup, Wells Fargo, JP Morgan,",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Earnings calendar, on topic for the bank earnings list. Popup appears at +6 but unreadable at sheet size. JP came from \"JP Morgan\"."
+    },
+    {
+      "cue_id": "c12",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 153.67,
+      "heard": "Sachs, Croup, Wells Fargo, JP Morgan, Chase and then we also have ASML on",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Earnings calendar with hover popups at 0 and +4 (likely company details). Unreadable at sheet size."
+    },
+    {
+      "cue_id": "c13",
+      "term": "take-a-look",
+      "category": "pointing",
+      "t": 174.23,
+      "heard": "definitely uh create some volatility in the markets. Now, if we take a look at",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "Earnings page at -2, CME FedWatch tool from the cue on."
+    },
+    {
+      "cue_id": "c14",
+      "term": "fed-watch",
+      "category": "macro",
+      "t": 176.15,
+      "heard": "the markets. Now, if we take a look at the CME Fed Watch tool, things are",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "Same transition as c13, 2s later. FedWatch table on screen."
+    },
+    {
+      "cue_id": "c15",
+      "term": "breadth",
+      "category": "macro",
+      "t": 269.99,
+      "heard": "Another thing to keep in mind is the S5FI. Now, this tells the real story of",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "S5FI chart (reads 24.65) from the cue; -2 is a different chart."
+    },
+    {
+      "cue_id": "c16",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 283.67,
+      "heard": "higher, right? Even though the S&amp;P 500 uh is near all-time highs and QQQ is",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "wrong",
+        "+6": "wrong"
+      },
+      "best_offset": null,
+      "notes": "QQQ named in passing; the screen is the S5FI breadth chart he is discussing, not QQQ. Passing ticker mention = not a visual cue."
+    },
+    {
+      "cue_id": "c17",
+      "term": "moving-average",
+      "category": "chart",
+      "t": 291.11,
+      "heard": "that in the S&amp;P 500, okay, stocks above their 50-day moving average is only 24%.",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "S5FI chart throughout, matches the 50-day talk."
+    },
+    {
+      "cue_id": "c18",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 324.95,
+      "heard": "500, you could see the S&amp;P push higher. Okay. Now, if we look at the NDFI, which",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+2",
+      "notes": "S5FI still showing at the cue; NDFI chart (reads 43.56) appears at +2."
+    },
+    {
+      "cue_id": "c19",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 342.23,
+      "heard": "showing new all-time highs. So, let's go ahead and look at the markets. We're",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "NDFI chart at -2, QQQ chart from the cue."
+    },
+    {
+      "cue_id": "c20",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 343.83,
+      "heard": "ahead and look at the markets. We're taking a look at QQQ right here, hitting",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "Same transition as c19."
+    },
+    {
+      "cue_id": "c21",
+      "term": "expected-move",
+      "category": "options",
+      "t": 349.91,
+      "heard": "the video. 756 expected market maker move in the next",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "QQQ chart with the expected-move cone drawn on it, matches what he says."
+    },
+    {
+      "cue_id": "c22",
+      "term": "volatility-index",
+      "category": "macro",
+      "t": 385.99,
+      "heard": "market to melt up even you know even though uh the VIX is low and even the",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "wrong",
+        "+6": "wrong"
+      },
+      "best_offset": null,
+      "notes": "VIX named in passing; screen stays on the QQQ chart. Mentioned index not shown."
+    },
+    {
+      "cue_id": "c23",
+      "term": "next-one",
+      "category": "transition",
+      "t": 449.03,
+      "heard": "these, but I think have more room to run. Now, number one is AAT. Okay, AAT",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+2",
+      "notes": "QQQ chart until the cue, then Applied Materials chart (AMAT) at +2. Captions heard \"AAT\". Frame is the only source of the real ticker."
+    },
+    {
+      "cue_id": "c24",
+      "term": "strike",
+      "category": "options",
+      "t": 477.27,
+      "heard": "it pull back a little from here yes and I do have my cash secured puts lined up",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "AMAT chart with his put levels circled. On topic."
+    },
+    {
+      "cue_id": "c25",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 535.83,
+      "heard": "my area of interest there. Uh, the next one is going to be CRDO. This one has",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+2",
+      "notes": "AMAT chart until the cue, then Credo (CRDO) chart at +2 (price 209.61)."
+    },
+    {
+      "cue_id": "c26",
+      "term": "options-chain",
+      "category": "options",
+      "t": 751.19,
+      "heard": "nice one. Um, what I'm thinking, let's dive into the options chain to just take",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "useful",
+        "+6": "new-info"
+      },
+      "best_offset": "+6",
+      "notes": "Positions table then AMKR option pages. Expiry list with expected-move values at +6. Best offset may be later than +6."
+    },
+    {
+      "cue_id": "c27",
+      "term": "chart",
+      "category": "chart",
+      "t": 793.91,
+      "heard": "maker move on the downside. Um, if we take a look at the actual chart, I want",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+2",
+      "notes": "Options chain table until the cue, AMKR chart from +2."
+    }
+  ],
+  "control": [
+    {
+      "t": 0.0,
+      "reason": "first-frame",
+      "verdict": "blank"
+    },
+    {
+      "t": 68.0,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 76.73,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 80.53,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 85.53,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 112.07,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 143.97,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 679.57,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 681.17,
+      "reason": "scene-change",
+      "verdict": "redundant"
+    },
+    {
+      "t": 750.5,
+      "reason": "scene-change",
+      "verdict": "redundant"
+    },
+    {
+      "t": 794.07,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 929.43,
+      "reason": "scene-change",
+      "verdict": "blank"
+    }
+  ],
+  "labeling_notes": "Labeled by Claude from contact sheets (tiles ~400px wide), so verdicts are at screen level. new-info only where text was readable or confirmed by the earlier full-resolution frames. Within one cue, identical content gets the same verdict; redundant means already seen in an earlier cue. Control frames labeled later from a contact grid. Cue labels use a slightly looser redundancy rule than later videos.",
+  "control_notes": "Control grid labeled from a 4x3 contact sheet. Frames 2-5 are Discord/client trade posts (promo), 8-10 positions table (near duplicates), 11 AMKR chart (55.30).",
+  "creator": "Options With Ryan",
+  "title": "Will The QQQ Rally Hold? 2 Stocks I'm Buying In October (Options With Ryan)",
+  "upload_date": "20261006",
+  "duration_seconds": 935,
+  "trained_at": "2026-10-06"
+}

@@ -1,0 +1,17 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# watch skill: video data (downloads, frames, sheets). Summaries live in summaries/ and are tracked
+watch-output/
+
+# ingest skill: runtime queue state (sources.toml is tracked)
+queue/*
+!queue/sources.toml

@@ -1,0 +1,252 @@
+{
+  "video_id": "_2kSZRoEVgg",
+  "source": "https://www.youtube.com/watch?v=_2kSZRoEVgg",
+  "verdicts": "new-info | useful | redundant | blank | wrong  (see plan/watch-skill-testing-mode/PLAN.md)",
+  "cues": [
+    {
+      "cue_id": "c01",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 25.11,
+      "heard": "a few stocks really pulling through big time. AMD AMD certainly has been really",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "new-info",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": null,
+      "notes": "iPad/Mac screenshot of a Today Gain/Loss list, readable: AMD +$10,143.35, +$1,288,021.59, +451.67%, with CAKE, CRM, ELF, NOW, PLTR, META, SOFI. Static screen, same on all offsets."
+    },
+    {
+      "cue_id": "c02",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 118.23,
+      "heard": "stuff. And then the Micron CEO went on CNBC here uh this morning and actually",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "YouTube video of the CNBC Micron CEO interview (\"Micron delivered an exceptional quarter\"). Static."
+    },
+    {
+      "cue_id": "c03",
+      "term": "as-you-can-see",
+      "category": "pointing",
+      "t": 154.15,
+      "heard": "Instagram. So I post a lot of Instagram stories as you can see. I got Instagram",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Instagram profile page, matches \"as you can see I post a lot on Instagram\". Static."
+    },
+    {
+      "cue_id": "c04",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 355.51,
+      "heard": "living on $42,000 a year now, imagine trying to live on $20,000 a year. GH.",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Handwritten retirement math ($1M inflation adjusted in 30 yrs, $56K/yr after tax = $42K, S&P 10% CAGR). Static, matches the $42,000 a year line."
+    },
+    {
+      "cue_id": "c05",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 529.83,
+      "heard": "are not out there trying to get all the news clips and trying to get on TV and",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Same handwritten notes page still on screen about 3 minutes later. Relevance to the exact line is loose."
+    },
+    {
+      "cue_id": "c06",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 650.07,
+      "heard": "take their lives to. Okay. All right. Next up here, let's talk about big news",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Handwritten agenda: \"B news for 1 stock: I sold something, I bought some stock!\". Static."
+    },
+    {
+      "cue_id": "c07",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 948.71,
+      "heard": "United States of America, right? So if we look at this company a year from",
+      "offsets": {
+        "-2": "blank",
+        "+0": "blank",
+        "+2": "blank",
+        "+4": "blank",
+        "+6": "blank"
+      },
+      "best_offset": null,
+      "notes": "Full-screen webcam, no chart or screen share while he says \"look at this company\"."
+    },
+    {
+      "cue_id": "c08",
+      "term": "take-a-look",
+      "category": "pointing",
+      "t": 948.71,
+      "heard": "United States of America, right? So if we look at this company a year from",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "Same timestamp as c07, duplicate frames. [auto: within 1.5s of c07, marked redundant]"
+    },
+    {
+      "cue_id": "c09",
+      "term": "strike",
+      "category": "options",
+      "t": 1053.91,
+      "heard": "Nike, they don't expire until January of 2029. Okay? And they were $35 strikes",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "new-info",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": null,
+      "notes": "Brokerage history list, readable: bought opening call NKE (Nike) Jan 19 2029 $35, $7,725.35 and $19,293.50, sold NKE shares. Static."
+    },
+    {
+      "cue_id": "c10",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 1219.67,
+      "heard": "Um, you know, they're so far above everybody. 7702 there. RH got another",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "new-info",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": null,
+      "notes": "Executed orders list, readable: CELH 30 at $27.52, RH 100 at $120.38, WYNN 400 at $77.02, AXP 40 at $300.46. Static."
+    },
+    {
+      "cue_id": "c11",
+      "term": "take-a-look",
+      "category": "pointing",
+      "t": 1412.39,
+      "heard": "there. Um but I mean when you take a look at uh the futures market and and",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "CNBC clip \"Jeremy Siegel: This economy can take a rise in short term interest rates\", 10-year yield 5.239% on screen. On topic for the markets talk."
+    }
+  ],
+  "control": [
+    {
+      "t": 0.0,
+      "reason": "first-frame",
+      "verdict": "new-info"
+    },
+    {
+      "t": 81.87,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 138.53,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 166.87,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 546.47,
+      "reason": "scene-change",
+      "verdict": "redundant"
+    },
+    {
+      "t": 644.73,
+      "reason": "scene-change",
+      "verdict": "redundant"
+    },
+    {
+      "t": 922.8,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 997.4,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 1479.0,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 1649.27,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 1888.0,
+      "reason": "scene-change",
+      "verdict": "redundant"
+    },
+    {
+      "t": 1970.6,
+      "reason": "scene-change",
+      "verdict": "useful"
+    }
+  ],
+  "labeling_notes": "Labeled by Claude from contact sheets (tiles ~400px wide), screen-level verdicts. new-info only where text was readable. redundant = near-duplicate (<=1.5s) of the previous cue, otherwise judged on its own merits. Control frames labeled from a contact grid. Different creator and format: screen share inside a webcam frame, mostly static screens, so verdicts are the same across offsets.",
+  "control_notes": "Control grid. Mostly static screen-share, near duplicates (5,6,11). Frame 4 CMS Invests post, 8 Nike revenue table.",
+  "creator": "Jeremy Lefebvre Makes Money",
+  "title": "sold",
+  "upload_date": "20261002",
+  "duration_seconds": 2017,
+  "trained_at": "2026-10-06"
+}

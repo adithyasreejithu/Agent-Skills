@@ -1,0 +1,508 @@
+{
+  "video_id": "NQFjRtceW4w",
+  "source": "https://www.youtube.com/watch?v=NQFjRtceW4w",
+  "verdicts": "new-info | useful | redundant | blank | wrong  (see plan/watch-skill-testing-mode/PLAN.md)",
+  "cues": [
+    {
+      "cue_id": "c01",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 2.35,
+      "heard": "The NASDAQ nearly made new all-time highs despite a fourth rate hike being",
+      "offsets": {
+        "-2": "blank",
+        "+0": "blank",
+        "+2": "blank",
+        "+4": "blank",
+        "+6": "blank"
+      },
+      "best_offset": null,
+      "notes": "Intro talking head with captions. No screen content."
+    },
+    {
+      "cue_id": "c02",
+      "term": "fed-watch",
+      "category": "macro",
+      "t": 2.35,
+      "heard": "The NASDAQ nearly made new all-time highs despite a fourth rate hike being",
+      "offsets": {
+        "-2": "blank",
+        "+0": "blank",
+        "+2": "blank",
+        "+4": "blank",
+        "+6": "blank"
+      },
+      "best_offset": null,
+      "notes": "Same timestamp as c01, duplicate frames. [auto: within 1.5s of c01, marked redundant]"
+    },
+    {
+      "cue_id": "c03",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 21.55,
+      "heard": "actually add to the portfolio. So, let's go ahead and dive right into it.",
+      "offsets": {
+        "-2": "blank",
+        "+0": "blank",
+        "+2": "blank",
+        "+4": "blank",
+        "+6": "blank"
+      },
+      "best_offset": null,
+      "notes": "Talking head then disclaimer slide."
+    },
+    {
+      "cue_id": "c04",
+      "term": "take-a-look",
+      "category": "pointing",
+      "t": 29.63,
+      "heard": "Results may vary. Now, if you take a look at the account here, we are at at",
+      "offsets": {
+        "-2": "blank",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "Disclaimer slide at -2, account summary from the cue."
+    },
+    {
+      "cue_id": "c05",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 31.31,
+      "heard": "look at the account here, we are at at brand new all-time highs, crossed the $2",
+      "offsets": {
+        "-2": "blank",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "Account summary while he says all-time highs; first tile is still the disclaimer slide."
+    },
+    {
+      "cue_id": "c06",
+      "term": "as-you-can-see",
+      "category": "pointing",
+      "t": 59.55,
+      "heard": "realized gain loss for transparency reasons. As you could see today, we did",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "blank",
+        "+2": "blank",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+4",
+      "notes": "Summary page, then Realized Gain/Loss loading skeleton, loaded from +4 (gauge reads 67.73%)."
+    },
+    {
+      "cue_id": "c07",
+      "term": "as-you-can-see",
+      "category": "pointing",
+      "t": 80.07,
+      "heard": "that I share here in the mentorship. As you could see, clients sharing their",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+4",
+      "notes": "Client posts, then zoomed Realized Gain/Loss cards. Readable: SPCX put cards with proceeds and +$130.66 / +$130.68 gains. Promo content but real numbers."
+    },
+    {
+      "cue_id": "c08",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 114.35,
+      "heard": "absolutely free. Now, let's go ahead and dive straight into it, okay? We had some",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+2",
+      "notes": "X profile page until the cue, MarketWatch calendar from +2."
+    },
+    {
+      "cue_id": "c09",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 120.31,
+      "heard": "US economic data come out today, the US PMI, right? Producer Manufacturing",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "MarketWatch calendar for the US data he lists. \"PMI\" is an acronym, not a ticker."
+    },
+    {
+      "cue_id": "c10",
+      "term": "fed-watch",
+      "category": "macro",
+      "t": 166.83,
+      "heard": "Inflation tends to creep up. So, that wasn't good as far as the CME FedWatch",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "wrong",
+        "+6": "wrong"
+      },
+      "best_offset": null,
+      "notes": "CME FedWatch named but the screen is still the MarketWatch calendar; FedWatch only opens around 3:37."
+    },
+    {
+      "cue_id": "c11",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 183.15,
+      "heard": "jobless claims tomorrow, and then next week we have core PCE, which is going to",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Calendar scrolling down to next week (core PCE). \"PCE\" is an acronym, not a ticker."
+    },
+    {
+      "cue_id": "c12",
+      "term": "take-a-look",
+      "category": "pointing",
+      "t": 215.47,
+      "heard": "there, but we have to keep an eye out on these things. Now, if we take a look at",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+2",
+      "notes": "Calendar until ~3:37, then the CME FedWatch tool. Lag about 2s."
+    },
+    {
+      "cue_id": "c13",
+      "term": "strike",
+      "category": "options",
+      "t": 263.87,
+      "heard": "overly aggressive with my cash-secured put deltas, maybe 25 delta or even way",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "wrong",
+        "+6": "wrong"
+      },
+      "best_offset": null,
+      "notes": "Talking about put deltas while the screen still shows the FedWatch tool. Stale screen from the previous topic."
+    },
+    {
+      "cue_id": "c14",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 279.87,
+      "heard": "a couple weeks ago. And basically, we are in this zone right here. Okay? We're",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Dark \"What I am watching right now\" dashboard (bp priced, 10-year Treasury yield card) as he points to \"this zone\"."
+    },
+    {
+      "cue_id": "c15",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 302.67,
+      "heard": "closer attention to the portfolio right here, obviously, uh being a bit more",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Same dashboard, cursor highlighting items."
+    },
+    {
+      "cue_id": "c16",
+      "term": "breadth",
+      "category": "macro",
+      "t": 381.47,
+      "heard": "talked about in the last video, right? If we take a look at the S5FI, which is",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "10-year yield chart at -2, then the S5FI chart (reads 29.82) from the cue."
+    },
+    {
+      "cue_id": "c17",
+      "term": "moving-average",
+      "category": "chart",
+      "t": 383.59,
+      "heard": "If we take a look at the S5FI, which is the S&amp;P 500 stocks above their 50-day",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "S5FI chart throughout, 2s after c16."
+    },
+    {
+      "cue_id": "c18",
+      "term": "breadth",
+      "category": "macro",
+      "t": 427.91,
+      "heard": "and you'd see a lot more, um, you know, upward trend on this S5FI. So, you know,",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "S5FI chart throughout."
+    },
+    {
+      "cue_id": "c19",
+      "term": "volatility-index",
+      "category": "macro",
+      "t": 480.75,
+      "heard": "helping me stay on the safer side is my VIX cash allocation levels, okay? So,",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "wrong",
+        "+6": "wrong"
+      },
+      "best_offset": null,
+      "notes": "VIX named but the screen shows an oil chart then QQQ. VIX only appears later."
+    },
+    {
+      "cue_id": "c20",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 484.59,
+      "heard": "let's talk about that. Let's talk about QQQ. You know, like I kind of called out",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "Oil chart at -2, QQQ chart (about 740.83) from the cue."
+    },
+    {
+      "cue_id": "c21",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 551.75,
+      "heard": "lot of people are buying put protection on SPX, right? They're not buying those",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "wrong",
+        "+6": "wrong"
+      },
+      "best_offset": null,
+      "notes": "SPX named for put protection; the screen shows the VIX chart (14.90), related but not SPX. Counted as a miss for the ticker cue."
+    },
+    {
+      "cue_id": "c22",
+      "term": "strike",
+      "category": "options",
+      "t": 714.15,
+      "heard": "because I do want to reposition at some lower strikes. We were too heavily",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Stock chart (about 124.97) with a drawn trend line while he talks about repositioning strikes. No options screen."
+    },
+    {
+      "cue_id": "c23",
+      "term": "bollinger",
+      "category": "chart",
+      "t": 760.67,
+      "heard": "bearish momentum. We come back down to the mid-Bollinger band here at 114, and",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Same chart, Bollinger bands visible while he says mid-Bollinger band."
+    },
+    {
+      "cue_id": "c24",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 875.99,
+      "heard": "the only stocks that's green today versus the Nasdaq and SPY and even SPMO",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Strong uptrend chart (about 179.05) while he says only stock green today."
+    },
+    {
+      "cue_id": "c25",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 939.51,
+      "heard": "position, okay? So, that's one I'm watching. WDC, okay? One of the",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+2",
+      "notes": "Other stock chart until the cue, then Western Digital Corporation chart (about 467.78) from +2. WDC was named and the frame confirms it."
+    },
+    {
+      "cue_id": "c26",
+      "term": "next-one",
+      "category": "transition",
+      "t": 1116.39,
+      "heard": "100 share lots. CRDO is the next one. This one very well",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+2",
+      "notes": "WDC chart until the cue, then Credo Technology Group chart (about 195) from +2."
+    },
+    {
+      "cue_id": "c27",
+      "term": "chart",
+      "category": "chart",
+      "t": 1210.79,
+      "heard": "looking zooming out in the long run, and this chart has been beautiful upward",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "CRDO chart zooming out stage by stage as he says zooming out in the long run."
+    }
+  ],
+  "control": [
+    {
+      "t": 0.0,
+      "reason": "first-frame",
+      "verdict": "blank"
+    },
+    {
+      "t": 74.07,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 82.9,
+      "reason": "scene-change",
+      "verdict": "redundant"
+    },
+    {
+      "t": 83.57,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 85.77,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 92.07,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 104.8,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 271.0,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 996.33,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 1158.67,
+      "reason": "scene-change",
+      "verdict": "redundant"
+    },
+    {
+      "t": 1187.53,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 1222.57,
+      "reason": "scene-change",
+      "verdict": "blank"
+    }
+  ],
+  "labeling_notes": "Labeled by Claude from contact sheets (tiles ~400px wide), screen-level verdicts. new-info only where text was readable. redundant = near-duplicate (<=1.5s) of the previous cue, otherwise judged on its own merits. Control frames labeled from a contact grid.",
+  "control_notes": "Control grid. Five of the first eight frames sit in the first 105s (intro and promo). Frame 11 CRDO chart (195.67).",
+  "creator": "Options With Ryan",
+  "title": "Stock Market Warning | Rate Hike Outlook + 1 Stock I Sold (Options With Ryan)",
+  "upload_date": "20260924",
+  "duration_seconds": 1228,
+  "trained_at": "2026-10-06"
+}

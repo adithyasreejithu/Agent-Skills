@@ -1,0 +1,508 @@
+{
+  "video_id": "EYfrlglrFyc",
+  "source": "https://www.youtube.com/watch?v=EYfrlglrFyc",
+  "verdicts": "new-info | useful | redundant | blank | wrong  (see plan/watch-skill-testing-mode/PLAN.md)",
+  "cues": [
+    {
+      "cue_id": "c01",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 21.51,
+      "heard": "be headed higher from here. So, let's go ahead and dive into it. Remember, this",
+      "offsets": {
+        "-2": "blank",
+        "+0": "blank",
+        "+2": "blank",
+        "+4": "blank",
+        "+6": "blank"
+      },
+      "best_offset": null,
+      "notes": "Intro talking head then disclaimer slide. No chart content."
+    },
+    {
+      "cue_id": "c02",
+      "term": "take-a-look",
+      "category": "pointing",
+      "t": 28.23,
+      "heard": "educational purposes. Only results may vary. But if you take a look at the",
+      "offsets": {
+        "-2": "blank",
+        "+0": "blank",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+2",
+      "notes": "Disclaimer slide until ~28s, account summary from +2. Same lag pattern as video 1."
+    },
+    {
+      "cue_id": "c03",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 31.27,
+      "heard": "account, we are hitting new all-time highs again. If you do want to see me",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Account summary page (equity curve) while he says all-time highs. Subscribe popup at +6 irrelevant."
+    },
+    {
+      "cue_id": "c04",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 49.59,
+      "heard": "appreciate it and I appreciate you being here. Now, let's dive into the realized",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+4",
+      "notes": "Summary page while he says let us dive into realized gain/loss; realized page loads at +4."
+    },
+    {
+      "cue_id": "c05",
+      "term": "as-you-can-see",
+      "category": "pointing",
+      "t": 53.43,
+      "heard": "gain loss for transparency reasons. As you could see on the day, we closed out",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "Mid-transition frame at -2, realized gain/loss page from the cue."
+    },
+    {
+      "cue_id": "c06",
+      "term": "strike",
+      "category": "options",
+      "t": 57.27,
+      "heard": "some nice profits, closed out some cash secured puts. Obviously, results vary",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Realized gain/loss page on screen for \"closed out cash secured puts\"."
+    },
+    {
+      "cue_id": "c07",
+      "term": "as-you-can-see",
+      "category": "pointing",
+      "t": 73.43,
+      "heard": "out here in the mentorship. As you can see, clients sharing their inspiration",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+4",
+      "notes": "Client posts. Readable: moomoo card COHR PUT +545.00 (+4) and Realized P&L +$7,155.54 (+6). Promo content but real numbers."
+    },
+    {
+      "cue_id": "c08",
+      "term": "fed-watch",
+      "category": "macro",
+      "t": 124.15,
+      "heard": "because that gives them a reason to pause on the rate hikes. Now, we did see",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "MarketWatch economic calendar, on topic. Rows not readable at sheet size."
+    },
+    {
+      "cue_id": "c09",
+      "term": "take-a-look",
+      "category": "pointing",
+      "t": 128.63,
+      "heard": "the CME Fed watch tool change a little bit, which I'll get into. But if we look",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Same calendar. He mentions FedWatch but opens it later."
+    },
+    {
+      "cue_id": "c10",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 132.71,
+      "heard": "at next week, we have uh US services PMI. We also have um consumer credit",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Calendar showing the next-week data he lists (PMI etc). \"PMI\" is an acronym, not a ticker."
+    },
+    {
+      "cue_id": "c11",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 142.39,
+      "heard": "week was the big kind of economic data coming out. Now if we look at this EM",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+2",
+      "notes": "Calendar until ~144s, then CME FedWatch tool. Screen lags the cue ~2s."
+    },
+    {
+      "cue_id": "c12",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 142.39,
+      "heard": "week was the big kind of economic data coming out. Now if we look at this EM",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "Same timestamp as c11, duplicate frames."
+    },
+    {
+      "cue_id": "c13",
+      "term": "fed-watch",
+      "category": "macro",
+      "t": 143.91,
+      "heard": "coming out. Now if we look at this EM Fed watch tool, okay, very important",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "1s after c12; FedWatch frames repeat c11."
+    },
+    {
+      "cue_id": "c14",
+      "term": "inflation-data",
+      "category": "macro",
+      "t": 212.87,
+      "heard": "Now, the good part about that is that that is CPI. So, that's including food",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Dark \"Is the data giving the Fed a reason to pause?\" dashboard with CPI/core CPI/core PPI bars. Stats readable but not checked against transcript."
+    },
+    {
+      "cue_id": "c15",
+      "term": "inflation-data",
+      "category": "macro",
+      "t": 240.23,
+      "heard": "So, right now we're seeing a stuck kind of CPI, but if we look at the core CPI,",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Same dashboard, CPI bars."
+    },
+    {
+      "cue_id": "c16",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 257.59,
+      "heard": "going into future months considering this week with the core PCE data. I",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Same dashboard. \"PCE\" is an acronym, not a ticker."
+    },
+    {
+      "cue_id": "c17",
+      "term": "chart",
+      "category": "chart",
+      "t": 380.55,
+      "heard": "four 5.2%.\" Right? We can kind of scroll back to the weekly chart and we could",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+2",
+      "notes": "10-year yield chart; timeframe menu opens at 0 and weekly chart at +2, then zoomed out to full history at +6."
+    },
+    {
+      "cue_id": "c18",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 552.23,
+      "heard": "money we've printed, it's absolutely insane. Especially during COVID, right?",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "FRED M2 money supply chart, matches \"money we have printed ... COVID\". COVID is not a ticker."
+    },
+    {
+      "cue_id": "c19",
+      "term": "chart",
+      "category": "chart",
+      "t": 561.19,
+      "heard": "Now, if we take a look at kind of the five-year chart, you could see during",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "FRED M2 chart zooming to the five-year view as he says."
+    },
+    {
+      "cue_id": "c20",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 602.63,
+      "heard": "bullish today. Uh we had Tesla call buying, SpaceX, Oracle, BE, and we even",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Unusual Whales dashboard (market tide, net impact list), the source for the call-buying names."
+    },
+    {
+      "cue_id": "c21",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 605.51,
+      "heard": "buying, SpaceX, Oracle, BE, and we even had a little bit of QQQ call buying. All",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Same dashboard; QQQ named in passing but screen shows the flow list where it appears."
+    },
+    {
+      "cue_id": "c22",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 627.99,
+      "heard": "even though it's, you know, going towards all-time highs and in fact the",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Same dashboard scrolled. \"all-time highs\" generic."
+    },
+    {
+      "cue_id": "c23",
+      "term": "volatility-index",
+      "category": "macro",
+      "t": 695.43,
+      "heard": "market a bit higher here. Now if we take a look at the VIX we're still in the",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+2",
+      "notes": "QQQ chart until the cue, VIX chart (about 15.44) from +2."
+    },
+    {
+      "cue_id": "c24",
+      "term": "volatility-index",
+      "category": "macro",
+      "t": 706.39,
+      "heard": "down. So, you know, could we head a bit lower on the VIX? Yes. Could the market",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "VIX chart on screen as he discusses VIX."
+    },
+    {
+      "cue_id": "c25",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 772.87,
+      "heard": "after. But, it's not really expected right here given all the data that's",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "new-info",
+        "+2": "new-info",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "-2",
+      "notes": "Slide \"VIX Levels For 2025-2026\" with cash allocation per VIX range (readable). Already on screen at -2, so the best offset may be earlier than -2."
+    },
+    {
+      "cue_id": "c26",
+      "term": "moving-average",
+      "category": "chart",
+      "t": 789.43,
+      "heard": "was down 14 15%. Um, it touched the 200 day moving average, which is a good",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Western Digital (WDC, about 415.70) chart with annotations, on topic for the 200-day talk."
+    },
+    {
+      "cue_id": "c27",
+      "term": "strike",
+      "category": "options",
+      "t": 880.47,
+      "heard": "just continuing to dollar cost average via cash secured puts. Let's take a look",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "blank",
+        "+6": "blank"
+      },
+      "best_offset": null,
+      "notes": "WDC chart while he talks cash secured puts (no options screen). Disclaimer slide from +4 as he moves to the next section."
+    }
+  ],
+  "control": [
+    {
+      "t": 0.0,
+      "reason": "first-frame",
+      "verdict": "blank"
+    },
+    {
+      "t": 63.83,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 73.8,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 87.03,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 103.4,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 198.03,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 597.87,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 819.03,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 889.73,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 1101.43,
+      "reason": "scene-change",
+      "verdict": "redundant"
+    },
+    {
+      "t": 1131.5,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 1287.87,
+      "reason": "scene-change",
+      "verdict": "blank"
+    }
+  ],
+  "labeling_notes": "Labeled by Claude from contact sheets (tiles ~400px wide), screen-level verdicts. new-info only where text was readable. redundant = near-duplicate (<=1.5s) of the previous cue, otherwise judged on its own merits. Control frames labeled from a contact grid.",
+  "control_notes": "Control grid. Several blank/disclaimer frames early; frame 3 realized P&L card readable (+$11,670.92); frame 8 Yahoo Finance article on WDC/Seagate.",
+  "creator": "Options With Ryan",
+  "title": "10 Year Treasury Yield Warning | WDC, DRAM & HOOD Update + My Next Moves (Options With Ryan)",
+  "upload_date": "20261003",
+  "duration_seconds": 1297,
+  "trained_at": "2026-10-06"
+}

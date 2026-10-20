@@ -1,0 +1,48 @@
+{
+  "_comment": "PROPOSAL, not applied. Merge the 'allow' additions and the whole 'deny' list into .claude/settings.json (keep the existing allow entries). Permission rules decide what runs without asking; they are not a sandbox.",
+  "permissions": {
+    "allow": [
+      "Bash(uv run agent-skills *)",
+      "Bash(uv run python .agents/skills/watch/scripts/*)",
+      "PowerShell(uv run agent-skills *)",
+      "PowerShell(uv run python .agents/skills/watch/scripts/*)",
+      "PowerShell(uv run python .agents\\skills\\watch\\scripts\\*)",
+      "Edit(/training/**)",
+      "Write(/training/**)",
+      "Edit(/plan/**)",
+      "Write(/plan/**)",
+      "Edit(/watch-output/**)",
+      "Write(/watch-output/**)"
+    ],
+    "deny": [
+      "Bash(sudo *)",
+      "Bash(rm -rf /*)",
+      "Bash(rm -rf ~*)",
+      "Bash(rm -rf C:*)",
+      "Bash(mkfs*)",
+      "Bash(dd *)",
+      "Bash(shutdown *)",
+      "Bash(reboot*)",
+      "Bash(chmod -R 777 *)",
+      "Bash(git push --force*)",
+      "Bash(git push -f *)",
+      "Bash(git reset --hard*)",
+      "Bash(git clean -fd*)",
+      "PowerShell(Format-Volume *)",
+      "PowerShell(Clear-Disk *)",
+      "PowerShell(Remove-Partition *)",
+      "PowerShell(Initialize-Disk *)",
+      "PowerShell(Stop-Computer *)",
+      "PowerShell(Restart-Computer *)",
+      "PowerShell(Set-ExecutionPolicy *)",
+      "PowerShell(Disable-NetAdapter *)",
+      "PowerShell(reg delete *)",
+      "PowerShell(diskpart*)",
+      "PowerShell(format *)",
+      "PowerShell(shutdown *)",
+      "PowerShell(Remove-Item -Recurse -Force C:\\*)",
+      "PowerShell(Remove-Item -Recurse -Force $env:USERPROFILE*)",
+      "PowerShell(Remove-Item -Recurse -Force ~*)"
+    ]
+  }
+}
