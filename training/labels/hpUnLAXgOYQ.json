@@ -1,0 +1,508 @@
+{
+  "video_id": "hpUnLAXgOYQ",
+  "creator": "Options With Ryan",
+  "title": "AI Stocks Falling | Where Is The Bottom? + WDC, HOOD & CRDO Update (Options With Ryan)",
+  "upload_date": "20261015",
+  "duration_seconds": 1672.3,
+  "source": "https://www.youtube.com/watch?v=hpUnLAXgOYQ",
+  "verdicts": "new-info | useful | redundant | blank | wrong  (see plan/watch-skill-testing-mode/PLAN.md)",
+  "cues": [
+    {
+      "cue_id": "c01",
+      "term": "inflation-data",
+      "category": "macro",
+      "t": 12.88,
+      "heard": "We are going to be talking about why the market is falling, core CPI data, and",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "wrong",
+        "+6": "wrong"
+      },
+      "best_offset": null,
+      "notes": "talking head intro with burned-in captions; no CPI data on screen"
+    },
+    {
+      "cue_id": "c02",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 17.8,
+      "heard": "where the market could be headed from here. So, let's go ahead and dive",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "blank",
+        "+6": "blank"
+      },
+      "best_offset": null,
+      "notes": "talking head, then white 'not financial advice' slide"
+    },
+    {
+      "cue_id": "c03",
+      "term": "take-a-look",
+      "category": "pointing",
+      "t": 26.56,
+      "heard": "purposes only. Results may vary. Now, if we take a look at the account here, you",
+      "offsets": {
+        "-2": "blank",
+        "+0": "blank",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+2",
+      "notes": "disclaimer slide, then brokerage account summary page (small text)"
+    },
+    {
+      "cue_id": "c04",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 28.0,
+      "heard": "we take a look at the account here, you can see this right here is my public",
+      "offsets": {
+        "-2": "blank",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "disclaimer slide, then account summary page with disclaimer banner [auto: within 1.5s of c03, marked redundant]"
+    },
+    {
+      "cue_id": "c05",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 49.0,
+      "heard": "appreciate it, and I appreciate you being here. Now, let's take a look at",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "account summary page, identical across offsets"
+    },
+    {
+      "cue_id": "c06",
+      "term": "take-a-look",
+      "category": "pointing",
+      "t": 49.0,
+      "heard": "appreciate it, and I appreciate you being here. Now, let's take a look at",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "same timestamp as c05; same account summary frames [auto: within 1.5s of c05, marked redundant]"
+    },
+    {
+      "cue_id": "c07",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 53.88,
+      "heard": "which is actually pretty good. It's kind of right in between QQQ, uh a little bit",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "account summary page, unchanged"
+    },
+    {
+      "cue_id": "c08",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 59.0,
+      "heard": "more than QQQ, but a little bit less than SMH, which is the semiconductor",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "account summary page, unchanged"
+    },
+    {
+      "cue_id": "c09",
+      "term": "as-you-can-see",
+      "category": "pointing",
+      "t": 71.92,
+      "heard": "into the realized gain loss for transparency. As you can see today, we",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+2",
+      "notes": "account summary switches to Realized Gain/Loss page"
+    },
+    {
+      "cue_id": "c10",
+      "term": "strike",
+      "category": "options",
+      "t": 75.68,
+      "heard": "actually closed out a couple cash-secured puts on Google, uh which",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "Realized Gain/Loss page, unchanged"
+    },
+    {
+      "cue_id": "c11",
+      "term": "as-you-can-see",
+      "category": "pointing",
+      "t": 82.2,
+      "heard": "the day, and those puts were expiring today. So, you can see that uh we took a",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "Realized Gain/Loss page, unchanged"
+    },
+    {
+      "cue_id": "c12",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 113.12,
+      "heard": "you do want access to my Ryan's Trades and my LEAPS entries and exits channel,",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "zoomed gain/loss summary (+$10,453.02 net gain) then Discord profit posts and Instagram profile"
+    },
+    {
+      "cue_id": "c13",
+      "term": "inflation-data",
+      "category": "macro",
+      "t": 155.28,
+      "heard": "the actual numbers, okay, you could see that core CPI um year-over-year came in",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "MarketWatch economic calendar, text too small to read"
+    },
+    {
+      "cue_id": "c14",
+      "term": "fed-watch",
+      "category": "macro",
+      "t": 194.4,
+      "heard": "definitely something that isn't good for uh you know, rate cuts coming back on",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "MarketWatch economic calendar, unchanged"
+    },
+    {
+      "cue_id": "c15",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 207.2,
+      "heard": "nowflation, which I like to track nowflation.com versus the actual BLS",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "nowflation.com page showing 3.12% (transcript already says 3.12%)"
+    },
+    {
+      "cue_id": "c16",
+      "term": "chart",
+      "category": "chart",
+      "t": 242.52,
+      "heard": "Okay, so that's good to see, right? We see on the chart here that it's actually",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+4",
+      "notes": "scrolling nowflation page to the CPI gauge vs official CPI chart"
+    },
+    {
+      "cue_id": "c17",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 249.959,
+      "heard": "the actual CPI is. So, just something to keep in mind. I do take a look at this",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "CPI gauge chart with hover tooltips, values too small"
+    },
+    {
+      "cue_id": "c18",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 270.48,
+      "heard": "inflation faster because it's using real-time data like AAA gas prices, you",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "same chart and cost-of-living tiles; AAA gas not visible"
+    },
+    {
+      "cue_id": "c19",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 344.52,
+      "heard": "Treasury yields, you know, trending towards all-time highs.",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "earnings calendar and Oct 13 earnings heatmap, ahead of the earnings discussion"
+    },
+    {
+      "cue_id": "c20",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 420.6,
+      "heard": "that reported actually beat. Now, if we take a look at today, ASML, this is a",
+      "offsets": {
+        "-2": "useful",
+        "+0": "new-info",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+2",
+      "notes": "Oct 14 earnings page with ASML and other names legible in the calendar"
+    },
+    {
+      "cue_id": "c21",
+      "term": "breadth",
+      "category": "macro",
+      "t": 601.24,
+      "heard": "advantage of that fear. Now, we had a really nice run in the S5FI, which is",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+2",
+      "notes": "yield-style chart (5.194 shown), then S5FI-type chart with value 38.17"
+    },
+    {
+      "cue_id": "c22",
+      "term": "moving-average",
+      "category": "chart",
+      "t": 604.12,
+      "heard": "really nice run in the S5FI, which is S&P 500 stocks above their 50-day",
+      "offsets": {
+        "-2": "useful",
+        "+0": "new-info",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+2",
+      "notes": "chart with Bollinger bands and boxed support; RSI-style value 38.17 legible"
+    },
+    {
+      "cue_id": "c23",
+      "term": "volatility-index",
+      "category": "macro",
+      "t": 683.76,
+      "heard": "at and to keep in mind, right? Now, if we take a look at the VIX, which we'll",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+2",
+      "notes": "Midterm Q4 Playbook stats then VIX page: Oct avg 24.0, 20.3, 45.7, 9.9"
+    },
+    {
+      "cue_id": "c24",
+      "term": "expected-move",
+      "category": "options",
+      "t": 789.839,
+      "heard": "actually right within the expected market maker move, given the volatility",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "QQQ daily chart at 728.9 with Bollinger bands; transcript says 728"
+    },
+    {
+      "cue_id": "c25",
+      "term": "bollinger",
+      "category": "chart",
+      "t": 828.36,
+      "heard": "would be considered an outlier move.\" That's why we have these Bollinger Bands",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "same QQQ chart, price 728.7x"
+    },
+    {
+      "cue_id": "c26",
+      "term": "strike",
+      "category": "options",
+      "t": 1053.64,
+      "heard": "average or a lower my cost basis entry with a cash secured put. So, we'll go",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "VIX Levels 2025-2026 slide with cash/invested bands, fully legible"
+    },
+    {
+      "cue_id": "c27",
+      "term": "next-one",
+      "category": "transition",
+      "t": 1418.84,
+      "heard": "okay? So, CLS, good one for me there. I love it. Uh that's number two, kind of",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "new-info"
+      },
+      "best_offset": "+6",
+      "notes": "CLS-style chart at 324.3 for four offsets, then CRDO chart at 178.30"
+    }
+  ],
+  "control": [
+    {
+      "t": 0.0,
+      "reason": "first-frame",
+      "verdict": "blank"
+    },
+    {
+      "t": 107.333333,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 111.633333,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 137.2,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 338.8,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 941.633333,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 1147.266667,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 1200.066667,
+      "reason": "scene-change",
+      "verdict": "redundant"
+    },
+    {
+      "t": 1207.733333,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 1361.333333,
+      "reason": "scene-change",
+      "verdict": "redundant"
+    },
+    {
+      "t": 1524.566667,
+      "reason": "scene-change",
+      "verdict": "redundant"
+    },
+    {
+      "t": 1667.433333,
+      "reason": "scene-change",
+      "verdict": "blank"
+    }
+  ],
+  "control_notes": "Control frames were viewed individually (no control sheet file was produced): face, Discord, CNBC CPI chart 3.7%/2.6%, earnings calendar, QQQ chart 728.28, then Tastytrade-style positions tables, final face.",
+  "labeling_notes": "Labeled by Claude from contact sheets; new-info only where text was readable.",
+  "trained_at": "2026-10-20"
+}

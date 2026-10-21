@@ -1,0 +1,508 @@
+{
+  "video_id": "667m_tyzrDo",
+  "creator": "Options With Ryan",
+  "title": "AI Stock Pullback Is Here | 2 Stocks I Bought + CRDO & DRAM Update (Options With Ryan)",
+  "upload_date": "20261013",
+  "duration_seconds": 1025.2,
+  "source": "https://www.youtube.com/watch?v=667m_tyzrDo",
+  "verdicts": "new-info | useful | redundant | blank | wrong  (see plan/watch-skill-testing-mode/PLAN.md)",
+  "cues": [
+    {
+      "cue_id": "c01",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 20.16,
+      "heard": "are at great opportunities right now. So let's go ahead and dive right into it.",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "blank",
+        "+4": "wrong",
+        "+6": "wrong"
+      },
+      "best_offset": null,
+      "notes": "talking head, then disclaimer slide animating in"
+    },
+    {
+      "cue_id": "c02",
+      "term": "take-a-look",
+      "category": "pointing",
+      "t": 28.44,
+      "heard": "Results may vary. Now, if you take a look at the account, you can see this",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "redundant"
+      },
+      "best_offset": "+2",
+      "notes": "disclaimer slide, then brokerage summary page"
+    },
+    {
+      "cue_id": "c03",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 29.8,
+      "heard": "look at the account, you can see this right here is my public portfolio that I",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "disclaimer, then brokerage summary page [auto: within 1.5s of c02, marked redundant]"
+    },
+    {
+      "cue_id": "c04",
+      "term": "as-you-can-see",
+      "category": "pointing",
+      "t": 51.72,
+      "heard": "gain loss for transparency reasons. As you can see on the day, we closed out a",
+      "offsets": {
+        "-2": "blank",
+        "+0": "useful",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "realized gain/loss page loading then loaded, 100% win rate gauge"
+    },
+    {
+      "cue_id": "c05",
+      "term": "strike",
+      "category": "options",
+      "t": 53.6,
+      "heard": "you can see on the day, we closed out a nice profit on a few cash secured puts.",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "realized gain/loss page, unchanged"
+    },
+    {
+      "cue_id": "c06",
+      "term": "as-you-can-see",
+      "category": "pointing",
+      "t": 69.28,
+      "heard": "frameworks and principles that I share here in the mentorship. As you can see,",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "new-info",
+        "+4": "redundant",
+        "+6": "useful"
+      },
+      "best_offset": "+2",
+      "notes": "Discord profit posts; closed positions +$6,027.47 readable at +2"
+    },
+    {
+      "cue_id": "c07",
+      "term": "inflation-data",
+      "category": "macro",
+      "t": 111.96000000000001,
+      "heard": "home sales. We also have some earnings coming out. Core CPI, which is the most",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+2",
+      "notes": "MarketWatch economic calendar scrolling"
+    },
+    {
+      "cue_id": "c08",
+      "term": "inflation-data",
+      "category": "macro",
+      "t": 130.72,
+      "heard": "these volatile events, okay? We also have PPI on Thursday and import prices",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "redundant"
+      },
+      "best_offset": "+2",
+      "notes": "economic calendar scrolling, Thursday/Friday data"
+    },
+    {
+      "cue_id": "c09",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 139.12,
+      "heard": "economic data coming out. Now, earnings, let's talk about that. We have JP Morgan",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "redundant"
+      },
+      "best_offset": "+2",
+      "notes": "earnings calendar and earnings feed, logos only"
+    },
+    {
+      "cue_id": "c10",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 139.12,
+      "heard": "economic data coming out. Now, earnings, let's talk about that. We have JP Morgan",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "earnings calendar and feed, same as c09 [auto: within 1.5s of c09, marked redundant]"
+    },
+    {
+      "cue_id": "c11",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 151.0,
+      "heard": "things could get a little wild. We also have ASML and Taiwan Semiconductor,",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "new-info",
+        "+6": "redundant"
+      },
+      "best_offset": "+4",
+      "notes": "earnings calendar with company popup (TSMC-style name) at +4"
+    },
+    {
+      "cue_id": "c12",
+      "term": "fed-watch",
+      "category": "macro",
+      "t": 164.8,
+      "heard": "allocation levels. Now, if we take a look at the CME FedWatch tool, you could",
+      "offsets": {
+        "-2": "useful",
+        "+0": "new-info",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+0",
+      "notes": "earnings feed then CME FedWatch table"
+    },
+    {
+      "cue_id": "c13",
+      "term": "take-a-look",
+      "category": "pointing",
+      "t": 164.8,
+      "heard": "allocation levels. Now, if we take a look at the CME FedWatch tool, you could",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "CME FedWatch table with highlighted meeting rows [auto: within 1.5s of c12, marked redundant]"
+    },
+    {
+      "cue_id": "c14",
+      "term": "fed-watch",
+      "category": "macro",
+      "t": 179.44,
+      "heard": "for December, 95% odds we get that 25 basis point rate hike. Now, the odds did",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "new-info",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "CME FedWatch table, cursor on odds"
+    },
+    {
+      "cue_id": "c15",
+      "term": "moving-average",
+      "category": "chart",
+      "t": 246.08,
+      "heard": "under the hood of the market, okay, you see the S5FI, which is 50-day, uh, S&P",
+      "offsets": {
+        "-2": "useful",
+        "+0": "new-info",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "10y-style chart then S5FI chart reading 36.97"
+    },
+    {
+      "cue_id": "c16",
+      "term": "breadth",
+      "category": "macro",
+      "t": 246.08,
+      "heard": "under the hood of the market, okay, you see the S5FI, which is 50-day, uh, S&P",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "S5FI chart reading 36.97 [auto: within 1.5s of c15, marked redundant]"
+    },
+    {
+      "cue_id": "c17",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 297.64,
+      "heard": "of the market. And if we take a look at the NDFI, you could see this thing",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "new-info",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "S5FI frame then NDFI chart reading 50.49"
+    },
+    {
+      "cue_id": "c18",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 379.36,
+      "heard": "put buying today, some hedging with institutions on Nvidia, SPY, MU,",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "Unusual Whales dashboard, fear and greed gauge at 38"
+    },
+    {
+      "cue_id": "c19",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 381.64,
+      "heard": "institutions on Nvidia, SPY, MU, SanDisk, Tesla, QQQ. But, we did see a",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "same dashboard, gauge 38"
+    },
+    {
+      "cue_id": "c20",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 387.12,
+      "heard": "little bit of call buying today as well on Meta, Microsoft, Google, FSLR, and",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "same dashboard, gauge 38"
+    },
+    {
+      "cue_id": "c21",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 425.12,
+      "heard": "to keep in mind. Now, SPY right near all-time previous all-time high. So,",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "SPY chart reading 778.10 near highs"
+    },
+    {
+      "cue_id": "c22",
+      "term": "expected-move",
+      "category": "options",
+      "t": 438.84,
+      "heard": "So, you know, right within that expected market maker move on the downside of 728",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "QQQ chart reading 746.04 with expected-move cone"
+    },
+    {
+      "cue_id": "c23",
+      "term": "bollinger",
+      "category": "chart",
+      "t": 455.36,
+      "heard": "Potentially for another couple days. I would say mid Bollinger band 740 is kind",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "QQQ chart with Bollinger bands, cursor moves"
+    },
+    {
+      "cue_id": "c24",
+      "term": "volatility-index",
+      "category": "macro",
+      "t": 508.8,
+      "heard": "of healthy pullback here in the markets, okay? VIX in the 15, so still slight",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "new-info",
+        "+2": "new-info",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+2",
+      "notes": "SMH 580.99 then VIX 15.20 chart"
+    },
+    {
+      "cue_id": "c25",
+      "term": "strike",
+      "category": "options",
+      "t": 617.28,
+      "heard": "a look at the account, you could see we opened up one cash-secured put at the",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "redundant"
+      },
+      "best_offset": "+2",
+      "notes": "portfolio table then TSM trades panel with put position"
+    },
+    {
+      "cue_id": "c26",
+      "term": "chart",
+      "category": "chart",
+      "t": 681.68,
+      "heard": "32 PE. Beautiful upward trending chart. A very",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "TSM chart reading 444.35"
+    },
+    {
+      "cue_id": "c27",
+      "term": "next-one",
+      "category": "transition",
+      "t": 698.48,
+      "heard": "there. Now, let's talk about the next one, which is AXP. We talked about this",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "new-info",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+2",
+      "notes": "TSM chart, then AXP chart reading 311.53"
+    }
+  ],
+  "control": [
+    {
+      "t": 0.0,
+      "reason": "first-frame",
+      "verdict": "wrong"
+    },
+    {
+      "t": 62.5,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 72.933333,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 86.666667,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 138.033333,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 317.066667,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 615.666667,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 660.766667,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 742.566667,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 894.5,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 924.266667,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 1018.6,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    }
+  ],
+  "control_notes": "Control frames from scene detection: talking heads, black and blank transitions, Instagram and Discord screens are W/B; seasonality study, portfolio tables, TSM and AXP option chains and CRDO chart are N.",
+  "labeling_notes": "Labeled by Claude from contact sheets; new-info only where text was readable.",
+  "trained_at": "2026-10-20"
+}

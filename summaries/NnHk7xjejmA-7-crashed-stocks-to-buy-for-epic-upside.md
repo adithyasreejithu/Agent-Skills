@@ -6,45 +6,44 @@ published: 2026-09-25
 ingested: 2026-10-21
 source: https://www.youtube.com/watch?v=NnHk7xjejmA
 evidence: captions+frames
-tickers: [WYNN, NFLX, SOFI, RH, MCD, CELH, NKE, HD, AMD, META]
+tickers: [AMD, META, WYNN, NFLX, SOFI, RH, MCD, CELH, NKE, HD]
 stance: bullish
 ---
 
 # 7 CRASHED Stocks to BUY for EPIC UPSIDE‼️
 
-- Video: https://www.youtube.com/watch?v=NnHk7xjejmA (about 33 min, uploaded 2026-09-25)
+- Video: https://www.youtube.com/watch?v=NnHk7xjejmA (33:14, uploaded 2026-09-25)
 - Channel: Jeremy Lefebvre Makes Money
 - Stored data: `C:/Projects/Python/Agent-Skills/watch-output/video-data/NnHk7xjejmA/`
-- Evidence: auto-captions plus 50 keyframes (frames 00:00-17:24 viewed in full, later frames sampled); this is the creator's opinion, not advice.
+- Evidence: auto captions plus contact-sheet frames (prices and percentages read from frames). This is the creator's opinion, not advice.
 
 ## Market view
-- Opens celebrating his public account at a new all-time high of $5,288,962.98 (frame at 00:00; up about $67,000 on the day), and says "right now we are in party times" for people in the right stocks. Many other stocks are "brutal".
-- Warns a big bear market will eventually come, lasting "anywhere between 6 and 18 months". No date given.
-- Contrarian theme: look for stocks "no one wants" (home-related, consumer) because rates are rising; compares it to the 2022 tech crash. Says tech has led for years while parts of the "real world economy" are "awful".
-- Rates: 10-year Treasury shown at 5.181% on screen (frame 28:48, in a CNBC clip). Creator says people avoid rate-sensitive stocks "when interest rates are going higher right now".
-- Reaction to a CNBC clip with Tom Lee (about 4 hours old): Lee expects inflation to fall in 6 months (new PCE methodology on September 30th, "20 to 40 basis points off", "3.4 could be 3%", oil at 100 not adding to inflation unless it moves toward 150). The creator "fundamentally" disagrees: memory chip costs feed into nearly all electronics and get passed to consumers. Advice from him: don't make rash buy/sell decisions on inflation numbers; buy great companies, stay diversified, buy at appropriate prices, sell when overvalued.
-- VIX, index levels and S&P/Nasdaq targets: not stated.
+- Creator says "right now we are in party times" for people in the right stocks, but expects "eventually" a big bear market lasting "anywhere's between 6 and 18 months". No date given.
+- Says it is brutal for stocks tied to housing and home spending: "no one wants a piece" of Home Depot, RH or Whirlpool with higher interest rates; most homebuilders are "down a mile and a half" from their highs; Toll Brothers is the exception holding up.
+- 2022 comparison: tech was unwanted then (Meta under $100, Nvidia and AMD down over 50%, Shopify about -75%, Netflix about -75%) and later recovered. He argues the best opportunities are in what nobody wants now.
+- Reacts to a CNBC clip of Tom Lee (Fundstrat): Lee says yields compete with stocks, the next 6 months matter most for inflation, and he expects year-over-year inflation to fall (new PCE methodology on September 30 may take 20-40 bp off, "the 3.4 could be 3%"; oil at 100 stays flat; tariff and flash-memory effects fade). Creator "fundamentally disagrees": memory costs are in almost all electronics and get passed to consumers.
+- His advice to viewers: do not make rash buy or sell moves on inflation numbers; stay diversified and buy at appropriate prices.
+- Index levels from the CNBC graphic shown in the clip (not the creator's words, date of the clip not stated): Dow 51,330.39 (-0.35%), S&P 500 7,706.83 (+0.01%), Nasdaq 26,936.88 (+0.003%), Russell 2000 2,832.72 (-0.21%).
+- VIX, breadth and oil levels from the creator: not stated.
 
 ## Positions and plans
-The creator's "7 crash stocks" list. He frames each as a buy-over-several-years idea (3 to 5 years); no entry prices, strikes or price targets are given except where noted.
+Creator's public account shown at $5,288,962.98 (+$67,446.86, +1.29% that day), labeled "New ATH!" on screen. YTD return on screen: +33.22% vs S&P 500 +13.53%.
 
-| # | Ticker | Status | Detail given |
-|---|---|---|---|
-| 1 | WYNN (Wynn Resorts) | Plans to buy over the next few months, "build out a good-sized position" | Down 38% over past year. Adjusted EBITDA (past 12 months): $890M Wynn/Encore Las Vegas, $386M (peninsula properties), $769M Wynn Palace, $222M Boston. Mix: Las Vegas about 39%, Palace 34%, Macau 17%, Encore Boston Harbor about 10%. Middle East property under construction; he cites "$300 and $500 million" per year of adjusted EBITDA as conservative estimates versus Marina Bay Sands at $3.026B (best case). |
-| 2 | NFLX | "Easy buy" | Down 41% over past year (frame: $71.72, -41.30%). Forward P/E "likely around a 20-ish range". Cites recurring subscriptions, price increases, ads business growth. |
-| 3 | SOFI | Bullish, buy idea | Down 42% (frame: $16.80, -42.66%). Wants management to avoid over-leverage; sees potential to become a big financial company over 10 to 20 years. |
-| 4 | RH | Bullish; "great opportunity", but "can't get over leverage in it" | Down 45% (frame: $121.19, -45.20%). Says no one wants rate-sensitive home-related stocks now. |
-| 5 | MCD | Buy idea | Down "over 30%" from highs about 5 to 6 months ago. Stable dividend payer. |
-| 6 | CELH | Strongest conviction: "my favorite stock right now from a risk-reward standpoint" | Down 47% (frame: $28.43, -47.39%). Owns Alani and Rockstar as well. Notes risk exists. |
-| 7 | NKE or HD | Offers two options for slot 7 | NKE: down 49% (frame: $35.99, -49.16%; he says "35 bucks a share"). HD: down about 29% (frame: about $292). |
+| Ticker | Status | Details (as stated or shown) |
+|---|---|---|
+| AMD | Holds | $629, up $37,430.75 (+2.38%) on the day on screen; position about $1.6 million; total gain $1,322,599.74 (+463.79%); avg cost $111.61. Says "a lot of talk about 700, 800, 900, maybe a thousand" before Q2 of next year. Says he spent $100,000 on it in a recent main-channel video. |
+| META | Holds | $777.59 on screen, flirting with an all-time high; 1,000 shares, avg cost $98.13, gain $679,458.85 (+692.39%); Halloween 2022 batch up $444,000 on a roughly $60K buy. Not more bullish or bearish after Meta's AI hardware reveal; sees Meta and Apple going head-to-head in hardware over 5-10 years. |
+| WYNN (#1 of 7) | Plans to buy | $80.19, -38.09% past year. Wants to "build out a good-sized position" over the next few months. Trailing 12-month adjusted EBITDA: Las Vegas $890 million, Peninsula $386 million, Wynn Palace $769 million, Boston $222 million. Mix: Las Vegas about 39%, Palace 34%, Macau 17%, Encore Boston Harbor about 10%. Excited about the Middle East property; Marina Bay Sands made about $3.026 billion in the past 12 months as a "best case"; conservative estimates he has seen for the new property: $300-500 million a year. |
+| NFLX (#2 of 7) | Buy idea | $71.72, -41.30% past year; "an easy buy". Forward P/E "likely around a 20-ish range"; ads business "just a baby". |
+| SOFI (#3 of 7) | Buy idea | $16.80, -42.66% past year; sees potential to become a large financial firm if it stays asset-light and does not over-leverage. |
+| RH (#4 of 7) | Buy idea | $121.19, -45.20% past year; says do not use leverage on it. Has discussed it on his main channel. |
+| MCD (#5 of 7) | Buy idea | Down over 30% from highs of about five or six months ago; stable dividend payer. No price given. |
+| CELH (#6 of 7) | Buy idea | $28.43, -47.39% past year. Calls it his favorite stock right now on risk-reward ("cannot find a more attractive risk-reward"), while noting it carries risk. |
+| NKE or HD (#7 of 7) | Choice of two | Nike down 49%, "35 bucks a share" (sidebar shows 35.99). Home Depot down about 29% over the past year ("no bueno"). He does not pick one. |
 
-Existing holdings mentioned (from account screenshots, not new trades):
-- AMD: position of about $1.6 million; account up $1.322M on the position; stock at $629 (up about 2% that day, about +$37,000). Says talk of "700, 800, 900, maybe a thousand before we get to Q2 of next year" ("we'll see"). Also says he spent $100,000 on AMD in a recent main-channel video.
-- META: stock at $777.58 (about +4.5% that day, +$33,490 on his lot); Halloween 2022 batch of 650 shares at $93.12 average cost, up $444,902 (+735%). Says he's a Meta shareholder; the hardware reveal did not change his view ("cool", not "the next iPhone"); sees Meta as the one company that could hurt Apple in hardware over the next decade.
-
-Ticker check: no mis-heard tickers found; the caption "totally molly" is Toll Brothers (TOL), mentioned only as a homebuilder that held up.
+No strike prices, stop levels or sell targets were given for any ticker. Horizon given for the crash-stock portfolio: 3 to 5 years.
 
 ## Other
-- Other homebuilders and home stocks (Whirlpool, Home Depot) described as unloved; Toll Brothers "held up pretty well".
-- Reacts to a CNBC clip on Meta's AI assistant and hardware launch (Ray Wang, Constellation Research); the two guests' views are not the creator's.
-- Promotes his private group and course curriculum (pinned comment), and mentions his main channel, Financial Education.
+- Also reacts to a CNBC clip with Ray Wang (Constellation Research) on Meta's AI products, and the Tom Lee clip above.
+- Promotes his private group and course access via the pinned comment, and mentions 1000xStocks and two recent private-group videos.
+- Captions mis-heard some words (for example "GVD" for his sign-off, "totally molly" for Toll Brothers); tickers above were taken from on-screen chart headers where visible. MCD, NKE and HD levels come from the captions only (HD chart price too small to read).

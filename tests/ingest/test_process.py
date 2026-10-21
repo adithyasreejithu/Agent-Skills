@@ -234,6 +234,8 @@ class ProcessTests(unittest.TestCase):
         self.assertIn('AMAT, CRDO', text)
         rel = Path(os.path.relpath(self.paths.notes / f'{VID}-test.md', self.paths.digests)).as_posix()
         self.assertIn(f'({rel})', text)
+        write_digest(self.store, [VID], NOW)                          # redone video: one line, not two
+        self.assertEqual(path.read_text(encoding='utf-8').count(VID), 1)
         self.assertIsNone(write_digest(self.store, ['nothere0000'], NOW))
         self.assertEqual(find_note(self.paths.notes, VID).name, f'{VID}-test.md')
 

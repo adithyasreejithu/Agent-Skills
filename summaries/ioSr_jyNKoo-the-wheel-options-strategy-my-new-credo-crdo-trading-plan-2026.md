@@ -12,56 +12,38 @@ stance: bullish
 
 # The Wheel Options Strategy | My NEW Credo Technology (CRDO) Trading Plan 2026 - Options With Ryan
 
-- Video: https://www.youtube.com/watch?v=ioSr_jyNKoo (about 25 min, uploaded 2026-10-04)
+- Video: https://www.youtube.com/watch?v=ioSr_jyNKoo (24:59, uploaded 2026-10-04)
 - Channel: Options With Ryan
 - Stored data: `C:/Projects/Python/Agent-Skills/watch-output/video-data/ioSr_jyNKoo/`
-- Evidence: auto captions plus a sample of the 50 low-resolution keyframes (slides, TradingView chart, VIX chart, brokerage options chain). Brokerage position rows were too small to read. This is the creator's opinion and a teaching example, not advice (the creator also says "not financial advice").
+- Evidence: auto captions plus contact-sheet and control frames (slides, TradingView charts). This is the creator's opinion, not advice; he says it is not financial advice.
 
 ## Market view
-- Mostly a strategy tutorial; little broad market commentary. The creator calls the market a "greedier environment" with the stock market near all-time highs and a low VIX.
-- VIX: spoken as "very low", "close to" the sub-15 greed zone ("15 to 20, slight fear; below the 15s, greed"). The VIX chart frame shows 15.30 and the creator's slide says "VIX ~17 (slight fear)". The two do not match exactly.
-- The creator's VIX cash-allocation table (slide):
-
-| VIX | Cash | Invested |
-|---|---|---|
-| ≤ 12 | 40-50% | 50-60% |
-| 12-15 | 30-40% | 60-70% |
-| 15-20 | 20-25% | 75-80% |
-| 20-25 | 10-15% | 85-90% |
-| 25-30 | 5-10% | 90-95% |
-| ≥ 30 | 0-5% | 95-100% |
-
-- Current stance: "20 to 25% cash on the sidelines", 70-80% invested. A low VIX does not mean a crash tomorrow, but the creator does not want to be all-in. Recalls VIX at 14 to sub-10 for months in 2019.
-- Rates, oil and index levels: not stated.
+- No broad index call. The creator frames the market as greedier than fearful: VIX was low at "15 to 20" ("slight fear"), and "below the 15s" is the "greed zone". His slide reads "WE ARE HERE - VIX ~17 (SLIGHT FEAR)". A TradingView VIX chart on screen shows 15.30.
+- He says low VIX does not mean a crash tomorrow, and that in 2019 the VIX sat from 14 to below 10 for months, so being too cash-heavy would have missed gains.
+- His VIX cash-allocation slide (frame): VIX ≤12: 40-50% cash; 12-15: 30-40% cash; 15-20: 20-25% cash (75-80% invested); 20-25: 10-15% cash; 25-30: 5-10% cash; ≥30: 0-5% cash. Hard rule on the slide: max 10% of the portfolio in any single stock.
+- Right now: "20 to 25% cash on the sidelines", 70-80% invested.
+- Rates, oil and index levels: not stated. Upcoming events: not stated.
 
 ## Positions and plans
-The creator calls CRDO (Credo Technology Group) "one of the best AI infrastructure stocks" and on their "approved list". The video shows the wheel strategy on CRDO. The creator says they have a current CRDO position in their account, but the exact contracts could not be read from the frames, so they are not stated here.
+The video is an educational walkthrough of the wheel strategy using CRDO (Credo Technology) as the example. He shows his own account and says CRDO is "on my approved list".
 
-**CRDO levels**
-- Price: about $218 on the chart (218.64 shown). Mid-2025 low about $46; high about $300 in June; recent drop to about $160 "a few weeks ago" with buyers stepping in.
-- Scenarios (slide and speech): Bull $320-$350 ("kind of what I'm expecting"); Neutral $265-$280; Bear $140-$160.
-- Fundamentals quoted: trailing PE about 70 (about 78 on chart), forward PE about 30; five straight earnings beats; gross margin 67-69%; net margin about 50%; cash on hand $1.4B (an on-screen slide also shows $764M cash and short-term investments); revenue growth 114% year over year (speech).
+| Item | What he says | Levels |
+|---|---|---|
+| CRDO view | Bullish. "One of the best AI infrastructure stocks", sells AECs and optical DSPs. Revenue 1.3B, cash 1.4B, gross margin 67-69%, net margin above 50%, 114% projected YoY growth, five straight earnings beats. | Trading about 218 (chart shows 218.64); was 46 in mid 2025. |
+| CRDO scenarios | Bull case is what he expects. | Bull 320-350; neutral 265-280; bear case levels already hit, with buyers stepping in "a few weeks ago". Hit about 300 in June. |
+| CRDO valuation | Trailing PE about 70-78, forward PE about 30. | Under 100 required. |
+| Wheel entry (cash-secured put) | 25-35 days out, 25-30 delta standard, 20 delta when cautious, about 25 delta lately. | Example: Oct 30 expiry (28 days); 200 strike (about 30 delta) mid 935, about 4.9% ROI, about 8% below price; 185 strike about 15% below price, about 18 delta, 2.5-2.8% return; 190 strike (21 delta) about 600. |
+| Sizing | Max 10% of the portfolio in CRDO via puts. | On 200K, only one put (about 20,000 assignment). |
+| Put management | Hold to expiry, or roll up to a higher strike if up 80% with about 20 days left. | Targets 2.5-5% per month. |
+| After assignment (covered call) | Sell about 30 delta calls, 15-25 days out, never below the assignment price. | Example: assigned at 215 or 220, 21 days out, 245 strike for about 685 (about 3% plus 25 of appreciation); or 5 above 220 for about 1,200 (over 6%). |
+| Position | Says he holds a current CRDO position, shown on the options chain; contracts not legible. | Not stated. |
+| LULU | Used as a bad example: downtrend since 2024, not suited to the wheel. | Not stated. |
 
-**Wheel plan on CRDO**
+Four wheel-stock rules (from the slide and speech): upward-trending chart for 1.5 years; positive PE, ideally under 100 (or cash covers debt); put premium of at least 2.5% on a 30-day 30-delta put; consistent earnings beats.
 
-| Step | Details |
-|---|---|
-| Cash-secured put | 25-30 days to expiry (up to 35); about 25 delta these days (30 when aggressive, 20 when cautious) |
-| Example expiry | Oct 30 (28 days) |
-| 200 strike (about 29-30 delta) | mid about $935, about 4.9% ROI; about 8% below the stock |
-| 185 strike | stock would need to fall about 15% to be assigned; about 18 delta for roughly 2.5-2.8% |
-| 190 strike (about 21 delta) | about $560-$600 premium; assigned at 190 would be a buy "even though it's at 160" |
-| Put management | hold to expiry, or if up 80% with about 20 days left, roll up to a higher strike |
-| Covered call after assignment | 30 delta, 15-25 days out, never below assignment price (40-50 days out if needed) |
-| Covered call example | assigned at 215-220, 21 days out: 245 strike (30 delta) about $685 (about 3%) plus $25 of upside; alternative 5 above 220 for about $1,200 in two weeks (over 6%) |
-
-- Sizing: no more than 10% of the portfolio in CRDO via cash-secured puts (example: on $200K, only one put, about $20,000 of assignment).
-- Targets: 2.5-5% a month in premium.
-- Stock selection rules ("4 principles"): upward trend for about 1.5 years; positive PE (ideally under 100); at least 2.5% premium on a 30-day 30-delta put; consistent earnings beats.
-- Counter-example: Lululemon (LULU) shown as a bad wheel stock, in a downtrend since 2024. Not a trade.
-- Apple was used only as a hypothetical (assignment at 250).
+Frame notes: an on-screen illustrative slide shows CRDO about $196, VIX about 17 and "Data as of Sep 25, 2026". Its numbers differ from the live chart numbers he speaks (about 218). The P/E slide shows cash and short-term investments of $764M, while he says 1.4 billion cash. The annotated TradingView chart shows the 200 strike area circled.
 
 ## Other
-- Promotions: Options Trading University (about 190 clients), "Ryan's trades and LEAPS" at the top of the description, Instagram, X, free newsletter (Mondays and Fridays).
-- Claims a public portfolio near all-time highs and an eight-figure goal in 5-6 years; realized gain/loss figures shown on screen were not read.
-- Caveat: stock price is as of recording; the creator says it may differ when watched.
+- He shows his realized gain/loss page: 73.67% gauge for the current year and 87.85% for the previous year. This is promotional account evidence only; the dollar figures were not legible.
+- Promotions: Options Trading University (about 190 clients), free newsletter every Monday and Friday, Instagram and X, plus a "Ryan's trades and LEAPS" link in the description.
+- Caption note: the captions give "AEC" (active electrical cables), which is a product term, not a ticker.

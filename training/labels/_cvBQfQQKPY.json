@@ -1,0 +1,300 @@
+{
+  "video_id": "_cvBQfQQKPY",
+  "creator": "Jeremy Lefebvre Makes Money",
+  "title": "All Hell is breaking loose in the market",
+  "upload_date": "20261014",
+  "duration_seconds": 2034.5,
+  "source": "https://www.youtube.com/watch?v=_cvBQfQQKPY",
+  "verdicts": "new-info | useful | redundant | blank | wrong  (see plan/watch-skill-testing-mode/PLAN.md)",
+  "cues": [
+    {
+      "cue_id": "c01",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 5.359,
+      "heard": "tanking. We have treasury yields moving up. We have CDS's moving up in a",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "X page with account value $5,114,815.46 and -$162,929.78 (-3.09%) circled; same screen at every offset"
+    },
+    {
+      "cue_id": "c02",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 70.799,
+      "heard": "it was yesterday. The public count hit an all-time high in the history of the",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "same X account page as c01; transcript covers the public account drop"
+    },
+    {
+      "cue_id": "c03",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 190.8,
+      "heard": "in regards to Oracle. This was kind of peak fear in my opinion right here in",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "new-info",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "TradingView ORCL 1Y chart with Big Tech watchlist; crosshair on the July low"
+    },
+    {
+      "cue_id": "c04",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 204.959,
+      "heard": "um, obviously pulling back here recently. AMD had been redhot. We all",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "new-info",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+2",
+      "notes": "SNOW chart at -2/+0, then AMD chart with watchlist (AMD 570.82)"
+    },
+    {
+      "cue_id": "c05",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 236.64,
+      "heard": "market, AMD probably would have been up 6% while Nvidia is up 3%, right? Uh MU",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "new-info"
+      },
+      "best_offset": "+6",
+      "notes": "AMD chart again (already seen), MU chart appears at +6"
+    },
+    {
+      "cue_id": "c06",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 295.44,
+      "heard": "look at Apple, though. Apple hit an all-time high today, right? So, you say,",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+2",
+      "notes": "MU chart then AAPL 1Y chart at highs, watchlist AAPL 342.96 legible"
+    },
+    {
+      "cue_id": "c07",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 429.28,
+      "heard": "AMD 11.5 12% almost 12% there. Intel's over 13%. Look at ARM. ARM's down 19%",
+      "offsets": {
+        "-2": "useful",
+        "+0": "new-info",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "finviz Nasdaq 100 heatmap, 1-week view; ARM about -19% legible in the list"
+    },
+    {
+      "cue_id": "c08",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 449.919,
+      "heard": "we're in a full-blown stock market crash, right? Uh ASML 8.5% there. Lamb",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+4",
+      "notes": "finviz heatmap; tooltip at +4/+6 shows LRCX 266.93 -12.93%"
+    },
+    {
+      "cue_id": "c09",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 562.16,
+      "heard": "now, this was important. They were showing this on CNBC and I, you know, I",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "X post 'Look at these photos' with CNBC stock ownership screens"
+    },
+    {
+      "cue_id": "c10",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 604.24,
+      "heard": "follow me on X if you use X. Okay. Um so, I posted this. Okay. Look at this.",
+      "offsets": {
+        "-2": "useful",
+        "+0": "wrong",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+2",
+      "notes": "+0 shows the account page instead; +2 on zoomed CNBC slide: direct ownership 21%->19%, total 58%->56%, S&P 7,718.94 -1.11%, Brent 106.06"
+    },
+    {
+      "cue_id": "c11",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 926.959,
+      "heard": "Services, which is a foundation that Robin Hood has long supported. We've",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "YouTube Paul Tudor Jones on Squawk Box; title card only"
+    },
+    {
+      "cue_id": "c12",
+      "term": "volatility-index",
+      "category": "macro",
+      "t": 1951.679,
+      "heard": "look at the CBOE S&P 500 volatility index, the VIX people call it, right?",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "YouTube Amy Wu Silverman, Investors bullish on the markets banner"
+    },
+    {
+      "cue_id": "c13",
+      "term": "volatility-index",
+      "category": "macro",
+      "t": 1972.0,
+      "heard": "headed to us ahead. >> So, right now, the VIX is in and around",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Amy Wu Silverman interview, no VIX chart on screen"
+    },
+    {
+      "cue_id": "c14",
+      "term": "volatility-index",
+      "category": "macro",
+      "t": 1982.87,
+      "heard": "where the VIX has been, it looks fairly",
+      "offsets": {
+        "-2": "useful",
+        "+0": "new-info",
+        "+2": "wrong",
+        "+4": "wrong",
+        "+6": "wrong"
+      },
+      "best_offset": "+0",
+      "notes": "+0 shows CBOE Volatility Index 15.22; +2 onward is a FICO chart and symbol search, not VIX"
+    }
+  ],
+  "control": [
+    {
+      "t": 0.0,
+      "reason": "first-frame",
+      "verdict": "new-info"
+    },
+    {
+      "t": 102.133333,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 152.633333,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 486.4,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 559.2,
+      "reason": "scene-change",
+      "verdict": "redundant"
+    },
+    {
+      "t": 605.7,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 713.1,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 890.4,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 1058.433333,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 1445.3,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 1752.6,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 1995.8,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    }
+  ],
+  "control_notes": "Frames 3, 6, 8, 9 are full-screen webcam (wrong screen); frame 10 is a blank white TradingView page; frame 11 is the CBOE VIX 15.22 page and frame 5 is the zoomed CNBC ownership slide.",
+  "labeling_notes": "Labeled by Claude from contact sheets; new-info only where text was readable.",
+  "trained_at": "2026-10-20"
+}

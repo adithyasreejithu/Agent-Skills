@@ -1,0 +1,24 @@
+{
+ "video": "NnHk7xjejmA",
+ "auto_dup": true,
+ "note": "Labeled by Claude from contact sheets; new-info only where text was readable.",
+ "cues": {
+  "c01": ["NRRRR", "+0", "Account screen: $5,288,962.98, +$67,446.86 (1.29%), New ATH! note; same screen at every offset"],
+  "c02": ["RRRRR", null, "Same account screen as c01"],
+  "c03": ["NRRRR", "-2", "AMD position: $629, 2,55x shares, avg cost $111.61, gain $1,322,599.74 (+463.79%); on screen already at -2"],
+  "c04": ["NRRRR", "-2", "META position: $777.59, 1,000 shares, avg cost $98.13, gain $679,458.85; on screen already at -2"],
+  "c05": ["RRRRR", null, "Same META purchase history; Oct-31-2022 batch of 650 shares at $93.12 visible but same screen as c04"],
+  "c06": ["UUUUW", "+0", "CNBC Tom Lee video, headline S&P 500, Nasdaq on track for back-to-back positive quarters; +6 shows macOS dock"],
+  "c07": ["NWRRR", "-2", "Wynn WYNN chart 80.19, -38.09% past year, #1of7; +0 flashes a garage intro photo"],
+  "c08": ["NRUUU", "+2", "-2/+0 Wynn LTM adjusted property EBITDA graphic ($2.27 billion); +2 on Middle East tower photo"],
+  "c09": ["NRRRR", "-2", "Netflix NFLX 71.72, -41.30% past year, #2of7"],
+  "c10": ["RRRRR", null, "Same Netflix screen"],
+  "c11": ["NRRRR", "-2", "SoFi 16.80, -42.66% past year, #3of7"],
+  "c12": ["WNRRR", "+0", "-2 still SoFi; +0 onward RH 121.19, -45.20% past year, #4of7"],
+  "c13": ["RRRRR", null, "Same RH screen"],
+  "c14": ["UUUUU", "+0", "Home Depot yellow chart with handwritten 1 year no bueno; price axis too small to read reliably"],
+  "c15": ["UNNNN", "+0", "CNBC graphic U.S. Markets: Dow 51,330.39 -0.35%, S&P 500 7,706.83 +0.01%, Nasdaq 26,936.88, Russell 2000 2,832.72 -0.21%"]
+ },
+ "control": "NNUUNNNUUUBB",
+ "control_note": "No control_sheet.jpg was produced; labeled from the 12 individual frames. Early frames show tickers and prices (new-info); later ones are the CNBC clips with a large webcam overlay or a blank Discord page."
+}

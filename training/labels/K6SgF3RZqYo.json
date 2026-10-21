@@ -1,0 +1,364 @@
+{
+  "video_id": "K6SgF3RZqYo",
+  "creator": "Jeremy Lefebvre Makes Money",
+  "title": "The once in a lifetime ROTATION",
+  "upload_date": "20261015",
+  "duration_seconds": 2121.0,
+  "source": "https://www.youtube.com/watch?v=K6SgF3RZqYo",
+  "verdicts": "new-info | useful | redundant | blank | wrong  (see plan/watch-skill-testing-mode/PLAN.md)",
+  "cues": [
+    {
+      "cue_id": "c01",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 16.4,
+      "heard": "account flirting with going to new all-time highs. We're only down a very",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "wrong"
+      },
+      "best_offset": "-2",
+      "notes": "Account page: value $5,208,610.33, +$74,887.70 (1.46%); +6 jumps to the CAKE position page"
+    },
+    {
+      "cue_id": "c02",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 26.76,
+      "heard": "of this video. The Cheesecake Factory continues to run. Look at this stock. I",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "CAKE position page: 3,250 shares, avg cost $40.75, total gain +$246,475.75 (+186.10%)"
+    },
+    {
+      "cue_id": "c03",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 38.96,
+      "heard": "down, I go up. You go up, I go up. It's unbelievable. Another all-time high for",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "new-info"
+      },
+      "best_offset": "+6",
+      "notes": "CAKE page, then at +6 the holdings table (RVLV, ELF, RH, NOW, SOFI, EL, NKE, CRM, CELH, CAKE)"
+    },
+    {
+      "cue_id": "c04",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 49.88,
+      "heard": "I mean, Revolve is 7% plus move here today. Elf on a Shelf 7% plus move. RH",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "Holdings table with today's % moves: RVLV +7.45%, ELF +7.38%, RH +6.19%, NOW +6.13%, SOFI +6.11%"
+    },
+    {
+      "cue_id": "c05",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 75.96000000000001,
+      "heard": "stocks in this video here today. AMD. [clears throat]",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "AMD position page: 2,555 shares, avg $111.61, price $562.23, total gain +$1,151,329.09, today -$21,947.45"
+    },
+    {
+      "cue_id": "c06",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 166.16,
+      "heard": "today. I don't know what's going on. Look at Look at my Look at this back",
+      "offsets": {
+        "-2": "blank",
+        "+0": "blank",
+        "+2": "blank",
+        "+4": "blank",
+        "+6": "blank"
+      },
+      "best_offset": null,
+      "notes": "Webcam full screen, no content; he talks about his screen glitching"
+    },
+    {
+      "cue_id": "c07",
+      "term": "take-a-look",
+      "category": "pointing",
+      "t": 225.88,
+      "heard": "that stock. And so, if we look at Cheesecake",
+      "offsets": {
+        "-2": "blank",
+        "+0": "blank",
+        "+2": "blank",
+        "+4": "blank",
+        "+6": "blank"
+      },
+      "best_offset": null,
+      "notes": "Webcam full screen, no content"
+    },
+    {
+      "cue_id": "c08",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 234.2,
+      "heard": "Cheesecake Factory in my opinion is they've got this ATM cash cow business,",
+      "offsets": {
+        "-2": "blank",
+        "+0": "blank",
+        "+2": "blank",
+        "+4": "blank",
+        "+6": "blank"
+      },
+      "best_offset": null,
+      "notes": "Webcam full screen, no content"
+    },
+    {
+      "cue_id": "c09",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 389.76,
+      "heard": "into, right? Uh let's go ahead and talk about some of",
+      "offsets": {
+        "-2": "useful",
+        "+0": "new-info",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "CAKE page at -2, then holdings table from +0 (matches Revolve, Elf, RH, Now, SoFi mention)"
+    },
+    {
+      "cue_id": "c10",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 833.72,
+      "heard": "11,000 plus dollars, right? Those SAS-related companies can continue to",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "Holdings table: CRM +$11,491.35 +4.57%, CELH +3.64%, CAKE +3.31%"
+    },
+    {
+      "cue_id": "c11",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 931.68,
+      "heard": "year, and the stock will be at a huge all-time high. That's my opinion. You",
+      "offsets": {
+        "-2": "blank",
+        "+0": "blank",
+        "+2": "blank",
+        "+4": "blank",
+        "+6": "blank"
+      },
+      "best_offset": null,
+      "notes": "Webcam full screen, no content (AMD all-time high comment)"
+    },
+    {
+      "cue_id": "c12",
+      "term": "next-one",
+      "category": "transition",
+      "t": 999.32,
+      "heard": "here. We talked about this maybe a month ago, right? The number one question in",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "CNBC video 'AI in America' with Brad Gerstner of Altimeter; no numbers beyond captions"
+    },
+    {
+      "cue_id": "c13",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 1014.48,
+      "heard": "trillion dollars of spending commitments when you have 13 billion in GAAP",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "CNBC 'The AI trade in focus' Gerstner segment; captions cover content"
+    },
+    {
+      "cue_id": "c14",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 1172.52,
+      "heard": "bubble. You know, obviously you look at MU, MU's trading at probably a forward P",
+      "offsets": {
+        "-2": "blank",
+        "+0": "blank",
+        "+2": "blank",
+        "+4": "blank",
+        "+6": "blank"
+      },
+      "best_offset": null,
+      "notes": "Webcam full screen, no content"
+    },
+    {
+      "cue_id": "c15",
+      "term": "inflation-data",
+      "category": "macro",
+      "t": 1336.0,
+      "heard": "driver of rates. Think about what happened. We had a hot PPI, hot CPI, it",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "CNBC graphic: U.S. 10 Year Treasury 5.095%, yield change -0.095, YTD +22.77%"
+    },
+    {
+      "cue_id": "c16",
+      "term": "inflation-data",
+      "category": "macro",
+      "t": 1454.16,
+      "heard": "And like today's data, I know we were all focused on PPI and yesterday's CPI,",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "CNBC graphic: Invesco S&P 500 Equal Weight RSP 214.02 +1.93 (+0.91%), YTD +11.72%"
+    },
+    {
+      "cue_id": "c17",
+      "term": "moving-average",
+      "category": "chart",
+      "t": 1461.12,
+      "heard": "great that was? And weekly jobless claims, four-week moving average of",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "redundant"
+      },
+      "best_offset": "+2",
+      "notes": "RSP graphic at -2/+0, then S&P 500 7,727.74 to 7,727.87 (+0.11% to +0.12%)"
+    },
+    {
+      "cue_id": "c18",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 1849.12,
+      "heard": "all right, who wants to jump in let's talk technicals Mark first with you,",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "CNBC Power Lunch 'AI rally: strong or stretched?' with Newton; no new numbers"
+    }
+  ],
+  "control": [
+    {
+      "t": 0.0,
+      "reason": "first-frame",
+      "verdict": "new-info"
+    },
+    {
+      "t": 161.1,
+      "reason": "scene-change",
+      "verdict": "redundant"
+    },
+    {
+      "t": 215.1,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 669.766667,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 730.0,
+      "reason": "scene-change",
+      "verdict": "redundant"
+    },
+    {
+      "t": 973.566667,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 1039.733333,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 1125.566667,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 1212.533333,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 1607.033333,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 1724.633333,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 2046.2,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    }
+  ],
+  "control_notes": "t=0 account page (N); 161s webcam over account (R); 215s webcam covers CAKE page (W); 670s holdings table (N); 730s same table (R); 974s CNBC Dow 52,079.59, S&P 7,731.38, Nasdaq 26,630.79, 10Y 5.098% (N); 1040s webcam over browser (W); 1126s webcam full screen (B); 1213s Gerstner video (U); 1607s and 1725s webcam over browser (W); 2046s CNBC mega-cap tech MSFT 539.16, GOOGL 349.33, AAPL 343.22, AMZN 254.03 (N).",
+  "labeling_notes": "Labeled by Claude from contact sheets; new-info only where text was readable.",
+  "trained_at": "2026-10-20"
+}

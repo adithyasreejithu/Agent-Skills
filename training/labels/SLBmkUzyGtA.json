@@ -1,0 +1,508 @@
+{
+  "video_id": "SLBmkUzyGtA",
+  "creator": "Options With Ryan",
+  "title": "The Wheel Options Strategy | My Top 3 Stocks To Trade 2026 (Options With Ryan)",
+  "upload_date": "20261018",
+  "duration_seconds": 1249.1,
+  "source": "https://www.youtube.com/watch?v=SLBmkUzyGtA",
+  "verdicts": "new-info | useful | redundant | blank | wrong  (see plan/watch-skill-testing-mode/PLAN.md)",
+  "cues": [
+    {
+      "cue_id": "c01",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 38.8,
+      "heard": "going to vary based off of risk tolerance. But let's go ahead and dive",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "blank",
+        "+6": "wrong"
+      },
+      "best_offset": null,
+      "notes": "talking head, then white disclaimer animation; no market content"
+    },
+    {
+      "cue_id": "c02",
+      "term": "take-a-look",
+      "category": "pointing",
+      "t": 49.2,
+      "heard": "purposes only. results may vary. Now, if we take a look at the account here, you",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+2",
+      "notes": "disclaimer slide, then brokerage account summary page"
+    },
+    {
+      "cue_id": "c03",
+      "term": "as-you-can-see",
+      "category": "pointing",
+      "t": 50.559,
+      "heard": "we take a look at the account here, you could see that this right here is my",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "disclaimer, then same account summary repeated [auto: within 1.5s of c02, marked redundant]"
+    },
+    {
+      "cue_id": "c04",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 50.559,
+      "heard": "we take a look at the account here, you could see that this right here is my",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "same frames as c03 [auto: within 1.5s of c03, marked redundant]"
+    },
+    {
+      "cue_id": "c05",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 72.4,
+      "heard": "and I appreciate you being here. Now, let's go ahead and dive into the realize",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "new-info",
+        "+6": "redundant"
+      },
+      "best_offset": "+4",
+      "notes": "account summary, then Realized Gain/Loss page with 74.04% gain/loss ratio"
+    },
+    {
+      "cue_id": "c06",
+      "term": "as-you-can-see",
+      "category": "pointing",
+      "t": 81.119,
+      "heard": "this has been working for me for the wheel strategy. Now, as you can see, the",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "Realized Gain/Loss page, 74.04% ratio gauge; later frames same"
+    },
+    {
+      "cue_id": "c07",
+      "term": "as-you-can-see",
+      "category": "pointing",
+      "t": 97.92,
+      "heard": "previous calendar year. So, you could see the results here as you could see",
+      "offsets": {
+        "-2": "useful",
+        "+0": "blank",
+        "+2": "new-info",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+2",
+      "notes": "date range dropdown, loading, previous-year page showing 87.85% ratio"
+    },
+    {
+      "cue_id": "c08",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 139.68,
+      "heard": "Monday and Friday. Now, let's go ahead and dive right into it. Okay, I have",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+2",
+      "notes": "X profile page, then title slide My Top 3 Wheel Stocks for the Next Decade"
+    },
+    {
+      "cue_id": "c09",
+      "term": "next-one",
+      "category": "transition",
+      "t": 167.84,
+      "heard": "a problem, right? So, let's go over the three stocks. Number one, one of them is",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "title slide with three stock chips, near-identical across offsets"
+    },
+    {
+      "cue_id": "c10",
+      "term": "next-one",
+      "category": "transition",
+      "t": 188.72,
+      "heard": "it now. Why these three? Okay, so number one, critical services, right? They have",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "Why These Three slide: critical services, upward trending charts, decade-long comfort"
+    },
+    {
+      "cue_id": "c11",
+      "term": "next-one",
+      "category": "transition",
+      "t": 244.48,
+      "heard": "company. Okay, so let's talk about how the wheel works. Now, number one is",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "How the Wheel Turns diagram, same in all frames"
+    },
+    {
+      "cue_id": "c12",
+      "term": "strike",
+      "category": "options",
+      "t": 247.04,
+      "heard": "the wheel works. Now, number one is selling a cash secured put. Now, if you",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "How the Wheel Turns diagram, same in all frames"
+    },
+    {
+      "cue_id": "c13",
+      "term": "strike",
+      "category": "options",
+      "t": 295.28,
+      "heard": "the S&P 500 right so what's cool about selling a cash secured put is that we",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "How the Wheel Turns diagram, same in all frames"
+    },
+    {
+      "cue_id": "c14",
+      "term": "strike",
+      "category": "options",
+      "t": 339.12,
+      "heard": "Apple trades at 280 by expiration date, stays above my put strike. I get the",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "How the Wheel Turns diagram, same in all frames"
+    },
+    {
+      "cue_id": "c15",
+      "term": "chart",
+      "category": "chart",
+      "t": 388.8,
+      "heard": "stock. So the four criteria upward trending chart for the past year and a",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "4 criteria slide: upward chart, 2% premium, PE under 100, positive earnings"
+    },
+    {
+      "cue_id": "c16",
+      "term": "take-a-look",
+      "category": "pointing",
+      "t": 500.879,
+      "heard": "growing pretty fast alongside Google Cloud. Okay. Um so if we take a look at",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "new-info",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+2",
+      "notes": "Google slides; cash machine slide shows $119.88 revenue, +82%, PE 17, buybacks paused"
+    },
+    {
+      "cue_id": "c17",
+      "term": "chart",
+      "category": "chart",
+      "t": 555.68,
+      "heard": "I like getting stocks at discount. So, if we take a look at the chart, you can",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "useful"
+      },
+      "best_offset": "-2",
+      "notes": "Google daily chart with price 340.59; last frame zoomed out to long-term uptrend"
+    },
+    {
+      "cue_id": "c18",
+      "term": "take-a-look",
+      "category": "pointing",
+      "t": 555.68,
+      "heard": "I like getting stocks at discount. So, if we take a look at the chart, you can",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "same frames as c17 [auto: within 1.5s of c17, marked redundant]"
+    },
+    {
+      "cue_id": "c19",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 570.32,
+      "heard": "can see, it's trading at 340. Now, it traded at an all-time high of 409. So,",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "useful"
+      },
+      "best_offset": "-2",
+      "notes": "Google chart 340.59, all-time-high region; last frame boxed range"
+    },
+    {
+      "cue_id": "c20",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 657.2,
+      "heard": "Currently trading at 250. previous all-time high was 287. So, it has some",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "useful"
+      },
+      "best_offset": "-2",
+      "notes": "Amazon chart at 250.00 with channel lines; last frame bull/neutral/bear slide $350-380, $330, $190-210"
+    },
+    {
+      "cue_id": "c21",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 718.88,
+      "heard": "back to the 2022 bare market. They did IPO back here um in 2021. So, obviously,",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "Robinhood (HOOD) wide chart at 98.87 back to 2021 IPO"
+    },
+    {
+      "cue_id": "c22",
+      "term": "moving-average",
+      "category": "chart",
+      "t": 833.36,
+      "heard": "sell my first trunch of puts down here near the 200 day moving h average maybe",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "HOOD chart with trend line and moving averages, 98.87"
+    },
+    {
+      "cue_id": "c23",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 842.48,
+      "heard": "stock goes down a little bit more, those that strike gets breached right here,",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+2",
+      "notes": "HOOD chart with hand-drawn annotations near the trend line"
+    },
+    {
+      "cue_id": "c24",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 865.92,
+      "heard": "assigned all at one strike price all the way right here. And then I had to kind",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "HOOD chart with drawn recovery curve"
+    },
+    {
+      "cue_id": "c25",
+      "term": "options-chain",
+      "category": "options",
+      "t": 963.12,
+      "heard": "option. Um, now let's go ahead and take a look at the options chain. Remember,",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "blank",
+        "+4": "wrong",
+        "+6": "wrong"
+      },
+      "best_offset": "+0",
+      "notes": "Selling Cash-Secured Puts rules slide, then white disclaimer animation"
+    },
+    {
+      "cue_id": "c26",
+      "term": "options-chain",
+      "category": "options",
+      "t": 989.8389999999999,
+      "heard": "a look. Okay. And we'll go to the options chain. You could see I currently",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "new-info",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+2",
+      "notes": "Amazon chart, positions table, thinkorswim AMZN option chain with 235 put order ticket"
+    },
+    {
+      "cue_id": "c27",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 1244.72,
+      "heard": "to link another tutorial right here on LEAPS. Check this one out and I'll see",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "wrong",
+        "+6": "wrong"
+      },
+      "best_offset": null,
+      "notes": "talking head outro"
+    }
+  ],
+  "control": [
+    {
+      "t": 0.0,
+      "reason": "first-frame",
+      "verdict": "useful"
+    },
+    {
+      "t": 104.433333,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 112.266667,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 115.8,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 128.133333,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 587.866667,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 707.766667,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 880.1,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 987.966667,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 1064.566667,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 1140.5,
+      "reason": "scene-change",
+      "verdict": "redundant"
+    },
+    {
+      "t": 1239.833333,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    }
+  ],
+  "control_notes": "No control_sheet.jpg was produced; control frames read individually from frames/. Mix of talking head, slides, HOOD/AMZN charts, portfolio table and thinkorswim chain.",
+  "labeling_notes": "Labeled by Claude from contact sheets; new-info only where text was readable.",
+  "trained_at": "2026-10-20"
+}

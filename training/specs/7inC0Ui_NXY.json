@@ -1,0 +1,25 @@
+{
+ "video": "7inC0Ui_NXY",
+ "auto_dup": true,
+ "note": "Labeled by Claude from contact sheets; new-info only where text was readable.",
+ "cues": {
+  "c01": ["URRRR", null, "SpaceX CDS Google summary page; static screen while he says AMD, so the ticker is not on screen"],
+  "c02": ["URRRR", null, "X post: 10 members hit $1,000,000+, 18 members $100,000+ in the private group; matches the spoken promo"],
+  "c03": ["NRRRR", null, "ORCL 2h chart with Big Tech watchlist (ORCL, MU, AVGO, AMD, NVDA...); static across offsets"],
+  "c04": ["URRRR", null, "Google page: Why Oracle CDS is making headlines (200bps, $215,000 per $10M); transcript covers it"],
+  "c05": ["RRRRR", null, "Same Oracle CDS page as c04, downgrade to BBB- bullet visible"],
+  "c06": ["URRRR", null, "SpaceX CDS page again; static"],
+  "c07": ["RRRRR", null, "SpaceX CDS page again; static, text mentions the $40 billion debt"],
+  "c08": ["RRUUU", "+2", "SpaceX page until +0, then OpenAI annualized revenue $20 billion less than previously reported article"],
+  "c09": ["UUUUU", null, "Article text at the bottom (investors prefer actual revenue) mostly hidden by the large webcam bubble"],
+  "c10": ["NRRRR", null, "CNBC halftime: Dow 51,002.42, S&P 500 7,771.59, Nasdaq 27,355.40, US 10 year 5.292%"],
+  "c11": ["RRUUU", "+2", "Same CNBC panel, then Fed's Waller quote on more hikes; transcript already reads it out"],
+  "c12": ["NNRRR", "+0", "2y 4.808%, 10y 5.292%, 30y 5.659% at -2; WTI crude NOV 92.63 +4.35 +4.93% from +0"],
+  "c13": ["UUUNR", "+4", "Wells Fargo quote slide (covered by transcript), then S&P 500 intraday 7,771.34 -30.43 -0.39% at +4"],
+  "c14": ["URRRN", "+6", "Studio wide shot, no data, then S&P 500 chart 7,770.31 -31.46 -0.40% YTD +13.31% at +6"],
+  "c15": ["WWWWW", null, "Treasury yield panel (2y 4.806, 10y 5.288, 30y 5.653), not a VIX screen, though it fits the rates talk"],
+  "c16": ["NRRRR", null, "CBOE Volatility Index 15.48 +0.40 +2.65% YTD +3.55% on screen"]
+ },
+ "control": "NUUUWURWNNWR",
+ "control_note": "Frame 1 ORCL chart and watchlist with prices (new-info). Frames 8 and 9 CNBC index and yield panels (new-info). Several frames are the webcam enlarged over a browser tab, so wrong screen."
+}

@@ -1,0 +1,204 @@
+{
+  "video_id": "t4BJTz6YniU",
+  "creator": "Jeremy Lefebvre Makes Money",
+  "title": "The Market is about to GO INSANE",
+  "upload_date": "20260929",
+  "duration_seconds": 2243.9,
+  "source": "https://www.youtube.com/watch?v=t4BJTz6YniU",
+  "verdicts": "new-info | useful | redundant | blank | wrong  (see plan/watch-skill-testing-mode/PLAN.md)",
+  "cues": [
+    {
+      "cue_id": "c01",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 52.64,
+      "heard": "Look at that. Oh boy. Okay. And then for my AMD shareholders, we're going to go",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+2",
+      "notes": "Bloomberg AMD/World Labs video page open in browser; +6 shows Gemini table of Nasdaq October returns"
+    },
+    {
+      "cue_id": "c02",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 243.76,
+      "heard": "get into Dan Ies and then we'll get into MD [clears throat]",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "new-info",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "Bloomberg Yardeni interview with Nasdaq 100 futures ticker readable: 30,601.50 +35.25 0.12% falling to 30,596 +29.75 0.10%"
+    },
+    {
+      "cue_id": "c03",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 472.4,
+      "heard": "get into Dan lives. >> Let's talk about the details. The",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "Dan Ives Anthropic interview, headline ANTHROPIC PLANS MASSIVE SPENDING, GROWTH AHEAD OF IPO"
+    },
+    {
+      "cue_id": "c04",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 484.479,
+      "heard": "hyperscalers and just what we're seeing on the GPU side, it's going to be",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "Dan Ives close-up with name banner (Yorkville Ives & Co.); no new data"
+    },
+    {
+      "cue_id": "c05",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 584.8,
+      "heard": "recursive uh recursive AI self-improving AI? That's something that the PBOC isn't",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "Anchor and Ives split screen, banner IMPACT OF GROWING AI SAFETY CONCERNS"
+    },
+    {
+      "cue_id": "c06",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 707.8389999999999,
+      "heard": "are >> and it's all such a bunch of BS like you",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "wrong",
+        "+4": "wrong",
+        "+6": "wrong"
+      },
+      "best_offset": "+0",
+      "notes": "Interview split screen, then creator webcam full screen"
+    },
+    {
+      "cue_id": "c07",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 853.44,
+      "heard": "have the >> Whoa, whoa, it's not AI, it's SI now.",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "Headline NVIDIA, ANTHROPIC CEOS TO ATTEND TRUMP-JOHNSON LUNCH matches the spoken topic"
+    },
+    {
+      "cue_id": "c08",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 1178.4,
+      "heard": "We're very grateful when AMD uh was an early believer and supporter of World",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "Lisa Su and Fei-Fei Li AMD/World Labs interview, same shot throughout"
+    }
+  ],
+  "control": [
+    {
+      "t": 0.0,
+      "reason": "first-frame",
+      "verdict": "new-info"
+    },
+    {
+      "t": 35.633333,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 50.666667,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 225.766667,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 232.933333,
+      "reason": "scene-change",
+      "verdict": "redundant"
+    },
+    {
+      "t": 428.666667,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 512.266667,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 629.933333,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 801.1,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 911.933333,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 1260.166667,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 1566.5,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    }
+  ],
+  "control_notes": "Frame 1 shows account value $5,152,548.56 (+$15,385.26, 0.30%); frame 2 Nasdaq 100 futures 30,601.50; frame 7 potential Anthropic IPO valuation $2T; frame 10 blank browser.",
+  "labeling_notes": "Labeled by Claude from contact sheets; new-info only where text was readable.",
+  "trained_at": "2026-10-20"
+}

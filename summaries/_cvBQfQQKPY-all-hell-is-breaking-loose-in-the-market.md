@@ -15,13 +15,14 @@ stance: mixed
 - Video: https://www.youtube.com/watch?v=_cvBQfQQKPY (33:55, uploaded 2026-10-14)
 - Channel: Jeremy Lefebvre Makes Money
 - Stored data: `C:/Projects/Python/Agent-Skills/watch-output/video-data/_cvBQfQQKPY/`
-- Evidence: auto-captions plus all 50 frames (local engine, efficient detail). This is the creator's opinion, not advice. Ticker and dollar figures for his buys come from the on-screen Discord trade list (28:03), which corrects the captions.
+- Evidence: auto-captions plus the testing-mode cue frames and control frames (local engine). This is the creator's opinion, not advice. Mis-heard names fixed from context or frames: "Winning/Wind Resorts" is Wynn Resorts (WYNN), "Corewave" is CoreWeave, "Palanteer" is Palantir, "Nphase" is Enphase, "Marll" is Marvell, "Lamb Research" is Lam Research, "Amy Woo Silverman" is Amy Wu Silverman.
 
 ## Market view
 
-- Tone: "interesting times". He says big stocks are tanking, Treasury yields are rising, credit default swaps (CDS) on AI-infrastructure names are rising, and volatility is up. After inflation numbers came in, yields rose and "freaked out the market".
-- AI/semis: the sell-off is concentrated in AI and semiconductors. He ties it to rising CDS on Oracle and CoreWeave, which he says spreads fear to chip stocks. Oracle is down 56% over the past year. Frame (2:40) shows ORCL 130.55. He says Oracle's July low was 114 and there "could be more downside" if the market gets more freaked out.
-- 5-day moves he cites (matches the Finviz heatmap frames at 7:04-8:18):
+- Tone: opens with "interesting times". He says big stocks are tanking, Treasury yields are moving up, credit default swaps (CDS) are "moving up in a substantial way", and volatility is rising. He says the inflation numbers came in, yields went higher, "that freaked out the market".
+- AI and semis: he links the sell-off to CDS on Oracle and CoreWeave rising, which he says spreads fear to semiconductor stocks. Oracle is down 56% over the past year (frame: ORCL 130.55, -8.83% that day). He says the July low was 114 and "there could be more downside for Oracle if this market gets more freaked out".
+- Day moves in his watchlist frame (2:33): SNOW 335.08 (-6.34%), AMD 570.82 (-5.73%), MU 914.13 (-4.10%), PLTR 200.97 (-3.69%), META 737.54 (-3.27%), NVDA 221.30 (-3.16%), AAPL 342.96 (+0.99% area, green). In audio he says MU topped over $1,200 in June and is now "right around 900".
+- 5-day moves he reads from a Finviz Nasdaq 100 heatmap (frames show ARM about -19%, LRCX about -12.9%):
 
 | Ticker | 5-day move |
 |---|---|
@@ -37,45 +38,37 @@ stance: mixed
 | SNDK | -17% |
 | SpaceX | -9% |
 
-- Rotation: he says money is moving to safer names. Apple is up 2% over 5 days and hit an all-time high that day, which he attributes to being the "cleanest story" because it is not spending heavily on AI. Walmart is up 7% and Costco up 4% over 5 days. ServiceNow is up 56% over 6 months.
-- Memory chips: MU topped in June at over $1,200 and is now "right around 900" (frame shows MU 914.13). He says memory earnings are phenomenal, but the fear is about 2-4 years out.
-- Index levels (from the CNBC clips on screen, close of the prior session): S&P 500 7,807.24 (-0.06%) and Nasdaq Composite 27,245.90 (-0.44%). VIX is about 15 per the guest (Amy Wu Silverman) in the CNBC clip, who calls it "suppressed". The guest describes a "paddling duck" market with big moves under a calm surface, for example software versus semis.
-- Rates and the key scenario: he says the direction depends on Treasury yields around Halloween.
-  - If yields rise, he sees a "2018 scenario" where the market tanks through December. He would be more bullish on 2027 after that.
-  - If yields fall, he expects interest-rate-sensitive stocks to bounce heavily: SoFi, RH, Wynn Resorts, and also Micron and AMD. He says he cannot predict Treasury rates.
-- Housing and rate-sensitive stocks near 52-week lows: he scans a housing watchlist (RH, Rocket, Lennar, PulteGroup, KB Home, D.R. Horton, Pool Corp, Whirlpool, FICO, among others). Toll Brothers and United Rentals have held up better. Frames show WHR 27.63, FICO 718.65, CAT 749.98. He says FICO was "way over 2,000 not that long ago". He says Rocket "should be a rocket ship ride" if the real estate market comes back in 2027.
-- Buy-the-dip: he says "if your focus is 5 years, yes, you buy the dip. If your focus is the next two weeks, don't buy the dip". He calls the short-term outlook a "complete gamble".
-- Oil: not stated.
-- Paul Tudor Jones (CNBC clip he reacts to; these are Jones's views, not the creator's):
-  - It "still feels like 1999", a two-speed market of AI versus non-AI.
-  - He expects a strong Q4 after the midterms, possibly a run into year-end.
-  - He says 2027 "is going to be really challenging".
-  - He sees the most negative equity flow picture since 2009 (buybacks and M&A versus IPOs and unlocks).
-  - He says Anthropic will do well and OpenAI "will rest on what Anthropic does".
-  - He is concerned about AI safety and interpretability.
+- Rotation: Apple is up 2% over 5 days and hit an all-time high that day. He calls it the "cleanest story" in the trillion-dollar group because it is not spending huge on AI. Walmart is up 7% and Costco up 4% over 5 days. ServiceNow is up 56% over six months. He calls the idea of chasing the market short term "a dumb strategy".
+- Index and macro levels visible on screen (CNBC slide in his X post, 10:06): S&P 500 7,718.94 (-1.11%), Brent crude 106.06. VIX on the CNBC clip frame (33:15): 15.22 (-0.05, -0.33%). The guest in that clip calls the VIX "suppressed" and describes a "paddling duck" market.
+- Rates and the key scenario: he says the direction depends on Treasury yields around Halloween. If yields rise, he sees "a 2018 scenario" with the market tanking through December, and says he would then be more bullish on 2027. If yields fall, he expects interest-rate-sensitive stocks to bounce heavily (SoFi, RH, Wynn Resorts, plus Micron and AMD). He says nobody can predict Treasury rates.
+- Housing and rate-sensitive names he calls out near 52-week lows: RH, Alexandria Real Estate, Whirlpool (27), Rocket, PulteGroup, Lennar, KB Home, D.R. Horton, Pool Corp. FICO is "700 now", "way over 2,000 not that long ago". Caterpillar is up 42% over a year but down from "a,000 plus" to 700 (caption garbled). He says Rocket could be "a rocket ship ride" if real estate comes back in 2027.
+- Buy the dip: "if your focus is 5 years, yes, you buy the dip. If your focus is the next two weeks, don't buy the dip."
+- Oil: not stated by him (Brent 106.06 appears only on the CNBC slide).
+- Paul Tudor Jones clip he reacts to (Jones's views, not the creator's): "still feels like 1999", a two-speed market of AI versus non-AI; a strong Q4 is possible after the midterms; 2027 "is going to be really challenging"; the most negative equity flow picture since 2009; he thinks Anthropic will do well; AI safety is a concern.
 
 ## Positions and plans
 
-Buys on 2026-10-14, read from the on-screen Discord activity list (28:03), total cash movement $51,000:
+Buys on the day he says were "$50,000 plus" (amounts as captioned):
 
-| Ticker | Shares bought | Cost shown | Note |
-|---|---|---|---|
-| NFLX | 50 | -$3,522.92 | Netflix. Said "$3,500 buy". |
-| WYNN | 123 | -$9,063.86 | Captions say "Winning/Wind Resorts". Fixed from the frame. |
-| AXP | 25 | -$7,649.00 | American Express. |
-| SOFI | 700 | -$9,905.00 | He says he paid "14 and some change" and "wish I got in the 13s". He began buying around $6. |
-| RH | 133 | -$14,568.82 | Captions say "$145,000", which is a mis-hearing. The frame shows $14,568.82. |
-| CELH | 250 | -$6,717.50 | Captions say "Celsius". |
+| Ticker | Amount said | Note |
+|---|---|---|
+| CELH | just under $7,000 | Captioned "Celsius" |
+| RH | "$145,000" | Likely mis-heard: inconsistent with the "$50,000 plus" total; the exact amount is not confirmed from frames |
+| SOFI | around $10,000 | He paid "14 and some change" and wishes he got "in the 13s"; he first bought around $6 |
+| AXP | $7,600 | American Express |
+| WYNN | over $9,000 | Captioned "Winning Resorts" |
+| NFLX | $3,500 | Netflix |
 
-- Rationale: AXP, SoFi, RH and Wynn are "very interest rate sensitive", and he expects dramatic moves up if Treasury yields fall around Halloween or after. Example he gives: "you'll see RH go from like 108 to like 188... in a matter of two months", but only if yields fall and people feel comfortable about it. RH is at a 52-week low (frame: RH about 110.99).
+- Rationale: AXP, SoFi, RH and Wynn are "very interest rate sensitive". If yields start falling around Halloween or after, he expects "massive bounces", for example "you'll see RH go from like 108 to like 188", possibly in two months, but only once people are confident yields are falling.
 - Sells or trims: none stated.
-- Stop-loss levels, option strikes, expiries and price targets: not stated (other than the illustrative RH 108 to 188 move above).
-- Account: frames of his X post show an account value of $5,114,815.46, with -$162,929.78 (-3.09%) shown on the post. In the audio he says his public account finished down about $144,000 for the day, after an all-time high the previous day, and at one point was down about $200,000. The figures differ, probably because the post was captured at a different time.
-- Other names discussed without a stated trade: Oracle, CoreWeave, AMD, MU, Apple, ServiceNow, Palantir, Meta, SpaceX, Caterpillar, Rocket. None are described as holdings or planned trades.
+- Stop-loss levels, option strikes, expiries and price targets: not stated, other than the illustrative RH 108 to 188 above.
+- Account: his X post frame shows account value $5,114,815.46 with -$162,929.78 (-3.09%) circled. In audio he says the public account finished down 144,000 after peaking near 200,000 down intraday, a day after an all-time high.
+- Discussed without a stated trade: Oracle, CoreWeave, AMD, MU, Apple, ServiceNow, Palantir, Meta, SpaceX, Caterpillar, Rocket, FICO.
 
 ## Other
 
-- Promotes his private Discord group (1000xStocks) and X page. He is unwell and says he is "tired" and cut the video short.
-- Segments on retail investors, from a CNBC clip posted on his X page: household direct stock ownership is down about 200 bps. Median stock holdings are $56,900 (2022) to $77,000 (2025). He cites a "33% difference" between households that own stocks and those that don't.
-- Amy Wu Silverman (RBC) CNBC clip: single-stock options volume is near its highest since 2021, and the "lesson for a long time" has been to buy the dip.
-- Upcoming events he mentions: Halloween as a possible turning point, Anthropic's possible IPO in November (said by the interviewer in the clip, not the creator), and the 2027 outlook.
+- He says he was ill for about 36 hours and cut the video short ("I'm tired").
+- Retail investor segment from a CNBC slide on his X post (frame, 10:06): direct stock ownership 21% (2022) to 19% (2025), total stock ownership 58% to 56%; median stock holdings $56,900 (2022) to $77,000. He cites a "33% difference" between households that own stocks and those that don't.
+- Amy Wu Silverman (RBC) CNBC clip: bullish options activity is high and "the lesson for a long time now has been that you buy the dip".
+- Promotes his private Discord group (1000xStocks) and his X page.
+- Upcoming: Halloween as a possible turning point, the 2027 outlook, and a possible Anthropic IPO in November (said in the Jones interview, not by the creator).

@@ -1,0 +1,316 @@
+{
+  "video_id": "NnHk7xjejmA",
+  "creator": "Jeremy Lefebvre Makes Money",
+  "title": "7 CRASHED Stocks to BUY for EPIC UPSIDE",
+  "upload_date": "20260925",
+  "duration_seconds": 1994.1,
+  "source": "https://www.youtube.com/watch?v=NnHk7xjejmA",
+  "verdicts": "new-info | useful | redundant | blank | wrong  (see plan/watch-skill-testing-mode/PLAN.md)",
+  "cues": [
+    {
+      "cue_id": "c01",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 0.0,
+      "heard": "Can you say new all time highs to",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "Account screen: $5,288,962.98, +$67,446.86 (1.29%), New ATH! note; same screen at every offset"
+    },
+    {
+      "cue_id": "c02",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 13.56,
+      "heard": "congratulations to everybody that is hitting all time highs here today. I",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "Same account screen as c01"
+    },
+    {
+      "cue_id": "c03",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 53.24,
+      "heard": "your life. Speaking about those sorts of stocks, AMD. [clears throat]",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "AMD position: $629, 2,55x shares, avg cost $111.61, gain $1,322,599.74 (+463.79%); on screen already at -2"
+    },
+    {
+      "cue_id": "c04",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 110.32,
+      "heard": "not quite that good. 777 dollars here today. Flirting with an all time high.",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "META position: $777.59, 1,000 shares, avg cost $98.13, gain $679,458.85; on screen already at -2"
+    },
+    {
+      "cue_id": "c05",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 129.47899999999998,
+      "heard": "so, that went up another 33,000 here today. Uh look at this batch of shares.",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "Same META purchase history; Oct-31-2022 batch of 650 shares at $93.12 visible but same screen as c04"
+    },
+    {
+      "cue_id": "c06",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 194.239,
+      "heard": "Tom Lee and his views. He would just want to see him in CNBC 3 hours ago. He",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "wrong"
+      },
+      "best_offset": "+0",
+      "notes": "CNBC Tom Lee video, headline S&P 500, Nasdaq on track for back-to-back positive quarters; +6 shows macOS dock"
+    },
+    {
+      "cue_id": "c07",
+      "term": "next-one",
+      "category": "transition",
+      "t": 254.44,
+      "heard": "okay? All right, guys, let's get in this. Number one of these seven is",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "wrong",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "Wynn WYNN chart 80.19, -38.09% past year, #1of7; +0 flashes a garage intro photo"
+    },
+    {
+      "cue_id": "c08",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 509.24,
+      "heard": "Now, we have something very exciting happening here. Look at this.",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+2",
+      "notes": "-2/+0 Wynn LTM adjusted property EBITDA graphic ($2.27 billion); +2 on Middle East tower photo"
+    },
+    {
+      "cue_id": "c09",
+      "term": "next-one",
+      "category": "transition",
+      "t": 618.52,
+      "heard": "people in the world live in the Middle East, okay? Okay, so stock number two of",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "Netflix NFLX 71.72, -41.30% past year, #2of7"
+    },
+    {
+      "cue_id": "c10",
+      "term": "next-one",
+      "category": "transition",
+      "t": 629.31,
+      "heard": "Number two of seven is",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "Same Netflix screen"
+    },
+    {
+      "cue_id": "c11",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 727.84,
+      "heard": "financial giant, like a Bank of America, Wells Fargo, a JP Morgan, like big dog,",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "SoFi 16.80, -42.66% past year, #3of7"
+    },
+    {
+      "cue_id": "c12",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 762.24,
+      "heard": "is RH, Restoration Hardware. This one's",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "new-info",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "-2 still SoFi; +0 onward RH 121.19, -45.20% past year, #4of7"
+    },
+    {
+      "cue_id": "c13",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 825.04,
+      "heard": "than like an average customer for like, let's say IKEA or something like that,",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "Same RH screen"
+    },
+    {
+      "cue_id": "c14",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 997.16,
+      "heard": "another legendary company as an option, and it's The Home Depot, HD, Home Depot.",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "Home Depot yellow chart with handwritten 1 year no bueno; price axis too small to read reliably"
+    },
+    {
+      "cue_id": "c15",
+      "term": "inflation-data",
+      "category": "macro",
+      "t": 1778.44,
+      "heard": ">> Correct, but you know, for the for the CPI basket or inflation, you know, the",
+      "offsets": {
+        "-2": "useful",
+        "+0": "new-info",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+0",
+      "notes": "CNBC graphic U.S. Markets: Dow 51,330.39 -0.35%, S&P 500 7,706.83 +0.01%, Nasdaq 26,936.88, Russell 2000 2,832.72 -0.21%"
+    }
+  ],
+  "control": [
+    {
+      "t": 0.0,
+      "reason": "first-frame",
+      "verdict": "new-info"
+    },
+    {
+      "t": 252.266667,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 272.8,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 402.266667,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 532.5,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 614.6,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 924.566667,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 1121.8,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 1298.866667,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 1603.566667,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 1950.8,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 1952.666667,
+      "reason": "scene-change",
+      "verdict": "blank"
+    }
+  ],
+  "control_notes": "No control_sheet.jpg was produced; labeled from the 12 individual frames. Early frames show tickers and prices (new-info); later ones are the CNBC clips with a large webcam overlay or a blank Discord page.",
+  "labeling_notes": "Labeled by Claude from contact sheets; new-info only where text was readable.",
+  "trained_at": "2026-10-20"
+}

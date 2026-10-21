@@ -3,6 +3,150 @@
 One entry per training video, rebuilt from `training/labels/*.json` every time `agent-skills train label` runs.
 Do not edit by hand. Scores are per frame (useful or new-info = good); control is the scene-detection baseline.
 
+## 2026-10-20 | 4zPSPmVxhr0 | AI Stocks Rebound | What Happened? + 5 Stocks Im Buying Now (Options With Ryan)
+
+- Creator: Options With Ryan
+- Source: https://www.youtube.com/watch?v=4zPSPmVxhr0 (18:25)
+- Run: 27 cues, offsets -2s, +0s, +2s, +4s, +6s
+- Cue frames: 38% good, 13% new-info (135 frames)
+- Control: 50% good, 42% new-info (12 frames)
+- Best offsets picked: -2s x5, +0s x9, +2s x7, +4s x2, +6s x1
+- Strongest terms: ticker-mention (100% of 6), lets-dive (100% of 2), take-a-look (100% of 2)
+- Weakest terms: breadth (0% of 2), look-here (50% of 2)
+- Summary: summaries/4zPSPmVxhr0-ai-stocks-rebound-5-stocks-im-buying-now.md
+
+## 2026-10-20 | SLBmkUzyGtA | The Wheel Options Strategy | My Top 3 Stocks To Trade 2026 (Options With Ryan)
+
+- Creator: Options With Ryan
+- Source: https://www.youtube.com/watch?v=SLBmkUzyGtA (20:49)
+- Run: 27 cues, offsets -2s, +0s, +2s, +4s, +6s
+- Cue frames: 36% good, 9% new-info (135 frames)
+- Control: 50% good, 25% new-info (12 frames)
+- Best offsets picked: -2s x6, +0s x9, +2s x6, +4s x1
+- Strongest terms: next-one (100% of 3), strike (100% of 3), chart (100% of 2)
+- Weakest terms: ticker-mention (50% of 2)
+- Summary: summaries/SLBmkUzyGtA-the-wheel-options-strategy-my-top-3-stocks-to-trade-2026.md
+
+## 2026-10-20 | ik7Mong73Hg | Stock Market Warning | VIX Hit 22 + CRDO, BE, & HOOD Update (Options With Ryan)
+
+- Creator: Options With Ryan
+- Source: https://www.youtube.com/watch?v=ik7Mong73Hg (20:45)
+- Run: 27 cues, offsets -2s, +0s, +2s, +4s, +6s
+- Cue frames: 41% good, 10% new-info (135 frames)
+- Control: 58% good, 50% new-info (12 frames)
+- Best offsets picked: -2s x4, +0s x14, +2s x2, +4s x5
+- Strongest terms: ticker-mention (100% of 6), lets-dive (100% of 2), as-you-can-see (100% of 2)
+- Weakest terms: look-here (50% of 2), take-a-look (50% of 2)
+- Summary: summaries/ik7Mong73Hg-stock-market-warning-vix-hit-22-crdo-be-hood-update.md
+
+## 2026-10-20 | hpUnLAXgOYQ | AI Stocks Falling | Where Is The Bottom? + WDC, HOOD & CRDO Update (Options With Ryan)
+
+- Creator: Options With Ryan
+- Source: https://www.youtube.com/watch?v=hpUnLAXgOYQ (27:52)
+- Run: 27 cues, offsets -2s, +0s, +2s, +4s, +6s
+- Cue frames: 57% good, 13% new-info (135 frames)
+- Control: 58% good, 42% new-info (12 frames)
+- Best offsets picked: +0s x15, +2s x6, +4s x1, +6s x1
+- Strongest terms: ticker-mention (100% of 6), as-you-can-see (100% of 2), strike (100% of 2)
+- Weakest terms: look-here (50% of 2), take-a-look (50% of 2), lets-dive (50% of 2)
+- Summary: summaries/hpUnLAXgOYQ-ai-stocks-falling-where-is-the-bottom-wdc-hood-crdo-update.md
+
+## 2026-10-20 | K6SgF3RZqYo | The once in a lifetime ROTATION
+
+- Creator: Jeremy Lefebvre Makes Money
+- Source: https://www.youtube.com/watch?v=K6SgF3RZqYo (35:21)
+- Run: 18 cues, offsets -2s, +0s, +2s, +4s, +6s
+- Cue frames: 31% good, 12% new-info (90 frames)
+- Control: 42% good, 33% new-info (12 frames)
+- Best offsets picked: -2s x7, +0s x4, +2s x1, +6s x1
+- Strongest terms: lets-dive (100% of 2), inflation-data (100% of 2), ticker-mention (67% of 6)
+- Weakest terms: look-here (50% of 2)
+- Summary: summaries/K6SgF3RZqYo-the-once-in-a-lifetime-rotation.md
+
+## 2026-10-20 | _cvBQfQQKPY | All Hell is breaking loose in the market
+
+- Creator: Jeremy Lefebvre Makes Money
+- Source: https://www.youtube.com/watch?v=_cvBQfQQKPY (33:54)
+- Run: 14 cues, offsets -2s, +0s, +2s, +4s, +6s
+- Cue frames: 66% good, 21% new-info (70 frames)
+- Control: 50% good, 33% new-info (12 frames)
+- Best offsets picked: -2s x1, +0s x5, +2s x3, +4s x1, +6s x1
+- Strongest terms: ticker-mention (100% of 6), volatility-index (100% of 3), look-here (100% of 2)
+- Weakest terms: none under 60%
+- Summary: summaries/_cvBQfQQKPY-all-hell-is-breaking-loose-in-the-market.md
+
+## 2026-10-20 | 667m_tyzrDo | AI Stock Pullback Is Here | 2 Stocks I Bought + CRDO & DRAM Update (Options With Ryan)
+
+- Creator: Options With Ryan
+- Source: https://www.youtube.com/watch?v=667m_tyzrDo (17:05)
+- Run: 27 cues, offsets -2s, +0s, +2s, +4s, +6s
+- Cue frames: 36% good, 16% new-info (135 frames)
+- Control: 50% good, 50% new-info (12 frames)
+- Best offsets picked: -2s x8, +0s x5, +2s x8, +4s x1
+- Strongest terms: ticker-mention (100% of 6), as-you-can-see (100% of 2), strike (100% of 2)
+- Weakest terms: lets-dive (0% of 2), take-a-look (50% of 2)
+- Summary: summaries/667m_tyzrDo-ai-stock-pullback-is-here-2-stocks-i-bought-crdo-dram-update.md
+
+## 2026-10-20 | 33Yqdsr_vcA | AI Stock Pullback Coming? 3 Stocks Im Preparing To Buy + BE & HOOD Update (Options With Ryan)
+
+- Creator: Options With Ryan
+- Source: https://www.youtube.com/watch?v=33Yqdsr_vcA (18:04)
+- Run: 27 cues, offsets -2s, +0s, +2s, +4s, +6s
+- Cue frames: 36% good, 9% new-info (135 frames)
+- Control: 58% good, 42% new-info (12 frames)
+- Best offsets picked: -2s x11, +0s x5, +2s x7, +4s x2
+- Strongest terms: ticker-mention (100% of 6), lets-dive (100% of 2), take-a-look (100% of 2)
+- Weakest terms: fed-watch (50% of 2)
+- Summary: summaries/33Yqdsr_vcA-ai-stock-pullback-coming-3-stocks-im-preparing-to-buy-be-hood-update.md
+
+## 2026-10-20 | 7inC0Ui_NXY | Market Emergency just disclosed
+
+- Creator: Jeremy Lefebvre Makes Money
+- Source: https://www.youtube.com/watch?v=7inC0Ui_NXY (36:49)
+- Run: 16 cues, offsets -2s, +0s, +2s, +4s, +6s
+- Cue frames: 32% good, 9% new-info (80 frames)
+- Control: 58% good, 25% new-info (12 frames)
+- Best offsets picked: +0s x1, +2s x2, +4s x1, +6s x1
+- Strongest terms: look-here (100% of 3), support-resistance (100% of 2), ticker-mention (67% of 6)
+- Weakest terms: volatility-index (50% of 2)
+- Summary: summaries/7inC0Ui_NXY-market-emergency-just-disclosed.md
+
+## 2026-10-20 | ioSr_jyNKoo | The Wheel Options Strategy | My NEW Credo Technology (CRDO) Trading Plan 2026 - Options With Ryan
+
+- Creator: Options With Ryan
+- Source: https://www.youtube.com/watch?v=ioSr_jyNKoo (24:59)
+- Run: 27 cues, offsets -2s, +0s, +2s, +4s, +6s
+- Cue frames: 77% good, 16% new-info (135 frames)
+- Control: 67% good, 50% new-info (12 frames)
+- Best offsets picked: +0s x14, +2s x6, +4s x2, +6s x1
+- Strongest terms: next-one (100% of 3), lets-dive (100% of 3), take-a-look (100% of 3)
+- Weakest terms: strike (50% of 2), chart (50% of 2)
+- Summary: summaries/ioSr_jyNKoo-the-wheel-options-strategy-my-new-credo-crdo-trading-plan-2026.md
+
+## 2026-10-20 | t4BJTz6YniU | The Market is about to GO INSANE
+
+- Creator: Jeremy Lefebvre Makes Money
+- Source: https://www.youtube.com/watch?v=t4BJTz6YniU (37:23)
+- Run: 8 cues, offsets -2s, +0s, +2s, +4s, +6s
+- Cue frames: 50% good, 5% new-info (40 frames)
+- Control: 50% good, 25% new-info (12 frames)
+- Best offsets picked: +0s x7, +2s x1
+- Strongest terms: ticker-mention (100% of 6)
+- Weakest terms: none under 60%
+- Summary: summaries/t4BJTz6YniU-the-market-is-about-to-go-insane.md
+
+## 2026-10-20 | NnHk7xjejmA | 7 CRASHED Stocks to BUY for EPIC UPSIDE
+
+- Creator: Jeremy Lefebvre Makes Money
+- Source: https://www.youtube.com/watch?v=NnHk7xjejmA (33:14)
+- Run: 15 cues, offsets -2s, +0s, +2s, +4s, +6s
+- Cue frames: 33% good, 16% new-info (75 frames)
+- Control: 83% good, 42% new-info (12 frames)
+- Best offsets picked: -2s x5, +0s x5, +2s x1
+- Strongest terms: ticker-mention (83% of 6), support-resistance (67% of 3), next-one (67% of 3)
+- Weakest terms: look-here (50% of 2)
+- Summary: summaries/NnHk7xjejmA-7-crashed-stocks-to-buy-for-epic-upside.md
+
 ## 2026-10-20 | K81VYWuW0DA | I WOULD go ALL IN this 1 Stock
 
 - Creator: Jeremy Lefebvre Makes Money

@@ -1,0 +1,508 @@
+{
+  "video_id": "4zPSPmVxhr0",
+  "creator": "Options With Ryan",
+  "title": "AI Stocks Rebound | What Happened? + 5 Stocks Im Buying Now (Options With Ryan)",
+  "upload_date": "20261020",
+  "duration_seconds": 1105.7,
+  "source": "https://www.youtube.com/watch?v=4zPSPmVxhr0",
+  "verdicts": "new-info | useful | redundant | blank | wrong  (see plan/watch-skill-testing-mode/PLAN.md)",
+  "cues": [
+    {
+      "cue_id": "c01",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 17.2,
+      "heard": "may have sold off and how to prepare in the future. So, let's go ahead and dive",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "blank",
+        "+6": "useful"
+      },
+      "best_offset": "+6",
+      "notes": "talking head, then white disclaimer animation"
+    },
+    {
+      "cue_id": "c02",
+      "term": "take-a-look",
+      "category": "pointing",
+      "t": 26.96,
+      "heard": "purposes only. Results may vary. Now, if you take a look at the account here. So,",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+2",
+      "notes": "disclaimer slide, then brokerage summary page"
+    },
+    {
+      "cue_id": "c03",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 28.16,
+      "heard": "you take a look at the account here. So, this right here is my public portfolio",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "disclaimer slide, then same brokerage summary [auto: within 1.5s of c02, marked redundant]"
+    },
+    {
+      "cue_id": "c04",
+      "term": "as-you-can-see",
+      "category": "pointing",
+      "t": 53.48,
+      "heard": "realized gain loss for transparency reasons. As you can see today, we closed",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "summary page, then Realized Gain/Loss page"
+    },
+    {
+      "cue_id": "c05",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 55.92,
+      "heard": "reasons. As you can see today, we closed out some bull call spreads on QQQ. Nice",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "Realized Gain/Loss page unchanged"
+    },
+    {
+      "cue_id": "c06",
+      "term": "as-you-can-see",
+      "category": "pointing",
+      "t": 73.08,
+      "heard": "that I share here in the mentorship. As you can see, despite the, you know,",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "redundant",
+        "+4": "new-info",
+        "+6": "useful"
+      },
+      "best_offset": "+4",
+      "notes": "Discord profit posts; +4 shows QQQ Dec 18 call trade list"
+    },
+    {
+      "cue_id": "c07",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 107.32,
+      "heard": "absolutely free. Now, let's go ahead and dive straight into it. We do have a",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+2",
+      "notes": "X profile, then earnings calendar"
+    },
+    {
+      "cue_id": "c08",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 150.28,
+      "heard": "be a crucial one for the markets. We also have BE Energy, Bloom Energy",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "useful"
+      },
+      "best_offset": "+2",
+      "notes": "earnings calendar with BE and WDC popups at +2/+4"
+    },
+    {
+      "cue_id": "c09",
+      "term": "take-a-look",
+      "category": "pointing",
+      "t": 158.76,
+      "heard": "Western Digital. So just be aware of that. Now if we take a look at the CME",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+2",
+      "notes": "calendar, then CME FedWatch table"
+    },
+    {
+      "cue_id": "c10",
+      "term": "fed-watch",
+      "category": "macro",
+      "t": 160.28,
+      "heard": "that. Now if we take a look at the CME FedWatch tool, this is what you know",
+      "offsets": {
+        "-2": "useful",
+        "+0": "new-info",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "calendar, then FedWatch probabilities"
+    },
+    {
+      "cue_id": "c11",
+      "term": "fed-watch",
+      "category": "macro",
+      "t": 183.2,
+      "heard": "didn't see anything change here. We were still pricing in three more rate hikes.",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "FedWatch table, small row highlights"
+    },
+    {
+      "cue_id": "c12",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 209.72,
+      "heard": "S&P 500 was you know not too far off all-time highs. But one particular",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "new-info",
+        "+6": "redundant"
+      },
+      "best_offset": "+4",
+      "notes": "FedWatch, then margin debt slide $1.50T record / $1.487T Sep"
+    },
+    {
+      "cue_id": "c13",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 216.07999999999998,
+      "heard": "There was record margin debt. If you look at the FINRA numbers which are",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "margin debt slide repeated"
+    },
+    {
+      "cue_id": "c14",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 290.4,
+      "heard": "AI infrastructure space, uh you know, um primarily NBIS, BE Light, Core Weave,",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "3/31 book slide: NBIS, BE, LITE, CRWV, STX, VRT, WDC, CLS bars"
+    },
+    {
+      "cue_id": "c15",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 294.44,
+      "heard": "primarily NBIS, BE Light, Core Weave, right? STX, VRT, WDC, CLS, uh etc., get",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "same holdings slide"
+    },
+    {
+      "cue_id": "c16",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 380.0,
+      "heard": "5.14%, but again, we're not making new all-time highs on the Treasury yield",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "10-year yield chart, 5.144 readable"
+    },
+    {
+      "cue_id": "c17",
+      "term": "moving-average",
+      "category": "chart",
+      "t": 393.28,
+      "heard": "up, which is S&P 500 stocks above their 50-day moving average. So, really, what",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "S5FI breadth chart, 45.12 readable"
+    },
+    {
+      "cue_id": "c18",
+      "term": "breadth",
+      "category": "macro",
+      "t": 393.28,
+      "heard": "up, which is S&P 500 stocks above their 50-day moving average. So, really, what",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "same frames as c17 [auto: within 1.5s of c17, marked redundant]"
+    },
+    {
+      "cue_id": "c19",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 421.12,
+      "heard": "margin debt. If we take a look at the NDFI as of last Friday, right? This",
+      "offsets": {
+        "-2": "useful",
+        "+0": "new-info",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "S5FI then NDFI chart 38.61"
+    },
+    {
+      "cue_id": "c20",
+      "term": "breadth",
+      "category": "macro",
+      "t": 421.12,
+      "heard": "margin debt. If we take a look at the NDFI as of last Friday, right? This",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "same frames as c19 [auto: within 1.5s of c19, marked redundant]"
+    },
+    {
+      "cue_id": "c21",
+      "term": "moving-average",
+      "category": "chart",
+      "t": 425.96,
+      "heard": "thing kind of sold off, right? 38% of stocks above their 50-day moving average",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "NDFI chart"
+    },
+    {
+      "cue_id": "c22",
+      "term": "volatility-index",
+      "category": "macro",
+      "t": 475.96,
+      "heard": "nothing to be alarmed by by any means, right? VIX is in the 18s. We saw a nice",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "new-info",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+2",
+      "notes": "S&P chart, then VIX chart 18.37"
+    },
+    {
+      "cue_id": "c23",
+      "term": "options-chain",
+      "category": "options",
+      "t": 553.92,
+      "heard": "720 in QQQ. We could look at the options chain",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "new-info",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+2",
+      "notes": "positions table, then QQQ options chain with strikes"
+    },
+    {
+      "cue_id": "c24",
+      "term": "strike",
+      "category": "options",
+      "t": 607.96,
+      "heard": "going to get assigned good stocks and there may be some covered call income",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "blank",
+        "+6": "wrong"
+      },
+      "best_offset": "-2",
+      "notes": "QQQ chart with -8%, -10%, -13% levels, 719.50; then white disclaimer"
+    },
+    {
+      "cue_id": "c25",
+      "term": "bollinger",
+      "category": "chart",
+      "t": 751.2,
+      "heard": "currently trading at 195. Didn't even touch the lower Bollinger Band. Now, why",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "useful"
+      },
+      "best_offset": "-2",
+      "notes": "PLTR chart 195.6x; +6 zoomed-out"
+    },
+    {
+      "cue_id": "c26",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 756.52,
+      "heard": "is Palantir performing so well right here? Well, look at the fundamentals,",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "useful",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "PLTR chart, zoomed out at +0"
+    },
+    {
+      "cue_id": "c27",
+      "term": "next-one",
+      "category": "transition",
+      "t": 949.84,
+      "heard": "even if they are slightly aggressive. Okay. The next one is Fortinet AI",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "new-info",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+2",
+      "notes": "TSM chart 421.20, then FTNT chart 172.72 at +2"
+    }
+  ],
+  "control": [
+    {
+      "t": 0.0,
+      "reason": "first-frame",
+      "verdict": "blank"
+    },
+    {
+      "t": 62.733333,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 90.366667,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 107.8,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 362.433333,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 570.733333,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 618.933333,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 625.866667,
+      "reason": "scene-change",
+      "verdict": "redundant"
+    },
+    {
+      "t": 707.866667,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 736.4,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 1075.5,
+      "reason": "scene-change",
+      "verdict": "redundant"
+    },
+    {
+      "t": 1101.0,
+      "reason": "scene-change",
+      "verdict": "blank"
+    }
+  ],
+  "control_notes": "Talking head/blank frames are B; Discord promo U; oil 99.22, QQQ levels, positions table, QQQ options chain and AMAT 417.65 charts N; repeats R.",
+  "labeling_notes": "Labeled by Claude from contact sheets; new-info only where text was readable. No control_sheet.jpg was produced, so control frames were read individually.",
+  "trained_at": "2026-10-20"
+}

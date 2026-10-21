@@ -6,41 +6,46 @@ published: 2026-10-13
 ingested: 2026-10-21
 source: https://www.youtube.com/watch?v=667m_tyzrDo
 evidence: captions+frames
-tickers: [TSM, AXP, CRDO, DRAM, SMH]
+tickers: [TSM, AXP, CRDO, DRAM, COHR, WDC, SMH, QQQ]
 stance: bullish
 ---
 
 # AI Stock Pullback Is Here | 2 Stocks I Bought + CRDO & DRAM Update (Options With Ryan)
 
-- Video: https://www.youtube.com/watch?v=667m_tyzrDo (about 17 min, uploaded 2026-10-13)
+- Video: https://www.youtube.com/watch?v=667m_tyzrDo (17:05, uploaded 2026-10-13)
 - Channel: Options With Ryan
 - Stored data: `C:/Projects/Python/Agent-Skills/watch-output/video-data/667m_tyzrDo/`
-- Evidence: auto-captions plus a sample of the 50 extracted frames (portfolio screens, QQQ/CRDO/AXP/VIX charts). Frames were low resolution, so most strikes and prices come from the captions. This is the creator's opinion, not advice (he says "not financial advice").
+- Evidence: auto-captions plus contact-sheet frames (chart readings checked on screen). This is the creator's opinion, not advice; he repeats that results vary.
 
 ## Market view
-- **Overall:** leaning bullish. Says the AI/semi pullback "happened today" (some stocks down 3% to 8%) and calls it "a very normal type of healthy pullback" after the semi/AI-infrastructure run-up. Expects a "really nice year-end rally" if oil and inflation keep cooling and earnings are strong.
-- **Breadth:** 36% of S&P 500 stocks above their 50-day moving average (S5FI), "still oversold"; he says it was near the "Iran war lows". Saw rotation out of tech into beaten-up names, which he calls constructive.
-- **Index levels:** SPY near its previous all-time high, down 0.06% on the day. QQQ down 0.7% (chart shows about 746). Expected move for QQQ over the next 2 weeks: 728 on the downside, 771 on the upside. If QQQ pulls back further: first stop mid Bollinger band at 740, next the 50-day moving average at 725. He doesn't expect it to reach 725, and says it would be a "great buying opportunity" if it did.
-- **Seasonality:** midterm-election years since 1930 (24 years): October 50/50, November 71% green, December 67% green.
-- **Sentiment:** Fear & Greed still in the fear zone; he says he's a contrarian who leans in when others are fearful. Heavy put buying today on NVDA, SPY, MU, SanDisk, Tesla, QQQ. Some call buying on META, MSFT, GOOGL, FSLR, VOO.
-- **Rates:** CME FedWatch shows almost 80% odds of no change in October. For December he reads 95% odds of a 25 bp rate hike. Odds crept up today on oil. 10-year yield starting to fall and not making new yearly highs.
-- **Oil:** spiked to $93 a barrel on Middle East news. He expects it to drift down, maybe to the mid-80s in a week or two.
-- **Volatility:** VIX around 15, which he calls slight fear. He expects it to head lower, with possible spikes he'd use to deploy cash.
-- **Cash allocation:** his VIX 15-20 rule calls for 20-25% cash. He started the day at about 22% and ended at 15% after deploying into the pullback. He says he's leaning more aggressive this week.
-- **Events he's watching:** existing home sales (Tuesday), core CPI (Wednesday, "most important"), PPI (Thursday), import prices (Friday). Banks (JPM, JNJ, GS, C, WFC) report before the open on Tuesday. ASML and TSM report this week. The next two weeks are the biggest earnings weeks. He thinks the tech sell-off was hedging and profit-taking ahead of these events.
+- Overall lean: more bullish this week. He says the AI/semiconductor pullback he flagged the previous Friday happened on the day recorded, with some stocks down 3% to 8%. He calls it a "very normal type of healthy pullback" after the semi and AI-infrastructure run-up.
+- Index moves: S&P 500 down 0.06% and QQQ down 0.7% that day. SPY is near its previous all-time high (screen: SPY 778.10).
+- Expected market maker move (SPY, next 2 weeks): downside 728, upside 771 (spoken for the index chart he was on; the screen showed SPY 778.10).
+- QQQ (screen 746.04): could pull back a couple more days. First stop mid Bollinger band 740, next the 50-day moving average at 725. He does not expect to reach 725; if it does, he would see it as a great buying opportunity.
+- Breadth: S5FI shows 36% of S&P 500 stocks above their 50-day moving average (screen 36.97), still oversold and near the "Iran war lows". NDFI barely moved (screen 50.49). He saw rotation out of tech into beaten-up names.
+- Seasonality: midterm-election years since 1930 (24 years). October, November, December are positive: October 50/50, November 71% green, December 67% green.
+- Sentiment: put buying and institutional hedging on Nvidia, SPY, MU, SanDisk, Tesla, QQQ; call buying on Meta, Microsoft, Google, FSLR, VOO. Fear and Greed index is in the fear zone (gauge reads 38 on screen). As a contrarian he likes to position when others are fearful.
+- VIX: "in the 15" (screen 15.20), slight fear, expects it to head lower; a spike would give a chance to deploy more cash. His VIX 15 to 20 band implies 20 to 25% cash.
+- Rates: CME FedWatch shows almost 80% odds of no hike in October and 95% odds of a 25 basis point hike in December. Odds crept up because oil rose. 10-year Treasury yield is easing and not making new yearly highs.
+- Oil: spiked to $93 per barrel on Middle East news. He is not worried, expects a steady drift down, maybe into the mid-80s in the next week or two.
+- Events: existing home sales tomorrow; core CPI Wednesday (the most important); PPI Thursday; import prices Friday. Earnings before the open tomorrow: JP Morgan Chase, Johnson & Johnson, Goldman Sachs, Citigroup, Wells Fargo. ASML and Taiwan Semiconductor report this week; the next two weeks are some of the biggest earnings weeks, so he watches cash allocation.
+- Tickers heard as "JP" in captions refers to JP Morgan Chase.
 
 ## Positions and plans
-| Ticker | Status | Levels and details |
+| Ticker | Action / position | Levels and notes (as stated) |
 |---|---|---|
-| TSM | Opened this day: 1 cash-secured put | $432.50 strike, expiring this week. Collected about $335 (almost 1% ROI in 4 days). Earnings Thursday. About 2.5-3% below the current price and about 11% below the all-time high. Expected earnings move plus or minus 18, so down to about 427. Says he's fine with assignment as a first position. Cites a 32 PE. First TSM position in "quite some time". |
-| AXP | Opened: earnings-week cash-secured put | $300 strike. Expected earnings move plus or minus 16, so down to about 295. Cites an 18 PE and says he owned it in 2025 at similar levels. Calls it deeply oversold, and says rate-hike odds coming off would be very bullish for financials. Chart shows about $311.5. He says he's fine being assigned. |
-| Lights ETF (Roundhill Photonics and Optics ETF) | Sold a put this day | $21 strike. Ticker is not legible in the frames; the captions say "Lights". ETF was down about 7.7%, and the put is "well below the lower Bollinger band". Likes it for portfolios under 100k, since it is cheaper to diversify into than COHR (down about 7.8% that day). |
-| CRDO | Sold shares; has a put; plans more puts | Shares called away Friday at $205; stock now about $200 (down over 7% on the day). Still holds a $175 put. Wants the stock to drop below the mid Bollinger band, then plans to add cash-secured puts in the $160 to $170 range. Wants about three layers, no more than 10% of the portfolio in one stock. "Light" on CRDO now. |
-| DRAM | Holds; may add | About $110k in cash-secured puts. $58 and $56 strikes are in the money and expire at the end of the month. Stock down 4.3%, at the lower Bollinger band around $54. Says puts in the high $40s "look awfully attractive". RSI about 39. May add another layer this week if it pulls back further. Hasn't been this low since the mid-July AI crash. |
-| SMH | Closed | Closed his bear put spreads on SMH on Friday. Says that in hindsight he could have held longer. Strikes not stated. |
-| WDC | Opinion only | "A fan of" it and says it looks too cheap on P/E. No trade stated. |
+| TSM | Opened 1 cash-secured put for this week as a first position (earnings Thursday) | Strike 432.5; collected about $335 in 4 days, almost 1% ROI; about 2.5% to 3% below the current price (screen 444.35) and about 11% below all-time high; expected move plus or minus 18, so down into the 420s, like 427; 32 PE; fine with assignment |
+| AXP | Sold the 300 put for earnings week (screen: -1 Oct 23 300 P, mark 3.20, trade price 3.24) | Expected move plus or minus 16, so risk down to 295; near the lower Bollinger band; 18 PE; owned it in 2025 at similar levels; screen price 311.53 |
+| Lights ETF (Roundhill Photonics and Optics ETF; ticker as heard "Lights", not verified on screen) | Sold a put | 21 strike, below the lower Bollinger band; top holding COHR was down about 7.8%, the ETF about 7.7%; chosen as cheaper to diversify into for portfolios under 100k |
+| CRDO | Shares called away Friday at 205; stock now about 200 (screen 200.84). Still holds the 175 put (screen: -3 Oct 30 175 P) | Wants it back below the mid Bollinger band, then probably adds cash-secured puts at the 160 to 170 range; wants a lower layer below the 175s, ideally three layers, no more than 10% of the portfolio in one stock; setup possible this week |
+| DRAM | Already about 110k in cash-secured puts; the 58s and 56s are in the money but expire end of month | Sitting at the lower Bollinger band around the 54 area; "the high 40s for a cash secured put looks awfully attractive"; RSI near 39; not this low since the mid-July AI crash; may add another layer this week on a further pullback |
+| WDC | Fan of it; no trade stated | Thinks the P/E is "a little bit too cheap" |
+| SMH | Closed bear put spreads on Friday | Says he could have kept them longer; screen SMH 580.99 |
+| COHR | No trade stated | Mentioned as the Lights ETF's top holding, down about 7.8% |
+
+- Cash: about 22% cash into the morning (CRDO shares called away, trades closed the previous week), down to 15% after that day's trades. He would like more cash but is leaning more aggressive.
 
 ## Other
-- Promotes his Options Trading University mentorship (says 1,109 clients), a "Ryan's Trades and Leaps entries and exits" channel, a free newsletter (Monday and Friday), Instagram and X.
-- Says his public portfolio targets an "eight-figure journey" over the next 5 to 6 years.
-- The next video is promised for Wednesday.
+- Realized gain/loss page shown for the day (closed a profit on a few cash-secured puts); a closed-positions screen showed +$6,027.47 for Oct 5 to Oct 9 (a Discord member post, not his).
+- Promotion: Options Trading University mentorship (he says 1,109 clients), Ryan's Trades and Leaps entries-and-exits channel, free newsletter every Monday and Friday, Instagram and X. Next update Wednesday.
+- Captions are auto-generated; "Lights" and "Light" appear for the photonics ETF and the ticker could not be confirmed from a frame.

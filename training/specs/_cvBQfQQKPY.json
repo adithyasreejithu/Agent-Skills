@@ -1,0 +1,23 @@
+{
+ "video": "_cvBQfQQKPY",
+ "auto_dup": true,
+ "note": "Labeled by Claude from contact sheets; new-info only where text was readable.",
+ "cues": {
+  "c01": ["NRRRR", "-2", "X page with account value $5,114,815.46 and -$162,929.78 (-3.09%) circled; same screen at every offset"],
+  "c02": ["RRRRR", null, "same X account page as c01; transcript covers the public account drop"],
+  "c03": ["NNUUU", "+0", "TradingView ORCL 1Y chart with Big Tech watchlist; crosshair on the July low"],
+  "c04": ["UUNRR", "+2", "SNOW chart at -2/+0, then AMD chart with watchlist (AMD 570.82)"],
+  "c05": ["RRRRN", "+6", "AMD chart again (already seen), MU chart appears at +6"],
+  "c06": ["UUNNN", "+2", "MU chart then AAPL 1Y chart at highs, watchlist AAPL 342.96 legible"],
+  "c07": ["UNRRR", "+0", "finviz Nasdaq 100 heatmap, 1-week view; ARM about -19% legible in the list"],
+  "c08": ["URRNN", "+4", "finviz heatmap; tooltip at +4/+6 shows LRCX 266.93 -12.93%"],
+  "c09": ["UUUUU", "+0", "X post 'Look at these photos' with CNBC stock ownership screens"],
+  "c10": ["UWNNN", "+2", "+0 shows the account page instead; +2 on zoomed CNBC slide: direct ownership 21%->19%, total 58%->56%, S&P 7,718.94 -1.11%, Brent 106.06"],
+  "c11": ["UUUUU", null, "YouTube Paul Tudor Jones on Squawk Box; title card only"],
+  "c12": ["UUUUU", "+0", "YouTube Amy Wu Silverman, Investors bullish on the markets banner"],
+  "c13": ["UUUUU", null, "Amy Wu Silverman interview, no VIX chart on screen"],
+  "c14": ["UNWWW", "+0", "+0 shows CBOE Volatility Index 15.22; +2 onward is a FICO chart and symbol search, not VIX"]
+ },
+ "control": "NUNWRNWUWWBN",
+ "control_note": "Frames 3, 6, 8, 9 are full-screen webcam (wrong screen); frame 10 is a blank white TradingView page; frame 11 is the CBOE VIX 15.22 page and frame 5 is the zoomed CNBC ownership slide."
+}

@@ -222,13 +222,15 @@ def write_digest(store: Store, video_ids: list[str], now: datetime) -> Path | No
         return None
     path = store.paths.digests / f'{now.strftime("%Y-%m-%d")}.md'
     path.parent.mkdir(parents=True, exist_ok=True)
-    lines = [] if path.exists() else [f'# Creator digest {now.strftime("%Y-%m-%d")}', '']
+    entries = {}                                     # link -> line, so a redone video replaces its old line
     for _, m in sorted(manifests, key=lambda x: (x[1].get('channel') or '', x[1].get('published_at') or '')):
-        note = Path(m['note'])
-        link = os.path.relpath(note, path.parent).replace('\\', '/')
+        link = Path(os.path.relpath(Path(m['note']), path.parent)).as_posix()
         tickers = ', '.join(m.get('tickers') or []) or 'none tagged'
-        lines.append(f'- **{m.get("channel") or "?"}**: [{m.get("title")}]({link}) '
-                     f'({m.get("stance") or "no stance"}; tickers: {tickers})')
-    existing = path.read_text(encoding='utf-8').rstrip('\n') + '\n' if path.exists() else ''
-    path.write_text(existing + '\n'.join(lines) + '\n', encoding='utf-8')
+        entries[link] = (f'- **{m.get("channel") or "?"}**: [{m.get("title")}]({link}) '
+                         f'({m.get("stance") or "no stance"}; tickers: {tickers})')
+    old = path.read_text(encoding='utf-8').splitlines() if path.exists() else []
+    kept = [line for line in old if not (line.startswith('- ') and any(f']({link})' in line for link in entries))]
+    if not kept:
+        kept = [f'# Creator digest {now.strftime("%Y-%m-%d")}', '']
+    path.write_text('\n'.join(kept + list(entries.values())).rstrip('\n') + '\n', encoding='utf-8')
     return path

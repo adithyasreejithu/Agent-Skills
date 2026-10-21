@@ -12,31 +12,27 @@ stance: bullish
 
 # The Market is about to GO INSANE‼️
 
-- Video: https://www.youtube.com/watch?v=t4BJTz6YniU (37 min, uploaded 2026-09-29)
+- Video: https://www.youtube.com/watch?v=t4BJTz6YniU (37:24, uploaded 2026-09-29)
 - Channel: Jeremy Lefebvre Makes Money
 - Stored data: `C:/Projects/Python/Agent-Skills/watch-output/video-data/t4BJTz6YniU/`
-- Evidence: auto-captions plus 50 sampled frames (local engine, efficient detail). This is the creator's opinion, not advice. Most of the video is him reacting to three clips (Ed Yardeni, Dan Ives, AMD/World Labs interview); he states few personal levels. Caption mis-hearings fixed from frames: "Ed Yarn Denny" is Ed Yardeni, "Dan Ies" is Dan Ives, "Lisa Sue" is Lisa Su, "AMT" is AMD.
+- Evidence: auto captions plus frames (account screenshot, Nasdaq 100 futures ticker, Bloomberg clip screens). This is the creator's opinion, not advice. Most of the video is him reacting to three Bloomberg clips.
 
 ## Market view
-- Overall stance: bullish. Calls October a "golden month" for opportunities ("not necessarily at the top of the market") and says "you got to get ready to rock and roll."
-- Seasonality: shows Nasdaq October returns since he entered the market in 2008, quoted from the captions: 2008 "almost negative 18%", 2009 "3.6% down", 2010 "almost 6% up", 2011 "11% up", 2012 "4 and a half down", 2013 "3 1/2% up", 2014 "3% up", 2015 "9% up", 2016 "2% down", 2017 "3 1/2% up", 2018 "9% down", 2019 "3.6%" (captions garbled), 2020 "2.2% down", 2021 "7% up", 2022 "4% up", 2023 "about 3% downside", 2024 "half%", 2025 "almost a 5% upward move". The captions do not make clear whether 2019 was 3.6% or 26%. He says October is "crazy", and that stocks in the Nasdaq will move 2x to 4x the index move (for a 5% Nasdaq move, "10, 15, 20%" moves in many stocks).
-- Index and rates levels seen on screen (from the reacted-to clips, not his own call): Nasdaq 100 futures 30,601.50 (+35.25, +0.12%); US 2-year yield 4.9326 (+0.0021).
-- Rates: reacting to Ed Yardeni ("5.25% not the top in yields", Bloomberg): Yardeni says 5.25% 10-year bonds are attractive, "more and more people" are thinking about yields closer to 6%, and he is "not getting into the alarm stage" at the current level (caption garbled: "5 a 12%"). Yardeni turned more cautious in mid-September because of the Middle East and higher-for-longer oil. Creator's own view: "gas prices, oil prices" are "one thing, one thing only"; if oil keeps rising yields keep rising, and once oil "really chills" yields fall, fear of Fed hikes eases and rates move lower. Specific oil price level not stated.
-- Volatility/VIX: not stated.
-- Events/themes he is watching: Anthropic IPO (Dan Ives clip: "watershed event", potential $2T valuation, reported $518 billion of future data-center/cloud spending); a Trump lunch with Nvidia and Anthropic CEOs. Creator's view: IPO companies' "job is to build as much hype as you can" to get a big valuation, so scary AI talk is hype with no action behind it.
-- Small and mid caps: says the best 2-3 year opportunities are stocks with market caps of "$3 billion, $5 billion, $10 billion, $20 billion" more than the $100B+ names, though "a few" large ones also exist. No names given.
+- Account day: the opening frame shows account value $5,152,548.56, +$15,385.26 (0.30%), +176.85% over 3 years. He says the "public account" was up about $15,000 (captions garble this as ".3%").
+- Seasonality: he reads Nasdaq October returns since 2008 (from a Gemini table on screen). Quoted from the captions: 2008 almost -18%, 2009 -3.6%, 2010 almost +6%, 2011 +11%, 2012 -4.5%, 2013 +3.5%, 2014 +3%, 2015 +9%, 2016 -2%, 2017 +3.5%, 2018 -9%, 2019 +26% (as captioned), 2020 -2.2%, 2021 +7%, 2022 +4%, 2023 about -3%, 2024 about +0.5%, 2025 almost +5%. The captions are messy here and were not checked against the table, which was too small to read.
+- Stance: "October is crazy in the market". He calls it a "golden month" for opportunities, mainly smaller caps ($3B to $20B market caps), not the $100B+ names. He says individual stocks can move 2x to 4x the Nasdaq, so a 5% Nasdaq move means 10% to 20% moves in many stocks.
+- Rates and oil: he reacts to Ed Yardeni (Bloomberg). Yardeni says 5.25% yields are attractive but "not convinced" they are the top, says people think about getting closer to 6%, and calls it the "revenge of the bond vigilantes". Higher-for-longer oil from the Middle East means stickier inflation and central banks in tightening mode. The creator's read: "oil is the whole story right now". Oil up means yields up, and once oil "really chills", yields fall and rate-hike worries ease.
+- Index levels: the only one shown is the Nasdaq 100 futures ticker on a Bloomberg clip, 30,601.50 (+35.25, +0.12%), not a level he gives himself. No other index levels, VIX or support/resistance are stated.
+- Events: Dan Ives mentions an afternoon "superintelligence" lunch with the president, with NVIDIA and Anthropic CEOs attending (headline on screen). Anthropic's IPO is described with a potential $2T valuation (on-screen graphic) and reported $518B of additional spending in its filing, per the Bloomberg anchor. The creator calls the AI-fear talk hype to maximize IPO valuation: "scare tactics on scare tactics".
 
 ## Positions and plans
 | Ticker | Position / plan | Levels |
 |---|---|---|
-| AMD | Holds shares. Reacts to AMD acquiring World Labs (Fei-Fei Li; $8.2 billion all-stock per the frame title, expected to close by year end subject to regulatory approval; she becomes AMD chief scientist). Says he now doesn't "want to cash out of nearly as many" AMD shares as he might have thought and wants "to hold a portion of my shares for the super long term." Likes stock-funded deals because partners become financially incentivized in AMD's success. Calls 2027 the likely first year people see AMD "really caught up" to Nvidia. | No buy/sell prices stated |
-| Unnamed 4 stocks | Says he bought "four stocks" the day before, discussed on his main channel (Financial Education). | Names, prices not stated in this video |
-| Unnamed 7 stocks | Refers to an earlier video on "seven great stocks" at 52-week or multi-year lows. | Names, prices not stated in this video |
-
-- Account (frame at 00:00, brokerage screenshot): value $5,152,548.56, +$15,385.26 (0.30%) for the day; 3Y rate of return +176.85%. Captions say a "$15,000 move... up .3% in the public account."
-- No options strikes, targets or dates were given.
+| AMD | Holds shares. Likes the all-stock $8.2B World Labs (Fei-Fei Li) acquisition: partners become invested in AMD stock. Thinks 2027 is when people see AMD "really caught up" to Nvidia. Says he "[doesn't] want to cash out of nearly as many" AMD shares as he thought and wants to "hold a portion of my shares for the super long term". More optimistic about 2030 and beyond. | No price, strike or target stated |
+| Unnamed | Says he bought four stocks "yesterday" and discussed seven stocks at 52-week or multi-year lows, on his other channels. | Not stated |
 
 ## Other
-- Promotion: pinned comment links to apply for his private group, courses, private Discord and "thousandx.com"; he says access may come "a little later this week or next week."
-- Nvidia/AMD commentary: says Jensen and Nvidia benefit most from AI hype; AMD "late in this game" but catching up. Opinion, no figures.
-- Transcript source is automatic captions; numbers quoted above from captions may contain transcription errors.
+- AMD/World Labs details from the interview: deal expected to close by end of year, subject to regulatory approval. Fei-Fei Li becomes AMD chief scientist (EVP) reporting to Lisa Su.
+- AMD was heard as "AMT" in the captions at about 17:08; the screen shows AMD.
+- Promotions: pinned-comment application for his private group and Discord, 1000xstocks. The on-screen banner says it is for stocks he buys and sells weekly in a $4.5M+ Fidelity account.
+- The main channel is called Financial Education.

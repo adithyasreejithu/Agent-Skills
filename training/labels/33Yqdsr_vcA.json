@@ -1,0 +1,508 @@
+{
+  "video_id": "33Yqdsr_vcA",
+  "creator": "Options With Ryan",
+  "title": "AI Stock Pullback Coming? 3 Stocks Im Preparing To Buy + BE & HOOD Update (Options With Ryan)",
+  "upload_date": "20261010",
+  "duration_seconds": 1084.7,
+  "source": "https://www.youtube.com/watch?v=33Yqdsr_vcA",
+  "verdicts": "new-info | useful | redundant | blank | wrong  (see plan/watch-skill-testing-mode/PLAN.md)",
+  "cues": [
+    {
+      "cue_id": "c01",
+      "term": "fed-watch",
+      "category": "macro",
+      "t": 2.0,
+      "heard": "The market is having a strong finish to the week despite rate hikes still being",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "wrong",
+        "+6": "wrong"
+      },
+      "best_offset": null,
+      "notes": "talking head only, intro"
+    },
+    {
+      "cue_id": "c02",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 29.599,
+      "heard": "for next week. So, let's go ahead and dive right into it. Remember, this is",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "useful",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+2",
+      "notes": "talking head, then not-financial-advice slide"
+    },
+    {
+      "cue_id": "c03",
+      "term": "take-a-look",
+      "category": "pointing",
+      "t": 35.92,
+      "heard": "educational purposes only. Results may vary. Now, if we take a look at the",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "redundant"
+      },
+      "best_offset": "+2",
+      "notes": "disclaimer slide, then brokerage account summary (values too small to read)"
+    },
+    {
+      "cue_id": "c04",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 39.04,
+      "heard": "account, we are right up near all-time highs here. If you do want to see me hit",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "wrong"
+      },
+      "best_offset": "+0",
+      "notes": "account summary page; subscribe popup at +6"
+    },
+    {
+      "cue_id": "c05",
+      "term": "as-you-can-see",
+      "category": "pointing",
+      "t": 62.239,
+      "heard": "the realized gain loss for transparency. As you could see on the day, we took off",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "account summary then Realized Gain/Loss page, 64.61% gauge"
+    },
+    {
+      "cue_id": "c06",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 69.68,
+      "heard": "And then on the current month, uh this right here. So, we're, you know, right",
+      "offsets": {
+        "-2": "useful",
+        "+0": "new-info",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "Realized Gain/Loss for current month, gauge 78.94% legible"
+    },
+    {
+      "cue_id": "c07",
+      "term": "as-you-can-see",
+      "category": "pointing",
+      "t": 83.52,
+      "heard": "that I share here in the mentorship. As you can see, clients sharing their",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "wrong",
+        "+6": "useful"
+      },
+      "best_offset": "-2",
+      "notes": "Discord client wins channel, Realized Today $5,634.50 Oct 8 2026 legible; dims at +4"
+    },
+    {
+      "cue_id": "c08",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 119.6,
+      "heard": "absolutely free. Now, let's go ahead and dive right into it. So, we do have some",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "useful",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "Twitter profile (wrong), then MarketWatch economic calendar"
+    },
+    {
+      "cue_id": "c09",
+      "term": "inflation-data",
+      "category": "macro",
+      "t": 124.719,
+      "heard": "economic data coming out next week. Core CPI, which is a key inflation metric,",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "MarketWatch economic calendar, static"
+    },
+    {
+      "cue_id": "c10",
+      "term": "inflation-data",
+      "category": "macro",
+      "t": 142.319,
+      "heard": "know opportunity during some volatile events. So core CPI again and core um",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+2",
+      "notes": "MarketWatch calendar scrolled to later days"
+    },
+    {
+      "cue_id": "c11",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 157.76,
+      "heard": "kicking off next week as well. So we have the big banks reporting ASML and",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+4",
+      "notes": "earnings calendar grid; TSM earnings popup at +4, too small to read"
+    },
+    {
+      "cue_id": "c12",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 178.48,
+      "heard": "good. We're not seeing kind of new all-time highs today, uh like we've seen",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "US 10Y yield chart, 5.253% legible"
+    },
+    {
+      "cue_id": "c13",
+      "term": "take-a-look",
+      "category": "pointing",
+      "t": 195.12,
+      "heard": "know, for the economy as a whole. Uh if we take a look at oil prices as well,",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "new-info",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+2",
+      "notes": "10Y chart, then oil chart around 91.4"
+    },
+    {
+      "cue_id": "c14",
+      "term": "volatility-index",
+      "category": "macro",
+      "t": 226.159,
+      "heard": "that, you know, the S&P 500 was near all-time highs, VIX in the lows at 15,",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "breadth chart with 31.93 readout"
+    },
+    {
+      "cue_id": "c15",
+      "term": "moving-average",
+      "category": "chart",
+      "t": 242.64,
+      "heard": "making a little comeback here. 31% of stocks above their 50-day moving",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "same breadth chart 31.93"
+    },
+    {
+      "cue_id": "c16",
+      "term": "breadth",
+      "category": "macro",
+      "t": 242.64,
+      "heard": "making a little comeback here. 31% of stocks above their 50-day moving",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "same breadth chart 31.93 [auto: within 1.5s of c15, marked redundant]"
+    },
+    {
+      "cue_id": "c17",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 297.36,
+      "heard": "something that I'm paying attention to. You could see here on the NDFI, it kind",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "new-info",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+2",
+      "notes": "breadth chart switches to a second chart reading 47.00"
+    },
+    {
+      "cue_id": "c18",
+      "term": "moving-average",
+      "category": "chart",
+      "t": 310.56,
+      "heard": "see that 47% of stocks are above their 50-day moving average versus just",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "same 47.00 chart"
+    },
+    {
+      "cue_id": "c19",
+      "term": "fed-watch",
+      "category": "macro",
+      "t": 337.44,
+      "heard": "keep in mind there. We do see on the CME Fed Watch tool, that fifth rate hike",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+2",
+      "notes": "CME FedWatch probability table, numbers too small to read"
+    },
+    {
+      "cue_id": "c20",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 395.6,
+      "heard": "defensive positioning by institutions. MU, Nvidia puts, AMD, AVGO, Apple, QQQ.",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "-2",
+      "notes": "Unusual Whales market tide, sentiment gauge 36 (fear) legible"
+    },
+    {
+      "cue_id": "c21",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 426.96,
+      "heard": "know, breaching that 200 level is pretty amazing. CNC, MRNA, Oracle, MSTR, MSFT,",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "same market tide dashboard"
+    },
+    {
+      "cue_id": "c22",
+      "term": "strike",
+      "category": "options",
+      "t": 453.36,
+      "heard": "you know, for me to start placing cash secured puts taking in advantage of the",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "same dashboard, sentiment 36"
+    },
+    {
+      "cue_id": "c23",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 462.96,
+      "heard": "individual names. Um, so just something to keep track of right here. We do have",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "same dashboard"
+    },
+    {
+      "cue_id": "c24",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 513.68,
+      "heard": "today. And then if you look at something like SMH, which is the semiconductor",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "redundant"
+      },
+      "best_offset": "+2",
+      "notes": "index chart 778.08, then SMH chart 603.08 legible"
+    },
+    {
+      "cue_id": "c25",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 561.2,
+      "heard": "looking at to take more advantage of. The first one is AAT. Okay, AAT had a",
+      "offsets": {
+        "-2": "useful",
+        "+0": "new-info",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "SMH chart then AMAT chart 510.03"
+    },
+    {
+      "cue_id": "c26",
+      "term": "next-one",
+      "category": "transition",
+      "t": 893.36,
+      "heard": "fundamentals. So Hood looking very nice here. Uh the next one is going to be BE.",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+4",
+      "notes": "portfolio table, HOOD chart 109.11, then BE chart 273.95"
+    },
+    {
+      "cue_id": "c27",
+      "term": "chart",
+      "category": "chart",
+      "t": 927.12,
+      "heard": "contracts with good companies including Oracle. Beautiful upward trending chart.",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "BE chart 273.95, static"
+    }
+  ],
+  "control": [
+    {
+      "t": 0.0,
+      "reason": "first-frame",
+      "verdict": "wrong"
+    },
+    {
+      "t": 89.5,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 92.233333,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 101.266667,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 170.333333,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 646.366667,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 759.5,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 866.966667,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 869.533333,
+      "reason": "scene-change",
+      "verdict": "redundant"
+    },
+    {
+      "t": 956.966667,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 979.366667,
+      "reason": "scene-change",
+      "verdict": "redundant"
+    },
+    {
+      "t": 1079.833333,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    }
+  ],
+  "control_notes": "Talking head at 0s and 1080s; Discord/VRT trade/Instagram early; 10Y yield 5.253%; AMAT chart 509.86; AMAT Unusual Whales gamma (call wall 535); portfolio tables; BE chart 273.95.",
+  "labeling_notes": "Labeled by Claude from contact sheets; new-info only where text was readable.",
+  "trained_at": "2026-10-20"
+}

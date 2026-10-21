@@ -1,0 +1,17 @@
+{
+ "video": "t4BJTz6YniU",
+ "auto_dup": true,
+ "note": "Labeled by Claude from contact sheets; new-info only where text was readable.",
+ "cues": {
+  "c01": ["UUUUU", "+2", "Bloomberg AMD/World Labs video page open in browser; +6 shows Gemini table of Nasdaq October returns"],
+  "c02": ["NNRRR", "+0", "Bloomberg Yardeni interview with Nasdaq 100 futures ticker readable: 30,601.50 +35.25 0.12% falling to 30,596 +29.75 0.10%"],
+  "c03": ["UURRR", "+0", "Dan Ives Anthropic interview, headline ANTHROPIC PLANS MASSIVE SPENDING, GROWTH AHEAD OF IPO"],
+  "c04": ["URRRR", "+0", "Dan Ives close-up with name banner (Yorkville Ives & Co.); no new data"],
+  "c05": ["UURRR", "+0", "Anchor and Ives split screen, banner IMPACT OF GROWING AI SAFETY CONCERNS"],
+  "c06": ["UUWWW", "+0", "Interview split screen, then creator webcam full screen"],
+  "c07": ["UUUUU", "+0", "Headline NVIDIA, ANTHROPIC CEOS TO ATTEND TRUMP-JOHNSON LUNCH matches the spoken topic"],
+  "c08": ["URRRR", "+0", "Lisa Su and Fei-Fei Li AMD/World Labs interview, same shot throughout"]
+ },
+ "control": "NNUWRUNWUBWW",
+ "control_note": "Frame 1 shows account value $5,152,548.56 (+$15,385.26, 0.30%); frame 2 Nasdaq 100 futures 30,601.50; frame 7 potential Anthropic IPO valuation $2T; frame 10 blank browser."
+}

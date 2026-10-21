@@ -1,0 +1,332 @@
+{
+  "video_id": "7inC0Ui_NXY",
+  "creator": "Jeremy Lefebvre Makes Money",
+  "title": "Market Emergency just disclosed",
+  "upload_date": "20261009",
+  "duration_seconds": 2209.3,
+  "source": "https://www.youtube.com/watch?v=7inC0Ui_NXY",
+  "verdicts": "new-info | useful | redundant | blank | wrong  (see plan/watch-skill-testing-mode/PLAN.md)",
+  "cues": [
+    {
+      "cue_id": "c01",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 44.8,
+      "heard": "this is going to affect the entire AI trade. I don't care if you you own AMD,",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "SpaceX CDS Google summary page; static screen while he says AMD, so the ticker is not on screen"
+    },
+    {
+      "cue_id": "c02",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 100.72,
+      "heard": "let me just share some optimism. Okay, look at this. Just today, I signed 10 10",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "X post: 10 members hit $1,000,000+, 18 members $100,000+ in the private group; matches the spoken promo"
+    },
+    {
+      "cue_id": "c03",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 169.28,
+      "heard": "this is serious. Oracle stock down another 5% plus here today, right? MU",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "ORCL 2h chart with Big Tech watchlist (ORCL, MU, AVGO, AMD, NVDA...); static across offsets"
+    },
+    {
+      "cue_id": "c04",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 189.92,
+      "heard": "Oracle credit default swaps. Okay. Oracle CDS's credit default swaps once",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "Google page: Why Oracle CDS is making headlines (200bps, $215,000 per $10M); transcript covers it"
+    },
+    {
+      "cue_id": "c05",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 278.0,
+      "heard": "Due to massive AI related borrowing, S&P Global Ratings downgraded Oracle to BBB",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "Same Oracle CDS page as c04, downgrade to BBB- bullet visible"
+    },
+    {
+      "cue_id": "c06",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 336.639,
+      "heard": "might think SpaceX Golden Child, right, can do no wrong. It went IPO recently.",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "SpaceX CDS page again; static"
+    },
+    {
+      "cue_id": "c07",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 362.08,
+      "heard": "artificial intelligence chips, or should we call it SI from Nvidia, the cost to",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "SpaceX CDS page again; static, text mentions the $40 billion debt"
+    },
+    {
+      "cue_id": "c08",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 432.479,
+      "heard": "just come out in causing the issue? Let me explain this. Look at this.",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+2",
+      "notes": "SpaceX page until +0, then OpenAI annualized revenue $20 billion less than previously reported article"
+    },
+    {
+      "cue_id": "c09",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 589.04,
+      "heard": "accounting for for revenue right and so I look at this and it's a it's it's a",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Article text at the bottom (investors prefer actual revenue) mostly hidden by the large webcam bubble"
+    },
+    {
+      "cue_id": "c10",
+      "term": "next-one",
+      "category": "transition",
+      "t": 1382.0,
+      "heard": "struggling bad right now right so it is what it is all right Next one. Okay,",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "CNBC halftime: Dow 51,002.42, S&P 500 7,771.59, Nasdaq 27,355.40, US 10 year 5.292%"
+    },
+    {
+      "cue_id": "c11",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 1389.52,
+      "heard": "Waller on the Fed said, quote, \"I anticipate additional hikes to support a",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+2",
+      "notes": "Same CNBC panel, then Fed's Waller quote on more hikes; transcript already reads it out"
+    },
+    {
+      "cue_id": "c12",
+      "term": "as-you-can-see",
+      "category": "pointing",
+      "t": 1408.559,
+      "heard": "18-month high. That's a backdrop for you. Um you can see that right what we",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "new-info",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "2y 4.808%, 10y 5.292%, 30y 5.659% at -2; WTI crude NOV 92.63 +4.35 +4.93% from +0"
+    },
+    {
+      "cue_id": "c13",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 1567.84,
+      "heard": "growth and the AI investment cycle are supportive of large cap equities. and",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "new-info",
+        "+6": "redundant"
+      },
+      "best_offset": "+4",
+      "notes": "Wells Fargo quote slide (covered by transcript), then S&P 500 intraday 7,771.34 -30.43 -0.39% at +4"
+    },
+    {
+      "cue_id": "c14",
+      "term": "moving-average",
+      "category": "chart",
+      "t": 1638.48,
+      "heard": "more stocks have closed below their 200 50day moving average.",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "new-info"
+      },
+      "best_offset": "+6",
+      "notes": "Studio wide shot, no data, then S&P 500 chart 7,770.31 -31.46 -0.40% YTD +13.31% at +6"
+    },
+    {
+      "cue_id": "c15",
+      "term": "volatility-index",
+      "category": "macro",
+      "t": 1776.72,
+      "heard": "have skated back to is in tech. So just for sake of example, the VIX is down",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "wrong",
+        "+6": "wrong"
+      },
+      "best_offset": null,
+      "notes": "Treasury yield panel (2y 4.806, 10y 5.288, 30y 5.653), not a VIX screen, though it fits the rates talk"
+    },
+    {
+      "cue_id": "c16",
+      "term": "volatility-index",
+      "category": "macro",
+      "t": 1886.72,
+      "heard": "actually is. Isn't that incredible when you look at a VIX at 15 12 and you've",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "CBOE Volatility Index 15.48 +0.40 +2.65% YTD +3.55% on screen"
+    }
+  ],
+  "control": [
+    {
+      "t": 0.0,
+      "reason": "first-frame",
+      "verdict": "new-info"
+    },
+    {
+      "t": 62.766667,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 134.866667,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 841.433333,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 848.2,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 900.6,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 938.7,
+      "reason": "scene-change",
+      "verdict": "redundant"
+    },
+    {
+      "t": 1047.633333,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 1326.8,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 1437.9,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 1874.566667,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 2162.133333,
+      "reason": "scene-change",
+      "verdict": "redundant"
+    }
+  ],
+  "control_notes": "Frame 1 ORCL chart and watchlist with prices (new-info). Frames 8 and 9 CNBC index and yield panels (new-info). Several frames are the webcam enlarged over a browser tab, so wrong screen.",
+  "labeling_notes": "Labeled by Claude from contact sheets; new-info only where text was readable.",
+  "trained_at": "2026-10-20"
+}

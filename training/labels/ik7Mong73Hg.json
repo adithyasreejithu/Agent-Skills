@@ -1,0 +1,508 @@
+{
+  "video_id": "ik7Mong73Hg",
+  "creator": "Options With Ryan",
+  "title": "Stock Market Warning | VIX Hit 22 + CRDO, BE, & HOOD Update (Options With Ryan)",
+  "upload_date": "20261017",
+  "duration_seconds": 1245.9,
+  "source": "https://www.youtube.com/watch?v=ik7Mong73Hg",
+  "verdicts": "new-info | useful | redundant | blank | wrong  (see plan/watch-skill-testing-mode/PLAN.md)",
+  "cues": [
+    {
+      "cue_id": "c01",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 16.44,
+      "heard": "stocks that I'm leaning into in this pullback. So, let's go ahead and dive",
+      "offsets": {
+        "-2": "blank",
+        "+0": "blank",
+        "+2": "blank",
+        "+4": "useful",
+        "+6": "redundant"
+      },
+      "best_offset": "+4",
+      "notes": "talking head at -2/0/+2; not-financial-advice slide at +4/+6"
+    },
+    {
+      "cue_id": "c02",
+      "term": "take-a-look",
+      "category": "pointing",
+      "t": 25.28,
+      "heard": "purposes only. Results may vary. Now, if you take a look at the account here,",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "useful",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "disclaimer slide at -2; brokerage account summary page from +0"
+    },
+    {
+      "cue_id": "c03",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 26.4,
+      "heard": "you take a look at the account here, this right here is my public portfolio",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "same account summary page as c02 [auto: within 1.5s of c02, marked redundant]"
+    },
+    {
+      "cue_id": "c04",
+      "term": "as-you-can-see",
+      "category": "pointing",
+      "t": 55.44,
+      "heard": "to do every Friday kind of showing the monthly update. As you can see,",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "realized gain/loss page, same at every offset"
+    },
+    {
+      "cue_id": "c05",
+      "term": "as-you-can-see",
+      "category": "pointing",
+      "t": 81.72,
+      "heard": "share here in the mentorship. As you can see, uh clients sharing their",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "redundant"
+      },
+      "best_offset": "+2",
+      "notes": "discord post-your-profits; +2 gain screenshot (+$887.26, +$715.59, +$1,602.85); +4 realized gain table (CLS, DRAM, GLW, $2,514.08)"
+    },
+    {
+      "cue_id": "c06",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 123.92,
+      "heard": "the most important with US flash manufacturing PMI, but other than that,",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "MarketWatch economic calendar, same at every offset"
+    },
+    {
+      "cue_id": "c07",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 131.8,
+      "heard": "we do have a lot of earnings coming out. So, let's talk about it. We had Taiwan",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "earnings heatmap for Oct 15; later frames duplicate"
+    },
+    {
+      "cue_id": "c08",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 139.07999999999998,
+      "heard": "They had phenomenal earnings, as well as ASML this week, which is very good for",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "earnings heatmap, a popup for a company at some offsets, not readable"
+    },
+    {
+      "cue_id": "c09",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 159.48,
+      "heard": "overall, okay? We do have Netflix next week, Tesla, Meta, IBM, and a few",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "redundant",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "earnings heatmap scrolled; popup at +6"
+    },
+    {
+      "cue_id": "c10",
+      "term": "fed-watch",
+      "category": "macro",
+      "t": 177.4,
+      "heard": "we want to pay attention to is the CME FedWatch tool, okay? This is the",
+      "offsets": {
+        "-2": "blank",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "blank page at -2; CME FedWatch table from +0"
+    },
+    {
+      "cue_id": "c11",
+      "term": "fed-watch",
+      "category": "macro",
+      "t": 190.6,
+      "heard": "right now, we actually that fifth rate hike that was being priced in on the",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "FedWatch table, same at every offset"
+    },
+    {
+      "cue_id": "c12",
+      "term": "take-a-look",
+      "category": "pointing",
+      "t": 244.88,
+      "heard": "cash level. So, we'll talk about that in just a moment. If we look at the market",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "wrong",
+        "+6": "wrong"
+      },
+      "best_offset": null,
+      "notes": "still on FedWatch; market tide not shown yet"
+    },
+    {
+      "cue_id": "c13",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 252.72,
+      "heard": "Institutions hedging up. You see, you know, spy hedges, Sandisk, QQQ, Tesla,",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "new-info",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+2",
+      "notes": "FedWatch at -2/+0; Unusual Whales market tide from +2 with Fear & Greed 28 and top net impact list"
+    },
+    {
+      "cue_id": "c14",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 255.28,
+      "heard": "know, spy hedges, Sandisk, QQQ, Tesla, MU, pretty much all tech. And then you",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "Unusual Whales market tide, same at every offset"
+    },
+    {
+      "cue_id": "c15",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 343.04,
+      "heard": "specifically spy, but mostly Nasdaq and SMH, the semiconductors, you saw the",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "S&P 500 stocks above 50-day chart (44.13) at every offset"
+    },
+    {
+      "cue_id": "c16",
+      "term": "breadth",
+      "category": "macro",
+      "t": 345.6,
+      "heard": "SMH, the semiconductors, you saw the S5FI, which is 50 S&P 500 stocks above",
+      "offsets": {
+        "-2": "useful",
+        "+0": "new-info",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "same breadth chart, 44.13 legible"
+    },
+    {
+      "cue_id": "c17",
+      "term": "moving-average",
+      "category": "chart",
+      "t": 349.04,
+      "heard": "S5FI, which is 50 S&P 500 stocks above their 50-day moving average actually",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+4",
+      "notes": "breadth chart then equal-weight S&P ETF chart at +4/+6"
+    },
+    {
+      "cue_id": "c18",
+      "term": "breadth",
+      "category": "macro",
+      "t": 357.6,
+      "heard": "44% of stocks in the S&P 500 are above their 50-day moving average. You also",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+4",
+      "notes": "breadth chart then equal-weight ETF chart (214.17) at +4/+6"
+    },
+    {
+      "cue_id": "c19",
+      "term": "moving-average",
+      "category": "chart",
+      "t": 359.79,
+      "heard": "their 50-day moving average. You also",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+4",
+      "notes": "breadth chart at -2/+0; equal-weight ETF chart from +2"
+    },
+    {
+      "cue_id": "c20",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 481.32,
+      "heard": "not the end-all-be-all, but I do like to look at support levels, right? You could",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "QQQ chart with -8%, -10%, -15% levels, price about 714; same at every offset"
+    },
+    {
+      "cue_id": "c21",
+      "term": "chart",
+      "category": "chart",
+      "t": 605.4,
+      "heard": "out. It's actually doing a bit better chart-wise than QQQ.",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "SMH chart with Bollinger bands, price not clearly legible"
+    },
+    {
+      "cue_id": "c22",
+      "term": "bollinger",
+      "category": "chart",
+      "t": 615.52,
+      "heard": "pretty strong here. In fact, it is still within the Bollinger Bands. So, if we",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "SPY chart within Bollinger bands, price about 764"
+    },
+    {
+      "cue_id": "c23",
+      "term": "volatility-index",
+      "category": "macro",
+      "t": 628.72,
+      "heard": "being mindful of these levels. Now, as far as cash goes, okay, we just saw VIX",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+4",
+      "notes": "QQQ chart at -2 to +2; VIX chart at +4/+6 (about 20.30)"
+    },
+    {
+      "cue_id": "c24",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 651.88,
+      "heard": "the Nasdaq, we can get a better reading. So, right now we're trading right here",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "VXN cash allocation levels table, legible, same at every offset"
+    },
+    {
+      "cue_id": "c25",
+      "term": "strike",
+      "category": "options",
+      "t": 772.96,
+      "heard": "you know, I'm selling puts on. Cash-secured puts with the intention of,",
+      "offsets": {
+        "-2": "useful",
+        "+0": "new-info",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "AXP chart, price about 313.10, same at every offset"
+    },
+    {
+      "cue_id": "c26",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 784.44,
+      "heard": "has been a good area of previous support, as you could see this whole",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "wrong"
+      },
+      "best_offset": "+0",
+      "notes": "AXP chart with support area; +6 already shows the CLS chart"
+    },
+    {
+      "cue_id": "c27",
+      "term": "next-one",
+      "category": "transition",
+      "t": 911.4,
+      "heard": "favorites in the portfolio. The next one's going to be Google, okay? This has",
+      "offsets": {
+        "-2": "useful",
+        "+0": "new-info",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "CLS chart at -2; GOOGL chart (about 341.39) from +0"
+    }
+  ],
+  "control": [
+    {
+      "t": 0.0,
+      "reason": "first-frame",
+      "verdict": "blank"
+    },
+    {
+      "t": 82.266667,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 88.733333,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 116.1,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 245.633333,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 646.066667,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 871.5,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 937.166667,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 1042.7,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 1115.5,
+      "reason": "scene-change",
+      "verdict": "redundant"
+    },
+    {
+      "t": 1128.3,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 1242.2,
+      "reason": "scene-change",
+      "verdict": "blank"
+    }
+  ],
+  "control_notes": "Control frames viewed individually (no control sheet was produced). Intro and outro talking head, discord promo, MarketWatch calendar, market tide, VXN table, option positions, HOOD chart.",
+  "labeling_notes": "Labeled by Claude from contact sheets; new-info only where text was readable.",
+  "trained_at": "2026-10-20"
+}

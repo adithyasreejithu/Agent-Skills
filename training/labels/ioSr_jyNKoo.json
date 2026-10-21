@@ -1,0 +1,508 @@
+{
+  "video_id": "ioSr_jyNKoo",
+  "creator": "Options With Ryan",
+  "title": "The Wheel Options Strategy | My NEW Credo Technology (CRDO) Trading Plan 2026 - Options With Ryan",
+  "upload_date": "20261004",
+  "duration_seconds": 1499.5,
+  "source": "https://www.youtube.com/watch?v=ioSr_jyNKoo",
+  "verdicts": "new-info | useful | redundant | blank | wrong  (see plan/watch-skill-testing-mode/PLAN.md)",
+  "cues": [
+    {
+      "cue_id": "c01",
+      "term": "next-one",
+      "category": "transition",
+      "t": 0.16,
+      "heard": "This video is going to be the number one",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+2",
+      "notes": "talking head, then animated 'NUMBER ONE MASTERCLASS' caption overlay"
+    },
+    {
+      "cue_id": "c02",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 15.519,
+      "heard": "favorite stocks, Credo Technologies or CRDO, but I'm actually going to log into",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "talking head only while he names CRDO; no ticker on screen"
+    },
+    {
+      "cue_id": "c03",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 22.88,
+      "heard": "it's worked for me real time. So, let's go ahead and dive right into it.",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "redundant"
+      },
+      "best_offset": "+2",
+      "notes": "talking head, then white 'THIS IS NOT FINANCIAL ADVICE' disclaimer slide"
+    },
+    {
+      "cue_id": "c04",
+      "term": "take-a-look",
+      "category": "pointing",
+      "t": 31.119,
+      "heard": "Results may vary. Now, if you take a look at the account here, this right",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "disclaimer slide, then brokerage account summary page (total value line chart), disclaimer banner"
+    },
+    {
+      "cue_id": "c05",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 32.719,
+      "heard": "look at the account here, this right here is my public portfolio trading near",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "same brokerage account summary; cursor hover on chart"
+    },
+    {
+      "cue_id": "c06",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 34.8,
+      "heard": "here is my public portfolio trading near all-time highs. And if you do want to",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "account summary; Options With Ryan subscribe popup at +6"
+    },
+    {
+      "cue_id": "c07",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 50.879,
+      "heard": "appreciate it and I appreciate you being here. Now, let's go ahead and dive into",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+4",
+      "notes": "account summary with thumbs-up animation, then Realized Gain/Loss page with 73.67% gauge"
+    },
+    {
+      "cue_id": "c08",
+      "term": "as-you-can-see",
+      "category": "pointing",
+      "t": 57.12,
+      "heard": "this strategy has worked for me this year. Now, as you can see on the current",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "Realized Gain/Loss current year page, 73.67% gauge"
+    },
+    {
+      "cue_id": "c09",
+      "term": "as-you-can-see",
+      "category": "pointing",
+      "t": 67.2,
+      "heard": "well. So, we'll go previous calendar year here. As you can see, it's been a",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "new-info",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+2",
+      "notes": "date-range dropdown, then previous calendar year page with 87.85% gauge"
+    },
+    {
+      "cue_id": "c10",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 127.92,
+      "heard": "be sure to be subscribed to that. Now, let's go ahead and dive straight into",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+2",
+      "notes": "Options Trading University site, then dark title slide 'The Wheel Strategy on Credo Technology (CRDO)'"
+    },
+    {
+      "cue_id": "c11",
+      "term": "chart",
+      "category": "chart",
+      "t": 139.76,
+      "heard": "in the space with great premiums, which we'll talk about, and a beautiful chart",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "useful"
+      },
+      "best_offset": "+6",
+      "notes": "title slide repeated, then 'How the Wheel Turns' diagram at +6"
+    },
+    {
+      "cue_id": "c12",
+      "term": "strike",
+      "category": "options",
+      "t": 160.0,
+      "heard": "to be doing is selling a cash secured put. Okay? Now, what I like to think",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "wheel diagram: sell cash-secured put, get assigned, sell covered call, shares called away"
+    },
+    {
+      "cue_id": "c13",
+      "term": "strike",
+      "category": "options",
+      "t": 184.239,
+      "heard": "case something happens. Well, selling a cash secured put is the same thing. It's",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "same wheel diagram"
+    },
+    {
+      "cue_id": "c14",
+      "term": "chart",
+      "category": "chart",
+      "t": 256.799,
+      "heard": "that have a great long upward trending chart, so that I know if I get assigned",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "same wheel diagram"
+    },
+    {
+      "cue_id": "c15",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 322.56,
+      "heard": "wheel strategy for quite some time. And I know that these strategies right here,",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "slide '4 Principles Before Wheeling Any Stock', text too small to read on sheet"
+    },
+    {
+      "cue_id": "c16",
+      "term": "next-one",
+      "category": "transition",
+      "t": 350.15999999999997,
+      "heard": "That bad instance may happen. So, this right here has kept me safe. Number one",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "same 4 principles slide"
+    },
+    {
+      "cue_id": "c17",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 350.15999999999997,
+      "heard": "That bad instance may happen. So, this right here has kept me safe. Number one",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "duplicate of c16 (same timestamp) [auto: within 1.5s of c16, marked redundant]"
+    },
+    {
+      "cue_id": "c18",
+      "term": "take-a-look",
+      "category": "pointing",
+      "t": 358.4,
+      "heard": "a good upward trend. Okay. Now, if we take a look at and we'll take a look at",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "same 4 principles slide"
+    },
+    {
+      "cue_id": "c19",
+      "term": "next-one",
+      "category": "transition",
+      "t": 383.28,
+      "heard": "debt, enough cash to cover their debts. Uh number three is rich premium. So, at",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "same 4 principles slide, rich premium box"
+    },
+    {
+      "cue_id": "c20",
+      "term": "take-a-look",
+      "category": "pointing",
+      "t": 424.8,
+      "heard": "the upward trending chart for the past year and a half. We can take a look at",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "new-info",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+2",
+      "notes": "slide 'CRDO: 18 Months of Higher Highs' ($195.67, 52-week range $86.49 to $308.67), then TradingView CRDO daily chart at 218.64"
+    },
+    {
+      "cue_id": "c21",
+      "term": "options-chain",
+      "category": "options",
+      "t": 560.56,
+      "heard": "done the math for you and we'll dive into the options chain, but for right",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "new-info",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+0",
+      "notes": "slide 'Does the 30-Day / 30D Put Pay 2.5%+?' with illustrative CSP numbers, 3.5%+"
+    },
+    {
+      "cue_id": "c22",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 698.079,
+      "heard": "clusters, active electrical cables, AEC's, okay, and optical DSPs that link",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "slide 'Why CRDO Keeps Expanding' (AI data centre buildout, hyperscaler customers, optical ramp, margin flywheel)"
+    },
+    {
+      "cue_id": "c23",
+      "term": "volatility-index",
+      "category": "macro",
+      "t": 806.639,
+      "heard": "good time to maybe be a little bit more cash heavy. So these VIX cash allocation",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "new-info",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+0",
+      "notes": "VIX Cash Allocation slide: 'WE ARE HERE - VIX ~17 (SLIGHT FEAR)', 20-25% cash, 75-80% invested"
+    },
+    {
+      "cue_id": "c24",
+      "term": "volatility-index",
+      "category": "macro",
+      "t": 829.2,
+      "heard": "held me dollar cost average down. So right now on the VIX, okay, the VIX is",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+4",
+      "notes": "VIX allocation slide, then TradingView VIX chart showing 15.30"
+    },
+    {
+      "cue_id": "c25",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 863.04,
+      "heard": "then everyone gets greedy and the stock market's at all-time highs and then we",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "TradingView VIX chart, last 15.30"
+    },
+    {
+      "cue_id": "c26",
+      "term": "options-chain",
+      "category": "options",
+      "t": 1054.559,
+      "heard": "um in just a moment. So let's go ahead and dive into the options chain. Again,",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+2",
+      "notes": "slide 'Selling the Cash-Secured Put', then broker options chain table and CRDO positions, too small to read"
+    },
+    {
+      "cue_id": "c27",
+      "term": "moving-average",
+      "category": "chart",
+      "t": 1351.76,
+      "heard": "go out further in time, like maybe 40 to 50 days out. Okay? Um, but never sell",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "slide 'Selling Covered Calls': strike above, at or below cost basis"
+    }
+  ],
+  "control": [
+    {
+      "t": 0.0,
+      "reason": "first-frame",
+      "verdict": "useful"
+    },
+    {
+      "t": 82.266667,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 99.6,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 103.6,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 111.3,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 129.366667,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 463.0,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 553.366667,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 601.566667,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 890.033333,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 1247.3,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 1490.766667,
+      "reason": "scene-change",
+      "verdict": "useful"
+    }
+  ],
+  "control_notes": "Control frames: talking head, Discord client-wins screens (x3), Instagram profile, title slide (CRDO ~$196, VIX ~17), TradingView CRDO 218.64, P/E slide (trailing ~70, forward ~30, $764M cash), premium slide, VIX allocation slide, annotated CRDO chart, talking head.",
+  "labeling_notes": "Labeled by Claude from contact sheets; new-info only where text was readable.",
+  "trained_at": "2026-10-20"
+}
