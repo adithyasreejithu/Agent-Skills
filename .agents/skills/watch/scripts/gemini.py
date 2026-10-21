@@ -16,6 +16,7 @@ from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
 from runtime import diagnostic
+from transcribe import normalize_segments
 
 API = 'https://generativelanguage.googleapis.com'
 INTERACTIONS = f'{API}/v1beta/interactions'
@@ -116,13 +117,14 @@ def ask(video: dict, question: str | None, *, model: str, key: str, clip=None, t
             'total_tokens': tokens if isinstance(tokens, int) else None}
 
 
-def upload_file(path: Path, key: str, *, poll_seconds: float = 2.0, max_wait: float = 900.0, sleep=time.sleep) -> dict:
+def upload_file(path: Path, key: str, *, mime: str | None = None, poll_seconds: float = 2.0, max_wait: float = 900.0,
+                sleep=time.sleep) -> dict:
     path = Path(path)
     size = path.stat().st_size
     if size == 0:
         raise _fail('upload', f'{path.name} is empty', key)
     guessed = mimetypes.guess_type(path.name)[0] or ''
-    mime = guessed if guessed.startswith('video/') else 'video/mp4'
+    mime = mime or (guessed if guessed.startswith('video/') else 'video/mp4')
     _, headers, _ = _call('POST', f'{API}/upload/v1beta/files', key,
                           data=json.dumps({'file': {'display_name': 'watch-upload'}}).encode('utf-8'),
                           headers={'X-Goog-Upload-Protocol': 'resumable', 'X-Goog-Upload-Command': 'start',
@@ -160,3 +162,92 @@ def delete_file(name: str, key: str) -> str | None:
     except (SystemExit, Exception) as exc:  # Cleanup must never mask the real result or error.
         return (f'Could not delete uploaded {name} from Google ({str(exc).split(". Detail:")[0]}); '
                 'it expires on its own within 48 hours.')
+
+
+TRANSCRIBE_PROMPT = ('Transcribe this audio verbatim. Output one line per sentence or phrase in exactly this '
+                     'format, with nothing else:\n[MM:SS.s] spoken words\nUse the start time of each phrase. '
+                     'If there is no speech, output nothing.')
+_TS = r'(?:(\d+):)?(\d{1,2}):(\d{1,2}(?:\.\d+)?)'
+# '[MM:SS.s] words' (what we ask for) and '[MM:SS.s --> MM:SS.s] words' (what the model sometimes returns).
+_LINE = re.compile(r'^\s*(?:[-*]\s*)?\**\[' + _TS + r'(?:\s*(?:-->|-|–)\s*' + _TS + r')?\]\**\s*(.+?)\s*$')
+
+
+def _clock_seconds(hours, minutes, seconds) -> float:
+    return int(hours or 0) * 3600 + int(minutes) * 60 + float(seconds)
+
+
+def parse_timestamped_lines(text: str, duration: float | None = None):
+    """Timestamped lines to watch segments; a segment ends at its stated end, else where the next one starts."""
+    starts = []
+    for line in text.splitlines():
+        match = _LINE.match(line)
+        if match:
+            h1, m1, s1, h2, m2, s2, words = match.groups()
+            end = _clock_seconds(h2, m2, s2) if m2 is not None else None
+            starts.append((_clock_seconds(h1, m1, s1), end, words))
+    starts.sort(key=lambda item: item[0])  # the model occasionally emits a line out of order
+    segments = []
+    for i, (start, end, words) in enumerate(starts):
+        if end is None:
+            end = starts[i + 1][0] if i + 1 < len(starts) else max(duration or start, start)
+        segments.append({'start': start, 'end': max(end, start), 'text': words})
+    return normalize_segments({'segments': segments})
+
+
+def transcribe_audio(audio_path: Path, key: str, *, model: str, duration: float | None = None,
+                     timeout: float = 600.0):
+    """Speech to timestamped segments via Gemini, sending only the audio track (no video)."""
+    uploaded = upload_file(Path(audio_path), key, mime='audio/mpeg')
+    try:
+        payload = {'model': model, 'input': [{'type': 'audio', 'uri': uploaded['uri'],
+                                              'mime_type': uploaded['mime_type']},
+                                             {'type': 'text', 'text': TRANSCRIBE_PROMPT}]}
+        _, _, body = _call('POST', INTERACTIONS, key, data=json.dumps(payload).encode('utf-8'),
+                           headers={'Content-Type': 'application/json'}, timeout=timeout)
+        try:
+            data = json.loads(body)
+            text = '\n'.join(part['text'] for step in data['steps'] if step.get('type') == 'model_output'
+                             for part in step.get('content', []) if part.get('type') == 'text' and part.get('text'))
+            tokens = (data.get('usage') or {}).get('total_tokens')
+        except (ValueError, KeyError, TypeError, AttributeError):
+            raise _fail('response', body[:300].decode('utf-8', errors='replace'), key) from None
+        segments = parse_timestamped_lines(text, duration)
+        if text.strip() and not segments:
+            raise _fail('response', 'the transcript came back in a format this version cannot read: '
+                        + text[:120].replace(chr(10), ' '), key)
+        segments.total_tokens = tokens if isinstance(tokens, int) else None
+        return segments
+    finally:
+        delete_file(uploaded['name'], key)
+
+
+CHUNK_SECONDS = 300.0  # tested on a 15 min video: one pass drifted by up to 45 s on one run, 5 min chunks never did
+
+
+def transcribe_long_audio(audio_path: Path, key: str, *, model: str, duration: float, chunk_dir: Path,
+                          max_bytes: int = 24_000_000, chunk_seconds: float = CHUNK_SECONDS):
+    """transcribe_audio for any length. Audio longer than about 1.5 chunks is split (also whenever it exceeds
+    the upload budget) and the pieces are stitched back into source time."""
+    from whisper import audio_duration, plan_chunks, split_audio, transcribe_chunks
+    audio_path = Path(audio_path)
+    size = audio_path.stat().st_size
+    total = audio_duration(audio_path)
+    per_chunk = min(max_bytes, int(size / max(total, 1.0) * chunk_seconds) + 64_000)
+    if size <= max_bytes and total <= chunk_seconds * 1.5:
+        return transcribe_audio(audio_path, key, model=model, duration=duration)
+    max_bytes = per_chunk
+    plan = plan_chunks(total, size, max_bytes - 64_000)
+    chunks = split_audio(audio_path, Path(chunk_dir), plan)
+    if any(path.stat().st_size > max_bytes for path, _ in chunks):
+        raise SystemExit('A split audio chunk exceeds the upload budget; no chunks were uploaded.')
+    tokens = []
+
+    def one(path: Path):
+        segments = transcribe_audio(path, key, model=model, duration=audio_duration(path))
+        if segments.total_tokens is not None:
+            tokens.append(segments.total_tokens)
+        return segments
+
+    stitched = transcribe_chunks(chunks, one)
+    stitched.total_tokens = sum(tokens) if tokens else None
+    return stitched

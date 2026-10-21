@@ -8,12 +8,14 @@ from __future__ import annotations
 
 import argparse
 import hashlib
+import json
 import math
 import os
 import re
 import shutil
 import sys
 import tempfile
+from datetime import datetime, timezone
 from pathlib import Path
 
 
@@ -25,7 +27,7 @@ import gemini  # noqa: E402
 from download import download, fetch_captions, is_url, auth_args  # noqa: E402
 from frames import MAX_FPS, auto_fps, auto_fps_focus, extract_at_timestamps, extract_keyframes, extract_scene_or_uniform, format_time, get_metadata, merge_frames, parse_time, parse_timestamps, validate_controls  # noqa: E402
 from transcribe import filter_range, format_transcript, parse_vtt  # noqa: E402
-from whisper import load_api_key, transcribe_video  # noqa: E402
+from whisper import extract_audio, load_api_key, transcribe_video  # noqa: E402
 from runtime import configure_stdio  # noqa: E402
 from testing import CONTROL_FRAMES, build_sheets, find_cues, load_bank, parse_offsets, propose_terms, select_cues, timestamps_for, write_outputs  # noqa: E402
 
@@ -54,6 +56,37 @@ def display_path(path: Path) -> str:
         return str(path.relative_to(REPO_ROOT))
     except ValueError:
         return str(path)
+
+
+# One JSON line per run, appended to watch-output/watch-log.jsonl, so a later pass can parse what went wrong.
+LOG_FILE = Path(os.environ.get("WATCH_LOG_FILE") or WATCH_OUTPUT.parent / "watch-log.jsonl").expanduser()
+RUN: dict = {"events": []}
+
+
+def log_event(kind: str, message: str, level: str = "warn") -> None:
+    RUN["events"].append({"kind": kind, "level": level, "message": message})
+    print(f"[watch] logged {level} {kind}: {message}", file=sys.stderr)
+
+
+def choose_backend(source: str, backend_choice: str, has_gemini_key: bool) -> str:
+    """Speech fallback for a source with no captions. YouTube never uploads audio on its own (it is logged);
+    anything else (reels, local files) sends only its audio track to Gemini when a key exists."""
+    if backend_choice != "auto":
+        return backend_choice
+    if gemini.is_youtube(source):
+        return "none"
+    return "gemini" if has_gemini_key else "auto"
+
+
+def write_run_log(exit_code) -> None:
+    """Best-effort: logging must never change a run's result."""
+    try:
+        record = {"ts": datetime.now(timezone.utc).isoformat(timespec="seconds"), "exit_code": exit_code, **RUN}
+        LOG_FILE.parent.mkdir(parents=True, exist_ok=True)
+        with LOG_FILE.open("a", encoding="utf-8") as handle:
+            handle.write(json.dumps(record, ensure_ascii=False) + "\n")
+    except Exception as exc:  # noqa: BLE001
+        print(f"[watch] could not write run log: {exc}", file=sys.stderr)
 
 
 LOCAL_ONLY_FLAGS = (("--detail", "detail"), ("--fps", "fps"), ("--max-frames", "max_frames"),
@@ -94,6 +127,8 @@ def run_gemini(args, config, key, start_sec, end_sec, auth) -> int:
         if work:  # Run-owned; holds at most a downloaded copy. A local source file lives elsewhere.
             shutil.rmtree(work, ignore_errors=True)
 
+    RUN.update(engine="gemini-video", model=config["gemini_model"], outcome="failed" if error else "ok",
+               tokens=result["total_tokens"] if result else None, clipped=bool(clip), ignored_flags=ignored)
     print()
     print("# watch: video report")
     print()
@@ -112,6 +147,7 @@ def run_gemini(args, config, key, start_sec, end_sec, auth) -> int:
         print("## Unavailable evidence")
         print()
         print(f"- {error}")
+        log_event("gemini_video_failed", error, "error")
         return 1
     print("## Answer (from Gemini)")
     print()
@@ -157,7 +193,7 @@ def main() -> int:
     )
     ap.add_argument(
         "--whisper",
-        choices=["groq", "openai", "whisperx"],
+        choices=["groq", "openai", "whisperx", "gemini"],
         default=None,
         help="Select the fallback backend for this run; native captions still come first.",
     )
@@ -186,6 +222,7 @@ def main() -> int:
     ap.add_argument("--question", default=None,
                     help="The user's question. Sent to Gemini on a gemini run; unused by the local engine.")
     args = ap.parse_args()
+    RUN.update(source=args.source, engine_arg=args.engine, testing=args.testing)
     if args.no_whisper and args.whisper:
         ap.error("--no-whisper conflicts with --whisper")
     if args.testing and args.engine == "gemini":
@@ -349,15 +386,44 @@ def main() -> int:
         frames = merge_frames(frames, cue_frames)
 
     transcript_state = "missing"
-    if not track_available and backend_choice != "none" and video_path and meta.get("has_audio"):
-        backend, api_key = ("whisperx", None) if backend_choice == "whisperx" else load_api_key(None if backend_choice == "auto" else backend_choice)
+    # Routing for a source with no captions. YouTube never uploads audio on its own (notify instead);
+    # anything else (reels, local files) sends only its audio track to Gemini when a key exists.
+    youtube = gemini.is_youtube(args.source)
+    effective_backend = choose_backend(args.source, backend_choice, bool(gemini_key))
+    if not track_available and effective_backend != "none" and video_path and meta.get("has_audio"):
+        if effective_backend == "gemini":
+            backend, api_key = ("gemini", gemini_key) if gemini_key else (None, None)
+        else:
+            backend, api_key = ("whisperx", None) if effective_backend == "whisperx" else load_api_key(None if effective_backend == "auto" else effective_backend)
         if backend:
             try:
-                all_segments, used_backend = transcribe_video(video_path, work / "audio.mp3", backend=backend, api_key=api_key)
+                if backend == "gemini":
+                    print(f"[watch] sending only the audio track to {config['gemini_model']}…", file=sys.stderr)
+                    audio = extract_audio(video_path, work / "audio.mp3")
+                    all_segments = gemini.transcribe_long_audio(
+                        audio, api_key, model=config["gemini_model"], duration=meta.get("duration_seconds") or 0.0,
+                        chunk_dir=work / "audio-chunks")
+                    used_backend = "gemini"
+                    RUN["gemini_audio_tokens"] = getattr(all_segments, "total_tokens", None)
+                    covered = (all_segments[-1]["end"] / meta["duration_seconds"]) if all_segments and meta.get("duration_seconds") else None
+                    RUN["transcript_coverage"] = round(covered, 2) if covered is not None else None
+                    if covered is not None and covered < 0.9:
+                        log_event("transcript_short", f"Gemini transcript ends at {covered:.0%} of the audio; "
+                                  "it may have been cut off", "warn")
+                    elif covered is not None and covered > 1.05:
+                        log_event("transcript_overrun", f"Gemini transcript ends at {covered:.0%} of the audio; "
+                                  "its timestamps may have drifted", "warn")
+                else:
+                    all_segments, used_backend = transcribe_video(video_path, work / "audio.mp3", backend=backend, api_key=api_key)
                 gaps = getattr(all_segments, "gaps", [])
+                if gaps:
+                    spans = ", ".join(f"{format_time(g['start'])}-{format_time(g['end']) if g['end'] is not None else 'end'}" for g in gaps)
+                    log_event("transcript_gaps", f"{backend} transcription failed for {spans}; the transcript is partial", "warn")
                 track_available = True
                 transcript_state = "no speech" if not all_segments else "available"
-                if used_backend == "whisperx":
+                if used_backend == "gemini":
+                    transcript_source = f"gemini audio ({config['gemini_model']})"
+                elif used_backend == "whisperx":
                     language = config["whisperx_language"] or "auto (unverified)"
                     transcript_source = f"whisper (whisperx {config['whisperx_model']}, language {language})"
                 else:
@@ -365,8 +431,15 @@ def main() -> int:
             except SystemExit as exc:
                 transcript_state = "failed"
                 errors.append(f"Transcription failed: {exc}")
+                log_event("transcription_failed", f"{backend}: {exc} (no retry, no other engine tried)", "error")
         else:
-            transcript_state = f"unavailable: no matching API key for {backend_choice}"
+            transcript_state = f"unavailable: no matching API key for {effective_backend}"
+    elif not track_available and effective_backend == "none" and youtube and backend_choice == "auto" and not args.no_whisper:
+        transcript_state = "no captions; nothing was uploaded"
+        why = ("The caption request itself failed (possibly rate limiting or a blocked network), so captions may exist: "
+               "retry later before spending anything. " if dl.get("errors") else "This YouTube video has no captions. ")
+        log_event("youtube_no_captions" if not dl.get("errors") else "youtube_caption_fetch_failed",
+                  why + "Audio was not sent to Gemini or Whisper automatically.")
     elif not track_available and backend_choice == "none":
         transcript_state = "fallback disabled; no captions available"
     elif not track_available and video_path and not meta.get("has_audio"):
@@ -462,6 +535,14 @@ def main() -> int:
             "`--detail token-burner` to keep every scene-change frame across the whole video."
         )
 
+    if RUN["events"]:
+        print()
+        print("## Run log")
+        print()
+        for event in RUN["events"]:
+            print(f"- {event['level']} `{event['kind']}`: {event['message']}")
+        print(f"_Recorded in `{display_path(LOG_FILE)}`._")
+
     if testing_files:
         testing_json, label_path = testing_files
         print()
@@ -533,12 +614,27 @@ def main() -> int:
     print("---")
     print(f"_Stored in watch-output: `{display_path(work)}` — clear with `uv run agent-skills clean`._")
 
-    return 1 if errors and not frames and not transcript_segments and not track_available else 0
+    RUN.update(engine="local", route="youtube" if youtube else "other", detail=detail, work=display_path(work),
+               video_id=work.name, duration_s=round(full_duration, 1), frames=len(frames),
+               transcript_state=transcript_state, transcript_source=transcript_source,
+               errors=list(errors), testing=bool(args.testing))
+    if errors and not frames and not transcript_segments and not track_available:
+        return 1
+    return 0
 
 
 if __name__ == "__main__":
     configure_stdio()
     try:
-        raise SystemExit(main())
+        code = main()
     except (ConfigError, OSError) as exc:
+        RUN.setdefault("events", []).append({"kind": "crash", "level": "error", "message": str(exc)})
+        write_run_log(1)
         raise SystemExit(str(exc)) from None
+    except SystemExit as exc:
+        if exc.code not in (0, None):
+            RUN["events"].append({"kind": "exit", "level": "error", "message": str(exc.code)[:500]})
+        write_run_log(exc.code)
+        raise
+    write_run_log(code)
+    raise SystemExit(code)

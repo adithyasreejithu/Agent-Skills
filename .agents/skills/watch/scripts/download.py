@@ -121,7 +121,8 @@ def select_caption(info: dict, language: str = 'auto') -> dict | None:
     for kind, tracks in (('manual', manual), ('automatic', automatic)):
         keys = sorted(tracks, key=english_first)
         if target:
-            keys = sorted((k for k in keys if matches(k)), key=lambda k: (k != target, k != f'{target}-orig', k))
+            # Local patch: prefer the original ASR track (-orig) over YouTube's auto-translated one, which 429s.
+            keys = sorted((k for k in keys if matches(k)), key=lambda k: (k != f'{target}-orig', k != target, k))
         if keys:
             key = keys[0]
             # Auto mode must prefer original ASR to translated/dubbed metadata.
