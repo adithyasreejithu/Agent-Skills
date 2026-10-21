@@ -3,6 +3,18 @@
 One entry per training video, rebuilt from `training/labels/*.json` every time `agent-skills train label` runs.
 Do not edit by hand. Scores are per frame (useful or new-info = good); control is the scene-detection baseline.
 
+## 2026-10-20 | K81VYWuW0DA | I WOULD go ALL IN this 1 Stock
+
+- Creator: Jeremy Lefebvre Makes Money
+- Source: https://www.youtube.com/watch?v=K81VYWuW0DA (34:34)
+- Run: 16 cues, offsets -2s, +0s, +2s, +4s, +6s
+- Cue frames: 31% good, 20% new-info (80 frames)
+- Control: 50% good, 25% new-info (12 frames)
+- Best offsets picked: -2s x2, +0s x2, +2s x3, +4s x2, +6s x4
+- Strongest terms: support-resistance (100% of 3), next-one (100% of 2), ticker-mention (67% of 6)
+- Weakest terms: none under 60%
+- Summary: summaries/K81VYWuW0DA-i-would-go-all-in-this-1-stock.md
+
 ## 2026-10-08 | aT5AaRmohrs | Earnings Season Outlook | 3 Stocks I'm Buying + GOOGL & Iran Oil Update (Options With Ryan)
 
 - Creator: Options With Ryan

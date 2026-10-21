@@ -1,0 +1,332 @@
+{
+  "video_id": "K81VYWuW0DA",
+  "creator": "Jeremy Lefebvre Makes Money",
+  "title": "I WOULD go ALL IN this 1 Stock",
+  "upload_date": "20260922",
+  "duration_seconds": 2074.1,
+  "source": "https://www.youtube.com/watch?v=K81VYWuW0DA",
+  "verdicts": "new-info | useful | redundant | blank | wrong  (see plan/watch-skill-testing-mode/PLAN.md)",
+  "cues": [
+    {
+      "cue_id": "c01",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 2.72,
+      "heard": "$5.25 million. Another all-time high for the",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "Brokerage account value $5,256,087.56, +$41,246.70 (0.79%), +184.80% in 3 years; same screen at every offset"
+    },
+    {
+      "cue_id": "c02",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 15.24,
+      "heard": "today. Congratulations to everybody out there hitting all-time highs in your",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "new-info"
+      },
+      "best_offset": "+6",
+      "notes": "Account screen unchanged until +6, which shows AMD position: 2,555 shares, avg cost $111.61, total value $1,593,732.35, +$1,308,563.79 (+458.87%)"
+    },
+    {
+      "cue_id": "c03",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 54.44,
+      "heard": "up $20,000 plus now in that position in total. ELS state louder. Say louder for",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "new-info",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "-2 CELH position (6,615 shares, avg $26.34, +$20,121.31); +0 onward EL position (1,800 shares, avg $69.34, +$55,716.16, +44.64%); the caption 'ELS' is EL"
+    },
+    {
+      "cue_id": "c04",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 91.08,
+      "heard": "all you guys out there hitting all-time highs whether you're in my private group",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "useful",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+2",
+      "notes": "Awards photo for private group at -2/+0, then CNBC Tom Lee video page"
+    },
+    {
+      "cue_id": "c05",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 190.88,
+      "heard": "Let's react to some Wall Streeters. >> A CNBC contributor today certainly is",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "useful",
+        "+6": "new-info"
+      },
+      "best_offset": "+6",
+      "notes": "Tom Lee CNBC video; +4 panel shot; +6 S&P 500 graphic around 7,760"
+    },
+    {
+      "cue_id": "c06",
+      "term": "inflation-data",
+      "category": "macro",
+      "t": 247.64,
+      "heard": ">> Yeah, I mean it is because you know, if you look at the CPI components that are",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "new-info",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+2",
+      "notes": "S&P 500 sector leaders (comm services, info tech, consumer discretionary) then WTI crude Oct 95.51 -4.79, sector laggards energy/staples/materials"
+    },
+    {
+      "cue_id": "c07",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 252.959,
+      "heard": "transport services, those are all energy related and you know, last week the JP",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "WTI crude 95.59 -4.71 with laggards banner; same as c06 frames, +6 shows 95.62"
+    },
+    {
+      "cue_id": "c08",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 427.48,
+      "heard": "think sentiment is still quite bearish. You know, last week AAII had plurality",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "new-info",
+        "+4": "redundant",
+        "+6": "blank"
+      },
+      "best_offset": "+4",
+      "notes": "Major stock averages higher banner; S&P 500 7,762.55 +112.05 (+1.46%) at +4; blue transition at +6"
+    },
+    {
+      "cue_id": "c09",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 529.44,
+      "heard": "like started really performing well, right? While AMD was maybe taking a",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "wrong",
+        "+6": "wrong"
+      },
+      "best_offset": null,
+      "notes": "Creator full-screen webcam, no market data on screen"
+    },
+    {
+      "cue_id": "c10",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 719.28,
+      "heard": "right? So, just little food for thought. Okay, next up here. Let's talk some more",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "new-info",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "-2 webcam full screen; then CNBC Real-Time: Dow 51,769.70 -279.13, S&P 7,762.57 -2.13, Nasdaq 27,198.05 +75.96, 10-yr 4.974%"
+    },
+    {
+      "cue_id": "c11",
+      "term": "moving-average",
+      "category": "chart",
+      "t": 844.36,
+      "heard": "bottomed out at the 100-day moving average at that point. We carried",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "new-info",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "new-info"
+      },
+      "best_offset": "+6",
+      "notes": "Roundhill Magnificent Seven MAGS 72.82 YTD +10.40%; Nasdaq Composite 27,178.66 +56.57; S&P 500 7,759.81 -0.06% at +6"
+    },
+    {
+      "cue_id": "c12",
+      "term": "next-one",
+      "category": "transition",
+      "t": 878.64,
+      "heard": "as well is that quality, the number one quality sector",
+      "offsets": {
+        "-2": "useful",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "new-info",
+        "+6": "redundant"
+      },
+      "best_offset": "+4",
+      "notes": "Debate panel, then host close-ups (Brian Belski, Humilis); +4 Apple AAPL 342.05 +3.07 (+0.91%)"
+    },
+    {
+      "cue_id": "c13",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 1053.64,
+      "heard": "Louise. What? >> And and uh inflation and WTI will be",
+      "offsets": {
+        "-2": "blank",
+        "+0": "blank",
+        "+2": "new-info",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+2",
+      "notes": "Blue transition and an empty WTI chart loading; +2 WTI Crude Oct 96.17 +0.39 (+0.41%)"
+    },
+    {
+      "cue_id": "c14",
+      "term": "chart",
+      "category": "chart",
+      "t": 1140.28,
+      "heard": "high today, and why the money continues to flow back. That chart representative",
+      "offsets": {
+        "-2": "useful",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "wrong",
+        "+6": "wrong"
+      },
+      "best_offset": null,
+      "notes": "Return of the Mag 7 panel, then talking-head guests; no chart on screen"
+    },
+    {
+      "cue_id": "c15",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 1309.32,
+      "heard": "what the mega caps are doing. You think what today when you look at this market?",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "useful",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "Data Center Skepticism on the Rise panel and a guest on camera; no numbers"
+    },
+    {
+      "cue_id": "c16",
+      "term": "next-one",
+      "category": "transition",
+      "t": 1499.6,
+      "heard": "it. Not so much anymore. The number one",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "new-info"
+      },
+      "best_offset": "+6",
+      "notes": "Meta Platforms META 748.21 +6.97 (+0.94%), YTD +13.29%; +6 chart since Muse AI launch +21.30%"
+    }
+  ],
+  "control": [
+    {
+      "t": 0.0,
+      "reason": "first-frame",
+      "verdict": "new-info"
+    },
+    {
+      "t": 104.933333,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 120.266667,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 442.2,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 555.7,
+      "reason": "scene-change",
+      "verdict": "redundant"
+    },
+    {
+      "t": 646.433333,
+      "reason": "scene-change",
+      "verdict": "redundant"
+    },
+    {
+      "t": 717.6,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 1002.833333,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 1258.833333,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 1312.633333,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 1466.866667,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 1720.166667,
+      "reason": "scene-change",
+      "verdict": "redundant"
+    }
+  ],
+  "control_notes": "Account value, CNBC Real-Time index table and the X post with the six-stock table were new-info; webcam-covered frames were wrong-screen.",
+  "labeling_notes": "Labeled by Claude from contact sheets; new-info only where text was readable. No control_sheet.jpg was produced for this video, so control frames were read one by one.",
+  "trained_at": "2026-10-20"
+}

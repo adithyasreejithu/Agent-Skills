@@ -81,3 +81,25 @@ def summarize(text: str) -> dict:
     fields = parsed[0] if parsed else {}
     return {'tickers': parse_list(fields.get('tickers', '')), 'stance': fields.get('stance') or None,
             'evidence': fields.get('evidence') or None}
+
+
+def label_problems(labels_dir: Path, video_id: str) -> list[str]:
+    """Testing mode: the label file must exist and every cue and control frame must carry a verdict."""
+    import json
+    path = labels_dir / f'{video_id}.json'
+    try:
+        data = json.loads(path.read_text(encoding='utf-8'))
+    except FileNotFoundError:
+        return [f'no label file at {path.as_posix()}; watch --testing did not run']
+    except (json.JSONDecodeError, OSError) as exc:
+        return [f'label file unreadable: {exc}']
+    open_cues = [c.get('cue_id') for c in data.get('cues', []) if any(v is None for v in (c.get('offsets') or {}).values())]
+    open_control = sum(1 for item in data.get('control', []) if item.get('verdict') is None)
+    problems = []
+    if not data.get('cues'):
+        problems.append('label file has no cues')
+    if open_cues:
+        problems.append(f'{len(open_cues)} cue(s) still unlabeled ({", ".join(open_cues[:5])})')
+    if open_control:
+        problems.append(f'{open_control} control frame(s) unlabeled')
+    return problems

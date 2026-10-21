@@ -1,3 +1,4 @@
+import dataclasses
 import json
 import os
 import tempfile
@@ -7,7 +8,7 @@ from pathlib import Path
 
 import _path  # noqa: F401
 from _fakes import make_paths
-from note import find_note, summarize, validate
+from note import find_note, label_problems, summarize, validate
 from process import RunResult, build_prompt, complete, fail, process_queue, write_digest
 from store import Store, iso
 
@@ -187,6 +188,43 @@ class ProcessTests(unittest.TestCase):
         self.assertEqual((stage, kept['attempts']), ('pending', 0))
         self.assertEqual(self.store.counts()['processing'], 0)
 
+    def test_watch_result_json_flags_rate_limit_and_fills_manifest(self):
+        self.store.add_pending(item('aaaaaaaaaa1'))
+        raw = self.paths.raw / 'aaaaaaaaaa1'
+        raw.mkdir(parents=True)
+
+        def limited(it, prompt, log):
+            (raw / 'result.json').write_text(json.dumps({'caption_status': 'fetch_failed'}), encoding='utf-8')
+            return RunResult(0, 'RESULT: failed captions unavailable')
+
+        report = process_queue(self.store, lambda: NOW, runner=limited, template=self.template)
+        self.assertTrue(report.rate_limited)
+        self.assertEqual(self.store.find('aaaaaaaaaa1')[1]['attempts'], 0)
+
+        def fine(it, prompt, log):
+            (raw / 'result.json').write_text(json.dumps({'caption_status': 'available', 'engine': 'local',
+                                                         'transcript_kind': 'captions', 'event_kinds': []}), encoding='utf-8')
+            return self.writer()(it, prompt, log)
+
+        report = process_queue(self.store, lambda: NOW, runner=fine, template=self.template)
+        self.assertEqual(report.done, ['aaaaaaaaaa1'])
+        manifest = json.loads(self.store.item_path('done', 'aaaaaaaaaa1').read_text(encoding='utf-8'))
+        self.assertEqual((manifest['watch_engine'], manifest['transcript_kind']), ('local', 'captions'))
+        self.assertEqual(manifest['raw_dir'], raw.as_posix())
+
+    def test_stale_result_json_from_an_earlier_run_is_ignored(self):
+        import os
+        self.store.add_pending(item('aaaaaaaaaa1'))
+        raw = self.paths.raw / 'aaaaaaaaaa1'
+        raw.mkdir(parents=True)
+        old = raw / 'result.json'
+        old.write_text(json.dumps({'caption_status': 'fetch_failed'}), encoding='utf-8')
+        os.utime(old, (1, 1))
+        report = process_queue(self.store, lambda: NOW, runner=lambda i, p, l: RunResult(0, 'RESULT: failed x'),
+                               template=self.template)
+        self.assertFalse(report.rate_limited)
+        self.assertEqual(len(report.retried), 1)
+
     def test_digest_groups_by_channel_and_appends_same_day(self):
         self.store.add_pending(item())
         process_queue(self.store, lambda: NOW, runner=self.writer(), template=self.template)
@@ -198,6 +236,63 @@ class ProcessTests(unittest.TestCase):
         self.assertIn(f'({rel})', text)
         self.assertIsNone(write_digest(self.store, ['nothere0000'], NOW))
         self.assertEqual(find_note(self.paths.notes, VID).name, f'{VID}-test.md')
+
+
+class TestingModeTests(unittest.TestCase):
+    def setUp(self):
+        self.root = Path(tempfile.mkdtemp())
+        self.labels = self.root / 'training' / 'labels'
+        self.labels.mkdir(parents=True)
+        self.paths = dataclasses.replace(make_paths(self.root), testing=True, labels=self.labels)
+        self.store = Store(self.paths)
+        self.store.ensure()
+        self.paths.notes.mkdir(parents=True, exist_ok=True)
+
+    def write_labels(self, verdict='useful', control='blank'):
+        (self.labels / f'{VID}.json').write_text(json.dumps({
+            'cues': [{'cue_id': 'c01', 'offsets': {'+0': verdict, '+2': verdict}}],
+            'control': [{'t': 0.0, 'verdict': control}]}), encoding='utf-8')
+
+    def run_one(self, label_writer=None):
+        self.store.add_pending(item())
+
+        def runner(it, prompt, log):
+            (self.paths.notes / f'{VID}-test.md').write_text(GOOD, encoding='utf-8')
+            if label_writer:
+                label_writer()
+            return RunResult(0, 'RESULT: ok')
+
+        return process_queue(self.store, lambda: NOW, runner=runner, template='x')
+
+    def test_note_without_labels_is_not_done(self):
+        report = self.run_one()
+        self.assertEqual(report.done, [])
+        self.assertIn('testing run incomplete', report.retried[0][1])
+        self.assertIn('no label file', report.retried[0][1])
+
+    def test_unlabeled_skeleton_is_not_done(self):
+        report = self.run_one(lambda: self.write_labels(verdict=None, control=None))
+        self.assertEqual(report.done, [])
+        self.assertIn('unlabeled', report.retried[0][1])
+
+    def test_labeled_run_is_done_and_marked_labeled(self):
+        report = self.run_one(self.write_labels)
+        self.assertEqual(report.done, [VID])
+        manifest = json.loads(self.store.item_path('done', VID).read_text(encoding='utf-8'))
+        self.assertEqual(manifest['training_status'], 'labeled')
+
+    def test_label_problems_directly(self):
+        self.assertTrue(label_problems(self.labels, 'nothere0000'))
+        self.write_labels()
+        self.assertEqual(label_problems(self.labels, VID), [])
+
+    def test_testing_prompt_is_used_and_carries_label_paths(self):
+        from process import prompt_template
+        text = build_prompt(prompt_template(self.paths, env={}), item(), self.paths)
+        self.assertIn('--testing', text)
+        self.assertIn(f'{self.labels.parent.as_posix()}/specs/{VID}.json', text)
+        self.assertNotIn('{labels_dir}', text)
+        self.assertNotIn('{specs_dir}', text)
 
 
 if __name__ == '__main__':

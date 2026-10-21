@@ -68,6 +68,30 @@ class CliTests(unittest.TestCase):
         self.assertTrue((self.home / 'QUEUE.md').exists())
         self.assertEqual(cli('--home', str(self.home), 'list', '--skipped')[0], 0)
 
+    def test_requeue_sends_done_and_failed_back_to_pending(self):
+        cli('--home', str(self.home), 'init')
+        from store import Store
+        from config import resolve_paths
+        store = Store(resolve_paths(str(self.home)))
+        store.add_pending({'video_id': 'failed00000', 'url': 'u', 'title': 't', 'origin': 'rss', 'priority': 50,
+                           'attempts': 3, 'last_error': 'x'})
+        store.move('failed00000', 'pending', 'failed')
+        (store.dirs['done'] / 'done0000000.json').write_text(json.dumps(
+            {'video_id': 'done0000000', 'url': 'u', 'title': 'T', 'channel': 'C'}), encoding='utf-8')
+        code, out, _ = cli('--home', str(self.home), 'requeue', 'failed00000', 'done0000000', 'nothere0000')
+        self.assertEqual(code, 1)
+        self.assertEqual(store.find('failed00000')[0], 'pending')
+        self.assertEqual(store.find('failed00000')[1]['attempts'], 0)
+        stage, item = store.find('done0000000')
+        self.assertEqual((stage, item['channel_name']), ('pending', 'C'))
+
+    def test_testing_flag_comes_from_settings(self):
+        from config import resolve_paths
+        self.assertFalse(resolve_paths(None, env={}, cwd=self.home, user_config=self.home / 'none').testing)
+        on = resolve_paths(None, env={'INGEST_TESTING': 'yes'}, cwd=self.home, user_config=self.home / 'none')
+        self.assertTrue(on.testing)
+        self.assertEqual(on.labels, self.home / 'training' / 'labels')
+
 
 if __name__ == '__main__':
     unittest.main()

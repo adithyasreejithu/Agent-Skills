@@ -1,0 +1,25 @@
+{
+ "video": "K81VYWuW0DA",
+ "auto_dup": true,
+ "note": "Labeled by Claude from contact sheets; new-info only where text was readable. No control_sheet.jpg was produced for this video, so control frames were read one by one.",
+ "cues": {
+  "c01": ["NRRRR", "-2", "Brokerage account value $5,256,087.56, +$41,246.70 (0.79%), +184.80% in 3 years; same screen at every offset"],
+  "c02": ["RRRRN", "+6", "Account screen unchanged until +6, which shows AMD position: 2,555 shares, avg cost $111.61, total value $1,593,732.35, +$1,308,563.79 (+458.87%)"],
+  "c03": ["NNRRR", "+0", "-2 CELH position (6,615 shares, avg $26.34, +$20,121.31); +0 onward EL position (1,800 shares, avg $69.34, +$55,716.16, +44.64%); the caption 'ELS' is EL"],
+  "c04": ["URURR", "+2", "Awards photo for private group at -2/+0, then CNBC Tom Lee video page"],
+  "c05": ["URRUN", "+6", "Tom Lee CNBC video; +4 panel shot; +6 S&P 500 graphic around 7,760"],
+  "c06": ["NRNRR", "+2", "S&P 500 sector leaders (comm services, info tech, consumer discretionary) then WTI crude Oct 95.51 -4.79, sector laggards energy/staples/materials"],
+  "c07": ["RRRRR", null, "WTI crude 95.59 -4.71 with laggards banner; same as c06 frames, +6 shows 95.62"],
+  "c08": ["URNRB", "+4", "Major stock averages higher banner; S&P 500 7,762.55 +112.05 (+1.46%) at +4; blue transition at +6"],
+  "c09": ["WWWWW", null, "Creator full-screen webcam, no market data on screen"],
+  "c10": ["WNRRR", "+0", "-2 webcam full screen; then CNBC Real-Time: Dow 51,769.70 -279.13, S&P 7,762.57 -2.13, Nasdaq 27,198.05 +75.96, 10-yr 4.974%"],
+  "c11": ["NNRRN", "+6", "Roundhill Magnificent Seven MAGS 72.82 YTD +10.40%; Nasdaq Composite 27,178.66 +56.57; S&P 500 7,759.81 -0.06% at +6"],
+  "c12": ["UWWNR", "+4", "Debate panel, then host close-ups (Brian Belski, Humilis); +4 Apple AAPL 342.05 +3.07 (+0.91%)"],
+  "c13": ["BBNRR", "+2", "Blue transition and an empty WTI chart loading; +2 WTI Crude Oct 96.17 +0.39 (+0.41%)"],
+  "c14": ["UWWWW", null, "Return of the Mag 7 panel, then talking-head guests; no chart on screen"],
+  "c15": ["URRUR", "-2", "Data Center Skepticism on the Rise panel and a guest on camera; no numbers"],
+  "c16": ["NRRRN", "+6", "Meta Platforms META 748.21 +6.97 (+0.94%), YTD +13.29%; +6 chart since Muse AI launch +21.30%"]
+ },
+ "control": "NNNURRWUWUWR",
+ "control_note": "Account value, CNBC Real-Time index table and the X post with the six-stock table were new-info; webcam-covered frames were wrong-screen."
+}

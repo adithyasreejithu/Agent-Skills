@@ -30,7 +30,7 @@ from config import DEFAULT_RUN_BUDGET_MIN, STARTER_SOURCES, ConfigError, load_so
 from inbox import add_manual, consume_inbox  # noqa: E402
 from poll import poll  # noqa: E402
 from process import build_prompt, process_queue, prompt_template, write_digest  # noqa: E402
-from store import LockHeld, Store, utcnow  # noqa: E402
+from store import LockHeld, Store, iso, utcnow  # noqa: E402
 from ytnet import Net  # noqa: E402
 
 
@@ -69,6 +69,8 @@ def build_parser() -> argparse.ArgumentParser:
     n = sub.add_parser('next')
     n.add_argument('--limit', type=int)
     n.add_argument('--json', action='store_true')
+    rq = sub.add_parser('requeue', help='send done or failed videos back to pending to be processed again')
+    rq.add_argument('ids', nargs='+')
     sub.add_parser('recover')
     ls = sub.add_parser('list')
     ls.add_argument('--skipped', action='store_true')
@@ -222,6 +224,29 @@ def cmd_add(store, args) -> int:
     return code
 
 
+def cmd_requeue(store, args) -> int:
+    code = 0
+    for vid in args.ids:
+        found = store.find(vid)
+        if found is None or found[0] not in ('done', 'failed'):
+            print(f'{vid}: not in done or failed' + (f' (it is in {found[0]})' if found else ''))
+            code = 1
+            continue
+        stage, item = found
+        if stage == 'done':       # a manifest is not a queue item; rebuild one from it
+            item = {'video_id': vid, 'url': item.get('url'), 'title': item.get('title'), 'channel_name': item.get('channel'),
+                    'published_at': item.get('published_at'), 'origin': 'manual', 'priority': 100,
+                    'discovered_at': iso(utcnow())}
+        for key in ('attempts', 'last_error', 'last_attempt_at', 'not_before', 'claimed_at'):
+            item.pop(key, None)
+        item['attempts'] = 0
+        store.add_pending(item)
+        store.remove(stage, vid)
+        print(f'{vid}: back to pending (was {stage})')
+    store.write_queue_md(utcnow())
+    return code
+
+
 def cmd_next(store, args) -> int:
     now = utcnow()
     store.ensure()
@@ -320,6 +345,8 @@ def main(argv: list[str] | None = None) -> int:
             return cmd_add(store, args)
         if args.command == 'next':
             return cmd_next(store, args)
+        if args.command == 'requeue':
+            return cmd_requeue(store, args)
         if args.command == 'recover':
             released = store.recover_stale(utcnow())
             print(f'released {len(released)}: {", ".join(released)}' if released else 'nothing stale')

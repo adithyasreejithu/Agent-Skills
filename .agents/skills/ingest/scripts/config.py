@@ -32,6 +32,8 @@ class Paths:
     state: Path
     logs: Path
     sources_file: Path
+    testing: bool = False          # run videos through watch --testing and label them (training)
+    labels: Path | None = None     # where training label files live when testing is on
 
 
 @dataclass(frozen=True)
@@ -121,6 +123,8 @@ def resolve_paths(cli_home: str | None = None, env: dict[str, str] | None = None
         state=folder('INGEST_STATE_DIR', home),
         logs=folder('INGEST_LOGS_DIR', home / 'logs'),
         sources_file=folder('INGEST_SOURCES_FILE', home / 'sources.toml'),
+        testing=(pick('INGEST_TESTING') or '').strip().lower() in ('1', 'true', 'yes', 'on'),
+        labels=folder('INGEST_LABELS_DIR', cwd / 'training' / 'labels'),
     )
 
 
