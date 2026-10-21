@@ -75,6 +75,10 @@ category (a chart page may need longer to load than a spoken ticker). Once a cle
 ## Open questions
 - Is a fixed offset enough, or does each category need its own?
 - Does the cue approach still work on videos with no captions (Whisper transcripts have different timing)?
+  Partly answered (2026-10-21): testing mode now transcribes before it picks cues, so a caption-less source
+  gets a Gemini audio transcript first (tested on a 70 s reel: 3 cues, 3 sheets). Not yet answered: whether
+  cue terms hit as well on Gemini timing. Its timestamps agreed with YouTube's captions to a median of about
+  0.6 s on one 15-minute video, with occasional drifts and failed chunks, so measure before trusting it.
 - Can tickers be extracted reliably from a frame (OCR) so captions matter less?
 - Should the final mode replace scene detection or sit beside it?
 
@@ -143,3 +147,9 @@ category (a chart page may need longer to load than a spoken ticker). Once a cle
 ## Decisions
 - Training-process changes (offsets, cue merging, stoplist, term weights, scene frames, tile size) are on hold
   until there is a larger set of videos. Current suggestions are in the findings above.
+- 2026-10-21: name errors in audio transcripts (Gemini wrote "Sandice" for SanDisk) are part of the training
+  model, not a separate fix. Backlog for when training resumes: a ticker alias map (spoken or misheard name to
+  canonical ticker, shared with the wiki plan's `_meta/ticker-aliases.yaml`), the acronym stoplist (PMI, PCE, BLS,
+  AAA, COVID, AGI, MIT, CEO), and scoring Gemini-audio transcripts against caption transcripts.
+- 2026-10-21: failures and notices are log-only for now. Every run appends to `watch-output/watch-log.jsonl` and
+  local runs write `<work>/result.json`; a later pass will parse them. No notification channel is planned yet.

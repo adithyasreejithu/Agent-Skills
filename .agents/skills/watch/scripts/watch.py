@@ -341,69 +341,8 @@ def main() -> int:
         fps = min(args.fps, MAX_FPS)
         target = max(1, int(round(fps * effective_duration)))
 
-    testing_cues: list[dict] = []
-    testing_offsets: list[float] = []
-    bank = None
-    if args.testing:
-        # Cues come from native captions, the only transcript that exists before frames are extracted.
-        cue_segments = filter_range(all_segments, start_sec, end_sec) if focused else all_segments
-        if not cue_segments:
-            print("[watch] testing mode needs a transcript (captions) to find cues — "
-                  "running with control frames only", file=sys.stderr)
-        else:
-            testing_offsets = parse_offsets(args.testing_offsets)
-            bank = load_bank(BANK_PATH)
-            max_cues = max(1, (args.testing_cap - CONTROL_FRAMES) // len(testing_offsets))
-            per_round = {t["id"]: t["per_round"] for t in bank["terms"] if t.get("per_round")}
-            testing_cues = select_cues(find_cues(cue_segments, bank), max_cues, per_round)
-            cue_timestamps = timestamps_for(testing_cues, testing_offsets, full_duration)
-            max_frames = len(cue_timestamps) + CONTROL_FRAMES
-            budget_cap = max_frames
-            print(f"[watch] testing mode: {len(testing_cues)} cues x {len(testing_offsets)} offsets "
-                  f"= {len(cue_timestamps)} frames (+{CONTROL_FRAMES} control)", file=sys.stderr)
-            fps, target = (auto_fps_focus if focused else auto_fps)(effective_duration, max_frames=budget_cap)
-
-    frames, cue_frames = [], []
-    frame_meta = {"engine": "none", "candidate_count": 0, "selected_count": 0, "fallback": False}
-    cue_meta = {}
-    detail_budget = max_frames
-    if video_path and meta.get("has_video", bool(meta.get("width"))):
-        try:
-            if cue_timestamps:
-                cue_frames, cue_meta = extract_at_timestamps(
-                    video_path, work / "frames", cue_timestamps, resolution=args.resolution,
-                    max_frames=max_frames, start_seconds=start_sec, end_seconds=effective_end or end_sec)
-            detail_budget = CONTROL_FRAMES if args.testing else (None if max_frames is None else max_frames - len(cue_frames))
-            if detail != "transcript" and detail_budget != 0:
-                kwargs = dict(resolution=args.resolution, max_frames=detail_budget,
-                              start_seconds=start_sec, end_seconds=effective_end or end_sec, dedup=not args.no_dedup)
-                if detail == "efficient":
-                    frames, frame_meta = extract_keyframes(video_path, work / "frames", **kwargs)
-                else:
-                    frames, frame_meta = extract_scene_or_uniform(video_path, work / "frames", fps=fps, target_frames=target, **kwargs)
-        except SystemExit as exc:
-            visual_error = f"Visual extraction unavailable: {exc}"
-            errors.append(visual_error)
-    elif video_path and not visual_error and (detail != "transcript" or cue_timestamps):
-        visual_error = "No video stream; visual evidence is unavailable."
-    testing_files: tuple[Path, Path | None] | None = None
-    if cue_frames and args.testing:
-        # Cue frames stay out of the frame list (the report points at contact sheets
-        # instead); only the control frames are listed for Claude to Read directly.
-        # Keyed by the requested time: 0.3.x stamps frames with the real (slightly shifted) timestamp.
-        frame_for = {round(f.get("requested_timestamp_seconds", f["timestamp_seconds"]), 2): f["path"] for f in cue_frames}
-        build_sheets(testing_cues, frame_for, work / "sheets", testing_offsets, full_duration)
-        info_ = dl.get("info") or {}
-        testing_files = write_outputs(
-            video_id=work.name, source=args.source, work=work, labels_dir=LABELS_DIR,
-            cues=testing_cues, offsets=testing_offsets, frame_for=frame_for,
-            duration=full_duration, control=frames,
-            proposals=propose_terms(cue_segments, bank),
-            creator=info_.get("uploader"), title=info_.get("title"), upload_date=info_.get("upload_date"),
-        )
-    elif cue_frames:
-        frames = merge_frames(frames, cue_frames)
-
+    # Speech comes first (captions, else the routed fallback) so testing mode can find cues in any transcript,
+    # including Gemini audio for sources with no captions.
     transcript_state = "missing"
     # Routing for a source with no captions. YouTube never uploads audio on its own (notify instead);
     # anything else (reels, local files) sends only its audio track to Gemini when a key exists.
@@ -463,6 +402,70 @@ def main() -> int:
         transcript_state = "fallback disabled; no captions available"
     elif not track_available and video_path and not meta.get("has_audio"):
         transcript_state = "no audio stream" if not visual_error else "audio metadata unavailable"
+
+
+    testing_cues: list[dict] = []
+    testing_offsets: list[float] = []
+    bank = None
+    if args.testing:
+        # Cues come from native captions, the only transcript that exists before frames are extracted.
+        cue_segments = filter_range(all_segments, start_sec, end_sec) if focused else all_segments
+        if not cue_segments:
+            print("[watch] testing mode needs a transcript to find cues — "
+                  "running with control frames only", file=sys.stderr)
+        else:
+            testing_offsets = parse_offsets(args.testing_offsets)
+            bank = load_bank(BANK_PATH)
+            max_cues = max(1, (args.testing_cap - CONTROL_FRAMES) // len(testing_offsets))
+            per_round = {t["id"]: t["per_round"] for t in bank["terms"] if t.get("per_round")}
+            testing_cues = select_cues(find_cues(cue_segments, bank), max_cues, per_round)
+            cue_timestamps = timestamps_for(testing_cues, testing_offsets, full_duration)
+            max_frames = len(cue_timestamps) + CONTROL_FRAMES
+            budget_cap = max_frames
+            print(f"[watch] testing mode: {len(testing_cues)} cues x {len(testing_offsets)} offsets "
+                  f"= {len(cue_timestamps)} frames (+{CONTROL_FRAMES} control)", file=sys.stderr)
+            fps, target = (auto_fps_focus if focused else auto_fps)(effective_duration, max_frames=budget_cap)
+
+    frames, cue_frames = [], []
+    frame_meta = {"engine": "none", "candidate_count": 0, "selected_count": 0, "fallback": False}
+    cue_meta = {}
+    detail_budget = max_frames
+    if video_path and meta.get("has_video", bool(meta.get("width"))):
+        try:
+            if cue_timestamps:
+                cue_frames, cue_meta = extract_at_timestamps(
+                    video_path, work / "frames", cue_timestamps, resolution=args.resolution,
+                    max_frames=max_frames, start_seconds=start_sec, end_seconds=effective_end or end_sec)
+            detail_budget = CONTROL_FRAMES if args.testing else (None if max_frames is None else max_frames - len(cue_frames))
+            if detail != "transcript" and detail_budget != 0:
+                kwargs = dict(resolution=args.resolution, max_frames=detail_budget,
+                              start_seconds=start_sec, end_seconds=effective_end or end_sec, dedup=not args.no_dedup)
+                if detail == "efficient":
+                    frames, frame_meta = extract_keyframes(video_path, work / "frames", **kwargs)
+                else:
+                    frames, frame_meta = extract_scene_or_uniform(video_path, work / "frames", fps=fps, target_frames=target, **kwargs)
+        except SystemExit as exc:
+            visual_error = f"Visual extraction unavailable: {exc}"
+            errors.append(visual_error)
+    elif video_path and not visual_error and (detail != "transcript" or cue_timestamps):
+        visual_error = "No video stream; visual evidence is unavailable."
+    testing_files: tuple[Path, Path | None] | None = None
+    if cue_frames and args.testing:
+        # Cue frames stay out of the frame list (the report points at contact sheets
+        # instead); only the control frames are listed for Claude to Read directly.
+        # Keyed by the requested time: 0.3.x stamps frames with the real (slightly shifted) timestamp.
+        frame_for = {round(f.get("requested_timestamp_seconds", f["timestamp_seconds"]), 2): f["path"] for f in cue_frames}
+        build_sheets(testing_cues, frame_for, work / "sheets", testing_offsets, full_duration)
+        info_ = dl.get("info") or {}
+        testing_files = write_outputs(
+            video_id=work.name, source=args.source, work=work, labels_dir=LABELS_DIR,
+            cues=testing_cues, offsets=testing_offsets, frame_for=frame_for,
+            duration=full_duration, control=frames,
+            proposals=propose_terms(cue_segments, bank),
+            creator=info_.get("uploader"), title=info_.get("title"), upload_date=info_.get("upload_date"),
+        )
+    elif cue_frames:
+        frames = merge_frames(frames, cue_frames)
 
     transcript_segments = filter_range(all_segments, start_sec, end_sec) if focused else all_segments
     transcript_text = format_transcript(transcript_segments)
