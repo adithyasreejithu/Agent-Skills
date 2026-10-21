@@ -1,0 +1,212 @@
+#!/usr/bin/env python3
+"""Phase 2: turn claimed queue items into notes.
+
+Claude (via `claude -p`) does the watching and writing; everything around it is deterministic:
+claim -> run -> find the note -> validate -> write the done/ manifest (or retry / fail) -> digest.
+The runner is injectable so the whole loop is testable without a model.
+"""
+from __future__ import annotations
+
+import os
+import shutil
+import subprocess
+import time
+from dataclasses import dataclass, field
+from datetime import datetime, timedelta
+from pathlib import Path
+from typing import Callable
+
+from config import DEFAULT_RUN_BUDGET_MIN, Paths
+from note import find_note, summarize, validate
+from store import Store, iso, utcnow, write_json
+
+MAX_ATTEMPTS = 3
+RETRY_DELAY_HOURS = 6
+VIDEO_TIMEOUT_S = 25 * 60
+SKILL_DIR = Path(__file__).resolve().parent.parent
+PROMPT_NAME = 'summary-prompt.md'
+# Scoped on purpose: run python scripts, read frames, write the note. No web fetch, no arbitrary shell.
+ALLOWED_TOOLS = ('Bash(python *)', 'Bash(py *)', 'Bash(uv run *)',
+                 'PowerShell(python *)', 'PowerShell(py *)', 'PowerShell(uv run *)', 'Read', 'Write', 'Edit', 'Glob', 'Grep')
+
+Runner = Callable[[dict, str, Path], 'RunResult']
+
+
+@dataclass
+class RunResult:
+    returncode: int
+    output: str = ''
+
+
+@dataclass
+class ProcessReport:
+    done: list[str] = field(default_factory=list)
+    retried: list[tuple[str, str]] = field(default_factory=list)
+    failed: list[tuple[str, str]] = field(default_factory=list)
+    stopped: str | None = None
+    rate_limited: bool = False
+
+
+def prompt_template(paths: Paths, env: dict | None = None) -> str:
+    """Prompt precedence: INGEST_PROMPT_FILE -> <home>/summary-prompt.md -> the skill's bundled copy."""
+    env = os.environ if env is None else env
+    candidates = []
+    if env.get('INGEST_PROMPT_FILE'):
+        candidates.append(Path(env['INGEST_PROMPT_FILE']))
+    candidates += [paths.home / PROMPT_NAME, SKILL_DIR / PROMPT_NAME]
+    for path in candidates:
+        if path.is_file():
+            return path.read_text(encoding='utf-8')
+    raise FileNotFoundError(f'no {PROMPT_NAME} found (looked in {", ".join(str(c) for c in candidates)})')
+
+
+def build_prompt(template: str, item: dict, paths: Paths) -> str:
+    values = {
+        'video_id': item['video_id'], 'url': item.get('url') or f'https://www.youtube.com/watch?v={item["video_id"]}',
+        'title': item.get('title') or '', 'channel': item.get('channel_name') or '',
+        'published': (item.get('published_at') or '')[:10], 'duration_min': round((item.get('duration_s') or 0) / 60),
+        'notes_dir': paths.notes.as_posix(), 'raw_dir': paths.raw.as_posix(), 'skill_dir': SKILL_DIR.as_posix(),
+        'watch_dir': (SKILL_DIR.parent / 'watch').as_posix(), 'today': iso(utcnow())[:10],
+    }
+    out = template
+    for key, value in values.items():          # plain replace: the template contains braces we must not interpret
+        out = out.replace('{' + key + '}', str(value))
+    return out
+
+
+def claude_runner(item: dict, prompt: str, log_path: Path) -> RunResult:
+    exe = shutil.which('claude')
+    if not exe:
+        return RunResult(127, 'claude CLI not found on PATH')
+    cmd = [exe, '-p', '--permission-mode', 'acceptEdits', '--no-session-persistence',
+           '--allowedTools', *ALLOWED_TOOLS]
+    try:
+        proc = subprocess.run(cmd, capture_output=True, text=True, encoding='utf-8', errors='replace',
+                              timeout=VIDEO_TIMEOUT_S, input=prompt)   # stdin: multi-line argv is truncated by claude.cmd on Windows
+    except subprocess.TimeoutExpired:
+        return RunResult(124, f'timed out after {VIDEO_TIMEOUT_S // 60} minutes')
+    return RunResult(proc.returncode, (proc.stdout or '') + (('\n[stderr]\n' + proc.stderr) if proc.stderr else ''))
+
+
+def complete(store: Store, item: dict, note_path: Path, now: datetime) -> dict:
+    """Write the handoff manifest and drop the item from processing/. Assumes the note already validated."""
+    video_id = item['video_id']
+    extra = summarize(note_path.read_text(encoding='utf-8'))
+    raw = store.paths.raw / video_id
+    manifest = {
+        'video_id': video_id, 'title': item.get('title'), 'channel': item.get('channel_name'), 'url': item.get('url'),
+        'published_at': item.get('published_at'), 'origin': item.get('origin'), 'priority': item.get('priority'),
+        'note': note_path.as_posix(), 'raw_dir': raw.as_posix() if raw.exists() else None,
+        'ingested_at': iso(now), 'attempts': int(item.get('attempts', 0)) + 1, **extra,
+        'training_status': 'new',
+    }
+    write_json(store.item_path('done', video_id), manifest)
+    store.remove('processing', video_id)
+    return manifest
+
+
+def fail(store: Store, item: dict, error: str, now: datetime, max_attempts: int = MAX_ATTEMPTS) -> str:
+    """Count the attempt; back to pending (held for the next run) until max_attempts, then failed/."""
+    video_id = item['video_id']
+    item['attempts'] = int(item.get('attempts', 0)) + 1
+    item['last_error'] = error[:500]
+    item['last_attempt_at'] = iso(now)
+    item.pop('claimed_at', None)
+    if item['attempts'] >= max_attempts:
+        write_json(store.item_path('failed', video_id), item)
+        store.remove('processing', video_id)
+        return 'failed'
+    item['not_before'] = iso(now + timedelta(hours=RETRY_DELAY_HOURS))
+    write_json(store.item_path('pending', video_id), item)
+    store.remove('processing', video_id)
+    return 'retry'
+
+
+def is_rate_limited(output: str) -> bool:
+    low = output.lower()
+    return 'http error 429' in low or 'http 429' in low or 'too many requests' in low
+
+
+def check_result(store: Store, item: dict, result: RunResult, started: float) -> tuple[Path | None, str]:
+    """Locate and validate the note this run should have written. Returns (note_path, error)."""
+    video_id = item['video_id']
+    note = find_note(store.paths.notes, video_id)
+    if note is None or note.stat().st_mtime < started - 1:
+        tail = result.output.strip().splitlines()[-1][:200] if result.output.strip() else 'no output'
+        return None, f'no new note written (exit {result.returncode}: {tail})'
+    problems = validate(note.read_text(encoding='utf-8'), video_id, note.name)
+    if problems:
+        return None, 'note failed the contract: ' + '; '.join(problems)
+    return note, ''
+
+
+def process_queue(store: Store, now_fn: Callable[[], datetime] = utcnow, *, runner: Runner = claude_runner,
+                  limit: int | None = None, budget_min: int = DEFAULT_RUN_BUDGET_MIN, only: str | None = None,
+                  template: str | None = None, clock: Callable[[], float] = time.monotonic) -> ProcessReport:
+    report = ProcessReport()
+    template = template or prompt_template(store.paths)
+    started_run = clock()
+    handled = 0
+    while True:
+        if limit is not None and handled >= limit:
+            report.stopped = f'reached the limit of {limit}'
+            break
+        if (clock() - started_run) / 60 >= budget_min:
+            report.stopped = f'time budget of {budget_min} min used up'
+            break
+        now = now_fn()
+        item = store.claim_one(now) if only is None else _claim_specific(store, only, now)
+        if item is None:
+            break
+        handled += 1
+        log_path = store.paths.logs / now.strftime('%Y-%m-%d') / f'{item["video_id"]}.log'
+        started = time.time()
+        result = runner(item, build_prompt(template, item, store.paths), log_path)
+        log_path.parent.mkdir(parents=True, exist_ok=True)
+        log_path.write_text(f'exit {result.returncode}\n\n{result.output}', encoding='utf-8')
+        note, error = check_result(store, item, result, started)
+        if note is not None:
+            complete(store, item, note, now_fn())
+            report.done.append(item['video_id'])
+        elif is_rate_limited(result.output):
+            # YouTube is throttling this machine: not the video's fault. Release it unchanged and stop the run.
+            item.pop('claimed_at', None)
+            write_json(store.item_path('pending', item['video_id']), item)
+            store.remove('processing', item['video_id'])
+            report.rate_limited = True
+            report.stopped = 'YouTube rate limit (HTTP 429); try again later'
+            break
+        else:
+            outcome = fail(store, item, error, now_fn())
+            (report.failed if outcome == 'failed' else report.retried).append((item['video_id'], error))
+        if only is not None:
+            break
+    return report
+
+
+def _claim_specific(store: Store, video_id: str, now: datetime) -> dict | None:
+    moved = store.move(video_id, 'pending', 'processing')
+    if moved is None:
+        return None
+    moved['claimed_at'] = iso(now)
+    write_json(store.item_path('processing', video_id), moved)
+    return moved
+
+
+def write_digest(store: Store, video_ids: list[str], now: datetime) -> Path | None:
+    """One file per run day listing what each creator covered; appended to if the day already has one."""
+    manifests = [m for m in (store.find(v) for v in video_ids) if m and m[0] == 'done']
+    if not manifests:
+        return None
+    path = store.paths.digests / f'{now.strftime("%Y-%m-%d")}.md'
+    path.parent.mkdir(parents=True, exist_ok=True)
+    lines = [] if path.exists() else [f'# Creator digest {now.strftime("%Y-%m-%d")}', '']
+    for _, m in sorted(manifests, key=lambda x: (x[1].get('channel') or '', x[1].get('published_at') or '')):
+        note = Path(m['note'])
+        link = os.path.relpath(note, path.parent).replace('\\', '/')
+        tickers = ', '.join(m.get('tickers') or []) or 'none tagged'
+        lines.append(f'- **{m.get("channel") or "?"}**: [{m.get("title")}]({link}) '
+                     f'({m.get("stance") or "no stance"}; tickers: {tickers})')
+    existing = path.read_text(encoding='utf-8').rstrip('\n') + '\n' if path.exists() else ''
+    path.write_text(existing + '\n'.join(lines) + '\n', encoding='utf-8')
+    return path

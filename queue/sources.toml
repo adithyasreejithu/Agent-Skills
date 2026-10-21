@@ -1,0 +1,27 @@
+# Channels to follow. Defaults below apply to every channel unless overridden in its block.
+# Add a channel with:  python run.py source add @handle --name "Channel Name"
+
+[defaults]
+priority       = 50       # 0-100; higher is processed first (manual adds are always higher)
+skip_shorts    = true
+min_duration_s = 240      # ignore videos under 4 minutes
+max_duration_s = 5400     # ignore videos over 90 minutes
+max_age_days   = 7        # ignore videos older than this when first seen
+
+# [[source]]
+# handle   = "@OptionsWithRyan"     # or url = "https://www.youtube.com/@..." or channel_id = "UC..."
+# name     = "Options With Ryan"
+# priority = 60
+# tags     = ["options", "stocks"]
+# include_title = "earnings|outlook"   # optional regex; title must match
+# exclude_title = "giveaway|live q&a"  # optional regex; video is skipped if it matches
+# max_duration_s = 7200
+# enabled = false
+
+[[source]]
+url = "https://www.youtube.com/@OptionsWithRyan"
+name = "Options With Ryan"
+
+[[source]]
+url = "https://www.youtube.com/@jeremylefebvremakesmoney7934"
+name = "Jeremy Lefebvre"

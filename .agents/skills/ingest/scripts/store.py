@@ -196,6 +196,17 @@ class Store:
                 taken += 1
         return claimed
 
+    def claim_one(self, now: datetime) -> dict | None:
+        """Claim the single best due item (the processing loop takes one at a time so it can stop on budget)."""
+        for item in self.pending_items(now):
+            moved = self.move(item['video_id'], 'pending', 'processing')
+            if moved is None:
+                continue
+            moved['claimed_at'] = iso(now)
+            write_json(self.item_path('processing', moved['video_id']), moved)
+            return moved
+        return None
+
     def recover_stale(self, now: datetime) -> list[str]:
         released = []
         cutoff = timedelta(hours=STALE_CLAIM_HOURS)
