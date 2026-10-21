@@ -50,6 +50,16 @@ class RunLogTests(unittest.TestCase):
         self.assertEqual(first['events'][0]['kind'], 'transcription_failed')
         self.assertIn('ts', first)
 
+    def test_result_file_has_the_log_fields_and_event_kinds(self):
+        watch.RUN.update(video_id='abc', engine='local', caption_status='fetch_failed')
+        watch.log_event('youtube_caption_fetch_failed', 'HTTP 429')
+        path = Path(self.tmp.name) / 'sub' / 'result.json'
+        watch.write_result_file(path, 0)
+        data = json.loads(path.read_text(encoding='utf-8'))
+        self.assertEqual(data['video_id'], 'abc')
+        self.assertEqual(data['caption_status'], 'fetch_failed')
+        self.assertEqual(data['event_kinds'], ['youtube_caption_fetch_failed'])
+
     def test_a_logging_failure_never_breaks_the_run(self):
         watch.LOG_FILE = Path(self.tmp.name) / 'a-file'
         watch.LOG_FILE.write_text('x')

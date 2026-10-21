@@ -19,6 +19,10 @@ class ParseTests(unittest.TestCase):
         self.assertEqual(segs[0]['start'], 60.1)
         self.assertEqual(segs[0]['text'], 'bold line')
 
+    def test_trailing_s_on_the_timestamp(self):
+        segs = parse_timestamped_lines("[00:00.0s] Here's how.\n[00:02.4s] Next.")
+        self.assertEqual([(s['start'], s['text']) for s in segs], [(0.0, "Here's how."), (2.4, 'Next.')])
+
     def test_hours(self):
         self.assertEqual(parse_timestamped_lines('[1:02:03.5] late')[0]['start'], 3723.5)
 

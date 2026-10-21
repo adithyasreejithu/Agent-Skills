@@ -78,6 +78,18 @@ def choose_backend(source: str, backend_choice: str, has_gemini_key: bool) -> st
     return "gemini" if has_gemini_key else "auto"
 
 
+def write_result_file(path: Path, exit_code) -> None:
+    """Machine-readable summary of this run (the same fields as the log line), for callers such as ingest.
+    Best-effort: it never changes the run's result."""
+    try:
+        record = {"ts": datetime.now(timezone.utc).isoformat(timespec="seconds"), "exit_code": exit_code,
+                  "event_kinds": [e["kind"] for e in RUN["events"]], **RUN}
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(json.dumps(record, ensure_ascii=False, indent=2), encoding="utf-8")
+    except Exception as exc:  # noqa: BLE001
+        print(f"[watch] could not write result file: {exc}", file=sys.stderr)
+
+
 def write_run_log(exit_code) -> None:
     """Best-effort: logging must never change a run's result."""
     try:
@@ -203,6 +215,9 @@ def main() -> int:
         help="Disable near-duplicate frame removal. Keeps visually identical "
              "frames (static screen recordings, held slides) instead of collapsing them.",
     )
+    ap.add_argument("--result-json", default=None,
+                    help="Also write this run's machine-readable result here (it is always written to <work>/result.json "
+                         "for the local engine).")
     ap.add_argument("--sub-lang", default=None, help="Exact caption language preference (default auto/native)")
     cookies = ap.add_mutually_exclusive_group()
     cookies.add_argument("--cookies", default=None, help="Explicit cookie file (yt-dlp may update this jar)")
@@ -278,8 +293,12 @@ def main() -> int:
                                      f"{track.get('kind', 'unknown')}, {track.get('provenance', 'unknown')})")
             except (OSError, ValueError) as exc:
                 errors.append(f"Caption parsing failed: {exc}")
+        # available | none (the video has no usable track, permanent) | fetch_failed (the request errored, e.g. a 429; retry later)
+        caption_status = "available" if track_available else ("fetch_failed" if dl.get("errors") else "none")
+    else:
+        caption_status = "not-applicable"
 
-    audio_only = detail == "transcript" and not cue_timestamps
+    audio_only =detail == "transcript" and not cue_timestamps
     # Captions are assessed before range filtering: a quiet interval is not a missing track.
     need_media = not (audio_only and (track_available or backend_choice == "none") and url_source)
     if need_media:
@@ -612,15 +631,21 @@ def main() -> int:
 
     print()
     print("---")
-    print(f"_Stored in watch-output: `{display_path(work)}` — clear with `uv run agent-skills clean`._")
+    print(f"_Stored in watch-output: `{display_path(work)}` — clear with `uv run agent-skills clean`. "
+          f"Machine-readable result: `{display_path(work / 'result.json')}`._")
 
+    code = 1 if errors and not frames and not transcript_segments and not track_available else 0
+    source_kind = ("gemini-audio" if (transcript_source or "").startswith("gemini audio") else
+                   "whisper" if (transcript_source or "").startswith("whisper") else
+                   "captions" if transcript_source else "none")
     RUN.update(engine="local", route="youtube" if youtube else "other", detail=detail, work=display_path(work),
                video_id=work.name, duration_s=round(full_duration, 1), frames=len(frames),
-               transcript_state=transcript_state, transcript_source=transcript_source,
-               errors=list(errors), testing=bool(args.testing))
-    if errors and not frames and not transcript_segments and not track_available:
-        return 1
-    return 0
+               transcript_state=transcript_state, transcript_source=transcript_source, transcript_kind=source_kind,
+               caption_status=caption_status, errors=list(errors), testing=bool(args.testing))
+    write_result_file(work / "result.json", code)
+    if args.result_json:
+        write_result_file(Path(args.result_json).expanduser(), code)
+    return code
 
 
 if __name__ == "__main__":

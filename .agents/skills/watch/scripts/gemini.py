@@ -166,8 +166,9 @@ def delete_file(name: str, key: str) -> str | None:
 
 TRANSCRIBE_PROMPT = ('Transcribe this audio verbatim. Output one line per sentence or phrase in exactly this '
                      'format, with nothing else:\n[MM:SS.s] spoken words\nUse the start time of each phrase. '
+                     'Example line: [01:23.4] Next, you open the chart.\n'
                      'If there is no speech, output nothing.')
-_TS = r'(?:(\d+):)?(\d{1,2}):(\d{1,2}(?:\.\d+)?)'
+_TS = r'(?:(\d+):)?(\d{1,2}):(\d{1,2}(?:\.\d+)?)s?'
 # '[MM:SS.s] words' (what we ask for) and '[MM:SS.s --> MM:SS.s] words' (what the model sometimes returns).
 _LINE = re.compile(r'^\s*(?:[-*]\s*)?\**\[' + _TS + r'(?:\s*(?:-->|-|–)\s*' + _TS + r')?\]\**\s*(.+?)\s*$')
 

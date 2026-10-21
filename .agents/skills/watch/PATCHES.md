@@ -25,6 +25,9 @@ folder, then re-apply everything below. Files not listed are identical to upstre
   locally, only audio is uploaded); coverage, gap and token checks.
 - **Run log.** `LOG_FILE` (`WATCH_LOG_FILE`), `RUN`, `log_event()`, `write_run_log()`, the `## Run log` report
   section, and the wrapper in the `__main__` block. One JSON line per run in `watch-output/watch-log.jsonl`.
+- **Result file.** `write_result_file()` writes `<work>/result.json` on every local run (`--result-json PATH` adds a
+  copy) with the log fields plus `event_kinds`, `transcript_kind` and `caption_status`
+  (`available|none|fetch_failed|not-applicable`). Requested by the ingest skill, which reads it instead of the report.
 
 ## `scripts/gemini.py`
 - `upload_file(..., mime=)` override (upstream hardcodes video).
