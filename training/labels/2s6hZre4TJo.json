@@ -1,0 +1,268 @@
+{
+  "video_id": "2s6hZre4TJo",
+  "creator": "Jeremy Lefebvre Makes Money",
+  "title": "Emergency for 1 of my stocks",
+  "upload_date": "20261021",
+  "duration_seconds": 2029.8,
+  "source": "https://www.youtube.com/watch?v=2s6hZre4TJo",
+  "verdicts": "new-info | useful | redundant | blank | wrong  (see plan/watch-skill-testing-mode/PLAN.md)",
+  "cues": [
+    {
+      "cue_id": "c01",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 4.64,
+      "heard": "and gentlemen. Hope everybody's doing phenomenal out there. So, look at this.",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "X post with account screen: $5,095,118.53, +$2,944.32 (0.06%), +180.28% in the past 3 years; same screen at every offset"
+    },
+    {
+      "cue_id": "c02",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 132.8,
+      "heard": "that I've been buying very recently. Stocks like RH. RH is a perfect example.",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "TradingView market summary: S&P 500 7,712.57 +0.28%, Nasdaq 100 29,490.28, plus watchlist and positions list (RH etc.); same screen throughout"
+    },
+    {
+      "cue_id": "c03",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 304.16,
+      "heard": "products and services in in different ways. Okay, so AMD can make money",
+      "offsets": {
+        "-2": "blank",
+        "+0": "blank",
+        "+2": "blank",
+        "+4": "blank",
+        "+6": "blank"
+      },
+      "best_offset": null,
+      "notes": "Full-screen talking head while discussing SpaceX capex and AMD"
+    },
+    {
+      "cue_id": "c04",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 344.4,
+      "heard": "were trying to guide for like 500 billion to a trillion dollars of uh ARR",
+      "offsets": {
+        "-2": "blank",
+        "+0": "blank",
+        "+2": "blank",
+        "+4": "blank",
+        "+6": "blank"
+      },
+      "best_offset": null,
+      "notes": "Full-screen talking head while discussing SpaceX ARR guide"
+    },
+    {
+      "cue_id": "c05",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 481.12,
+      "heard": "a really high number there. That was up 21% but GNA was only up 2%. So operating",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "Netflix consolidated statements of operations with handwritten Grade = A+ and growth percentages; figures too small on the sheet, percentages already in captions"
+    },
+    {
+      "cue_id": "c06",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 618.959,
+      "heard": "are ordered on Amazon, more companies use AWS. it just makes them more",
+      "offsets": {
+        "-2": "blank",
+        "+0": "blank",
+        "+2": "blank",
+        "+4": "blank",
+        "+6": "blank"
+      },
+      "best_offset": null,
+      "notes": "Full-screen talking head (Netflix/Amazon comparison)"
+    },
+    {
+      "cue_id": "c07",
+      "term": "fed-watch",
+      "category": "macro",
+      "t": 833.36,
+      "heard": "the entire market worried about the Fed and future rate hikes and",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "CNBC clip 'final innings' Mike Wilson: S&P 500 7,690.73 +31.29 +0.41%, YTD +12.35%, Stock futures point to mixed open"
+    },
+    {
+      "cue_id": "c08",
+      "term": "take-a-look",
+      "category": "pointing",
+      "t": 1261.919,
+      "heard": "do which is where is the peak? Where is the peak? And again, if we look back,",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "blank"
+      },
+      "best_offset": "-2",
+      "notes": "CNBC Halftime 'How to navigate tech volatility' panel, Semis pricing in a crash title; +6 switches to full-screen talking head"
+    },
+    {
+      "cue_id": "c09",
+      "term": "inflation-data",
+      "category": "macro",
+      "t": 1342.32,
+      "heard": "earn 5% a year on that cash right now, right? Keep ahead of CPI by quite a big",
+      "offsets": {
+        "-2": "blank",
+        "+0": "blank",
+        "+2": "blank",
+        "+4": "blank",
+        "+6": "blank"
+      },
+      "best_offset": null,
+      "notes": "Full-screen talking head on Micron cash/buybacks"
+    },
+    {
+      "cue_id": "c10",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 1401.44,
+      "heard": "seeing now is no different than the you know the the so-called SAS apocalypse",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "CNBC VanEck Semiconductor SMH 555.75 +15.96 +2.96%, YTD +54.32% (later 555.50 +2.91%)"
+    },
+    {
+      "cue_id": "c11",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 1768.96,
+      "heard": "what I believe is that AI and tech is a buying opportunity right here that it's",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "CNBC real-time two-month chart MAGS +7.20% vs SMH -1.12%, Aug 20 to Oct 19; Managing risk in a volatile market"
+    },
+    {
+      "cue_id": "c12",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 1774.559,
+      "heard": "need to catch down to the rest of the market. The fundamentals support it. The",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "Same MAGS vs SMH CNBC screen as c11"
+    }
+  ],
+  "control": [
+    {
+      "t": 0.0,
+      "reason": "first-frame",
+      "verdict": "new-info"
+    },
+    {
+      "t": 62.133333,
+      "reason": "scene-change",
+      "verdict": "redundant"
+    },
+    {
+      "t": 127.333333,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 402.8,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 441.633333,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 469.8,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 1104.933333,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 1161.966667,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 1254.0,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 1698.166667,
+      "reason": "scene-change",
+      "verdict": "redundant"
+    },
+    {
+      "t": 1812.933333,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 2009.8,
+      "reason": "scene-change",
+      "verdict": "blank"
+    }
+  ],
+  "control_notes": "No control_sheet.jpg was produced; labeled from the 12 individual frames. N: account-value X post (0:00), TradingView watchlist with positions RH 119.74, WYNN 77.45, SOFI 14.68, 10Y 5.112, CL1! 98.94, VIX 17.31 (2:07), Discord Netflix post (7:20), Netflix income statement with diluted EPS 0.87 vs 0.59 (7:48). B: full-screen talking head or blank loading page. U/R: CNBC Halftime panel shots.",
+  "labeling_notes": "Labeled by Claude from contact sheets; new-info only where text was readable. Reaction-channel format: face cam bubble over browser tabs (X post, TradingView, Discord, CNBC clips on YouTube). Full-screen talking-head cues are blank, as in 11ku7bIXA28.",
+  "trained_at": "2026-10-21"
+}

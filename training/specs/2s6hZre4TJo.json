@@ -1,0 +1,21 @@
+{
+ "video": "2s6hZre4TJo",
+ "auto_dup": true,
+ "note": "Labeled by Claude from contact sheets; new-info only where text was readable. Reaction-channel format: face cam bubble over browser tabs (X post, TradingView, Discord, CNBC clips on YouTube). Full-screen talking-head cues are blank, as in 11ku7bIXA28.",
+ "cues": {
+  "c01": ["NRRRR", "+0", "X post with account screen: $5,095,118.53, +$2,944.32 (0.06%), +180.28% in the past 3 years; same screen at every offset"],
+  "c02": ["NRRRR", "+0", "TradingView market summary: S&P 500 7,712.57 +0.28%, Nasdaq 100 29,490.28, plus watchlist and positions list (RH etc.); same screen throughout"],
+  "c03": ["BBBBB", null, "Full-screen talking head while discussing SpaceX capex and AMD"],
+  "c04": ["BBBBB", null, "Full-screen talking head while discussing SpaceX ARR guide"],
+  "c05": ["URRRR", "+0", "Netflix consolidated statements of operations with handwritten Grade = A+ and growth percentages; figures too small on the sheet, percentages already in captions"],
+  "c06": ["BBBBB", null, "Full-screen talking head (Netflix/Amazon comparison)"],
+  "c07": ["NRRRR", "-2", "CNBC clip 'final innings' Mike Wilson: S&P 500 7,690.73 +31.29 +0.41%, YTD +12.35%, Stock futures point to mixed open"],
+  "c08": ["URRRB", "-2", "CNBC Halftime 'How to navigate tech volatility' panel, Semis pricing in a crash title; +6 switches to full-screen talking head"],
+  "c09": ["BBBBB", null, "Full-screen talking head on Micron cash/buybacks"],
+  "c10": ["NRRRR", "-2", "CNBC VanEck Semiconductor SMH 555.75 +15.96 +2.96%, YTD +54.32% (later 555.50 +2.91%)"],
+  "c11": ["NRRRR", "-2", "CNBC real-time two-month chart MAGS +7.20% vs SMH -1.12%, Aug 20 to Oct 19; Managing risk in a volatile market"],
+  "c12": ["RRRRR", null, "Same MAGS vs SMH CNBC screen as c11"]
+ },
+ "control": "NRNBNNBBURUB",
+ "control_note": "No control_sheet.jpg was produced; labeled from the 12 individual frames. N: account-value X post (0:00), TradingView watchlist with positions RH 119.74, WYNN 77.45, SOFI 14.68, 10Y 5.112, CL1! 98.94, VIX 17.31 (2:07), Discord Netflix post (7:20), Netflix income statement with diluted EPS 0.87 vs 0.59 (7:48). B: full-screen talking head or blank loading page. U/R: CNBC Halftime panel shots."
+}

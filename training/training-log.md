@@ -3,6 +3,18 @@
 One entry per training video, rebuilt from `training/labels/*.json` every time `agent-skills train label` runs.
 Do not edit by hand. Scores are per frame (useful or new-info = good); control is the scene-detection baseline.
 
+## 2026-10-21 | 2s6hZre4TJo | Emergency for 1 of my stocks
+
+- Creator: Jeremy Lefebvre Makes Money
+- Source: https://www.youtube.com/watch?v=2s6hZre4TJo (33:49)
+- Run: 12 cues, offsets -2s, +0s, +2s, +4s, +6s
+- Cue frames: 12% good, 8% new-info (60 frames)
+- Control: 50% good, 33% new-info (12 frames)
+- Best offsets picked: -2s x4, +0s x3
+- Strongest terms: look-here (100% of 2), ticker-mention (50% of 6)
+- Weakest terms: ticker-mention (50% of 6)
+- Summary: summaries/2s6hZre4TJo-emergency-for-1-of-my-stocks.md
+
 ## 2026-10-20 | 4zPSPmVxhr0 | AI Stocks Rebound | What Happened? + 5 Stocks Im Buying Now (Options With Ryan)
 
 - Creator: Options With Ryan
