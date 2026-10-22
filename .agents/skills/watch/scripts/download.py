@@ -9,7 +9,7 @@ import tempfile
 from pathlib import Path
 from urllib.parse import urlparse
 
-from runtime import configure_stdio, diagnostic, run_text
+from runtime import configure_stdio, diagnostic, find_tool, run_text
 
 VIDEO_EXTS = {'.mp4', '.mkv', '.webm', '.mov', '.m4v', '.avi', '.flv', '.wmv'}
 
@@ -39,7 +39,7 @@ def auth_args(cookies_file=None, cookies_from_browser=None) -> list[str]:
 def _common(directory: Path, auth: list[str]) -> list[str]:
     # Escape literal percent signs in the directory, while retaining template fields.
     prefix = str(directory.resolve()).replace('%', '%%')
-    return ['yt-dlp', '--no-playlist', '--no-simulate', *auth,
+    return [find_tool('yt-dlp') or 'yt-dlp', '--no-playlist', '--no-simulate', *auth,
             '-o', f'{prefix}/video.%(ext)s',
             '-o', f'subtitle:{prefix}/video.%(ext)s',
             '-o', f'infojson:{prefix}/video.%(ext)s']

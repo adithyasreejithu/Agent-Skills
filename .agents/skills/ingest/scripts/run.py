@@ -160,7 +160,7 @@ def run_process(paths, store, args) -> int:
     if report.stopped:
         print(f'stopped: {report.stopped}')
     print(f'processed: {len(report.done)} done, {len(report.retried)} will retry, {len(report.failed)} failed')
-    return 1 if report.failed else 0
+    return 1 if report.failed or report.setup_problem else 0
 
 
 def with_lock(store, fn) -> int:

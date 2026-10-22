@@ -1,8 +1,10 @@
 """Small cross-platform process and stream helpers; no optional dependencies."""
 from __future__ import annotations
 
+import shutil
 import subprocess
 import sys
+from pathlib import Path
 
 
 def configure_stdio() -> None:
@@ -20,6 +22,11 @@ def diagnostic(value, limit: int = 3000) -> str:
     if isinstance(value, bytes):
         value = value.decode('utf-8', errors='replace')
     return str(value or '').strip()[-limit:]
+
+
+def find_tool(name: str) -> str | None:
+    """PATH first, then beside this interpreter: an unactivated venv (e.g. a scheduled task) keeps yt-dlp there."""
+    return shutil.which(name) or shutil.which(name, path=str(Path(sys.executable).parent))
 
 
 def run_text(cmd: list[str], **kwargs) -> subprocess.CompletedProcess:

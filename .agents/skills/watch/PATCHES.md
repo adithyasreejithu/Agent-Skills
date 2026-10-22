@@ -43,6 +43,10 @@ folder, then re-apply everything below. Files not listed are identical to upstre
 - `select_caption()`: when a language is requested, prefer the `-orig` track over YouTube's auto-translated one
   (the translated `en` track returns HTTP 429 on subtitle download).
 
+## `scripts/runtime.py`, `scripts/download.py`, `scripts/setup.py`
+- `find_tool()`: PATH first, then the folder of the running Python. `download._common()` and `setup._which()` use it,
+  so an unactivated venv (the scheduled ingest task) still finds the venv's `yt-dlp`. Upstream calls bare `yt-dlp`.
+
 ## `SKILL.md`
 - Option table: `--testing*`, `--out-dir` default, `--whisper ...|gemini`.
 - "Engine routing (this repo's policy)" section, including the run-log rules and the model-test notes.

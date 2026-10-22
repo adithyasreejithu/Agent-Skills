@@ -14,7 +14,7 @@ from pathlib import Path
 
 from config import (CONFIG_DIR, CONFIG_FILE, ConfigError, DETAILS, ENGINES, get_config,
                     load_api_key, load_gemini_key, read_env_file, resolve_engine, write_settings)
-from runtime import configure_stdio, diagnostic, run_text
+from runtime import configure_stdio, diagnostic, find_tool, run_text
 
 REQUIRED_BINARIES = ['ffmpeg', 'ffprobe', 'yt-dlp']
 WHISPERX_VERSION = '3.8.6'
@@ -32,7 +32,7 @@ OPENAI_API_KEY=
 
 
 def _which(name):
-    return shutil.which(name)
+    return find_tool(name)
 
 
 def _check_binaries():

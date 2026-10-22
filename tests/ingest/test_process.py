@@ -1,6 +1,7 @@
 import dataclasses
 import json
 import os
+import sys
 import tempfile
 import unittest
 from datetime import datetime, timezone
@@ -9,7 +10,7 @@ from pathlib import Path
 import _path  # noqa: F401
 from _fakes import make_paths
 from note import find_note, label_problems, summarize, validate
-from process import RunResult, build_prompt, complete, fail, process_queue, write_digest
+from process import RunResult, agent_env, blocker, build_prompt, complete, fail, process_queue, write_digest
 from store import Store, iso
 
 NOW = datetime(2026, 10, 20, 12, 0, tzinfo=timezone.utc)
@@ -224,6 +225,42 @@ class ProcessTests(unittest.TestCase):
                                template=self.template)
         self.assertFalse(report.rate_limited)
         self.assertEqual(len(report.retried), 1)
+
+    def test_missing_tool_is_a_setup_problem_not_a_rate_limit(self):
+        # The 2026-10-21 scheduled run: no venv on PATH, yt-dlp missing, and the agent wrote "It is not an HTTP 429".
+        self.store.add_pending(item('aaaaaaaaaa1'))
+        self.store.add_pending(item('aaaaaaaaaa2'))
+        calls = []
+
+        def broken(it, prompt, log):
+            calls.append(it['video_id'])
+            (self.paths.raw / it['video_id']).mkdir(parents=True, exist_ok=True)
+            (self.paths.raw / it['video_id'] / 'result.json').write_text(json.dumps({
+                'caption_status': 'fetch_failed',
+                'errors': ['Cannot run yt-dlp (FileNotFoundError). Check that the executable is installed']}),
+                encoding='utf-8')
+            return RunResult(0, 'yt-dlp could not run. It is not an HTTP 429.\n'
+                                'RESULT: failed youtube_caption_fetch_failed: yt-dlp cannot run (FileNotFoundError)')
+
+        report = process_queue(self.store, lambda: NOW, runner=broken, template=self.template)
+        self.assertEqual(len(calls), 1)
+        self.assertTrue(report.setup_problem)
+        self.assertFalse(report.rate_limited)
+        self.assertIn('could not run a tool', report.stopped)
+        stage, kept = self.store.find(calls[0])
+        self.assertEqual((stage, kept['attempts']), ('pending', 0))
+        self.assertEqual(self.store.counts()['processing'], 0)
+
+    def test_429_only_counts_from_the_result_line_or_watch_errors(self):
+        self.assertIsNone(blocker('It is not an HTTP Error 429.\nRESULT: failed note: bad contract', {}))
+        self.assertEqual(blocker('RESULT: failed captions: HTTP Error 429', {})[0], 'rate_limit')
+        self.assertEqual(blocker('RESULT: failed x', {'errors': ['yt-dlp failed: HTTP Error 429: Too Many Requests'],
+                                                      'caption_status': 'fetch_failed'})[0], 'rate_limit')
+
+    def test_agent_env_puts_this_interpreter_first_on_path(self):
+        env = agent_env({'PATH': r'C:\elsewhere'})
+        self.assertEqual(env['PATH'].split(os.pathsep)[0], str(Path(sys.executable).parent))
+        self.assertTrue(env['PATH'].endswith(r'C:\elsewhere'))
 
     def test_digest_groups_by_channel_and_appends_same_day(self):
         self.store.add_pending(item())

@@ -10,6 +10,7 @@ from __future__ import annotations
 import os
 import shutil
 import subprocess
+import sys
 import time
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta
@@ -46,6 +47,7 @@ class ProcessReport:
     failed: list[tuple[str, str]] = field(default_factory=list)
     stopped: str | None = None
     rate_limited: bool = False
+    setup_problem: bool = False
 
 
 def prompt_template(paths: Paths, env: dict | None = None) -> str:
@@ -78,6 +80,16 @@ def build_prompt(template: str, item: dict, paths: Paths) -> str:
     return out
 
 
+def agent_env(env: dict | None = None) -> dict:
+    """The agent's `python` and `yt-dlp` must be this interpreter's. A scheduled task has no venv activated, so
+    without this they resolve to the global Python (no yt-dlp) and watch fails with FileNotFoundError."""
+    env = dict(os.environ if env is None else env)
+    env['PATH'] = str(Path(sys.executable).parent) + os.pathsep + env.get('PATH', '')
+    if sys.prefix != sys.base_prefix:
+        env['VIRTUAL_ENV'] = sys.prefix
+    return env
+
+
 def claude_runner(item: dict, prompt: str, log_path: Path) -> RunResult:
     exe = shutil.which('claude')
     if not exe:
@@ -85,7 +97,7 @@ def claude_runner(item: dict, prompt: str, log_path: Path) -> RunResult:
     cmd = [exe, '-p', '--permission-mode', 'acceptEdits', '--no-session-persistence',
            '--allowedTools', *ALLOWED_TOOLS]
     try:
-        proc = subprocess.run(cmd, capture_output=True, text=True, encoding='utf-8', errors='replace',
+        proc = subprocess.run(cmd, capture_output=True, text=True, encoding='utf-8', errors='replace', env=agent_env(),
                               timeout=VIDEO_TIMEOUT_S, input=prompt)   # stdin: multi-line argv is truncated by claude.cmd on Windows
     except subprocess.TimeoutExpired:
         return RunResult(124, f'timed out after {VIDEO_TIMEOUT_S // 60} minutes')
@@ -140,9 +152,29 @@ def fail(store: Store, item: dict, error: str, now: datetime, max_attempts: int 
     return 'retry'
 
 
-def is_rate_limited(output: str) -> bool:
-    low = output.lower()
-    return 'http error 429' in low or 'http 429' in low or 'too many requests' in low
+def _mentions_429(text: str) -> bool:
+    low = text.lower()
+    return 'http error 429' in low or 'too many requests' in low
+
+
+def result_line(output: str) -> str:
+    """The agent's final `RESULT: ...` line. Only this line is trusted: the prose around it may say "not a 429"."""
+    lines = [line.strip() for line in output.splitlines() if line.strip().startswith('RESULT:')]
+    return lines[-1] if lines else ''
+
+
+def blocker(output: str, watch: dict) -> tuple[str, str] | None:
+    """A failure that is not the video's fault: (kind, reason) where kind is 'rate_limit' or 'setup'. Else None."""
+    errors = ' | '.join(str(e) for e in watch.get('errors') or [])
+    if 'cannot run' in errors.lower() or 'filenotfounderror' in errors.lower():
+        return 'setup', f'watch could not run a tool on this machine: {errors[:200]}'
+    if _mentions_429(errors) or _mentions_429(result_line(output)):
+        return 'rate_limit', 'YouTube rate limit (HTTP 429); try again later'
+    if watch.get('caption_status') == 'fetch_failed':
+        # Upstream reports no reason for most failed caption requests; throttling is by far the usual one.
+        return 'rate_limit', 'caption request failed (likely YouTube rate limiting); try again later' + \
+            (f': {errors[:200]}' if errors else '')
+    return None
 
 
 def check_result(store: Store, item: dict, result: RunResult, started: float) -> tuple[Path | None, str]:
@@ -187,16 +219,19 @@ def process_queue(store: Store, now_fn: Callable[[], datetime] = utcnow, *, runn
         log_path.parent.mkdir(parents=True, exist_ok=True)
         log_path.write_text(f'exit {result.returncode}\n\n{result.output}', encoding='utf-8')
         note, error = check_result(store, item, result, started)
+        blocked = None if note is not None else blocker(result.output, watch_result(store, item['video_id'], started))
         if note is not None:
             complete(store, item, note, now_fn())
             report.done.append(item['video_id'])
-        elif is_rate_limited(result.output) or watch_result(store, item['video_id'], started).get('caption_status') == 'fetch_failed':
-            # YouTube is throttling this machine: not the video's fault. Release it unchanged and stop the run.
+        elif blocked:
+            # YouTube throttling or a broken setup: not the video's fault, and every later video would hit it too.
+            # Release it unchanged (no attempt counted) and stop the run.
             item.pop('claimed_at', None)
             write_json(store.item_path('pending', item['video_id']), item)
             store.remove('processing', item['video_id'])
-            report.rate_limited = True
-            report.stopped = 'YouTube rate limit (HTTP 429); try again later'
+            report.rate_limited = blocked[0] == 'rate_limit'
+            report.setup_problem = blocked[0] == 'setup'
+            report.stopped = blocked[1]
             break
         else:
             outcome = fail(store, item, error, now_fn())
