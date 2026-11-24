@@ -1,0 +1,235 @@
+{
+  "title": "7 CRASHED Stocks to BUY for EPIC UPSIDE‼️",
+  "channel": "Jeremy Lefebvre Makes Money",
+  "url": "https://www.youtube.com/watch?v=NnHk7xjejmA",
+  "published_at": "2026-09-25T01:09:27+00:00",
+  "video_id": "NnHk7xjejmA",
+  "methods": [
+    {
+      "method_id": "portfolio-performance-review-from-brokerage",
+      "new_method": null,
+      "steps": [
+        {
+          "step_id": "check-account-value-and-return",
+          "new_step": null,
+          "at": "00:00",
+          "does": "Opens the video by stating the public account's total value (new all-time high, about $5.288 million) and the day's dollar gain (about $67,000).",
+          "why": "Frames the market backdrop as party time before moving to the stock-picking exercise.",
+          "data": [
+            "total account value ~$5.288M",
+            "day change ~+$67,000",
+            "all-time high"
+          ],
+          "tools": [],
+          "indicators": [
+            "Account value",
+            "Daily gain/loss"
+          ],
+          "conclusion": "Portfolio is at an all-time high; enjoy it because a 6-18 month bear market will eventually come.",
+          "tag": "explicit"
+        },
+        {
+          "step_id": "read-per-position-gains-and-losses",
+          "new_step": null,
+          "at": "00:53",
+          "does": "Shows the AMD position page from a brokerage app screenshot: total value, shares, average cost, total and today's gain/loss, then the purchase-history lots table (acquired date, quantity, average cost, gain/loss per lot). Also mentions Meta's day gain and a Halloween 2022 lot.",
+          "why": "To show how a single winner has grown to dominate the portfolio and how a small percentage move now moves dollars a lot.",
+          "data": [
+            "AMD price $629",
+            "total gain ~$1.32M (+463.79%)",
+            "today's gain ~$37,430 (+2.38%)",
+            "position value ~$1.6M",
+            "per-lot gain/loss and average cost",
+            "Meta lot bought Halloween 2022 up $444K on a $60K buy"
+          ],
+          "tools": [
+            "Unidentified brokerage app"
+          ],
+          "indicators": [
+            "Total gain/loss percent",
+            "Position value",
+            "Daily gain/loss",
+            "Position size"
+          ],
+          "conclusion": "Position size is now so big that a 2% move is a $37K swing.",
+          "tag": "explicit"
+        }
+      ],
+      "rules": []
+    },
+    {
+      "method_id": "crashed-stock-candidate-list",
+      "new_method": null,
+      "steps": [
+        {
+          "step_id": "show-one-year-price-decline",
+          "new_step": null,
+          "at": "04:14",
+          "does": "For each of seven picks (Wynn, Netflix, SoFi, RH, McDonald's, Celsius and one more) shows a brokerage-app price chart screenshot with the past-year percent change and hand-writes the rank number (e.g. #1 of 7, #6 of 7) on it.",
+          "why": "Criterion for the exercise is that every pick must be a crashed stock, not one at or near all-time highs.",
+          "data": [
+            "Wynn -38.09% past year",
+            "Netflix -41%",
+            "SoFi -42%",
+            "RH -45%",
+            "McDonald's down over 30% from highs 5-6 months ago",
+            "Celsius -47.39%"
+          ],
+          "tools": [
+            "Unidentified brokerage app"
+          ],
+          "indicators": [],
+          "conclusion": "Each qualifies as a crash stock with a multi-year (3-5 year) upside thesis.",
+          "tag": "visual"
+        },
+        {
+          "step_id": "check-segment-fundamentals",
+          "new_step": null,
+          "at": "04:50",
+          "does": "For Wynn, reads trailing-12-month adjusted EBITDA by property (Las Vegas $890M, Peninsula $386M, Wynn Palace $769M, Boston $222M) and a graphic of each property's share of EBITDA, and compares the new Middle East property with Marina Bay Sands ($3B EBITDA best case, $300-500M conservative estimates).",
+          "why": "For resort companies depreciation is huge and non-cash, so EBITDA gives a truer view of property earnings than net income or EPS.",
+          "data": [
+            "Las Vegas ~39% of adjusted EBITDA",
+            "Wynn Palace ~34%",
+            "Macau ~17%",
+            "Boston ~10%",
+            "Marina Bay Sands $3B EBITDA comparison"
+          ],
+          "tools": [],
+          "indicators": [
+            "Adjusted EBITDA"
+          ],
+          "conclusion": "Properties are EBITDA machines, so the 38% drop is a buying opportunity to build a good-sized position over the next few months.",
+          "tag": "explicit"
+        },
+        {
+          "step_id": "judge-valuation-by-forward-p-e",
+          "new_step": null,
+          "at": "11:15",
+          "does": "Says Netflix trades at a forward P/E of roughly 20 despite recurring subscriptions, pricing power, international growth and an ads business; for SoFi and RH discusses growth potential and leverage risk qualitatively.",
+          "why": "Argues the market is pricing multi-lever growth companies too cheaply.",
+          "data": [
+            "Netflix forward P/E ~20",
+            "RH: leverage risk, rates headwind",
+            "SoFi: asset-light, over-leverage risk"
+          ],
+          "tools": [],
+          "indicators": [
+            "P/E ratio"
+          ],
+          "conclusion": "Netflix is an easy buy at that multiple; RH and SoFi are good opportunities if leverage is kept in check.",
+          "tag": "explicit"
+        }
+      ],
+      "rules": [
+        {
+          "text": "Only pick stocks that have actually crashed, not ones at or near all-time highs.",
+          "tag": "explicit"
+        },
+        {
+          "text": "For resort and property companies use adjusted EBITDA instead of net income or EPS because depreciation is large and non-cash.",
+          "tag": "explicit"
+        }
+      ]
+    },
+    {
+      "method_id": "market-backdrop-from-cnbc-commentary",
+      "new_method": null,
+      "steps": [
+        {
+          "step_id": "play-cnbc-segment-and-react",
+          "new_step": null,
+          "at": "26:50",
+          "does": "Plays a CNBC Television YouTube clip of Fundstrat's Tom Lee ('Next six months will be most important for inflation'), with a markets ticker (Dow, S&P 500, Nasdaq, Russell 2000) on screen, pausing to comment; disagrees with Lee at 30:11 on the importance of memory-chip costs.",
+          "why": "To gather an analyst's view on yields, inflation, Fed policy and the market, then give a counterview.",
+          "data": [
+            "yields competing with stocks",
+            "inflation outlook and Fed hikes",
+            "Dow 51,330, S&P 500 7,706, Nasdaq 26,937, Russell 2000 2,832 on the ticker",
+            "memory costs"
+          ],
+          "tools": [
+            "CNBC",
+            "YouTube"
+          ],
+          "indicators": [
+            "10-year Treasury yield"
+          ],
+          "conclusion": "Says he fundamentally disagrees with Lee: memory affects almost everything electronic and big tech is raising ad prices to fund chip spending.",
+          "tag": "explicit"
+        }
+      ],
+      "rules": []
+    }
+  ],
+  "tools": [
+    {
+      "name": "Unidentified brokerage app",
+      "kind": "app",
+      "url": "",
+      "used_for": "position pages, purchase history and price chart screenshots"
+    },
+    {
+      "name": "CNBC",
+      "kind": "other",
+      "url": "cnbc.com",
+      "used_for": "market news segments watched via YouTube"
+    },
+    {
+      "name": "YouTube",
+      "kind": "website",
+      "url": "youtube.com",
+      "used_for": "playing the CNBC clip"
+    }
+  ],
+  "indicators": [
+    {
+      "name": "Account value",
+      "measures": "total portfolio value",
+      "how_used": "Quoted at the start as an all-time high.",
+      "platform": "Unidentified brokerage app"
+    },
+    {
+      "name": "Daily gain/loss",
+      "measures": "dollar and percent change on the day",
+      "how_used": "Used to show how big moves are in dollars on a large position.",
+      "platform": "Unidentified brokerage app"
+    },
+    {
+      "name": "Total gain/loss percent",
+      "measures": "return on a position since purchase",
+      "how_used": "Read per position and per purchase lot (AMD +463.79%).",
+      "platform": "Unidentified brokerage app"
+    },
+    {
+      "name": "Position value",
+      "measures": "current market value of a holding",
+      "how_used": "AMD at about $1.6M.",
+      "platform": "Unidentified brokerage app"
+    },
+    {
+      "name": "Position size",
+      "measures": "how large a holding is in the portfolio",
+      "how_used": "Noted that the AMD position has grown big enough to swing the account.",
+      "platform": "Unidentified brokerage app"
+    },
+    {
+      "name": "Adjusted EBITDA",
+      "measures": "operating cash earnings before depreciation and amortization",
+      "how_used": "Used instead of net income for Wynn's properties.",
+      "platform": ""
+    },
+    {
+      "name": "P/E ratio",
+      "measures": "price relative to earnings",
+      "how_used": "Netflix forward P/E around 20 judged cheap.",
+      "platform": ""
+    },
+    {
+      "name": "10-year Treasury yield",
+      "measures": "long-term interest rate benchmark",
+      "how_used": "Discussed in the CNBC segment as yields competing with stocks.",
+      "platform": "CNBC"
+    }
+  ]
+}

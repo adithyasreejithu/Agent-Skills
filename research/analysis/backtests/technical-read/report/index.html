@@ -1,0 +1,239 @@
+<title>Chart Read Backtest</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: one reading column, results first, evidence tables next, then a filterable case list with a chart per case. */
+:root {
+  --bg: #f6f7f9; --panel: #ffffff; --ink: #1a2230; --muted: #5d6878; --line: #dde1e8;
+  --accent: #2a5bd7; --up: #0f7b5f; --down: #c23a3a; --warn: #9a6a00; --warn-bg: #fff4d6;
+  --chip: #eceff4; --grid: #e6e9ef;
+  --font: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #12161d; --panel: #1a2029; --ink: #e5e9f0; --muted: #9aa5b5; --line: #2b3441;
+    --accent: #7ea2ff; --up: #3fc79f; --down: #f07a7a; --warn: #e8bb55; --warn-bg: #2f2a18;
+    --chip: #252d39; --grid: #232b36; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #12161d; --panel: #1a2029; --ink: #e5e9f0; --muted: #9aa5b5; --line: #2b3441;
+  --accent: #7ea2ff; --up: #3fc79f; --down: #f07a7a; --warn: #e8bb55; --warn-bg: #2f2a18;
+  --chip: #252d39; --grid: #232b36; color-scheme: dark;
+}
+body { background: var(--bg); color: var(--ink); font-family: var(--font); font-size: 15px; line-height: 1.5;
+  padding-block: 28px 64px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.wrap { max-width: 980px; margin: 0 auto; display: flex; flex-direction: column; gap: 28px; }
+h1 { font-size: 26px; font-weight: 600; margin: 0; letter-spacing: -0.01em; text-wrap: balance; }
+h2 { font-size: 17px; font-weight: 600; margin: 0 0 4px; }
+p { margin: 0; max-width: 68ch; }
+.sub { color: var(--muted); }
+.mono, td.num, .stat b { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+.banner { background: var(--warn-bg); color: var(--ink); border: 1px solid var(--warn); border-radius: 6px; padding: 12px 14px; display: flex; flex-direction: column; gap: 4px; }
+.banner b { color: var(--warn); }
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; }
+.stat { background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 12px 14px; display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.stat b { font-size: 22px; font-weight: 500; }
+.stat span { color: var(--muted); font-size: 13px; }
+section { display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.scroll { overflow-x: auto; border: 1px solid var(--line); border-radius: 6px; background: var(--panel); }
+table { border-collapse: collapse; width: 100%; font-size: 13.5px; }
+th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { color: var(--muted); font-weight: 500; font-size: 12px; text-transform: uppercase; letter-spacing: 0.05em; white-space: nowrap; }
+tr:last-child td { border-bottom: 0; }
+td.num { text-align: right; white-space: nowrap; }
+.chip { display: inline-block; padding: 1px 8px; border-radius: 10px; background: var(--chip); font-size: 12px; white-space: nowrap; }
+.yes { color: var(--up); } .no { color: var(--muted); } .partial { color: var(--warn); }
+.pos { color: var(--up); } .neg { color: var(--down); }
+.filters { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.filters button, .filters select { font: inherit; font-size: 13px; color: var(--ink); background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 5px 11px; cursor: pointer; }
+.filters button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+button:focus-visible, select:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+details { background: var(--panel); border: 1px solid var(--line); border-radius: 6px; }
+summary { cursor: pointer; padding: 10px 12px; display: grid; grid-template-columns: 54px 1fr; gap: 4px 12px; list-style: none; }
+summary::-webkit-details-marker { display: none; }
+.cid { font-family: var(--mono); color: var(--muted); font-size: 12px; padding-top: 2px; }
+.ctop { display: flex; flex-wrap: wrap; gap: 8px; align-items: baseline; min-width: 0; }
+.ctop b { font-weight: 600; }
+.quote { color: var(--muted); font-size: 13.5px; font-style: italic; }
+.lvls, .rets { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 13px; }
+.lv { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+.body { padding: 0 12px 14px; display: flex; flex-direction: column; gap: 6px; }
+.charts { display: flex; flex-direction: column; gap: 2px; }
+.charts > div { width: 100%; }
+.legend { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 12px; color: var(--muted); }
+.legend i { display: inline-block; width: 10px; height: 3px; margin-right: 5px; vertical-align: middle; }
+.note { font-size: 13px; color: var(--muted); }
+table.key th { width: 11em; white-space: normal; text-transform: none; letter-spacing: 0; font-size: 13px; color: var(--ink); font-weight: 600; }
+.ct { font-size: 12px; font-weight: 600; color: var(--ink); padding: 8px 0 2px; }
+.ct span { font-weight: 400; color: var(--muted); }
+.lab { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: 0.05em; margin-right: 6px; }
+@media (max-width: 560px) { summary { grid-template-columns: 1fr; } .cid { padding: 0; } }
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }
+</style>
+
+<div class="wrap">
+  <header style="display:flex;flex-direction:column;gap:8px">
+    <h1>Chart Read Backtest</h1>
+    <p class="sub">Does the "Technical read on a stock chart" method hold up against what price did next? Calibration half only: 18 videos published up to 2026-10-30. Follow-up is the next 5 and 10 trading days after each video.</p>
+  </header>
+
+  <div class="banner" role="note">
+    <b>Read this first</b>
+    <span>The 38 cases come from one market episode (a sharp fall that began just after the 2026-10-09 close), so they are not independent. Thresholds are a draft and the holdout half has not been looked at. The levels were spoken aloud, and the transcript cannot show what was on his charts.</span>
+  </div>
+
+  <section id="key">
+    <h2>Key: terms used on this page</h2>
+    <div class="scroll"><table class="key"><tbody>
+      <tr><th scope="row">Case</th><td>One claim from one video, for example "a dip to 490 is a buy zone". There are 38.</td></tr>
+      <tr><th scope="row">As-of close</th><td>The last closing price on or before the video's publish date. Every indicator uses only data up to this point.</td></tr>
+      <tr><th scope="row">Level</th><td>A price he said aloud: a support or buy-zone level, or an upside target. Shown as a dashed black line on the chart.</td></tr>
+      <tr><th scope="row">Touched</th><td>Within the follow-up window, price traded down to the level (for a target: up to it).</td></tr>
+      <tr><th scope="row">Held / broke</th><td><span class="pos">Held</span>: after touching, the stock never closed more than 1% below the level. <span class="neg">Broke</span>: it did.</td></tr>
+      <tr><th scope="row">5-day, 10-day</th><td>5 or 10 trading days after the as-of close.</td></tr>
+      <tr><th scope="row">Usual for this stock</th><td>The stock's average move over the same number of days across the previous two years. It is the comparison for "what would have happened anyway".</td></tr>
+      <tr><th scope="row">Band position</th><td>Where price sits inside the Bollinger Bands: 0% is the lower band, 100% is the upper band, below 0% is outside the lower band.</td></tr>
+      <tr><th scope="row">RSI</th><td>A 0 to 100 momentum gauge. Below 35 is treated here as oversold, above 70 as overbought.</td></tr>
+      <tr><th scope="row">Claim types</th><td><b>Support / buy zone</b>: he named a price where he expects buyers or would sell puts. <b>Expects bounce</b>: price at the lower band, 200-day or low RSI, no level given. <b>Upside target</b>: a price he expects it to reach. <b>Pullback to middle band</b>: he expects a dip to the 20-day average.</td></tr>
+      <tr><th scope="row">Chart reading (table 1)</th><td><span class="yes">yes</span> the video reads charts the way the guide describes; <span class="partial">partial</span> only in passing; <span class="no">no</span> none.</td></tr>
+    </tbody></table></div>
+  </section>
+
+  <section id="results" aria-live="polite"></section>
+  <section id="layer1"></section>
+  <section id="layer3"></section>
+
+  <section id="cases">
+    <h2>Every case, with chart</h2>
+    <p class="sub">Each case is one claim from one video. The marker shows the as-of close, the dashed lines are the levels he named. Open a case to see the chart.</p>
+    <div class="filters" id="filters"></div>
+    <div id="list" style="display:flex;flex-direction:column;gap:8px"></div>
+  </section>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/lightweight-charts@4.1.3/dist/lightweight-charts.standalone.production.js"></script>
+<script>
+(function () {
+  var $ = function (s) { return document.querySelector(s); };
+  var fmt = function (x, d) { return x == null ? 'n/a' : (x > 0 ? '+' : '') + x.toFixed(d == null ? 1 : d) + '%'; };
+  var cls = function (x) { return x == null ? '' : x > 0 ? 'pos' : x < 0 ? 'neg' : ''; };
+  var esc = function (s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); };
+  var css = function (v) { return getComputedStyle(document.documentElement).getPropertyValue(v).trim(); };
+  var KIND = { support: 'support / buy zone', bounce: 'expects bounce', target: 'upside target', pullback_mid: 'pullback to middle band' };
+
+  Promise.all([fetch('summary.json').then(function (r) { return r.json(); }), fetch('cases.json').then(function (r) { return r.json(); })])
+    .then(function (d) { build(d[0], d[1]); })
+    .catch(function (e) { $('#results').innerHTML = '<p class="neg">Could not load the data files: ' + esc(e.message) + '</p>'; });
+
+  function build(S, C) {
+    var a = S['5'], b = S['10'];
+    $('#results').innerHTML =
+      '<h2>Result on the calibration half</h2>' +
+      '<div class="stats">' +
+      stat(b.first_level_touched + ' of ' + b.first_level_cases, 'cases where his first named level was touched within 10 days') +
+      stat(b.first_level_touched_and_held + ' of ' + b.first_level_cases, 'where it was touched and then held (no close 1% below it) within 10 days') +
+      stat(b.bounce_beat_baseline + ' of ' + b.bounce_cases, 'lower-band / oversold bounce calls that beat the stock’s normal 10-day return') +
+      stat(fmt(b.mean_ret_pct) + ' vs ' + fmt(b.mean_baseline_pct), 'average 10-day move across all ' + b.cases_with_followup + ' cases vs the usual for those stocks') +
+      '</div>' +
+      '<p>His levels were reached, but mostly did not hold. At the 5-day mark ' + a.first_level_touched + ' of ' + a.first_level_cases + ' first levels had been touched and ' + a.first_level_touched_and_held + ' held. Both "pullback to the middle band" calls were right (' + S.pullback_mid.touched_5d + ' of ' + S.pullback_mid.cases + '), and neither of the two upside targets was reached (' + S.target.reached_10d + ' of ' + S.target.cases + '). Across all cases only ' + b.up_cases + ' of ' + b.cases_with_followup + ' were higher after 10 days, because the market fell. Put-selling at those strikes is built to be assigned there, so touching a level is not a failure for him; the open question is whether the levels marked a floor, and in this window they did not.</p>';
+
+    // layer 1
+    var V = S.crosscheck.videos, n = { yes: 0, partial: 0, no: 0 };
+    V.forEach(function (v) { n[v.chart_reading]++; });
+    $('#layer1').innerHTML = '<h2>1. Does the method appear in other videos?</h2><p>' + n.yes + ' of ' + V.length + ' calibration videos read charts the way the guide describes (including the source video, which is the control), ' + n.partial + ' do in part, and ' + n.no + ' do not. All ' + (n.yes + n.partial) + ' that do are from the same creator. The ' + n.no + ' that do not are news and fundamentals commentary with no chart reading to test.</p>' +
+      '<div class="scroll"><table><thead><tr><th>Published</th><th>Video</th><th>Chart reading</th><th class="num">Testable claims found</th></tr></thead><tbody>' +
+      V.map(function (v) { return '<tr><td class="mono">' + v.pub + '</td><td>' + esc(v.title) + (v.control ? ' <span class="chip">control</span>' : '') + '</td><td class="' + v.chart_reading + '">' + v.chart_reading + '</td><td class="num">' + v.n_claims + '</td></tr>'; }).join('') +
+      '</tbody></table></div><p class="note">Across these videos he does not state a cut-off for "near a band", and MACD is not part of his routine. New habits appear that the guide does not have: RSI levels (30 to 35 on QQQ), market breadth (share of S&amp;P stocks above the 50-day), a drawdown converted into a price, and the market-maker expected range.</p>';
+
+    // layer 3
+    var R = S.study.rules, T = S.thresholds.rules;
+    var rows = [
+      ['lower_band', 'Close at or below the lower Bollinger band', 'pct_b ≤ ' + T.lower_band.pct_b_max],
+      ['oversold', 'RSI at or below ' + T.oversold.rsi_max, ''],
+      ['both', 'Both of the above', ''],
+      ['at_200d', 'Within ' + T.at_200d.within_pct + '% of the 200-day average', ''],
+      ['stretched_up', 'Top of the band after a ' + T.stretched_up.run_pct + '% run in ' + T.stretched_up.run_days + ' days', '']
+    ];
+    $('#layer3').innerHTML = '<h2>3. Does the rule work beyond his examples?</h2><p>The same rules, with the draft thresholds, run over five years of daily prices for the ' + S.study.tickers.length + ' tickers up to ' + S.study.end_date + '. Signals within ' + S.thresholds.study.min_gap_days_between_signals + ' days of each other count once. "Usual" is the average move for those same stocks starting on any day.</p>' +
+      '<div class="scroll"><table><thead><tr><th>Rule (signal)</th><th class="num">Number of signals</th><th class="num">Avg 5-day move after signal</th><th class="num">Usual 5-day move</th><th class="num">Avg 10-day move after signal</th><th class="num">Usual 10-day move</th><th class="num">Share up after 10 days (usual)</th></tr></thead><tbody>' +
+      rows.map(function (r) { var x = R[r[0]]; return '<tr><td>' + r[1] + '</td><td class="num">' + x['5'].n + '</td><td class="num ' + cls(x['5'].mean_ret_pct - x['5'].baseline_mean_ret_pct) + '">' + fmt(x['5'].mean_ret_pct) + '</td><td class="num">' + fmt(x['5'].baseline_mean_ret_pct) + '</td><td class="num ' + cls(x['10'].mean_ret_pct - x['10'].baseline_mean_ret_pct) + '">' + fmt(x['10'].mean_ret_pct) + '</td><td class="num">' + fmt(x['10'].baseline_mean_ret_pct) + '</td><td class="num">' + x['10'].pct_positive + '% <span class="sub">(' + x['10'].baseline_pct_positive + '%)</span></td></tr>'; }).join('') +
+      '</tbody></table></div><p>' + 'Close at the lower band alone is followed by a 10-day average of ' + fmt(R.lower_band['10'].mean_ret_pct) + ' against ' + fmt(R.lower_band['10'].baseline_mean_ret_pct) + ' normal, but it is no more often positive (' + R.lower_band['10'].pct_positive + '% against ' + R.lower_band['10'].baseline_pct_positive + '%), so the evidence is weak. RSI at or below ' + T.oversold.rsi_max + ' does better (' + fmt(R.oversold['10'].mean_ret_pct) + ' against ' + fmt(R.oversold['10'].baseline_mean_ret_pct) + ', up ' + R.oversold['10'].pct_positive + '% of the time against ' + R.oversold['10'].baseline_pct_positive + '%), and the two together a little better again. A move to the 200-day average is followed by worse-than-normal returns. After a run to the top of the band, the middle band was touched within 10 days in ' + S.study.stretched_up_touches_mid_10d.pct + '% of cases, against ' + S.study.stretched_up_touches_mid_10d.baseline_pct + '% for any day in the upper part of the band, so there is no sign that the run itself makes a pullback more likely. These are averages over a rising period for strong stocks, so a base rate near +2.5% per 10 days flatters every rule.</p>';
+
+    // filters + list
+    var kinds = ['all'].concat(Object.keys(KIND)), tickers = ['all'].concat(Array.from(new Set(C.map(function (c) { return c.ticker; }))).sort());
+    var st = { kind: 'all', ticker: 'all' };
+    $('#filters').innerHTML = kinds.map(function (k) { return '<button type="button" data-k="' + k + '" aria-pressed="' + (k === 'all') + '">' + (k === 'all' ? 'All claims' : KIND[k]) + '</button>'; }).join('') +
+      '<label class="sub" for="tk">Ticker</label><select id="tk">' + tickers.map(function (t) { return '<option value="' + t + '">' + (t === 'all' ? 'All' : t) + '</option>'; }).join('') + '</select>';
+    $('#filters').addEventListener('click', function (e) { var k = e.target.getAttribute('data-k'); if (!k) return; st.kind = k; Array.prototype.forEach.call($('#filters').querySelectorAll('button'), function (x) { x.setAttribute('aria-pressed', x.getAttribute('data-k') === k); }); render(); });
+    $('#tk').addEventListener('change', function (e) { st.ticker = e.target.value; render(); });
+
+    function render() {
+      var list = C.filter(function (c) { return (st.kind === 'all' || c.kind === st.kind) && (st.ticker === 'all' || c.ticker === st.ticker); });
+      $('#list').innerHTML = list.length ? list.map(caseHtml).join('') : '<p class="sub">No cases match.</p>';
+      Array.prototype.forEach.call($('#list').querySelectorAll('details'), function (d) {
+        d.addEventListener('toggle', function () { if (d.open && !d.getAttribute('data-drawn')) { d.setAttribute('data-drawn', '1'); drawChart(d, C.filter(function (c) { return c.id === d.getAttribute('data-id'); })[0]); } });
+      });
+    }
+    render();
+  }
+
+  function stat(big, label) { return '<div class="stat"><b>' + big + '</b><span>' + label + '</span></div>'; }
+
+  function caseHtml(c) {
+    var h5 = c.horizons['5'], h10 = c.horizons['10'];
+    var lv = h10 ? h10.levels.map(function (l) {
+      var tag = l.reached != null ? (l.reached ? 'reached' : 'not reached') : (l.touched ? (l.closed_below ? 'touched, broke' : 'touched, held') : 'not touched');
+      var lab = l.label ? 'mid band ' : '';
+      return '<span class="lv">' + lab + l.level + (l.dist_pct != null ? ' (' + fmt(l.dist_pct) + ')' : '') + ' <span class="' + (tag.indexOf('broke') > -1 || tag === 'not reached' ? 'neg' : tag.indexOf('held') > -1 || tag === 'reached' ? 'pos' : 'sub') + '">' + tag + '</span></span>';
+    }).join('') : '<span class="sub">not enough follow-up</span>';
+    var r = function (h, n) { return h ? '<span>' + n + 'd <span class="lv ' + cls(h.ret_pct) + '">' + fmt(h.ret_pct) + '</span> <span class="sub">(usual for this stock ' + fmt(h.baseline_ret_pct) + ')</span></span>' : '<span class="sub">' + n + 'd n/a</span>'; };
+    var s = c.state, sn = c.snapshot;
+    return '<details data-id="' + c.id + '"><summary><span class="cid">' + c.id + '</span><span style="display:flex;flex-direction:column;gap:4px;min-width:0">' +
+      '<span class="ctop"><b>' + c.ticker + '</b><span class="mono sub">' + c.asof + '</span><span class="chip">' + KIND[c.kind] + '</span><span class="sub">Price ' + c.close + ' &middot; band position ' + (s.pct_b == null ? 'n/a' : Math.round(s.pct_b * 100) + '%') + ' &middot; RSI ' + (sn.rsi == null ? 'n/a' : Math.round(sn.rsi)) + '</span></span>' +
+      '<span class="quote">“' + esc(c.quote) + '”</span><span class="lvls"><span class="lab">Levels he named (distance from price), 10-day result</span>' + lv + '</span><span class="rets"><span class="lab">Price move after the video</span>' + r(h5, 5) + r(h10, 10) + '</span></span></summary>' +
+      '<div class="body"><div class="charts"><div class="ct">Price <span>daily candles with Bollinger Bands, 50-day, 200-day and yearly VWAP</span></div><div class="cp"></div><div class="ct">RSI <span>14-day; dashed lines at 70 (overbought) and 30 (oversold)</span></div><div class="cr"></div><div class="ct">MACD <span>bars = histogram (green above zero, red below), blue = MACD line, amber = signal line</span></div><div class="cm"></div></div>' +
+      '<div class="legend"><span><i style="background:#2a5bd7"></i>Bollinger upper and lower band</span><span><i style="background:repeating-linear-gradient(90deg,#2a5bd7 0 4px,transparent 4px 7px)"></i>middle band (20-day average)</span><span><i style="background:#c58a00"></i>50-day average</span><span><i style="background:#8a4fd1"></i>200-day average</span><span><i style="background:#0f9d8a"></i>yearly VWAP</span><span><i style="background:repeating-linear-gradient(90deg,var(--ink) 0 4px,transparent 4px 7px)"></i>level he named</span><span><b class="pos">green</b> / <b class="neg">red</b> candle: closed above / below its open</span><span>arrow = video date; bars to its right happened afterwards</span></div>' +
+      '<p class="note">Video ' + c.video + ' (published ' + c.date + '). Indicators use only data up to the as-of close. Bars to the right of the marker are the follow-up. 50-day ' + fmt(s.vs_sma50_pct) + ', 200-day ' + fmt(s.vs_sma200_pct) + ', yearly VWAP ' + fmt(s.vs_vwap_pct) + ' from price.</p></div></details>';
+  }
+
+  function drawChart(d, c) {
+    var LW = window.LightweightCharts;
+    if (!LW) { d.querySelector('.cp').innerHTML = '<p class="neg">Chart library did not load.</p>'; return; }
+    var ch = c.chart, bars = ch.bars, ser = ch.series;
+    var base = { layout: { background: { color: css('--panel') }, textColor: css('--muted'), fontFamily: 'IBM Plex Mono, monospace', fontSize: 11 },
+      grid: { vertLines: { color: css('--grid') }, horzLines: { color: css('--grid') } }, rightPriceScale: { borderColor: css('--line') }, timeScale: { borderColor: css('--line') }, crosshair: { mode: 0 } };
+    var mk = function (el, h) { return LW.createChart(el, Object.assign({ width: el.clientWidth || 600, height: h }, base)); };
+    var line = function (chart, key, color, w, style) {
+      var s = chart.addLineSeries({ color: color, lineWidth: w || 1, lineStyle: style || 0, priceLineVisible: false, lastValueVisible: false, crosshairMarkerVisible: false });
+      s.setData(bars.map(function (b, i) { return ser[key][i] == null ? null : { time: b[0], value: ser[key][i] }; }).filter(Boolean)); return s;
+    };
+    var cp = mk(d.querySelector('.cp'), 300);
+    var cs = cp.addCandlestickSeries({ upColor: css('--up'), downColor: css('--down'), borderVisible: false, wickUpColor: css('--up'), wickDownColor: css('--down') });
+    cs.setData(bars.map(function (b) { return { time: b[0], open: b[1], high: b[2], low: b[3], close: b[4] }; }));
+    line(cp, 'bb_up', '#2a5bd7', 1); line(cp, 'bb_lo', '#2a5bd7', 1); line(cp, 'bb_mid', '#2a5bd7', 1, 2);
+    line(cp, 'sma50', '#c58a00', 1); line(cp, 'sma200', '#8a4fd1', 1); line(cp, 'vwap_year', '#0f9d8a', 1);
+    (c.levels || []).forEach(function (L) { cs.createPriceLine({ price: L, color: css('--ink'), lineWidth: 1, lineStyle: 2, axisLabelVisible: true, title: '' + L }); });
+    cs.setMarkers([{ time: bars[ch.asof_index][0], position: 'aboveBar', color: css('--accent'), shape: 'arrowDown', text: 'video date' }]);
+    var cr = mk(d.querySelector('.cr'), 90);
+    var rs = line(cr, 'rsi', '#2a5bd7', 1);
+    rs.createPriceLine({ price: 70, color: css('--muted'), lineWidth: 1, lineStyle: 2, axisLabelVisible: false, title: '' });
+    rs.createPriceLine({ price: 30, color: css('--muted'), lineWidth: 1, lineStyle: 2, axisLabelVisible: false, title: '' });
+    var cm = mk(d.querySelector('.cm'), 90);
+    var hs = cm.addHistogramSeries({ priceLineVisible: false, lastValueVisible: false });
+    hs.setData(bars.map(function (b, i) { var v = ser.macd_hist[i]; return v == null ? null : { time: b[0], value: v, color: v >= 0 ? css('--up') : css('--down') }; }).filter(Boolean));
+    line(cm, 'macd', '#2a5bd7', 1); line(cm, 'macd_sig', '#c58a00', 1);
+    [cp, cr, cm].forEach(function (x) { x.timeScale().fitContent(); });
+    var sync = function (src, others) { src.timeScale().subscribeVisibleLogicalRangeChange(function (r) { if (r) others.forEach(function (o) { o.timeScale().setVisibleLogicalRange(r); }); }); };
+    sync(cp, [cr, cm]);
+    // keep charts the right width and theme
+    var charts = [[cp, '.cp'], [cr, '.cr'], [cm, '.cm']];
+    window.addEventListener('resize', function () { charts.forEach(function (x) { x[0].applyOptions({ width: d.querySelector(x[1]).clientWidth }); }); });
+    var retheme = function () { var o = { layout: { background: { color: css('--panel') }, textColor: css('--muted') }, grid: { vertLines: { color: css('--grid') }, horzLines: { color: css('--grid') } } }; charts.forEach(function (x) { x[0].applyOptions(o); }); };
+    if (window.matchMedia) window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', retheme);
+    new MutationObserver(retheme).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+  }
+})();
+</script>

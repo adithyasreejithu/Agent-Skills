@@ -1,0 +1,22 @@
+{
+ "video": "JMaLx81fnGs",
+ "auto_dup": true,
+ "note": "Labeled by Claude from contact sheets; new-info only where text was readable. No control_sheet.jpg was produced; control frames were read individually from frames/.",
+ "cues": {
+  "c01": ["NRNRR", "+2", "-2/+0 CAKE position page (value $367,640, avg cost $40.75, +$235,198.25); +2..+6 RH position (avg cost $124.10, +$12,864.90 +21.50%, buys Sep-15 400 @ $125.36 etc.)"],
+  "c02": ["RRRRR", null, "Same RH position page as c01 at every offset"],
+  "c03": ["NRRRR", "-2", "SOFI position: value $97,823, avg cost $9.23, +$46,577.27 (+90.88%), buy history from Mar-2024; static"],
+  "c04": ["NRRRR", "-2", "ServiceNow quote 109.67 -40.46 (-26.95%), after hours 108.00 -1.67, handwritten 'worst day ever'; static"],
+  "c05": ["URRRR", "-2", "X post photo of a TV showing INTC 71.78 -22.04% while he previews the Intel/AMD segment; small text"],
+  "c06": ["URRRR", "-2", "Discord with the graded Amazon income statement (Grade = B); tile too small to read figures"],
+  "c07": ["NRRRR", "-2", "Amazon Q3 income statement full view with % annotations (product sales 2%, services 19%, total 12%); static"],
+  "c08": ["NRRRR", "-2", "Bloomberg Brent Thill clip, AMZN after hours 226.02 -17.77 (-7.44%); price not in captions"],
+  "c09": ["RRRRR", null, "Same Bloomberg Amazon clip as c08 (225.66-226.50); 'support' was the guest's word, no chart"],
+  "c10": ["NRRRR", "-2", "X post photo of TV with INTC 71.78 -20.29 (-22.04%) after hours; static"],
+  "c11": ["RRRRR", null, "Same Intel TV photo as c10"],
+  "c12": ["NRRRR", "-2", "Alphabet free cash flow bar chart 2005-2026 dropping below -$5B at the end; static"],
+  "c13": ["BURRR", "+0", "-2 full face cam; +0 CNBC Steve Eisman clip title 'Anthropic's revenue growth has slowed dramatically'; later same clip/studio"]
+ },
+ "control": "NBNNBNNUNNBW",
+ "control_note": "0:00 CAKE position (N); 4:30 blank browser tab (B); 9:33 Amazon income statement legible (N); 12:20 Bloomberg AMZN 218.40 -25.39 -10.42%, EPS $1.89 vs est $1.97 (N); 20:50 face cam over clip (B); 29:37 MSFT bull case projections $452-$546 2026 to $1001-$1210 2030 (N); 30:34 MSFT base case $433-$527 to $898-$1093 (N); 31:23 Intel TV photo (U); 36:41 Alphabet after hours 296.73 -28.16 -8.68% (N); 42:33 Alphabet 295.74 -29.15 -8.97%, Google Cloud rev grew 103% (N); 48:03 face cam (B); 56:33 promo sale page (W)."
+}

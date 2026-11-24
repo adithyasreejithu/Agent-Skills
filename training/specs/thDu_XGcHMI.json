@@ -1,0 +1,23 @@
+{
+  "video": "thDu_XGcHMI",
+  "auto_dup": true,
+  "note": "Labeled by Claude from contact sheets; new-info only where text was readable.",
+  "cues": {
+    "c01": ["UNUUU", "+0", "TradingView AI-trade overlay (SNDK, SPX, AMD, AVGO, TSM, NVDA...) with watchlist; same screen at every offset"],
+    "c02": ["UUNUU", "+2", "Same AI-trade chart and watchlist; legend percentages and watchlist prices are readable at full size"],
+    "c03": ["UUUUU", "+0", "Same chart; MUU/SOXL rows in the watchlist, transcript already gives the percentages"],
+    "c04": ["UUUUN", "+6", "Same chart; crosshair appears on the chart at the later offsets"],
+    "c05": ["UUUUU", "+0", "Same chart; SNXX row visible, transcript already covers it"],
+    "c06": ["WWWWW", null, "Full-screen webcam only, no market content"],
+    "c07": ["UUUNU", "+4", "Switches to his own watchlist (CRM, AMZN, RH, WYNN, ELF); tooltips show Salesforce at +4"],
+    "c08": ["WWWWW", null, "Full-screen webcam only, timer 14:12, no chart"],
+    "c09": ["UUNNN", "+2", "Moves from own watchlist to the Semiconductors list with readable prices (MU, AMD, AVGO, NVDA, TSM)"],
+    "c10": ["UUUUU", "+0", "YouTube: Bloomberg Surveillance, Edward Yardeni, headline 'Nvidia results offer relief to AI trade'; transcript covers it"],
+    "c11": ["WWWWW", null, "Full-screen webcam only, no chart"],
+    "c12": ["UUWUN", "+6", "Symbol search panel, then SNDK chart, then typing qqq, then QQQ chart loads at +6"],
+    "c13": ["UUWUN", "+6", "Same window as c12 (duplicate cue time)"],
+    "c14": ["NNRRR", "+0", "QQQ 1h chart, price about 614.8 near the lows, legible; later offsets the same chart"]
+  },
+  "control": "NUNWBUWNWUNN",
+  "control_note": "Scene-change frames: AI-trade chart with prices, Dan Ives and Yardeni videos, blank loading page, webcam-only and recommendation screens, semis list, Dan Ives ANT price 96.885, Discord post of the $88,000 buys."
+}

@@ -1,0 +1,33 @@
+{
+ "video": "MCBLOo4uT8s",
+ "auto_dup": true,
+ "note": "Labeled by Claude from contact sheets; new-info only where text was readable.",
+ "cues": {
+  "c01": ["NRNNR", "-2", "CNBC Tom Lee clip ticker carousel: NVDA 177.27 -5.02%, SPCX 141.31 +5.24%, TSLA 380.70 +6.27%; no VIX on screen"],
+  "c02": ["URRRR", "-2", "CNBC Closing Bell panel, banner 'S&P 500 on track for best day since April 8'"],
+  "c03": ["RRRRR", null, "same CNBC panel as c02"],
+  "c04": ["NRRNR", "-2", "RSP equal weight 221.71 +2.62%, 'All 11 S&P sectors higher today'; +4 shows RSP YTD +15.74% and 'Dow rallies 1,200 points'"],
+  "c05": ["URNRN", "+2", "CNBC panel then XLF 58.23 +1.07 +1.86%; +6 banner 'Nasdaq on track for best day since June 15'"],
+  "c06": ["RRRRR", null, "XLF 58.22 chart repeated"],
+  "c07": ["RRRRR", null, "same frames as c06"],
+  "c08": ["BNNRR", "+0", "face cam, then X post: Kalshi odds Jensen leaving 45% before 2028, 58% before 2029, 62% before 2031; then TradingView S&P 500 7,520.93 -0.38%"],
+  "c09": ["NRRRR", "-2", "TradingView market summary with watchlist (AMD 515.21 +1.30% legible at full size); static screen"],
+  "c10": ["NRRRR", "-2", "same frames as c09"],
+  "c11": ["RRRRR", null, "same static TradingView market summary"],
+  "c12": ["RRRRR", null, "same static TradingView market summary"],
+  "c13": ["RRRRR", null, "same static TradingView market summary during AMZN/GOOG talk"],
+  "c14": ["RRRRR", null, "same static TradingView market summary"],
+  "c15": ["RRRRR", null, "same static TradingView screen during CAT talk"],
+  "c16": ["RRRRR", null, "same static TradingView screen during MU/NVDA talk"],
+  "c17": ["BBRRN", "+6", "full face cam, TradingView again, then 1000xstocks NVDA $168.89 valuation page"],
+  "c18": ["BBRRN", "+6", "same frames as c17"],
+  "c19": ["RRUNR", "+4", "1000xstocks NVDA page, then MU $725.11 page with forward valuation table (small)"],
+  "c20": ["NRRRR", "-2", "CNBC forward valuation NVDA 178.67 -7.97 -4.27%, PE ratio 14.77 fwd"],
+  "c21": ["NRRRR", "-2", "CNBC NVDA 2-day chart 178.67 -4.27%, banner Trump says he spoke to Jensen Huang"],
+  "c22": ["NRRRR", "-2", "CNBC one-week chart NVDA -11.58% vs SOXX -2.95%, banner Commerce Dept chip inquiry halted after Nvidia intervention"],
+  "c23": ["NRRRR", "-2", "CNBC energy board: WTI Dec 86.90 -4.33%, Brent Jan 93.83 -4.57%, nat gas 3.139 +4.70%; not an all-time-high chart"],
+  "c24": ["NRRRN", "+6", "S&P 500 7,376.86 +0.31% (1-yr +9.63%), 'Monday econ data'; +6 energy markets WTI 86.77 -4.47%, Brent 93.66"]
+ },
+ "control": "NUUNNBBNBUUB",
+ "control_note": "0:00 CAT chart annotated -45% from highs (584.57 -45.11%); Niles NVDA probe clip; Tom Lee panel; XLF 58.23; Kalshi Jensen odds post; face cam x2; TradingView watchlist (NVDA 168.89, MU 725.11, CAT 584.57, AMD 515.21, AMZN 270.87, GOOG 284.92); blank page; Niles clips; face cam"
+}

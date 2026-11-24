@@ -1,0 +1,508 @@
+{
+  "video_id": "601dK1SfH9Y",
+  "creator": "Options With Ryan",
+  "title": "Is The AI Trade Over? Midterm Election Data + My $50k LEAPS Buy (Options With Ryan)",
+  "upload_date": "20261105",
+  "duration_seconds": 1244.1,
+  "source": "https://www.youtube.com/watch?v=601dK1SfH9Y",
+  "verdicts": "new-info | useful | redundant | blank | wrong  (see plan/watch-skill-testing-mode/PLAN.md)",
+  "cues": [
+    {
+      "cue_id": "c01",
+      "term": "take-a-look",
+      "category": "pointing",
+      "t": 12.639,
+      "heard": "going over where the AI trade is headed from here. We're going to take a look at",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "wrong",
+        "+6": "wrong"
+      },
+      "best_offset": null,
+      "notes": "face cam intro with burned-in captions only"
+    },
+    {
+      "cue_id": "c02",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 30.32,
+      "heard": "that I made on one particular ETF. So, let's go ahead and dive straight into",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "blank",
+        "+4": "blank",
+        "+6": "blank"
+      },
+      "best_offset": null,
+      "notes": "face cam, then 'This is not financial advice' disclaimer slide"
+    },
+    {
+      "cue_id": "c03",
+      "term": "take-a-look",
+      "category": "pointing",
+      "t": 38.079,
+      "heard": "purposes only. Results may vary. Now, if you take a look at the account, you can",
+      "offsets": {
+        "-2": "blank",
+        "+0": "blank",
+        "+2": "new-info",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+2",
+      "notes": "disclaimer slide, then Schwab account summary: total value $1,700,084.57"
+    },
+    {
+      "cue_id": "c04",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 39.2,
+      "heard": "you take a look at the account, you can see this right here is my public",
+      "offsets": {
+        "-2": "blank",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "disclaimer slide, then same Schwab summary screen [auto: within 1.5s of c03, marked redundant]"
+    },
+    {
+      "cue_id": "c05",
+      "term": "as-you-can-see",
+      "category": "pointing",
+      "t": 68.64,
+      "heard": "quite a bit because of the AI trade. As you can see, nice profit on the day. But",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "Schwab Realized Gain/Loss page for 11/04/2026, gain/loss ratio 78.14%; small figures not legible"
+    },
+    {
+      "cue_id": "c06",
+      "term": "as-you-can-see",
+      "category": "pointing",
+      "t": 81.759,
+      "heard": "frameworks that we share here in the mentorship. As you can see, uh, clients",
+      "offsets": {
+        "-2": "useful",
+        "+0": "new-info",
+        "+2": "useful",
+        "+4": "redundant",
+        "+6": "new-info"
+      },
+      "best_offset": "+6",
+      "notes": "Discord community profit posts: TSLA call realized +$583.25; +6 member closes CLS $310C, IREN $30C, CRDO $190C, GOOGL $275P (11/13-11/20)"
+    },
+    {
+      "cue_id": "c07",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 107.439,
+      "heard": "absolutely free, so make sure to be subscribed. Now, let's go ahead and dive",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "redundant",
+        "+4": "useful",
+        "+6": "new-info"
+      },
+      "best_offset": "+6",
+      "notes": "creator's X profile (promo), then TradingView chart; +6 NDFI panel shows 48.51"
+    },
+    {
+      "cue_id": "c08",
+      "term": "take-a-look",
+      "category": "pointing",
+      "t": 125.52,
+      "heard": "10-year Treasury yield also coming down. Right now, if we take a look at the CME",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "useful",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "-2 10-year yield chart, quote 4.886; +4 CME FedWatch table (cells too small)"
+    },
+    {
+      "cue_id": "c09",
+      "term": "fed-watch",
+      "category": "macro",
+      "t": 127.36,
+      "heard": "Right now, if we take a look at the CME Fed Watch tool, which shows if we are",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "useful",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "10-year yield chart (4.886/4.883), then FedWatch table"
+    },
+    {
+      "cue_id": "c10",
+      "term": "fed-watch",
+      "category": "macro",
+      "t": 138.869,
+      "heard": "that we actually get that rate hike in",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "CME FedWatch aggregated meeting probabilities; numbers too small on sheet"
+    },
+    {
+      "cue_id": "c11",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 174.64,
+      "heard": "we take a look, you could even see that NDFI, which is the NASDAQ stocks above",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "new-info",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "10y chart, then NDFI (Nasdaq stocks above 50-day MA) chart, value 48.51"
+    },
+    {
+      "cue_id": "c12",
+      "term": "breadth",
+      "category": "macro",
+      "t": 174.64,
+      "heard": "we take a look, you could even see that NDFI, which is the NASDAQ stocks above",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "same as c11 [auto: within 1.5s of c11, marked redundant]"
+    },
+    {
+      "cue_id": "c13",
+      "term": "moving-average",
+      "category": "chart",
+      "t": 176.959,
+      "heard": "NDFI, which is the NASDAQ stocks above their 50-day moving average, are only",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "NDFI chart 48.51, lower band line"
+    },
+    {
+      "cue_id": "c14",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 189.68,
+      "heard": "seen a very strong NASDAQ where we see the ND NDFI above 70. We haven't seen",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "NDFI multi-year chart with circled lows, 48.51"
+    },
+    {
+      "cue_id": "c15",
+      "term": "breadth",
+      "category": "macro",
+      "t": 189.68,
+      "heard": "seen a very strong NASDAQ where we see the ND NDFI above 70. We haven't seen",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "same NDFI multi-year chart as c14 [auto: within 1.5s of c14, marked redundant]"
+    },
+    {
+      "cue_id": "c16",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 241.36,
+      "heard": "bit stronger. And even what I want to look at is the RSP. So RRSP gives me a",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "new-info",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "S5FI chart 65.53 with boxes; +4 RSP equal-weight ETF chart at 223.34"
+    },
+    {
+      "cue_id": "c17",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 258.479,
+      "heard": "that the equal weighted S&P 500 ETF actually is hitting new all-time highs",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "RSP chart at 223.34 near all-time high"
+    },
+    {
+      "cue_id": "c18",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 268.72,
+      "heard": "know people are selling off some of those concentrated names like the MAG 7",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "same RSP chart 223.34"
+    },
+    {
+      "cue_id": "c19",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 280.8,
+      "heard": "S&P 500. Okay, you could see even if we flip back from uh QQQ, we can go to",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "new-info"
+      },
+      "best_offset": "+6",
+      "notes": "RSP chart, then QQQ chart 691.85 with -8%/-10%/-13% drawdown zones"
+    },
+    {
+      "cue_id": "c20",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 284.639,
+      "heard": "flip back from uh QQQ, we can go to let's take a look at QQQ. All right, and",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "new-info",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+2",
+      "notes": "RSP chart, then QQQ 691.85 with drawdown zones"
+    },
+    {
+      "cue_id": "c21",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 292.24,
+      "heard": "the peak was, right? We obviously had a brand new all-time high about a month",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "QQQ chart 691.85 with -8/-10/-13% zones"
+    },
+    {
+      "cue_id": "c22",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 343.28,
+      "heard": "uh we saw some QQQ call buying. Amazon, uh, SPY, Google, McDonald's, Burke B.",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "useful"
+      },
+      "best_offset": "-2",
+      "notes": "Unusual Whales market tide; fear/greed gauge at 40; +6 scrolled to sentiment breakdown"
+    },
+    {
+      "cue_id": "c23",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 467.599,
+      "heard": "purchases there. You have Josh Gottenheimer right here who's also a",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "Nancy Pelosi then Josh Gottheimer congress trade pages; ticker rows too small to read reliably"
+    },
+    {
+      "cue_id": "c24",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 643.12,
+      "heard": "was very interesting and I like to look at this data uh to kind of give me, you",
+      "offsets": {
+        "-2": "useful",
+        "+0": "new-info",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "'After the Midterms: The Nasdaq's Six Months' slide: 13/13, +19.57% avg, +47.0%, +22.46%"
+    },
+    {
+      "cue_id": "c25",
+      "term": "chart",
+      "category": "chart",
+      "t": 949.68,
+      "heard": "undervalued here. So looking at the chart right here, you could see that the",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "'How These Multiples Got Here' trailing/forward PE chart (SMH vs mega-cap vs S&P); values small"
+    },
+    {
+      "cue_id": "c26",
+      "term": "chart",
+      "category": "chart",
+      "t": 1107.12,
+      "heard": "know, 580, which is kind of what I'm looking out for. If we go to the chart,",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "wrong",
+        "+4": "new-info",
+        "+6": "redundant"
+      },
+      "best_offset": "+4",
+      "notes": "OptionStrat long-call P/L grid (illegible), QQQ chart, then SMH chart 504.27"
+    },
+    {
+      "cue_id": "c27",
+      "term": "moving-average",
+      "category": "chart",
+      "t": 1229.44,
+      "heard": "but for me I like it here at these prices. We're below the 200 day moving",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "SMH chart 504.27 with drawn recovery path"
+    }
+  ],
+  "control": [
+    {
+      "t": 0.0,
+      "reason": "first-frame",
+      "verdict": "wrong"
+    },
+    {
+      "t": 74.9,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 87.8,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 91.033333,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 109.9,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 128.433333,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 389.4,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 811.5,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 1058.9,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 1140.8,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 1149.066667,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 1235.833333,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    }
+  ],
+  "control_notes": "f1 face cam; f4 Discord member posts; f7 member trades CLS/IREN/CRDO/GOOGL; f11 Schwab gain/loss + index bar (Nasdaq 25,868.39, S&P 7,701.75 +1.75%, Russell 2,852.99); f14 blank grey; f17 FedWatch (12/9/2026: 18.46% 375-400 / 81.54% 400-425; 1/27/2027: 95.50% 400-425); f20 CNBC headlines (Dow +1,500, crude below $90); f23 SMH vs QQQ vs S&P title slide (data as of Oct 30 2026); f26 NVDA dark-pool whale prints at $200.13 tagged SELL; f30 blank white; f34 positions table incl. SMH 505.10, +4 Jan 21 (443d) 460 C, cost $47,400; f37 face cam outro",
+  "labeling_notes": "Labeled by Claude from contact sheets; new-info only where text was readable.",
+  "trained_at": "2026-11-05"
+}

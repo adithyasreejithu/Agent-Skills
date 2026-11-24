@@ -1,0 +1,261 @@
+{
+  "title": "I WOULD go ALL IN this 1 Stock‼️",
+  "channel": "Jeremy Lefebvre Makes Money",
+  "url": "https://www.youtube.com/watch?v=K81VYWuW0DA",
+  "published_at": "2026-09-22T23:12:49+00:00",
+  "video_id": "K81VYWuW0DA",
+  "methods": [
+    {
+      "method_id": "portfolio-performance-review-from-brokerage",
+      "new_method": null,
+      "steps": [
+        {
+          "step_id": "check-account-value-and-return",
+          "new_step": null,
+          "at": "00:00",
+          "does": "Shows a screenshot of the brokerage account overview in an image viewer: account value, daily dollar and percent change, and the 3-year chart and rate of return.",
+          "why": "To show the account is at an all-time high and that the portfolio is compounding.",
+          "data": [
+            "Account value $5,256,087.56",
+            "Day change +$41,246.70 (+0.79%)",
+            "Rate of return +184.80% over 3 years",
+            "3Y equity curve from Sep 2023 to Sep 2026"
+          ],
+          "tools": [
+            "Unidentified brokerage app"
+          ],
+          "indicators": [
+            "Account value",
+            "Rate of return"
+          ],
+          "conclusion": "Account at a new all-time high.",
+          "tag": "visual"
+        },
+        {
+          "step_id": "read-per-position-gains-and-losses",
+          "new_step": null,
+          "at": "00:24",
+          "does": "Calls out the day's dollar move and the total gain of individual holdings, then shows a table of six holdings with daily and total gain/loss columns (also posted on X).",
+          "why": "To show which positions are moving the account and how large each is.",
+          "data": [
+            "AMD +$21,078 today, +$1.31M total, +458.87%, value $1.59M",
+            "CAKE +$11,602 today, +152.85% total",
+            "ELF +$6,928 today, +234.55% total",
+            "CELH +$9,029 today, +11.55% total",
+            "EL +$7,110 today",
+            "HNST +$3,200 today, smallest value ($216,400 position)"
+          ],
+          "tools": [
+            "Unidentified brokerage app",
+            "X"
+          ],
+          "indicators": [
+            "Daily gain/loss",
+            "Total gain/loss percent",
+            "Position value"
+          ],
+          "conclusion": "Gains are broad across several individual stocks, not just the index.",
+          "tag": "explicit"
+        }
+      ],
+      "rules": [
+        {
+          "text": "Be an individual stock picker rather than relying on the market going up: choose the best companies, which let the account hit highs even when the Nasdaq is range-bound.",
+          "tag": "explicit"
+        }
+      ]
+    },
+    {
+      "method_id": "risk-reward-pick-among-holdings",
+      "new_method": null,
+      "steps": [
+        {
+          "step_id": "rank-upside-potential",
+          "new_step": null,
+          "at": "29:00",
+          "does": "Asked to pick one of six holdings for 6 years, ranks them: AMD is the pick for 6 months, Celsius has the most 6-year upside (Celsius and Alani brands, more SKUs, doors, international, margin and EPS).",
+          "why": "To separate pure upside from the overall best risk-reward.",
+          "data": [
+            "Celsius brands: Celsius, Alani",
+            "Expansion: US, international, more SKUs, more doors",
+            "Margin and EPS opportunity"
+          ],
+          "tools": [
+            "X"
+          ],
+          "indicators": [],
+          "conclusion": "Celsius has the most upside but not the pick.",
+          "tag": "explicit"
+        },
+        {
+          "step_id": "weigh-business-risk-and-valuation",
+          "new_step": null,
+          "at": "30:11",
+          "does": "Rejects Celsius because of single-category risk (a move away from caffeine or energy drinks, brand damage); picks Elf for multiple strong brands (Elf, Naturium, Rhode), acquisition record, shelf-space and SKU headroom, international and margin/EPS growth and a clean financial setup. Cheesecake Factory has pulled forward gains at $100+; Estee Lauder is a dividend value stock; AMD faces a possible semiconductor slowdown around 2028.",
+          "why": "To find the most attractive risk-reward over 6 years.",
+          "data": [
+            "Brand diversification",
+            "Shelf space and SKU headroom",
+            "International expansion",
+            "Margin and EPS outlook",
+            "Stock price already above $100 (CAKE)",
+            "Semiconductor cycle risk in 2028 (AMD)"
+          ],
+          "tools": [],
+          "indicators": [],
+          "conclusion": "Elf is the all-in pick for 6 years.",
+          "tag": "explicit"
+        },
+        {
+          "step_id": "check-total-exposure-across-portfolios",
+          "new_step": null,
+          "at": "32:20",
+          "does": "Explains the pick is the smallest position in the public account because he already holds heavily in private portfolios (about $300-400k in one).",
+          "why": "Position sizing is judged on total exposure, not one account.",
+          "data": [
+            "Elf is a smallest-value position in the shown account",
+            "About $300-400k Elf in one private portfolio",
+            "Held in almost every private portfolio"
+          ],
+          "tools": [],
+          "indicators": [
+            "Position size"
+          ],
+          "conclusion": "Comfortable with current Elf sizing in the public account.",
+          "tag": "explicit"
+        }
+      ],
+      "rules": [
+        {
+          "text": "Always account for how much of a stock is held across all portfolios when sizing a position.",
+          "tag": "explicit"
+        },
+        {
+          "text": "Be wary of the largest-upside name if it carries a single-category risk; prefer multiple strong brands for the long horizon.",
+          "tag": "inference"
+        }
+      ]
+    },
+    {
+      "method_id": "market-backdrop-from-cnbc-commentary",
+      "new_method": null,
+      "steps": [
+        {
+          "step_id": "play-cnbc-segment-and-react",
+          "new_step": null,
+          "at": "03:09",
+          "does": "Plays CNBC segments on YouTube (Tom Lee on a 'face ripper' rally; Nasdaq surge debate) showing index and 10-year yield readings on the CNBC ticker, then reacts to claims about the S&P 500, sentiment and individual stocks.",
+          "why": "To react to Wall Street views and contrast them with his own approach.",
+          "data": [
+            "S&P 500 about 7,762",
+            "Nasdaq Composite about 27,198",
+            "10-year Treasury yield 4.974%",
+            "AAII survey with bearish plurality",
+            "Oil and bond yields",
+            "100-day moving average cited as the pullback low",
+            "S&P 7,600 level and 7,800 old high"
+          ],
+          "tools": [
+            "YouTube",
+            "CNBC"
+          ],
+          "indicators": [
+            "AAII sentiment survey",
+            "100-day moving average",
+            "10-year Treasury yield"
+          ],
+          "conclusion": "Contrarian: bearish sentiment is a mistake; stay invested and be selective with individual stocks.",
+          "tag": "explicit"
+        }
+      ],
+      "rules": [
+        {
+          "text": "He will feel more bearish when everybody feels more bullish; a bearish sentiment backdrop is not a reason to de-risk.",
+          "tag": "explicit"
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "name": "Unidentified brokerage app",
+      "kind": "app",
+      "url": "",
+      "used_for": "account value, return and per-position gain/loss screenshots"
+    },
+    {
+      "name": "X",
+      "kind": "website",
+      "url": "x.com",
+      "used_for": "posting and showing the holdings table"
+    },
+    {
+      "name": "YouTube",
+      "kind": "website",
+      "url": "youtube.com",
+      "used_for": "playing CNBC market segments"
+    },
+    {
+      "name": "CNBC",
+      "kind": "website",
+      "url": "cnbc.com",
+      "used_for": "market commentary segments with a live index and yield ticker"
+    }
+  ],
+  "indicators": [
+    {
+      "name": "Account value",
+      "measures": "total portfolio value",
+      "how_used": "checked against prior all-time highs",
+      "platform": "Unidentified brokerage app"
+    },
+    {
+      "name": "Rate of return",
+      "measures": "portfolio return over a period",
+      "how_used": "3-year return shown on the account chart",
+      "platform": "Unidentified brokerage app"
+    },
+    {
+      "name": "Daily gain/loss",
+      "measures": "dollar and percent move of each position today",
+      "how_used": "to see what drove the day",
+      "platform": "Unidentified brokerage app"
+    },
+    {
+      "name": "Total gain/loss percent",
+      "measures": "return of a position since purchase",
+      "how_used": "to compare how far each holding has run",
+      "platform": "Unidentified brokerage app"
+    },
+    {
+      "name": "Position value",
+      "measures": "current dollar size of a holding",
+      "how_used": "to gauge sizing within the account",
+      "platform": "Unidentified brokerage app"
+    },
+    {
+      "name": "Position size",
+      "measures": "share of capital in a stock",
+      "how_used": "judged across all portfolios, not one",
+      "platform": ""
+    },
+    {
+      "name": "AAII sentiment survey",
+      "measures": "retail investor bullish/bearish sentiment",
+      "how_used": "cited by a panelist as rock-bottom sentiment; creator takes it as a contrarian reason to stay invested",
+      "platform": "CNBC"
+    },
+    {
+      "name": "100-day moving average",
+      "measures": "medium-term trend support",
+      "how_used": "cited by a CNBC panelist as where the market bottomed before the Fed meeting",
+      "platform": "CNBC"
+    },
+    {
+      "name": "10-year Treasury yield",
+      "measures": "interest-rate backdrop",
+      "how_used": "read from the CNBC ticker (4.974%) as a market backdrop",
+      "platform": "CNBC"
+    }
+  ]
+}

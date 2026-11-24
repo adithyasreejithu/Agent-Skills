@@ -1,0 +1,220 @@
+{
+  "video_id": "wPsNyd0fP2k",
+  "creator": "Jeremy Lefebvre Makes Money",
+  "title": "This is the big one",
+  "upload_date": "20261118",
+  "duration_seconds": 2709.1,
+  "source": "https://www.youtube.com/watch?v=wPsNyd0fP2k",
+  "verdicts": "new-info | useful | redundant | blank | wrong  (see plan/watch-skill-testing-mode/PLAN.md)",
+  "cues": [
+    {
+      "cue_id": "c01",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 12.08,
+      "heard": "video here today. So, we're looking at the NASDAQ QQQ now down 14% from its",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "new-info",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+0",
+      "notes": "QQQ -13.81%, IWM -5.09%, SPX -6.40% readable on the chart at every offset (same screen, 1:23 PM recording)"
+    },
+    {
+      "cue_id": "c02",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 16.56,
+      "heard": "the NASDAQ QQQ now down 14% from its all-time high. We're looking at a",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "Same chart as c01 (cues 4 s apart); duplicate sheet"
+    },
+    {
+      "cue_id": "c03",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 80.96000000000001,
+      "heard": "here. I want to react to Steve Eisman, his uh opinion on this anthropic IPO",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "CNBC Eisman video page, title 'Anthropic IPO is not important anymore'; captions already cover the talk"
+    },
+    {
+      "cue_id": "c04",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 155.2,
+      "heard": "it every once in a while. And and every single time you ever see the QES go down",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "Same QQQ/IWM/SPX chart as c01 still on screen; talk about the Q's is covered"
+    },
+    {
+      "cue_id": "c05",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 361.28,
+      "heard": "Qualcomm, Dell, Service Now, Intuit, Adobe, Data Dog, Huelet Packard, FICO,",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "new-info",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+0",
+      "notes": "Jeremy's X post: '25 Stocks down 35%+ from 52 week highs' with tickers NVDA, MU, SNDK, INTC, MRVL, ORCL, QCOM, DELL, NOW, INTU, ADBE, DDOG, HPE, FICO, WDC, SMCI, AMAT, LRCX, COHR, GLW, F, HOOD, NKE, BSX, CAT"
+    },
+    {
+      "cue_id": "c06",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 555.279,
+      "heard": "Streeters. Wall Streeters. I'm watching CNBC. These Wall Streeters that are very",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Talking head with 1000xStocks cap; no new screen"
+    },
+    {
+      "cue_id": "c07",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 563.2,
+      "heard": "are you new? Are you new to this game?\" She was a CFO of the company. They",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Talking head; no new screen"
+    },
+    {
+      "cue_id": "c08",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 1060.799,
+      "heard": "know what, little less than 50% from its all-time high while the S&P 500 is only",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": null,
+      "notes": "Talking head; the 50%-off-high remark is spoken, no chart on screen"
+    },
+    {
+      "cue_id": "c09",
+      "term": "take-a-look",
+      "category": "pointing",
+      "t": 1760.799,
+      "heard": "the second is precedent. I mean if we looked back at every innovation wave if",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "new-info",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+0",
+      "notes": "CNBC Tom Lee segment with ticker box NVDA 156.03 (-4.19%) and XLK 165.23 (-2.97%) on screen"
+    }
+  ],
+  "control": [
+    {
+      "t": 0.0,
+      "reason": "first-frame",
+      "verdict": "new-info"
+    },
+    {
+      "t": 72.366667,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 514.966667,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 853.033333,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 1272.4,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 1422.7,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 1719.7,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 1870.033333,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 2301.3,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 2410.833333,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 2510.8,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 2649.833333,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    }
+  ],
+  "control_notes": "control_sheet.jpg was not generated for this run, so the 12 control frames were labeled one by one. N: frame_0001 (QQQ/IWM/SPX chart), frame_0019 (X post: NVDA P/E 19.6x vs P&G 26x), frame_0031 (NVDA $155.46, P/E 19.65), frame_0038 (CNBC AI-sensitive names), frame_0050 (Anthropic IPO $70-$78 range in a sidebar), frame_0068 (1000xStocks price-target table). U: frame_0007, frame_0013, frame_0025, frame_0044 (talking head or CNBC video page), frame_0056 (NVDA income statement; the captions already give the figures). B: frame_0062 (blank page while loading).",
+  "labeling_notes": "Labeled by Claude from contact sheets and full-size cue/control frames; new-info only where text was readable (chart levels, X post tickers, NVDA quote, Tom Lee CNBC ticker bar).",
+  "trained_at": "2026-11-18"
+}

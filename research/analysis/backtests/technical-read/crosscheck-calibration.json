@@ -1,0 +1,543 @@
+{
+ "note": "Layer 1: transcript cross-check of the 18 calibration videos, done by reading agents. Speech only; charts were not viewed.",
+ "videos": [
+  {
+   "id": "K81VYWuW0DA",
+   "pub": "2026-09-22",
+   "title": "I WOULD go ALL IN this 1 Stock‼️",
+   "chart_reading": "no",
+   "control": false,
+   "n_claims": 5,
+   "steps_found": [
+    {
+     "step": "none of the six steps by the creator",
+     "quote": "no Bollinger, RSI, MACD, VWAP or 200-day mention by the creator in 34 minutes",
+     "pos": "n/a"
+    },
+    {
+     "step": "4 moving average (guest or clip, not creator)",
+     "quote": "We bottomed out at the 100-day moving average at that point (CNBC guest on the market before the Fed meeting)",
+     "pos": "14:02 (about 41%)"
+    },
+    {
+     "step": "2 index level (guest or clip)",
+     "quote": "This 7600 level we broke down from it last week after the Fed. We rallied back. Now we're breaking out... get us back to this old high around 7,800 in the S&P 500",
+     "pos": "05:49 and 06:42 (about 16-20%)"
+    }
+   ],
+   "new_habits": [
+    "Fundamental/narrative only: reacts to CNBC clips, then brands, earnings growth, position sizing and an 'all in for six years' ranking (ELF, CELH, CAKE, EL, HNST, AMD)",
+    "Uses 'oversold' qualitatively ('Meta was just a very oversold stock, due for another bounce up', 11:20) with no indicator",
+    "Range framing without indicators: Meta 'goes up to that 750... moves down to that 550' (11:36-11:44; speaker not verified)"
+   ],
+   "thresholds_stated": {
+    "none": "no indicator thresholds; all-time high used as a regime line (Meta under its high = 'flounder' between about 550 and 750)"
+   }
+  },
+  {
+   "id": "NnHk7xjejmA",
+   "pub": "2026-09-25",
+   "title": "7 CRASHED Stocks to BUY for EPIC UPSIDE‼️",
+   "chart_reading": "no",
+   "control": false,
+   "n_claims": 8,
+   "steps_found": {
+    "1_layout": "No.",
+    "2_index_range_support": "No.",
+    "3_bollinger": "No (zero keyword hits).",
+    "4_ma_vwap": "No.",
+    "5_rsi_macd": "No.",
+    "6_trend_pe_drawdown": "Partial, drawdown only [04:14-16:30]: picks stocks by percent decline over the past year (WYNN -38%, NFLX -41%, SOFI -42%, RH -45%, MCD over -30% from highs 5-6 months ago, CELH -47%, NKE -49% at 35 dollars, or HD -29%). NFLX forward P/E about 20."
+   },
+   "new_habits": [
+    "Crash screen: stocks down about 29-49% over the past year, 'huge upside over the next 3 to 5 years' (contrarian, fundamentals-led).",
+    "'Make sure you're buying at appropriate prices' with no definition."
+   ],
+   "thresholds_stated": [
+    "Selection by 1-year drawdown, roughly 29% to 49% (WYNN 38, NFLX 41, SOFI 42, RH 45, MCD 30+, CELH 47, NKE 49, HD 29). No technical thresholds."
+   ]
+  },
+  {
+   "id": "t4BJTz6YniU",
+   "pub": "2026-09-29",
+   "title": "The Market is about to GO INSANE‼️",
+   "chart_reading": "no",
+   "control": false,
+   "n_claims": 3,
+   "steps_found": {
+    "1_layout": "No.",
+    "2_index_range_support": "No. Only a table of Nasdaq calendar-year returns 2008-2025 and October seasonality [01:16-02:49].",
+    "3_bollinger": "No (zero keyword hits).",
+    "4_ma_vwap": "No.",
+    "5_rsi_macd": "No.",
+    "6_trend_pe_drawdown": "No (a guest says bonds had 'a technical retracement' [04:09], not the creator)."
+   },
+   "new_habits": [
+    "Calendar / seasonality framing: 'October is crazy in the market', 'a golden month for opportunities'; prefers 3-20 billion market caps over 100 billion plus.",
+    "Reaction commentary on the AMD / World Labs deal; narrative and fundamentals only."
+   ],
+   "thresholds_stated": [
+    "None technical. Market-cap preference 3-20 billion."
+   ]
+  },
+  {
+   "id": "ioSr_jyNKoo",
+   "pub": "2026-10-04",
+   "title": "The Wheel Options Strategy | My NEW Credo Technology (CRDO) ",
+   "chart_reading": "partial",
+   "control": false,
+   "n_claims": 4,
+   "steps_found": {
+    "1_layout": "No.",
+    "2_index_range_support": "No (VIX cash allocation only [13:16-15:46]).",
+    "3_bollinger": "Yes, the most explicit definition across the six videos [18:50-19:43, 76%]: 'the stock is trading near the upper Ballinger band... they're a good statistical indicator that show you where the stock is going to trade 95% of the time. If it breaks outside of these bands, that's a 5% outlier move and the stock tends to revert back to the mean... every time it breaches those lower Ballinger bands, it kind of sucks back in the bands'; 'being at the upper Ballinger band, I would say there's a little bit more risk here because... we've had a nice run here for the past two weeks'.",
+    "4_ma_vwap": "No.",
+    "5_rsi_macd": "No.",
+    "6_trend_pe_drawdown": "Yes [06:06-09:07]: up from 46 (mid-2025) to 218, 'take a line and draw from a year and a half ago'; Lulu as the downtrend counter-example; trailing PE about 78, forward 30, versus 200 when at 76."
+   },
+   "new_habits": [
+    "Explicit rationale for Bollinger: 95% statistical range, 5% outlier, reversion to the mean (the guide only has general-knowledge text for this).",
+    "Uses band position to set put-strike safety: near the upper band after a two-week run = 'more risk', so a lower delta (185 strike is 15% below; 190 is 21 delta).",
+    "Straight trendline from 1.5 years ago to now as the trend test; Lulu as the negative example.",
+    "Five straight earnings beats, zero misses as a criterion."
+   ],
+   "thresholds_stated": [
+    "Bollinger: bands cover 95% of the time, breach = 5% outlier.",
+    "Near/at upper band plus 'nice run past two weeks' = more risk (no percent rule).",
+    "Strike distance: 200 strike about 8% below spot, 185 about 15% below; 25 delta standard, 20 cautious, 30 aggressive.",
+    "Premium at least 2.5% on 30-day / 30-delta; P/E positive, ideally under 100; trend over 1.5 years."
+   ]
+  },
+  {
+   "id": "7inC0Ui_NXY",
+   "pub": "2026-10-09",
+   "title": "Market Emergency just disclosed",
+   "chart_reading": "no",
+   "control": false,
+   "n_claims": 0,
+   "steps_found": [],
+   "new_habits": [],
+   "thresholds_stated": []
+  },
+  {
+   "id": "33Yqdsr_vcA",
+   "pub": "2026-10-10",
+   "title": "AI Stock Pullback Coming? 3 Stocks Im Preparing To Buy + BE ",
+   "chart_reading": "yes",
+   "control": true,
+   "n_claims": 8,
+   "steps_found": [
+    {
+     "step": "1 standard layout",
+     "quote": "not verifiable in speech (visual only per guide)",
+     "pos": "08:31 visual"
+    },
+    {
+     "step": "2 index range/support",
+     "quote": "mid Bollinger band kind of 737 area... potential short-term support and then maybe the bottom end of the market maker expected range. And then S&P 500 I think has room to break out",
+     "pos": "07:56-08:24 (about 44-45%)"
+    },
+    {
+     "step": "3 Bollinger stretch",
+     "quote": "it is very normal, especially when it's hugging the upper Ballinger band to pull back a little bit either to the mid-Ballinger band. Maybe we overshoot that a little bit more to the downside",
+     "pos": "08:44-09:06 (about 49%)"
+    },
+    {
+     "step": "3 lower band",
+     "quote": "Hood's at the lower Ballinger band... any cash secured puts that are below this lower Ballinger band (GLW)",
+     "pos": "12:58 and 13:24 (about 72-74%)"
+    },
+    {
+     "step": "4 200/50/VWAP",
+     "quote": "AAT had a beautiful bounce off that 200 day moving average... up about 33% from those lows... 490 500 area, somewhere around this VWAP is like a 460 area would be kind of a next place; maybe we get down to this 50-day moving average 490",
+     "pos": "09:21-09:55 and 11:00 (about 52-54%, 61%)"
+    },
+    {
+     "step": "4 coiling",
+     "quote": "trading right below the yearly VWAP. So things are coiling up here. 200 day, 50-day, 20-day moving average and the VWAP",
+     "pos": "12:29-12:38 (about 69%)"
+    },
+    {
+     "step": "5 RSI/MACD",
+     "quote": "RSI looking kind of right in the middle of the range. MACD kind of slowing down a bit here. Maybe we get down to this 50-day moving average 490",
+     "pos": "10:50-11:00 (about 60%)"
+    },
+    {
+     "step": "6 trend/drawdown/P/E",
+     "quote": "HOOD from 150 all the way down to the low 60s... rinsed out all of the weak hands... steady upward trend; GLW 71 PE vs 120 PE at 270; BE beautiful upward trending chart",
+     "pos": "12:26-13:48 and 15:27 (about 69-76%, 85%)"
+    }
+   ],
+   "new_habits": [
+    "Rediscovered all six steps. No new indicators. GEX call and put walls and stair-stepped put strikes are already in the guide's 'what comes next'.",
+    "Cross-video: placing put strikes below the lower band recurs in 667m, hpU, ik7."
+   ],
+   "thresholds_stated": {
+    "big run": "18% in about three weeks (Sep 16 to Oct 6) called 'quite a run'",
+    "bounce": "AMAT up 33% from low, 8% below highs",
+    "RSI": "'right in the middle of the range' (no numeric cut-off spoken)",
+    "band proximity": "none numeric",
+    "position cap": "10% max, BE 5%"
+   }
+  },
+  {
+   "id": "667m_tyzrDo",
+   "pub": "2026-10-13",
+   "title": "AI Stock Pullback Is Here | 2 Stocks I Bought + CRDO & DRAM ",
+   "chart_reading": "yes",
+   "control": false,
+   "n_claims": 11,
+   "steps_found": [
+    {
+     "step": "2 index range/support",
+     "quote": "right within that expected market maker move on the downside of 728 and the upside of 771 in the next 2 weeks... mid Bollinger band 740 is kind of the first stop that I'm eyeing, and then the next stop would be this 50-day moving average here at 725, but I don't think we get that low",
+     "pos": "07:16-07:47 (about 41-46%)"
+    },
+    {
+     "step": "3 Bollinger stretch",
+     "quote": "we bounced off that upper Bollinger Band... What I didn't want to see is this thing just continue to hug that upper Bollinger Band and remain overbought into earnings (TSM)",
+     "pos": "09:49-10:01 (about 58%)"
+    },
+    {
+     "step": "3 lower band as entry",
+     "quote": "every time we've seen this thing towards that lower Bollinger Band, it's been a decent entry for me for cash secured puts below the lower Bollinger Band... now sitting right at that lower Bollinger Band at the 54 area (DRAM)",
+     "pos": "15:56-16:12 (about 93%)"
+    },
+    {
+     "step": "3 mid band as re-entry",
+     "quote": "I want this stock to come back down below the mid Bollinger band and then I will probably add more strikes... 160 to 170 range (CRDO)",
+     "pos": "14:39-14:54 (about 85%)"
+    },
+    {
+     "step": "4 50-day",
+     "quote": "the next stop would be this 50-day moving average here at 725 (QQQ)",
+     "pos": "07:39 (about 40%)"
+    },
+    {
+     "step": "5 RSI",
+     "quote": "it's almost almost oversold on the RSI. It's approaching those levels down at a 39 (DRAM)",
+     "pos": "16:15-16:18 (about 94%)"
+    },
+    {
+     "step": "6 trend/P/E",
+     "quote": "It's a lower PE stock trading at a 32 PE. Beautiful upward trending chart. Very predictable as far as the Bollinger Bands go, touching lower, heading higher, touching upper, and then kind of pulling back (TSM); AXP 18 PE below S&P average",
+     "pos": "11:14-11:35 (about 65%)"
+    },
+    {
+     "step": "1 layout, MACD, yearly VWAP, 200-day",
+     "quote": "not mentioned in speech",
+     "pos": "none"
+    }
+   ],
+   "new_habits": [
+    "Breadth gauge S5FI (percent of S&P 500 stocks above their 50-day) read as oversold or not: 36% 'still oversold' (04:30)",
+    "Anchors cash-secured put strikes to the lower Bollinger band: sells strikes 'well below the lower Bollinger band' (photonics ETF at 21 strike, 13:58)",
+    "Pre-earnings: wants the stock to have left the upper band before an earnings put; uses the market-maker expected move as strike guide (TSM +-18 gives about 427; AXP +-16 gives about 295)",
+    "'Deeply oversold' called from price at lower band without citing RSI (AXP)",
+    "Mid band used as the trigger for the next put layer (CRDO), not only as a pullback target",
+    "VIX-based cash allocation table (VIX 15-20 gives 20-25% cash); seasonality, Fear and Greed and FedWatch as macro overlay",
+    "Order differs from guide: macro and breadth first, then QQQ, then single stocks; no 200-day or yearly VWAP in this video"
+   ],
+   "thresholds_stated": {
+    "RSI": "39 = 'almost oversold' (DRAM); no explicit 30 stated here",
+    "breadth": "S5FI 36% above 50-day = 'still oversold'",
+    "band_proximity": "none numeric; 'sitting right at the lower band', 'well below the lower band' for put strikes; 'hug the upper band' = overbought",
+    "pullback": "AI stocks down 3% to 8% on the day; SMH pullback 'healthy' after run-up (no percent)",
+    "PE": "32 (TSM), 18 (AXP, 'below the average S&P 500 PE'), WDC 'a little bit too cheap' (number not stated)",
+    "position cap": "no more than 10% of portfolio per stock, up to three layers"
+   }
+  },
+  {
+   "id": "_cvBQfQQKPY",
+   "pub": "2026-10-14",
+   "title": "All Hell is breaking loose in the market‼️",
+   "chart_reading": "no",
+   "control": false,
+   "n_claims": 0,
+   "steps_found": [],
+   "new_habits": [],
+   "thresholds_stated": []
+  },
+  {
+   "id": "hpUnLAXgOYQ",
+   "pub": "2026-10-15",
+   "title": "AI Stocks Falling | Where Is The Bottom? + WDC, HOOD & CRDO ",
+   "chart_reading": "yes",
+   "control": false,
+   "n_claims": 9,
+   "steps_found": [
+    {
+     "step": "2 index range/support",
+     "quote": "in the next 14 days, the market makers expect a range of anywhere from 771 all the way down to 727. We're at 728 right now... a nice flush here, maybe down to 710, where there's a lot of support, a lot of previous trading activity there... 686 level which was previous support",
+     "pos": "12:53-14:40 (about 46-52%)"
+    },
+    {
+     "step": "3 Bollinger stretch",
+     "quote": "That's why we have these Bollinger Bands and we're not even outside of that... max drawdown... 710 area... would be outside of the lower Bollinger Band",
+     "pos": "13:48-14:54 (about 50%)"
+    },
+    {
+     "step": "3 lower band entry",
+     "quote": "CLS at the lower Bollinger Band; Robinhood... we're below the lower Bollinger band, which ideally is a good point for me to add another layer of cash secured puts; WDC... trading at this lower Bollinger band, kind of squeezing past it for a few days on end",
+     "pos": "21:55 / 25:04-25:14 / 26:59 (about 79%, 90%, 97%)"
+    },
+    {
+     "step": "4 200-day / yearly VWAP",
+     "quote": "CRDO... trading back below the 200-day moving average, right at that VWAP, which is the yearly VWAP or volume-weighted average price, which I look at as institutional cost basis",
+     "pos": "23:50-24:03 (about 85%)"
+    },
+    {
+     "step": "4 200-day / VWAP for strikes",
+     "quote": "I would be eyeing somewhere in the 90 to 95 range for cash secured puts, which is right around that 200-day moving average or the VWAP (HOOD)",
+     "pos": "25:14-25:22 (about 91%)"
+    },
+    {
+     "step": "5 RSI",
+     "quote": "when we get down into between 30 and 35 on the RSI... historically a good entry point for QQQ leaps or a buy-the-dip; CRDO 'RSI is looking almost oversold'; WDC 'oversold on the RSI'; CLS 'not quite oversold on the RSI'",
+     "pos": "15:00-15:14 (about 54%), 22:05, 24:08, 26:04"
+    },
+    {
+     "step": "6 trend/drawdown/P/E",
+     "quote": "Robinhood... beat up at the beginning of 2026... now we are in a beautiful steady uptrend, but we're getting closer to the bottom of the trend line; P/E 34 (CLS), 64 (CRDO), 15 (WDC), 17 (GOOGL)",
+     "pos": "22:08, 24:43, 25:00, 26:04"
+    },
+    {
+     "step": "MACD, 50-day on a stock, mid band",
+     "quote": "MACD not mentioned; 50-day only as S5FI breadth",
+     "pos": "none"
+    }
+   ],
+   "new_habits": [
+    "Overshoot rule stated explicitly for the index: a flush past the lower Bollinger band to about 710 is an 'outlier move'",
+    "Confluence: 200-day and yearly VWAP at about the same price used to place put strikes (HOOD 90-95, CRDO)",
+    "Yearly VWAP described as 'institutional cost basis'",
+    "RSI 30-35 as a QQQ buy-the-dip zone from history; RSI 'oversold' as a flag for single stocks (WDC, CRDO)",
+    "Ties drawdown to base rates: Q4 midterm average max drawdown S&P -7.8%, Nasdaq about 10%; 10% from high gives 686 for QQQ",
+    "Stack for a buy: below 200-day + RSI oversold + low P/E (WDC), even beyond his 10% cap",
+    "Compares own daily drawdown with SPY, QQQ and SMH to judge exposure",
+    "Defensive-rotation check and S5FI (50-day breadth) before calling a dip not a bear market"
+   ],
+   "thresholds_stated": {
+    "RSI": "30-35 historically a good QQQ entry; 'almost oversold' CRDO (no number); CLS 'not quite oversold'",
+    "drawdown": "S&P average max Q4-midterm drawdown 7.8%; Nasdaq about 10% is a normal correction, deepest 22% (2018); 710 is about 6.7% from the high; 686 about 10%",
+    "single-day moves": "CRDO and HOOD -9%, COHR -8.5%, CLS -9%, SMH -3.6%",
+    "VIX": "15-20 gives 20-25% cash; VIX 17 print 'slight fear'; hopes for 18-20",
+    "band proximity": "none numeric; 'below the lower band', 'squeezing past it for a few days'",
+    "P/E": "quotes 17, 34, 64, 15; 'I don't want to be in very high PE stocks'"
+   }
+  },
+  {
+   "id": "K6SgF3RZqYo",
+   "pub": "2026-10-15",
+   "title": "The once in a lifetime ROTATION‼️",
+   "chart_reading": "no",
+   "control": false,
+   "n_claims": 0,
+   "steps_found": [],
+   "new_habits": [],
+   "thresholds_stated": []
+  },
+  {
+   "id": "ik7Mong73Hg",
+   "pub": "2026-10-17",
+   "title": "Stock Market Warning | VIX Hit 22 + CRDO, BE, & HOOD Update ",
+   "chart_reading": "yes",
+   "control": false,
+   "n_claims": 13,
+   "steps_found": [
+    {
+     "step": "2 index range/support",
+     "quote": "this 700 level has been an area of support... that would be an 8% drawdown from previous all-time highs of 762... first target between 700 and 710 for a LEAPS entry... big flush, that would be the 685 area, a 10% pullback",
+     "pos": "08:01-08:54 (about 37-41%)"
+    },
+    {
+     "step": "3 Bollinger stretch",
+     "quote": "SPY looking pretty strong here. In fact, it is still within the Bollinger Bands",
+     "pos": "10:11-10:18 (about 48%)"
+    },
+    {
+     "step": "3 lower band entry",
+     "quote": "if I sell cash secured puts near the lower Bollinger Band, I might get assigned, but then look what happens when the stock typically touches the lower Bollinger Band... I got assigned pretty near the upper Bollinger Band at 390 (CLS)",
+     "pos": "13:30-14:05 (about 63-65%)"
+    },
+    {
+     "step": "3 band cycle",
+     "quote": "Nice pullback from upper Bollinger Band back down to lower Bollinger Band (HOOD)",
+     "pos": "18:04 (about 84%)"
+    },
+    {
+     "step": "4 200-day / VWAP",
+     "quote": "HOOD... trading slightly above the 200-day moving average, slightly above that yearly VWAP, which is institutional cost basis in my eyes... BE: every time we see it breach that 200-day moving average, you could see what happens next",
+     "pos": "18:21-18:34 and 19:04-19:15 (about 85-89%)"
+    },
+    {
+     "step": "5 RSI",
+     "quote": "10% pullback would most likely bring the RSI to completely oversold, maybe 29 or 30... March 29 print... July 31 print; CLS 'almost oversold on the RSI'",
+     "pos": "09:03-09:30 (about 42%), 14:52"
+    },
+    {
+     "step": "6 trend/drawdown/P/E",
+     "quote": "HOOD... a nice steady uptrend... from 150 all the way down to $60... already went through that rinse process; AXP 18 PE, CLS 32 PE, CRDO 61 PE, GOOGL 17 PE",
+     "pos": "17:59-18:21 (about 83%)"
+    },
+    {
+     "step": "4 50-day on a stock, MACD",
+     "quote": "50-day appears only as breadth ('44% of stocks in the S&P 500 are above their 50-day moving average', 05:45); MACD not mentioned",
+     "pos": "none"
+    }
+   ],
+   "new_habits": [
+    "Support from history stated explicitly: 300 on AXP 'good area of previous support... this whole year'; 700 on QQQ 'area of support'",
+    "RSI prints from past bottoms (March 29, July 31) used to calibrate what 'oversold' means",
+    "Fear and Greed hitting extreme fear (July) marked the last AI-pullback bottom; he waits for that signal",
+    "Range-trading stock (CLS): sell puts at lower band, hold, sell calls toward upper band (wheel)",
+    "VXN (not only VIX) cash table: VXN above 25-30 gives 10-20% cash",
+    "Drawdown from all-time high converted into a price (762 high: 8% about 700; 10% about 685)",
+    "Below lower band plus 'almost oversold RSI' as combined cue (CLS)"
+   ],
+   "thresholds_stated": {
+    "RSI": "29-30 = completely oversold (QQQ at a 10% pullback); past prints 29 (March) and 31 (July); 'almost oversold' CLS (no number)",
+    "drawdown": "10% = normal Nasdaq Q4-midterm average max drawdown; 22% outlier (2018); 8% = 700; black swan 13-15%",
+    "breadth": "44% of S&P stocks above 50-day the day before",
+    "VXN/VIX": "VXN above 25-30 gives 10-20% cash; VIX spiked to 20 while filming",
+    "band proximity": "none numeric; 'right at the lower band', 'below the lower band', 'still within the Bollinger Bands'",
+    "P/E": "quotes 18, 32, 17, 61; 'low PE ratios'"
+   }
+  },
+  {
+   "id": "SLBmkUzyGtA",
+   "pub": "2026-10-18",
+   "title": "The Wheel Options Strategy | My Top 3 Stocks To Trade 2026 (",
+   "chart_reading": "partial",
+   "control": false,
+   "n_claims": 3,
+   "steps_found": {
+    "1_layout": "No.",
+    "2_index_range_support": "No.",
+    "3_bollinger": "One mention only [17:47-18:07, 87%]: 'it's trading... below 535 is below the lower ballinger bands... only a 5% chance that it actually breaches the lower ballinger band... in the short term, and by expiration there's a 30% chance'. The caption reads 535; context (Amazon, spot 250, strike 235) says 235. Strike-safety check, speech only.",
+    "4_ma_vwap": "One example [13:48, 67%]: HOOD 'sell my first tranche of puts down here near the 200 day moving average, maybe at the 90 strike or the 93 strike'. No 50-day, no VWAP.",
+    "5_rsi_macd": "No.",
+    "6_trend_pe_drawdown": "Yes, the main chart criterion: 'upward trending chart for the past year and a half' [06:26, 31%]; positive P/E ideally under 100; GOOGL 340 vs ATH 409; AMZN 250 vs ATH 287; HOOD fell 150 to 70 then a steady uptrend [12:04, 59%]."
+   },
+   "new_habits": [
+    "Four screening criteria: upward trending chart for 1.5 years; at least 2% premium on a 30-day / 30-delta put; positive P/E, ideally under 100; positive earnings and strong cash flow.",
+    "Own bull / neutral / bear price scenario ranges per stock, compared with spot.",
+    "Layered entries: three tranches of 3.3% (10% cap) at descending strikes (HOOD about 90-93, then 80, then 70).",
+    "Probability of touching the lower band read from the broker options chain (5% short term, 30% by expiry)."
+   ],
+   "thresholds_stated": [
+    "Uptrend lookback 1.5 years; P/E under 100 (examples under 50; S&P average 26-28).",
+    "Premium at least 2% on 30-delta, 25-35 days; cap 10% of portfolio per stock in three 3.3% tranches.",
+    "No Bollinger / RSI numeric thresholds."
+   ]
+  },
+  {
+   "id": "4zPSPmVxhr0",
+   "pub": "2026-10-20",
+   "title": "AI Stocks Rebound | What Happened? + 5 Stocks Im Buying Now ",
+   "chart_reading": "yes",
+   "control": false,
+   "n_claims": 8,
+   "steps_found": {
+    "1_layout": "Not spoken; he types a ticker and the chart loads (AMAT, about 10:13, 56%).",
+    "2_index_range_support": "Yes, QQQ [08:25-09:42, 46-52%]: 'we're currently trading at 720 in QQQ... plus or minus 26... downside... 694... that is definitely a buy zone'; '700 level is still very viable on QQQ'. Uses the market-maker expected range, NOT the mid band.",
+    "3_bollinger": "Yes, the dominant step. PLTR [12:14, 67%] 'Didn't even touch the lower Bollinger Band'; TSM [15:33, 84%] 'looks good here at the lower Bollinger band. I like cash secured puts anywhere below that lower Bollinger band'; FTNT [15:49] 'very good entry... cash secured puts below the lower Bollinger band'; NVDA [16:48, 92%] 'whenever it gets the lower Bollinger band... probably a good entry... every time it gets the lower Bollinger band, what happens next'. No upper-band / big-run / mid-band-pullback talk.",
+    "4_ma_vwap": "Partial. TSM [14:20, 77%] assigned at 432.5 'right below the 50-day moving average and near the lower Bollinger band'; BE [17:21, 94%] 'bounced right off that 200-day moving average, which has served as a good level of support'. No VWAP. Also breadth vs 50-day (S5FI, NDFI) [06:15-07:09].",
+    "5_rsi_macd": "RSI only as an oversold label: AMAT [10:13, 56%] '36 PE, oversold on the RSI'. No MACD. No RSI numbers.",
+    "6_trend_pe_drawdown": "Yes, as a fundamentals screen: PLTR P/E 166 vs above 700 at the same price [12:31]; AMAT fell 545 to 410 in a week; FTNT 60 PE vs Palo Alto 700; BE 300 PE; 'July lows' reference (TSM held, IREN broke). Plus free-cash-flow and debt checks [13:08, 15:14, 16:09]."
+   },
+   "new_habits": [
+    "Free-cash-flow and debt screen via TradingView financials before trusting a chart level (PLTR, TSM, FTNT; BE called higher risk).",
+    "Market-maker +/- expected move from the options chain as the index range instead of the Bollinger mid band.",
+    "Breadth gauges S5FI and NDFI (percent of stocks above 50-day) as overbought/oversold read: NDFI 38% = 'not overbought by any means'.",
+    "VIX-based cash allocation table: VIX 15-20 means cash 20-25%; VIX spike above 20 (22 on Friday) = 'a good time to start deploying'.",
+    "Lower Bollinger band used as the strike anchor for cash-secured puts (strikes BELOW the band, 'even if slightly aggressive'), not only as a bounce signal.",
+    "'July lows' as a reference support for AI stocks (held or broke).",
+    "Eyeball backtest on NVDA: scroll history to see what followed each lower-band touch (claims rebounds; no statistic given).",
+    "Order differs from the guide: macro, margin debt and breadth first, then QQQ range, then per-stock fundamentals, then band."
+   ],
+   "thresholds_stated": [
+    "Lower Bollinger band: PLTR 'didn't even touch' it; no percent-near rule. Put strikes should be 'below' it.",
+    "QQQ buy zone about 8-10% below all-time high (about 694, bottom of the market-maker range); 10% down = 'extreme outlier... worst worst-case'.",
+    "NDFI: 38% above the 50-day is not overbought; no oversold cut-off given here.",
+    "VIX 15-20 cash 20-25%; VIX above 20 = deploy; his cash 11% after the spike.",
+    "AMAT 'oversold on the RSI' with no numeric RSI level.",
+    "Covered-call premium at least 1% (30 days)."
+   ]
+  },
+  {
+   "id": "2s6hZre4TJo",
+   "pub": "2026-10-21",
+   "title": "Emergency for 1 of my stocks‼️",
+   "chart_reading": "no",
+   "control": false,
+   "n_claims": 0,
+   "steps_found": [],
+   "new_habits": [],
+   "thresholds_stated": []
+  },
+  {
+   "id": "kHo2a6DIn2I",
+   "pub": "2026-10-22",
+   "title": "Why I Sold One Stock + BE, LRCX & WDC Earnings Update (Optio",
+   "chart_reading": "yes",
+   "control": false,
+   "n_claims": 6,
+   "steps_found": {
+    "1_layout": "Not spoken.",
+    "2_index_range_support": "Yes, QQQ [09:02, 46%]: 'QQQ bouncing off that low of 706... currently testing that 50-day moving average... expected market maker range 746 down to 690, 696... I think we head higher'. Uses 50-day plus market-maker range, not the mid band.",
+    "3_bollinger": "Yes. BE [12:34, 62%] '265 would be on the upside... near that mid Ballinger band'; LRCX [13:26, 68%] 'trading at the lower Ballinger band, oversold on the RSI'; WDC [16:48, 85%] '340 would be... almost to that lower Ballinger band'. Bands are used to locate the market-maker earnings-move ends on the chart.",
+    "4_ma_vwap": "Yes, 200-day and VWAP. BE [11:05, 55%] 'bounced off that 200 day moving average'; BE [12:34] '224... towards that VWAP line'; LRCX [14:56, 75%] '282... above that VWAP and above the 200 day moving average'; WDC [16:48] 'above 400 would be up by that 200 day moving average'. QQQ 50-day [09:02].",
+    "5_rsi_macd": "RSI as an oversold label only: LRCX 'oversold on the RSI' [13:26]; WDC 'definitely got oversold on the RSI, kind of trending back upwards into earnings' [16:11, 81%]; 'a lot of the AI stocks are a little bit oversold' [10:33]. No MACD, no numeric RSI.",
+    "6_trend_pe_drawdown": "Yes: BE 328 P/E; LRCX 45 PE vs almost 80 at the June AI top; WDC 15 PE, 84% net margin; KTOS 200 PE, down 40%, sold for a tax loss; 'upward trend for the past year and a half'."
+   },
+   "new_habits": [
+    "Overlays the options-implied earnings expected move on the chart and reads where its ends land against bands, VWAP and 200-day (BE low end at VWAP, high end at mid band; LRCX high end above VWAP and 200-day; WDC low end near lower band, high end at 200-day).",
+    "Earnings-history check: how often the stock moved outside the expected move and which way ('every time they've gone outside... it's been to the upside' for BE and LRCX).",
+    "Breadth thresholds: caution when 70-80% of Nasdaq stocks (NDFI) or 80-90% of S&P stocks (S5FI) are above the 50-day; 52% / 51% = neutral.",
+    "VIX cash allocation again (VIX 16 = slight fear, wants 20-25% cash, holds about 14%).",
+    "Tax-loss-harvest and swap (KTOS to DRAM), a portfolio habit rather than chart reading.",
+    "Fear and Greed index and Yardeni forward P/E spread as macro filters."
+   ],
+   "thresholds_stated": [
+    "NDFI/S5FI caution at 70-80% (Nasdaq) and 80-90% (S&P 500) of stocks above 50-day; 50-52% = 'right in the middle'.",
+    "VIX 15-20 = slight fear; VIX spiked to 22; cash target 20-25%.",
+    "Market-maker moves: BE +/-24, LRCX about +/-20, WDC +/-31.",
+    "No RSI numeric levels and no band-distance rule."
+   ]
+  },
+  {
+   "id": "C2MEi_JFCG4",
+   "pub": "2026-10-23",
+   "title": "History is About to Be Made... [Stocks do this every 17 year",
+   "chart_reading": "no",
+   "control": false,
+   "n_claims": 0,
+   "steps_found": [],
+   "new_habits": [],
+   "thresholds_stated": []
+  },
+  {
+   "id": "-pK9xC1M7wE",
+   "pub": "2026-10-30",
+   "title": "Tech Stocks Plunge, Here's What's Next",
+   "chart_reading": "no",
+   "control": false,
+   "n_claims": 0,
+   "steps_found": [],
+   "new_habits": [],
+   "thresholds_stated": []
+  },
+  {
+   "id": "JMaLx81fnGs",
+   "pub": "2026-10-30",
+   "title": "I Sold it all",
+   "chart_reading": "no",
+   "control": false,
+   "n_claims": 0,
+   "steps_found": [],
+   "new_habits": [],
+   "thresholds_stated": []
+  }
+ ]
+}

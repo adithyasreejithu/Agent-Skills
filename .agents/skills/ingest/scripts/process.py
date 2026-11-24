@@ -2,11 +2,13 @@
 """Phase 2: turn claimed queue items into notes.
 
 Claude (via `claude -p`) does the watching and writing; everything around it is deterministic:
-claim -> run -> find the note -> validate -> write the done/ manifest (or retry / fail) -> digest.
+claim -> run -> find the note -> validate -> write the done/ manifest (or retry / fail). brief.py then
+writes the day's morning brief.
 The runner is injectable so the whole loop is testable without a model.
 """
 from __future__ import annotations
 
+import json
 import os
 import shutil
 import subprocess
@@ -102,6 +104,45 @@ def claude_runner(item: dict, prompt: str, log_path: Path) -> RunResult:
     except subprocess.TimeoutExpired:
         return RunResult(124, f'timed out after {VIDEO_TIMEOUT_S // 60} minutes')
     return RunResult(proc.returncode, (proc.stdout or '') + (('\n[stderr]\n' + proc.stderr) if proc.stderr else ''))
+
+
+USAGE_KEYS = ('input_tokens', 'cache_creation_input_tokens', 'cache_read_input_tokens', 'output_tokens',
+              'cost_usd', 'duration_ms')
+
+
+@dataclass
+class TextRun:
+    returncode: int
+    text: str = ''
+    usage: dict = field(default_factory=dict)
+
+
+def claude_text_runner(prompt: str, timeout_s: int = 10 * 60) -> TextRun:
+    """`claude -p` with no tools at all: everything it needs is in the prompt and it only writes text back.
+    Used by the briefs and the batched reel summaries."""
+    exe = shutil.which('claude')
+    if not exe:
+        return TextRun(127, 'claude CLI not found on PATH')
+    cmd = [exe, '-p', '--output-format', 'json', '--no-session-persistence', '--tools', '']
+    try:
+        proc = subprocess.run(cmd, capture_output=True, text=True, encoding='utf-8', errors='replace', env=agent_env(),
+                              timeout=timeout_s, input=prompt)   # stdin: multi-line argv is truncated by claude.cmd
+    except subprocess.TimeoutExpired:
+        return TextRun(124, f'timed out after {timeout_s // 60} minutes')
+    try:
+        data = json.loads(proc.stdout)
+    except json.JSONDecodeError:
+        return TextRun(proc.returncode or 1, ((proc.stdout or '') + (proc.stderr or '')).strip()[-500:])
+    usage = dict(data.get('usage') or {})
+    usage.update(cost_usd=data.get('total_cost_usd'), duration_ms=data.get('duration_ms'))
+    code = proc.returncode or (1 if data.get('is_error') else 0)
+    return TextRun(code, data.get('result') or '', usage)
+
+
+def add_usage(total: dict, more: dict) -> None:
+    for key in USAGE_KEYS:
+        if isinstance(more.get(key), (int, float)):
+            total[key] = total.get(key, 0) + more[key]
 
 
 def watch_result(store: Store, video_id: str, since: float | None = None) -> dict:
@@ -248,24 +289,3 @@ def _claim_specific(store: Store, video_id: str, now: datetime) -> dict | None:
     moved['claimed_at'] = iso(now)
     write_json(store.item_path('processing', video_id), moved)
     return moved
-
-
-def write_digest(store: Store, video_ids: list[str], now: datetime) -> Path | None:
-    """One file per run day listing what each creator covered; appended to if the day already has one."""
-    manifests = [m for m in (store.find(v) for v in video_ids) if m and m[0] == 'done']
-    if not manifests:
-        return None
-    path = store.paths.digests / f'{now.strftime("%Y-%m-%d")}.md'
-    path.parent.mkdir(parents=True, exist_ok=True)
-    entries = {}                                     # link -> line, so a redone video replaces its old line
-    for _, m in sorted(manifests, key=lambda x: (x[1].get('channel') or '', x[1].get('published_at') or '')):
-        link = Path(os.path.relpath(Path(m['note']), path.parent)).as_posix()
-        tickers = ', '.join(m.get('tickers') or []) or 'none tagged'
-        entries[link] = (f'- **{m.get("channel") or "?"}**: [{m.get("title")}]({link}) '
-                         f'({m.get("stance") or "no stance"}; tickers: {tickers})')
-    old = path.read_text(encoding='utf-8').splitlines() if path.exists() else []
-    kept = [line for line in old if not (line.startswith('- ') and any(f']({link})' in line for link in entries))]
-    if not kept:
-        kept = [f'# Creator digest {now.strftime("%Y-%m-%d")}', '']
-    path.write_text('\n'.join(kept + list(entries.values())).rstrip('\n') + '\n', encoding='utf-8')
-    return path

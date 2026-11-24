@@ -1,0 +1,18 @@
+{
+ "video": "wPsNyd0fP2k",
+ "auto_dup": true,
+ "note": "Labeled by Claude from contact sheets and full-size cue/control frames; new-info only where text was readable (chart levels, X post tickers, NVDA quote, Tom Lee CNBC ticker bar).",
+ "cues": {
+  "c01": ["NNNNN", "+0", "QQQ -13.81%, IWM -5.09%, SPX -6.40% readable on the chart at every offset (same screen, 1:23 PM recording)"],
+  "c02": ["RRRRR", null, "Same chart as c01 (cues 4 s apart); duplicate sheet"],
+  "c03": ["UUUUU", null, "CNBC Eisman video page, title 'Anthropic IPO is not important anymore'; captions already cover the talk"],
+  "c04": ["RRRRR", null, "Same QQQ/IWM/SPX chart as c01 still on screen; talk about the Q's is covered"],
+  "c05": ["NNNNN", "+0", "Jeremy's X post: '25 Stocks down 35%+ from 52 week highs' with tickers NVDA, MU, SNDK, INTC, MRVL, ORCL, QCOM, DELL, NOW, INTU, ADBE, DDOG, HPE, FICO, WDC, SMCI, AMAT, LRCX, COHR, GLW, F, HOOD, NKE, BSX, CAT"],
+  "c06": ["UUUUU", null, "Talking head with 1000xStocks cap; no new screen"],
+  "c07": ["UUUUU", null, "Talking head; no new screen"],
+  "c08": ["UUUUU", null, "Talking head; the 50%-off-high remark is spoken, no chart on screen"],
+  "c09": ["NNNNN", "+0", "CNBC Tom Lee segment with ticker box NVDA 156.03 (-4.19%) and XLK 165.23 (-2.97%) on screen"]
+ },
+ "control": "NUUNUNNUNUBN",
+ "control_note": "control_sheet.jpg was not generated for this run, so the 12 control frames were labeled one by one. N: frame_0001 (QQQ/IWM/SPX chart), frame_0019 (X post: NVDA P/E 19.6x vs P&G 26x), frame_0031 (NVDA $155.46, P/E 19.65), frame_0038 (CNBC AI-sensitive names), frame_0050 (Anthropic IPO $70-$78 range in a sidebar), frame_0068 (1000xStocks price-target table). U: frame_0007, frame_0013, frame_0025, frame_0044 (talking head or CNBC video page), frame_0056 (NVDA income statement; the captions already give the figures). B: frame_0062 (blank page while loading)."
+}

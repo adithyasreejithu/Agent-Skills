@@ -1,0 +1,24 @@
+{
+ "video": "-pK9xC1M7wE",
+ "auto_dup": true,
+ "note": "Labeled by Claude from contact sheets; new-info only where text was readable. Reaction-channel format: face cam bubble over TradingView, 1000xstocks.com and CNBC clips on YouTube. Full-screen talking-head cues are blank, as in 2s6hZre4TJo. c08, c09 and c10 share t=16:34 and the same frames, so c09 and c10 are redundant.",
+ "cues": {
+  "c01": ["NRRRR", "-2", "TradingView QQQ 1h chart (684.84, -9.98%) with Big Tech watchlist: INTC 63.68 -30.84%, SNDK 1,119.29 -15.85%, AMD 495.10 -12.59%, CRWV 54.08 -10.96%, SNOW 299.5x -9.30%, MU 864.11 -7.51%; same screen throughout"],
+  "c02": ["BBBBB", null, "Full-screen talking head (FOMO / 18 years in the market)"],
+  "c03": ["BBBBB", null, "Full-screen talking head (stock down 20% from all-time high)"],
+  "c04": ["BBBBB", null, "Full-screen talking head (why is this occurring)"],
+  "c05": ["BBBBB", null, "Full-screen talking head (Intel PC demand)"],
+  "c06": ["NRRRR", "-2", "Same TradingView Big Tech watchlist at 13:58 with updated prices; QQQ around 686-687"],
+  "c07": ["NRRRR", "-2", "TradingView 'My current positions' list: AMD 496.71 -12.31%, HNST 4.21 -8.2%, SHOP, SOFI, PLTR, FUBO, NOW 104.15 -5.03%, RH 145.34 -3.61%, RVLV, GOOG, AMZN, AXP, META, ELF, CRM, NFLX, EL, CAKE, WYNN +0.47%, NKE +0.96%, CELH +2.38%; VIX 22.28 +29.53%"],
+  "c08": ["UUUNR", "+4", "CNBC 'Intel shares sink on weak Q4 outlook' with Vivek Arya; +4/+6 show INTC 68.94 -23.13 -25.12% 24-hour chart"],
+  "c09": ["RRRRR", null, "Same frames as c08 (same timestamp)"],
+  "c10": ["RRRRR", null, "Same frames as c08 (same timestamp)"],
+  "c11": ["NRRRR", "-2", "CNBC INTC intraday 68.81 -23.26 -25.26%, 3-YR +92.80% chart; price ticks to 68.65-68.77 at later offsets"],
+  "c12": ["NRRRU", "-2", "1000xstocks.com INTC page $63.55: revenue TTM, margins, EPS (negative 2024-2025), free cash flow charts; +6 scrolled to financial health, unreadable"],
+  "c13": ["URRRR", "-2", "Same INTC fundamentals scrolled; hover tooltip not legible; +6 back at top"],
+  "c14": ["NRRRR", "+0", "CNBC 'Amazon shares slide on earnings miss, holds AI spending forecast at $220B', AMZN 226.40 -17.39 -7.1x%, YTD -1.91%"],
+  "c15": ["NRRRR", "-2", "CNBC Mark Mahaney interview, AMZN 226.17 -17.62 -7.23%, YTD -2.01%; 226.74 -6.99% and 226.28 -7.18% at later offsets"]
+ },
+ "control": "NBUBWRRNRUBW",
+ "control_note": "No control_sheet.jpg was produced; labeled from the 12 individual frames. N: TradingView Big Tech watchlist with INTC/SNDK/AMD/CRWV prices (0:00), 1000xstocks INTC fundamentals $63.55 (21:40). B: blank loading pages (0:57, 6:06) and full-screen talking head (33:40). W: 1000x promo testimonial pages (6:23, 36:32). U: QQQ 685.18 -9.93% partly covered by face cam (5:34), Amazon CNBC clip 226.40 partly covered (26:33). R: repeat watchlist and INTC pages."
+}

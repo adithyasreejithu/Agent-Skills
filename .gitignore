@@ -9,7 +9,7 @@ wheels/
 # Virtual environments
 .venv
 
-# watch skill: video data (downloads, frames, sheets). Summaries live in summaries/ and are tracked
+# watch skill: video data (downloads, frames, sheets). Notes live in research/ and are tracked
 watch-output/
 
 # ingest skill: runtime queue state (sources.toml is tracked)

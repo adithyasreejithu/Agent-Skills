@@ -1,0 +1,435 @@
+{
+  "title": "The Wheel Options Strategy | My NEW Credo Technology (CRDO) Trading Plan 2026 - Options With Ryan",
+  "channel": "Options With Ryan",
+  "url": "https://www.youtube.com/watch?v=ioSr_jyNKoo",
+  "published_at": "2026-10-04T14:30:15+00:00",
+  "video_id": "ioSr_jyNKoo",
+  "methods": [
+    {
+      "method_id": "portfolio-performance-review-from-brokerage",
+      "new_method": null,
+      "steps": [
+        {
+          "step_id": "check-account-value-and-return",
+          "new_step": null,
+          "at": "00:31",
+          "does": "Shows the public portfolio account screen and says it is trading near all-time highs.",
+          "why": "Establish credibility of the wheel results before teaching it.",
+          "data": [
+            "portfolio near all-time highs"
+          ],
+          "tools": [
+            "Unidentified brokerage app"
+          ],
+          "indicators": [
+            "Account value"
+          ],
+          "conclusion": "Account is at record levels.",
+          "tag": "explicit"
+        },
+        {
+          "step_id": "review-realized-gain-loss-by-year",
+          "new_step": null,
+          "at": "00:52",
+          "does": "Opens the realized gain/loss page, reads current-year profits, then switches to the previous calendar year.",
+          "why": "Show the wheel strategy has produced realized profits in both years.",
+          "data": [
+            "current year realized profit",
+            "previous calendar year realized profit"
+          ],
+          "tools": [
+            "Unidentified brokerage app"
+          ],
+          "indicators": [
+            "Total gain/loss percent"
+          ],
+          "conclusion": "Strategy has worked well for him in both years, though results vary.",
+          "tag": "explicit"
+        }
+      ],
+      "rules": []
+    },
+    {
+      "method_id": "wheel-stock-qualification-checklist",
+      "new_method": null,
+      "steps": [
+        {
+          "step_id": "check-18-month-uptrend-on-chart",
+          "new_step": null,
+          "at": "07:03",
+          "does": "Opens CRDO chart, notes the move from $46 in mid 2025 to about $218, draws a line from 18 months ago to now, scrolls further back, and contrasts with Lululemon's downtrend since 2024.",
+          "why": "Make sure assigned shares are likely to recover and rise; reject downtrending stocks.",
+          "data": [
+            "CRDO $46 (mid 2025) to $218",
+            "Lululemon downtrend since 2024 as counter-example"
+          ],
+          "tools": [
+            "TradingView"
+          ],
+          "indicators": [],
+          "conclusion": "CRDO passes; Lululemon would fail for the wheel.",
+          "tag": "explicit"
+        },
+        {
+          "step_id": "check-p-e-ratio-is-positive",
+          "new_step": null,
+          "at": "08:24",
+          "does": "Quotes forward P/E about 30 and trailing P/E about 70, then shows TradingView's P/E ratio pane at about 78 and notes it was 200+ when the stock was $76.",
+          "why": "Confirm profitability and that earnings growth is lowering valuation.",
+          "data": [
+            "forward P/E 30",
+            "trailing P/E ~70-78",
+            "P/E over 200 when stock was $76"
+          ],
+          "tools": [
+            "TradingView"
+          ],
+          "indicators": [
+            "P/E ratio"
+          ],
+          "conclusion": "Meets the positive, under-100 P/E requirement.",
+          "tag": "explicit"
+        },
+        {
+          "step_id": "confirm-consecutive-earnings-beats",
+          "new_step": null,
+          "at": "10:02",
+          "does": "States CRDO has five straight earnings beats and zero misses.",
+          "why": "Earnings consistency protects against a downward trend after assignment.",
+          "data": [
+            "5 straight beats",
+            "0 misses"
+          ],
+          "tools": [],
+          "indicators": [
+            "Earnings beats"
+          ],
+          "conclusion": "Meets the consistent-beats requirement.",
+          "tag": "explicit"
+        },
+        {
+          "step_id": "review-company-fundamentals-and-scenarios",
+          "new_step": null,
+          "at": "10:10",
+          "does": "Goes through a fundamentals slide: revenue $1.3B, cash $1.4B, gross margin 67-69%, net margin above 50%, projected 114% revenue growth, then shows bull $320-350, neutral $265-280 and bear cases.",
+          "why": "Judge whether the company deserves a place on his approved list.",
+          "data": [
+            "revenue $1.3B",
+            "cash $1.4B",
+            "gross margin 67-69%",
+            "net margin >50%",
+            "114% projected revenue growth",
+            "bull $320-350",
+            "neutral $265-280"
+          ],
+          "tools": [],
+          "indicators": [
+            "Gross margin",
+            "Net margin",
+            "Revenue growth"
+          ],
+          "conclusion": "CRDO is on the approved list.",
+          "tag": "explicit"
+        }
+      ],
+      "rules": [
+        {
+          "text": "Stock must have been in an upward-trending chart for the past year and a half.",
+          "tag": "explicit"
+        },
+        {
+          "text": "P/E must be positive, ideally under 100; if over 100 the company needs enough cash to cover its debts.",
+          "tag": "explicit"
+        },
+        {
+          "text": "Requires at least 2.5% premium on a 30-day, 30-delta put.",
+          "tag": "explicit"
+        },
+        {
+          "text": "Requires consistent earnings beats every quarter.",
+          "tag": "explicit"
+        }
+      ]
+    },
+    {
+      "method_id": "vix-based-cash-allocation",
+      "new_method": null,
+      "steps": [
+        {
+          "step_id": "read-vix-level-against-allocation-bands",
+          "new_step": null,
+          "at": "13:26",
+          "does": "Shows a slide of VIX bands and a TradingView VIX chart with Bollinger-style bands, explains VIX as the fear index, and places the current VIX around 15-17 in the slight-fear band.",
+          "why": "Decide how much cash to hold on the sidelines for better entries.",
+          "data": [
+            "VIX about 17",
+            "15-20 band: 20-25% cash, 75-80% invested",
+            "below 15 is greed zone",
+            "VIX 2019 range 14 to sub-10"
+          ],
+          "tools": [
+            "TradingView"
+          ],
+          "indicators": [
+            "VIX",
+            "Bollinger Bands"
+          ],
+          "conclusion": "Keep 20-25% cash and 75-80% invested; not too cash heavy because low VIX can persist for months.",
+          "tag": "explicit"
+        },
+        {
+          "step_id": "cap-single-stock-put-exposure",
+          "new_step": null,
+          "at": "15:46",
+          "does": "Caps CRDO at 10% of the portfolio via cash-secured puts; with a $200K account that allows about one put (about $20K assignment).",
+          "why": "Keep any single assignment at or below 10% of the portfolio.",
+          "data": [
+            "10% max",
+            "$200K portfolio",
+            "about $20,000 assignment per put"
+          ],
+          "tools": [],
+          "indicators": [
+            "Position size"
+          ],
+          "conclusion": "Only one put on a $200K account.",
+          "tag": "explicit"
+        }
+      ],
+      "rules": [
+        {
+          "text": "Do not go all in when the VIX is very low; keep cash (about 20-25% at VIX 15-20).",
+          "tag": "explicit"
+        },
+        {
+          "text": "Never allocate more than 10% of the portfolio to a single stock via cash-secured puts.",
+          "tag": "explicit"
+        }
+      ]
+    },
+    {
+      "method_id": "cash-secured-put-strike-selection",
+      "new_method": null,
+      "steps": [
+        {
+          "step_id": "set-expiry-and-delta-targets",
+          "new_step": null,
+          "at": "16:20",
+          "does": "States the setup: 25-30 days to expiration (up to 35), 25-30 delta, drop to 20 delta or lower for safety, hold to expiration or roll up if 80% profit with about 20 days left.",
+          "why": "Stay inside the 60-day theta decay window; far-dated puts do not pay for the time risk.",
+          "data": [
+            "25-35 DTE",
+            "25-30 delta",
+            "20 delta when cautious",
+            "roll at 80% profit with ~20 days left"
+          ],
+          "tools": [],
+          "indicators": [
+            "Delta",
+            "Theta decay"
+          ],
+          "conclusion": "30 days and 25-30 delta is his standard.",
+          "tag": "explicit"
+        },
+        {
+          "step_id": "compare-strikes-on-the-options-chain",
+          "new_step": null,
+          "at": "17:34",
+          "does": "Opens the CRDO chain for October 30th (28 days), clicks the 200 strike bid to see the mid price of $935 (about 4.9% ROI at roughly 29 delta), and compares with the 190 strike (21 delta, about $560) and 185 strike.",
+          "why": "Higher delta means more premium but more assignment risk; lower delta means less premium and less risk.",
+          "data": [
+            "200 strike mid $935, ~4.9% ROI",
+            "190 strike 21 delta, ~$560",
+            "185 strike needs 15% drop",
+            "200 strike needs 8% drop"
+          ],
+          "tools": [
+            "Unidentified options broker"
+          ],
+          "indicators": [
+            "Delta",
+            "Premium ROI",
+            "Mid price"
+          ],
+          "conclusion": "Picks around 190 (21 delta) or 185 for safer assignment distance; 25 delta is typical these days.",
+          "tag": "explicit"
+        },
+        {
+          "step_id": "check-bollinger-bands-for-entry-risk",
+          "new_step": null,
+          "at": "18:57",
+          "does": "Notes CRDO trading near the upper Bollinger band after a two-week run, and that it breached the lower band before and snapped back in.",
+          "why": "Judge whether to take a safer strike given the stock's elevated position and volatility.",
+          "data": [
+            "price near upper Bollinger band",
+            "prior lower band breaches reverted",
+            "two-week run"
+          ],
+          "tools": [
+            "TradingView"
+          ],
+          "indicators": [
+            "Bollinger Bands"
+          ],
+          "conclusion": "A bit more risk here, so he leans toward the safer 185-190 strike.",
+          "tag": "explicit"
+        }
+      ],
+      "rules": [
+        {
+          "text": "Stay within about 25-35 days to expiration; do not sell far-dated puts because time decay does not pay for the risk.",
+          "tag": "explicit"
+        },
+        {
+          "text": "Typical delta is 25-30; go to 20 or lower for caution.",
+          "tag": "explicit"
+        }
+      ]
+    },
+    {
+      "method_id": "covered-call-strike-selection",
+      "new_method": null,
+      "steps": [
+        {
+          "step_id": "pick-covered-call-strike-above-cost",
+          "new_step": null,
+          "at": "21:58",
+          "does": "Uses a hypothetical assignment at $215 with stock at $218, opens a 21-day chain, compares the 30-delta 245 strike (about $685, near 3% premium plus about 10% appreciation) with a strike only $5 above 220 (about $1,200, over 6% premium).",
+          "why": "Hit the 2.5-5% monthly target while keeping some appreciation.",
+          "data": [
+            "15-25 days out",
+            "30 delta",
+            "245 strike about $685",
+            "assigned at $215",
+            "target 2.5-5% per month"
+          ],
+          "tools": [
+            "Unidentified options broker"
+          ],
+          "indicators": [
+            "Delta",
+            "Premium ROI"
+          ],
+          "conclusion": "Prefers the 30-delta strike for premium plus appreciation; if cost basis cannot be cleared go 40-50 days out.",
+          "tag": "explicit"
+        }
+      ],
+      "rules": [
+        {
+          "text": "Never sell a covered call below the assignment price.",
+          "tag": "explicit"
+        },
+        {
+          "text": "If the strike cannot be above assignment price, go further out in time (about 40-50 days).",
+          "tag": "explicit"
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "name": "TradingView",
+      "kind": "website",
+      "url": "tradingview.com",
+      "used_for": "price charts, P/E ratio pane, Bollinger Bands and VIX chart"
+    },
+    {
+      "name": "Unidentified brokerage app",
+      "kind": "app",
+      "url": "",
+      "used_for": "account overview and realized gain/loss report"
+    },
+    {
+      "name": "Unidentified options broker",
+      "kind": "app",
+      "url": "",
+      "used_for": "options chain with delta, mid price and ROI"
+    }
+  ],
+  "indicators": [
+    {
+      "name": "Account value",
+      "measures": "total portfolio value",
+      "how_used": "shown near all-time highs to support the strategy",
+      "platform": "Unidentified brokerage app"
+    },
+    {
+      "name": "Total gain/loss percent",
+      "measures": "realized profit over a period",
+      "how_used": "compared across current and previous calendar year",
+      "platform": "Unidentified brokerage app"
+    },
+    {
+      "name": "P/E ratio",
+      "measures": "price relative to earnings per share",
+      "how_used": "must be positive and ideally under 100",
+      "platform": "TradingView"
+    },
+    {
+      "name": "Earnings beats",
+      "measures": "consecutive quarters beating estimates",
+      "how_used": "needs a consistent streak (five straight for CRDO)",
+      "platform": ""
+    },
+    {
+      "name": "Gross margin",
+      "measures": "profitability after cost of revenue",
+      "how_used": "high margins (67-69%) support quality",
+      "platform": ""
+    },
+    {
+      "name": "Net margin",
+      "measures": "net profitability",
+      "how_used": "above 50% read as strong",
+      "platform": ""
+    },
+    {
+      "name": "Revenue growth",
+      "measures": "year-over-year revenue change",
+      "how_used": "114% projected growth read as bullish",
+      "platform": ""
+    },
+    {
+      "name": "VIX",
+      "measures": "S&P 500 implied volatility / fear",
+      "how_used": "bands map to cash versus invested percent; low VIX means greed and more cash",
+      "platform": "TradingView"
+    },
+    {
+      "name": "Bollinger Bands",
+      "measures": "statistical price range (about 95% of the time)",
+      "how_used": "outside-band moves tend to revert; upper band means more risk when selling puts",
+      "platform": "TradingView"
+    },
+    {
+      "name": "Position size",
+      "measures": "share of portfolio in one stock",
+      "how_used": "capped at 10% via cash-secured puts",
+      "platform": ""
+    },
+    {
+      "name": "Delta",
+      "measures": "option sensitivity and rough assignment probability",
+      "how_used": "25-30 delta for puts and 30 delta for calls",
+      "platform": "Unidentified options broker"
+    },
+    {
+      "name": "Theta decay",
+      "measures": "time decay of option value",
+      "how_used": "sell within the 60-day window where decay is fastest",
+      "platform": ""
+    },
+    {
+      "name": "Premium ROI",
+      "measures": "option premium as percent of capital at risk",
+      "how_used": "target 2.5-5% per month",
+      "platform": "Unidentified options broker"
+    },
+    {
+      "name": "Mid price",
+      "measures": "midpoint between bid and ask",
+      "how_used": "used to estimate premium collected",
+      "platform": "Unidentified options broker"
+    }
+  ]
+}

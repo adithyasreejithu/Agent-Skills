@@ -1,0 +1,429 @@
+{
+  "title": "AI Stock Pullback Coming? 3 Stocks Im Preparing To Buy + BE & HOOD Update (Options With Ryan)",
+  "channel": "Options With Ryan",
+  "url": "https://www.youtube.com/watch?v=33Yqdsr_vcA",
+  "published_at": "2026-10-10T01:37:26+00:00",
+  "video_id": "33Yqdsr_vcA",
+  "methods": [
+    {
+      "method_id": "portfolio-performance-review-from-brokerage",
+      "new_method": null,
+      "steps": [
+        {
+          "step_id": "check-account-value-and-return",
+          "new_step": null,
+          "at": "00:35",
+          "does": "Opens the account overview and notes the account is near all-time highs.",
+          "why": "Frame the video with current account progress toward his long-term goal.",
+          "data": [
+            "account near all-time highs"
+          ],
+          "tools": [
+            "Unidentified brokerage app"
+          ],
+          "indicators": [
+            "Account value"
+          ],
+          "conclusion": "Account is right up near all-time highs.",
+          "tag": "explicit"
+        },
+        {
+          "step_id": "review-realized-gain-loss-by-year",
+          "new_step": null,
+          "at": "00:59",
+          "does": "Opens the realized gain/loss page and shows the trades closed for profit that day and the total for the current month.",
+          "why": "Show transparency of results and that the month is on track.",
+          "data": [
+            "several trades closed for profit on the day",
+            "current month realized total"
+          ],
+          "tools": [
+            "Unidentified brokerage app"
+          ],
+          "indicators": [
+            "Daily gain/loss"
+          ],
+          "conclusion": "Right on track for the month.",
+          "tag": "explicit"
+        }
+      ],
+      "rules": []
+    },
+    {
+      "method_id": "market-breadth-and-sentiment-check",
+      "new_method": null,
+      "steps": [
+        {
+          "step_id": "read-breadth-of-stocks-above-50-day",
+          "new_step": null,
+          "at": "03:40",
+          "does": "Contrasts S&P 500 near all-time highs and VIX around 15 with the share of S&P stocks above their 50-day average on a chart; later reads the Nasdaq-100 equivalent (47% versus 52% the day before).",
+          "why": "To see under the hood: a weak breadth reading means concentration in mega caps rather than an overbought market, and a drop in the Nasdaq-100 reading versus S&P shows rotation.",
+          "data": [
+            "31% of S&P stocks above 50-day average, recovering from Iran-war lows",
+            "NDFI at 47% versus 52% the day before",
+            "S5FI low starting to creep up"
+          ],
+          "tools": [
+            "TradingView"
+          ],
+          "indicators": [
+            "50-day moving average",
+            "VIX",
+            "Bollinger Bands",
+            "RSI",
+            "MACD"
+          ],
+          "conclusion": "Weak, not overbought market; rotation from AI/mega cap tech into beaten-up S&P names is likely, so tech pullbacks are the time to act.",
+          "tag": "explicit"
+        },
+        {
+          "step_id": "read-options-market-tide",
+          "new_step": null,
+          "at": "06:27",
+          "does": "Opens the market tide page and reads net put/call flow by ticker and the market sentiment gauge.",
+          "why": "To see whether institutions are hedging or chasing and whether sentiment is fearful.",
+          "data": [
+            "defensive put buying in MU, Nvidia, AMD, AVGO, Apple, QQQ",
+            "call action in Tesla, Amazon, Palantir",
+            "sentiment gauge showing fear territory"
+          ],
+          "tools": [
+            "Unusual Whales"
+          ],
+          "indicators": [
+            "Market tide",
+            "Fear and greed sentiment"
+          ],
+          "conclusion": "Mixed day with hedging in AI names; overall market in fear, a good time to start placing cash-secured puts for rich premiums.",
+          "tag": "explicit"
+        }
+      ],
+      "rules": [
+        {
+          "text": "Fear-zone sentiment with higher volatility is a good time to start selling cash-secured puts for rich premiums.",
+          "tag": "explicit"
+        }
+      ]
+    },
+    {
+      "method_id": "macro-check-with-cme-fedwatch",
+      "new_method": null,
+      "steps": [
+        {
+          "step_id": "read-meeting-probabilities",
+          "new_step": null,
+          "at": "05:37",
+          "does": "Opens the FedWatch tool and reads the probability of a rate hike at the October and December meetings, then relates it to next week's CPI release.",
+          "why": "To see whether further hikes are priced and what cooler inflation could change.",
+          "data": [
+            "80% odds of no change in October",
+            "98% odds for December",
+            "CPI due next Wednesday; core PPI Thursday"
+          ],
+          "tools": [
+            "CME FedWatch"
+          ],
+          "indicators": [
+            "Rate hike probability"
+          ],
+          "conclusion": "Fifth hike still off the table; cool CPI could push hikes out or remove one.",
+          "tag": "explicit"
+        }
+      ],
+      "rules": []
+    },
+    {
+      "method_id": "technical-read-on-a-stock-chart",
+      "new_method": null,
+      "steps": [
+        {
+          "step_id": "read-bands-averages-and-oscillators",
+          "new_step": null,
+          "at": "08:06",
+          "does": "On charts for QQQ, SMH, AAT, GLW, HOOD, BE and a photonics ETF, notes price relative to the mid and lower Bollinger Band, the 20/50/200-day moving averages, yearly VWAP, RSI and MACD; measures SMH's 18% run from Sept 16 to Oct 6.",
+          "why": "To judge whether a run is stretched and where support such as the mid-band or 50-day sits.",
+          "data": [
+            "QQQ mid Bollinger Band about 737 as short-term support",
+            "SMH hugging upper Bollinger Band after 18% gain",
+            "AAT bounced off 200-day, +33% from lows, about 8% pullback",
+            "AAT RSI mid-range, MACD slowing",
+            "HOOD at lower band, bounced off 50-day, fell from 150 to low 60s",
+            "GLW just below yearly VWAP, 71 P/E versus 120 earlier"
+          ],
+          "tools": [
+            "TradingView"
+          ],
+          "indicators": [
+            "Bollinger Bands",
+            "50-day moving average",
+            "200-day moving average",
+            "20-day moving average",
+            "VWAP",
+            "RSI",
+            "MACD",
+            "P/E ratio"
+          ],
+          "conclusion": "Expects more pullback in AI and mega cap tech names; uses mid band or 50-day as targets.",
+          "tag": "explicit"
+        }
+      ],
+      "rules": [
+        {
+          "text": "A stock hugging the upper Bollinger Band after a big run normally pulls back to the mid band, possibly overshooting.",
+          "tag": "explicit"
+        }
+      ]
+    },
+    {
+      "method_id": "market-maker-gex-wall-read",
+      "new_method": null,
+      "steps": [
+        {
+          "step_id": "find-call-and-put-walls",
+          "new_step": null,
+          "at": "10:58",
+          "does": "Opens market maker/GEX data for each candidate, reads where call and put walls sit and whether support exists, and for QQQ reads the expected two-week range.",
+          "why": "To see whether option market makers provide support under a candidate and where upside resistance is before selling puts.",
+          "data": [
+            "QQQ expected range high 771, low 727",
+            "AAT no put wall; above 512 may accelerate, resistance 535",
+            "GLW call wall 165, acceleration below 145",
+            "HOOD call wall 120",
+            "BE put wall support at 270",
+            "photonics ETF call wall at 30"
+          ],
+          "tools": [
+            "Unusual Whales"
+          ],
+          "indicators": [
+            "GEX",
+            "Call wall",
+            "Put wall",
+            "Expected market maker range"
+          ],
+          "conclusion": "BE has put wall support so this may be the pullback; AAT has no put wall support so more downside is possible.",
+          "tag": "explicit"
+        }
+      ],
+      "rules": []
+    },
+    {
+      "method_id": "cash-secured-put-strike-selection",
+      "new_method": null,
+      "steps": [
+        {
+          "step_id": "check-bollinger-bands-for-entry-risk",
+          "new_step": null,
+          "at": "09:43",
+          "does": "For each candidate, places cash-secured put strikes at or below the lower or mid Bollinger Band, the 50-day average or VWAP, and shows the strikes already layered in his account.",
+          "why": "Get assigned only at prices he is comfortable owning while collecting rich premium.",
+          "data": [
+            "AAT puts at 500, 475, 445",
+            "GLW 135 to 140 strikes below lower band",
+            "HOOD 105 and 99 puts, maybe low 90s next",
+            "BE 240 and 225 puts, 225 near VWAP",
+            "photonics ETF around 23 strike near lower band, monthly options only"
+          ],
+          "tools": [
+            "TradingView",
+            "Unidentified brokerage app"
+          ],
+          "indicators": [
+            "Bollinger Bands",
+            "50-day moving average",
+            "VWAP"
+          ],
+          "conclusion": "Layer puts at several strikes rather than going in at one price.",
+          "tag": "explicit"
+        }
+      ],
+      "rules": [
+        {
+          "text": "Layer into a stock with several strikes rather than going all in at one strike.",
+          "tag": "explicit"
+        },
+        {
+          "text": "Prefer puts below the lower Bollinger Band.",
+          "tag": "explicit"
+        },
+        {
+          "text": "For a $100K account a high-priced stock like COR ties up too much per put, so use a smaller ETF.",
+          "tag": "explicit"
+        }
+      ]
+    },
+    {
+      "method_id": "vix-based-cash-allocation",
+      "new_method": null,
+      "steps": [
+        {
+          "step_id": "cap-single-stock-put-exposure",
+          "new_step": null,
+          "at": "10:35",
+          "does": "States the cap on exposure per stock when layering puts.",
+          "why": "Limit risk of assignment in any one name; smaller for higher P/E names.",
+          "data": [
+            "no more than 10% of portfolio in AAT",
+            "about 5% in BE because of higher P/E"
+          ],
+          "tools": [],
+          "indicators": [
+            "Position size",
+            "P/E ratio"
+          ],
+          "conclusion": "Room for one or two more AAT puts.",
+          "tag": "explicit"
+        }
+      ],
+      "rules": [
+        {
+          "text": "Keep a higher P/E stock like BE to about 5% of the portfolio.",
+          "tag": "explicit"
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "name": "TradingView",
+      "kind": "website",
+      "url": "tradingview.com",
+      "used_for": "charts with Bollinger Bands, moving averages, VWAP, RSI, MACD and breadth symbols"
+    },
+    {
+      "name": "Unusual Whales",
+      "kind": "website",
+      "url": "unusualwhales.com",
+      "used_for": "market tide, sentiment gauge and GEX market maker data"
+    },
+    {
+      "name": "CME FedWatch",
+      "kind": "website",
+      "url": "cmegroup.com",
+      "used_for": "rate decision probabilities"
+    },
+    {
+      "name": "Unidentified brokerage app",
+      "kind": "app",
+      "url": "",
+      "used_for": "account overview, realized gain/loss and open put positions"
+    }
+  ],
+  "indicators": [
+    {
+      "name": "50-day moving average",
+      "measures": "medium-term trend and support",
+      "how_used": "share of stocks above it for breadth; pullback target on single stocks",
+      "platform": "TradingView"
+    },
+    {
+      "name": "200-day moving average",
+      "measures": "long-term trend",
+      "how_used": "AAT bounced off it",
+      "platform": "TradingView"
+    },
+    {
+      "name": "20-day moving average",
+      "measures": "short-term trend",
+      "how_used": "listed with other averages and VWAP for GLW",
+      "platform": "TradingView"
+    },
+    {
+      "name": "Bollinger Bands",
+      "measures": "volatility envelope and stretch",
+      "how_used": "mid band as support target, puts below lower band, upper band hug means pullback likely",
+      "platform": "TradingView"
+    },
+    {
+      "name": "VWAP",
+      "measures": "volume-weighted average price",
+      "how_used": "yearly VWAP as a level to eye for put strikes",
+      "platform": "TradingView"
+    },
+    {
+      "name": "RSI",
+      "measures": "momentum",
+      "how_used": "checked as mid-range on AAT",
+      "platform": "TradingView"
+    },
+    {
+      "name": "MACD",
+      "measures": "momentum trend",
+      "how_used": "slowing on AAT",
+      "platform": "TradingView"
+    },
+    {
+      "name": "P/E ratio",
+      "measures": "valuation",
+      "how_used": "GLW 71 versus 120 earlier; BE high so keep size small",
+      "platform": ""
+    },
+    {
+      "name": "VIX",
+      "measures": "implied volatility",
+      "how_used": "noted near 15 despite weak breadth",
+      "platform": ""
+    },
+    {
+      "name": "GEX",
+      "measures": "market maker gamma exposure",
+      "how_used": "locate call and put walls",
+      "platform": "Unusual Whales"
+    },
+    {
+      "name": "Call wall",
+      "measures": "strike with large call gamma, resistance",
+      "how_used": "upside resistance level",
+      "platform": "Unusual Whales"
+    },
+    {
+      "name": "Put wall",
+      "measures": "strike with large put gamma, support",
+      "how_used": "support under the price",
+      "platform": "Unusual Whales"
+    },
+    {
+      "name": "Expected market maker range",
+      "measures": "two-week expected high and low",
+      "how_used": "QQQ 727 to 771",
+      "platform": "Unusual Whales"
+    },
+    {
+      "name": "Market tide",
+      "measures": "net options premium flow",
+      "how_used": "institutional hedging versus calls",
+      "platform": "Unusual Whales"
+    },
+    {
+      "name": "Fear and greed sentiment",
+      "measures": "market sentiment gauge",
+      "how_used": "fear zone means sell puts",
+      "platform": "Unusual Whales"
+    },
+    {
+      "name": "Rate hike probability",
+      "measures": "market-implied odds of Fed hikes",
+      "how_used": "80% hold in October, 98% December",
+      "platform": "CME FedWatch"
+    },
+    {
+      "name": "Account value",
+      "measures": "total account",
+      "how_used": "near all-time highs",
+      "platform": "Unidentified brokerage app"
+    },
+    {
+      "name": "Daily gain/loss",
+      "measures": "daily realized profit",
+      "how_used": "realized gain/loss page",
+      "platform": "Unidentified brokerage app"
+    },
+    {
+      "name": "Position size",
+      "measures": "share of portfolio in a name",
+      "how_used": "10% cap AAT, 5% BE",
+      "platform": ""
+    }
+  ]
+}

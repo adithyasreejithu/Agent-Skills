@@ -1,0 +1,321 @@
+{
+ "rule": "chronological; calibration = published on or before 2026-10-30; holdout = after. Holdout is not examined until thresholds.json is frozen.",
+ "created": "2026-11-24",
+ "videos": [
+  {
+   "id": "K81VYWuW0DA",
+   "pub": "2026-09-22",
+   "title": "I WOULD go ALL IN this 1 Stock‼️",
+   "tickers": "[ELF, CELH, CAKE, EL, HNST, AMD]",
+   "chars": 128530,
+   "kw": 7,
+   "split": "calibration"
+  },
+  {
+   "id": "NnHk7xjejmA",
+   "pub": "2026-09-25",
+   "title": "7 CRASHED Stocks to BUY for EPIC UPSIDE‼️",
+   "tickers": "[AMD, META, WYNN, NFLX, SOFI, RH, MCD, CELH, NKE, HD]",
+   "chars": 125825,
+   "kw": 6,
+   "split": "calibration"
+  },
+  {
+   "id": "t4BJTz6YniU",
+   "pub": "2026-09-29",
+   "title": "The Market is about to GO INSANE‼️",
+   "tickers": "[AMD]",
+   "chars": 126993,
+   "kw": 9,
+   "split": "calibration"
+  },
+  {
+   "id": "ioSr_jyNKoo",
+   "pub": "2026-10-04",
+   "title": "The Wheel Options Strategy | My NEW Credo Technology (CRDO) ",
+   "tickers": "[CRDO]",
+   "chars": 85802,
+   "kw": 9,
+   "split": "calibration"
+  },
+  {
+   "id": "7inC0Ui_NXY",
+   "pub": "2026-10-09",
+   "title": "Market Emergency just disclosed",
+   "tickers": "[AMD, META, AMZN]",
+   "chars": 130116,
+   "kw": 9,
+   "split": "calibration"
+  },
+  {
+   "id": "33Yqdsr_vcA",
+   "pub": "2026-10-10",
+   "title": "AI Stock Pullback Coming? 3 Stocks Im Preparing To Buy + BE ",
+   "tickers": "[AMAT, GLW, HOOD, BE, LYTE]",
+   "chars": 61250,
+   "kw": 84,
+   "split": "calibration"
+  },
+  {
+   "id": "667m_tyzrDo",
+   "pub": "2026-10-13",
+   "title": "AI Stock Pullback Is Here | 2 Stocks I Bought + CRDO & DRAM ",
+   "tickers": "[TSM, AXP, CRDO, DRAM, COHR, WDC, SMH, QQQ]",
+   "chars": 57515,
+   "kw": 67,
+   "split": "calibration"
+  },
+  {
+   "id": "_cvBQfQQKPY",
+   "pub": "2026-10-14",
+   "title": "All Hell is breaking loose in the market‼️",
+   "tickers": "[NFLX, WYNN, AXP, SOFI, RH, CELH]",
+   "chars": 121834,
+   "kw": 12,
+   "split": "calibration"
+  },
+  {
+   "id": "hpUnLAXgOYQ",
+   "pub": "2026-10-15",
+   "title": "AI Stocks Falling | Where Is The Bottom? + WDC, HOOD & CRDO ",
+   "tickers": "[GOOGL, CLS, CRDO, HOOD, WDC, QQQ]",
+   "chars": 93018,
+   "kw": 76,
+   "split": "calibration"
+  },
+  {
+   "id": "K6SgF3RZqYo",
+   "pub": "2026-10-15",
+   "title": "The once in a lifetime ROTATION‼️",
+   "tickers": "[CAKE, AMD, RVLV, ELF, RH, NOW, SOFI, EL, NKE, CRM, CELH]",
+   "chars": 131668,
+   "kw": 21,
+   "split": "calibration"
+  },
+  {
+   "id": "ik7Mong73Hg",
+   "pub": "2026-10-17",
+   "title": "Stock Market Warning | VIX Hit 22 + CRDO, BE, & HOOD Update ",
+   "tickers": "[AXP, CLS, GOOGL, CRDO, HOOD, BE, PLTR]",
+   "chars": 69936,
+   "kw": 80,
+   "split": "calibration"
+  },
+  {
+   "id": "SLBmkUzyGtA",
+   "pub": "2026-10-18",
+   "title": "The Wheel Options Strategy | My Top 3 Stocks To Trade 2026 (",
+   "tickers": "[GOOGL, AMZN, HOOD]",
+   "chars": 68894,
+   "kw": 6,
+   "split": "calibration"
+  },
+  {
+   "id": "4zPSPmVxhr0",
+   "pub": "2026-10-20",
+   "title": "AI Stocks Rebound | What Happened? + 5 Stocks Im Buying Now ",
+   "tickers": "[PLTR, TSM, FTNT, NVDA, BE, AMAT, QQQ]",
+   "chars": 62902,
+   "kw": 57,
+   "split": "calibration"
+  },
+  {
+   "id": "2s6hZre4TJo",
+   "pub": "2026-10-21",
+   "title": "Emergency for 1 of my stocks‼️",
+   "tickers": "[NFLX, RH, SOFI, WYNN, AXP, RVLV, NOW, FUBO, HNST, NKE, SHOP, ELF, CELH]",
+   "chars": 123941,
+   "kw": 9,
+   "split": "calibration"
+  },
+  {
+   "id": "kHo2a6DIn2I",
+   "pub": "2026-10-22",
+   "title": "Why I Sold One Stock + BE, LRCX & WDC Earnings Update (Optio",
+   "tickers": "[BE, LRCX, WDC, DRAM, KTOS, AMZN, QQQ]",
+   "chars": 68965,
+   "kw": 51,
+   "split": "calibration"
+  },
+  {
+   "id": "C2MEi_JFCG4",
+   "pub": "2026-10-23",
+   "title": "History is About to Be Made... [Stocks do this every 17 year",
+   "tickers": "[NOW, NFLX, AXP, HNST, CELH]",
+   "chars": 141681,
+   "kw": 15,
+   "split": "calibration"
+  },
+  {
+   "id": "-pK9xC1M7wE",
+   "pub": "2026-10-30",
+   "title": "Tech Stocks Plunge, Here's What's Next",
+   "tickers": "[AMD, HNST, RH, NOW, CRM, AMZN, GOOG, META, CAKE, CELH, NKE, WYNN, EL, NFLX]",
+   "chars": 131075,
+   "kw": 3,
+   "split": "calibration"
+  },
+  {
+   "id": "JMaLx81fnGs",
+   "pub": "2026-10-30",
+   "title": "I Sold it all",
+   "tickers": "[NOW, CELH, AXP, AMZN, GOOGL, AMD, CRM, CAKE, RH, SOFI]",
+   "chars": 196529,
+   "kw": 12,
+   "split": "calibration"
+  },
+  {
+   "id": "vS5fWtIh7d8",
+   "pub": "2026-10-31",
+   "title": "Stock Market Crash Warning | VIX Hit 24 + I Bought $160k Of ",
+   "tickers": "[GOOGL, DRAM, LYTE, COHR, EUV]",
+   "chars": 80442,
+   "kw": 40,
+   "split": "holdout"
+  },
+  {
+   "id": "hyuB15pOyw0",
+   "pub": "2026-11-03",
+   "title": "Stock Market Warning | Where Could QQQ Bottom? + AAPL & PLTR",
+   "tickers": "[QQQ, PLTR, AAPL, BE, COHR, CRDO, GOOGL]",
+   "chars": 80539,
+   "kw": 40,
+   "split": "holdout"
+  },
+  {
+   "id": "pMQj9ZcEbQI",
+   "pub": "2026-11-04",
+   "title": "AMD Just FLIPPED THE ENTIRE MARKET & ITS OWN STOCK",
+   "tickers": "[AMD, AMZN]",
+   "chars": 139443,
+   "kw": 9,
+   "split": "holdout"
+  },
+  {
+   "id": "601dK1SfH9Y",
+   "pub": "2026-11-05",
+   "title": "Is The AI Trade Over? Midterm Election Data + My $50k LEAPS ",
+   "tickers": "[SMH, QQQ, NVDA, AMD, GOOGL, MSFT, AMZN]",
+   "chars": 67740,
+   "kw": 28,
+   "split": "holdout"
+  },
+  {
+   "id": "sgawBWvCG2Y",
+   "pub": "2026-11-05",
+   "title": "The Largest Move in your lifetime‼️",
+   "tickers": "[AMD, MU, CAT, PLTR, SOFI, FUBO, RH, CAKE, EL, META, WYNN, ELF, CELH, AXP, NKE, NFLX]",
+   "chars": 164843,
+   "kw": 18,
+   "split": "holdout"
+  },
+  {
+   "id": "mu_GfeT3qBk",
+   "pub": "2026-11-07",
+   "title": "Options Trading University Review 2026 | Tom Shares His 1 Ye",
+   "tickers": "[SOFI, PLTR, HOOD, CLS, GOOGL]",
+   "chars": 71476,
+   "kw": 30,
+   "split": "holdout"
+  },
+  {
+   "id": "UB9-htqOC7s",
+   "pub": "2026-11-07",
+   "title": "Stock Market Crash Risk? | VIX & VXN Spike + My $130K ETF Bu",
+   "tickers": "[TQQQ, NVDA, PLTR, CRDO, DRAM, LRCX]",
+   "chars": 88954,
+   "kw": 44,
+   "split": "holdout"
+  },
+  {
+   "id": "bZgg7-4I1pI",
+   "pub": "2026-11-10",
+   "title": "Stock Market Rally Starting? NVDA News + My $100K+ TQQQ Posi",
+   "tickers": "[TQQQ, QQQ, SMH, NVDA, CRDO, LRCX, AMAT, BE, COHR, CDE]",
+   "chars": 83974,
+   "kw": 73,
+   "split": "holdout"
+  },
+  {
+   "id": "MCBLOo4uT8s",
+   "pub": "2026-11-11",
+   "title": "Top 5 AI stocks to BUY NOW since they have Collapsed -60%+",
+   "tickers": "[AMD, AMZN, GOOG, CAT, NVDA, MU]",
+   "chars": 140266,
+   "kw": 4,
+   "split": "holdout"
+  },
+  {
+   "id": "FcN3VBT_86I",
+   "pub": "2026-11-12",
+   "title": "New Millionaires will be made now‼️",
+   "tickers": "[AMD, NVDA, WYNN, RH, ELF, EL, HIMS, HOOD, CELH, NFLX, AXP, NKE]",
+   "chars": 133164,
+   "kw": 21,
+   "split": "holdout"
+  },
+  {
+   "id": "vdhKw6ywg1Y",
+   "pub": "2026-11-12",
+   "title": "AI Stocks Rallying | More Upside Ahead? VXN Study + My TQQQ ",
+   "tickers": "[TQQQ, SMH, QQQ, BE, NVDA, COHR, CRDO, SNDK]",
+   "chars": 82531,
+   "kw": 53,
+   "split": "holdout"
+  },
+  {
+   "id": "8YeWNhktU1c",
+   "pub": "2026-11-14",
+   "title": "Stock Market Warning | My QQQ Hedge + 5 Stocks I'm Looking T",
+   "tickers": "[QQQ, TQQQ, NVDA, ABBV, AXP, MSFT, AAPL, ZM, SPG, GOOGL]",
+   "chars": 86005,
+   "kw": 9,
+   "split": "holdout"
+  },
+  {
+   "id": "jQWFkTkbwco",
+   "pub": "2026-11-17",
+   "title": "Stock Market Crash Risk? My QQQ Hedge + CLS, CRDO & WDC Upda",
+   "tickers": "[QQQ, TQQQ, CLS, CRDO, BE, COHR, WDC, HOOD, IREN, PG, COST]",
+   "chars": 73992,
+   "kw": 15,
+   "split": "holdout"
+  },
+  {
+   "id": "wPsNyd0fP2k",
+   "pub": "2026-11-18",
+   "title": "This is the big one‼️",
+   "tickers": "[AMZN, META, GOOGL, NVDA, AMD, HOOD, RH, SOFI]",
+   "chars": 167876,
+   "kw": 3,
+   "split": "holdout"
+  },
+  {
+   "id": "TdFBnN-M-5Y",
+   "pub": "2026-11-19",
+   "title": "Is QQQ Repeating 2018? 5 AI Stocks Showing Strength (Options",
+   "tickers": "[ANET, CLS, COR, PANW]",
+   "chars": 87606,
+   "kw": 59,
+   "split": "holdout"
+  },
+  {
+   "id": "thDu_XGcHMI",
+   "pub": "2026-11-20",
+   "title": "once in 20 year panic‼️",
+   "tickers": "[AMZN, ELF, AXP, RH, WYNN, SOFI, CELH]",
+   "chars": 136816,
+   "kw": 12,
+   "split": "holdout"
+  },
+  {
+   "id": "u4r391ks_U8",
+   "pub": "2026-11-21",
+   "title": "Stock Market Crash Warning | VIX Hit 40 + My $240K TQQQ Trad",
+   "tickers": "[TQQQ, QQQ, COST, PG, SPG, T]",
+   "chars": 75583,
+   "kw": 25,
+   "split": "holdout"
+  }
+ ]
+}

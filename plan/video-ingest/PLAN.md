@@ -1,6 +1,8 @@
 # Video Ingest: Clock-Driven YouTube Pipeline (skill, folder-based)
 
 Status: proposal, not built. Revised 2026-10-20. Instagram is shelved (`SHELVED-instagram.md`).
+
+Layout note (2026-11-20): notes now live under `research/` (`summaries/`, `briefs/`, `reels/`, `analysis/`). Older sections below say `summaries/`.
 Open decisions are in section 10 with defaults, so work can start without waiting on them.
 
 ## Status (2026-10-21)
@@ -185,6 +187,8 @@ not. Everything attributed to the creator as opinion.
 Each tick that finishes at least one video writes `<digests>/YYYY-MM-DD-HHMM.md`, grouped by creator: tickers
 named, stance, stated buys or sells, link to note. Built from note frontmatter, not by re-reading transcripts.
 **As built:** one file per run day, `<digests>/YYYY-MM-DD.md`, appended to if several runs happen that day.
+**Replaced 2026-10-22** by the morning brief (`summaries/_briefs/<local day>.md`, short read + long read written
+by Claude from the day's notes). See `plan/morning-brief/PLAN.md`. Old digest files are kept.
 
 ## 7. Scheduling (Windows Task Scheduler, coded as part of the skill)
 `scripts/schedule.py` subcommands: `install`, `remove`, `status`, `print`.

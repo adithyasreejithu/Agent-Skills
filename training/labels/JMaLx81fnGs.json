@@ -1,0 +1,284 @@
+{
+  "video_id": "JMaLx81fnGs",
+  "creator": "Jeremy Lefebvre Makes Money",
+  "title": "I Sold it all",
+  "upload_date": "20261030",
+  "duration_seconds": 3409.5,
+  "source": "https://www.youtube.com/watch?v=JMaLx81fnGs",
+  "verdicts": "new-info | useful | redundant | blank | wrong  (see plan/watch-skill-testing-mode/PLAN.md)",
+  "cues": [
+    {
+      "cue_id": "c01",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 29.479,
+      "heard": "Cheesecake Factory. That's the one stock. And we got another one, RH.",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "new-info",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+2",
+      "notes": "-2/+0 CAKE position page (value $367,640, avg cost $40.75, +$235,198.25); +2..+6 RH position (avg cost $124.10, +$12,864.90 +21.50%, buys Sep-15 400 @ $125.36 etc.)"
+    },
+    {
+      "cue_id": "c02",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 37.479,
+      "heard": "said RH stands for red hot, and I think they're right. Look at this stock. We",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "Same RH position page as c01 at every offset"
+    },
+    {
+      "cue_id": "c03",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 52.68,
+      "heard": "right now, right? Speaking about hot stocks, SoFi so high. Look at this one,",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "SOFI position: value $97,823, avg cost $9.23, +$46,577.27 (+90.88%), buy history from Mar-2024; static"
+    },
+    {
+      "cue_id": "c04",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 114.16,
+      "heard": "you won. You won. That's all I got to say. Look at this. ServiceNow down 27%",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "ServiceNow quote 109.67 -40.46 (-26.95%), after hours 108.00 -1.67, handwritten 'worst day ever'; static"
+    },
+    {
+      "cue_id": "c05",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 184.372,
+      "heard": "okay? From there, we'll talk about Intel in relation to AMD. [clears throat]",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "X post photo of a TV showing INTC 71.78 -22.04% while he previews the Intel/AMD segment; small text"
+    },
+    {
+      "cue_id": "c06",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 346.894,
+      "heard": "simple as that, okay? Okay, next up here, let's go ahead, let's talk some",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "Discord with the graded Amazon income statement (Grade = B); tile too small to read figures"
+    },
+    {
+      "cue_id": "c07",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 436.935,
+      "heard": "spot. That was up 19%. So, that's where AWS is going to come into play there",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "Amazon Q3 income statement full view with % annotations (product sales 2%, services 19%, total 12%); static"
+    },
+    {
+      "cue_id": "c08",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 1503.827,
+      "heard": "It's a low-margin business, but it's a huge TAM business, right?",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "Bloomberg Brent Thill clip, AMZN after hours 226.02 -17.77 (-7.44%); price not in captions"
+    },
+    {
+      "cue_id": "c09",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 1588.547,
+      "heard": "across many of the tech companies support",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "Same Bloomberg Amazon clip as c08 (225.66-226.50); 'support' was the guest's word, no chart"
+    },
+    {
+      "cue_id": "c10",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 1915.911,
+      "heard": "Intel, basically they're saying, \"Hey, you know, PC sales are going to be",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "X post photo of TV with INTC 71.78 -20.29 (-22.04%) after hours; static"
+    },
+    {
+      "cue_id": "c11",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 1928.631,
+      "heard": "much as they possibly can in terms of getting silicon from TSMC. They're going",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "Same Intel TV photo as c10"
+    },
+    {
+      "cue_id": "c12",
+      "term": "chart",
+      "category": "chart",
+      "t": 2083.993,
+      "heard": "multi-year, yes, it's a buy, okay? But, this chart's about to get a lot scarier",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "Alphabet free cash flow bar chart 2005-2026 dropping below -$5B at the end; static"
+    },
+    {
+      "cue_id": "c13",
+      "term": "next-one",
+      "category": "transition",
+      "t": 2883.962,
+      "heard": "that's the cost of doing business, baby. Okay? All right, next one up here. Steve",
+      "offsets": {
+        "-2": "blank",
+        "+0": "useful",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "-2 full face cam; +0 CNBC Steve Eisman clip title 'Anthropic's revenue growth has slowed dramatically'; later same clip/studio"
+    }
+  ],
+  "control": [
+    {
+      "t": 0.0,
+      "reason": "first-frame",
+      "verdict": "new-info"
+    },
+    {
+      "t": 270.833333,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 573.766667,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 740.966667,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 1250.7,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 1778.066667,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 1834.3,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 1883.6,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 2201.566667,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 2553.9,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 2883.6,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 3393.466667,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    }
+  ],
+  "control_notes": "0:00 CAKE position (N); 4:30 blank browser tab (B); 9:33 Amazon income statement legible (N); 12:20 Bloomberg AMZN 218.40 -25.39 -10.42%, EPS $1.89 vs est $1.97 (N); 20:50 face cam over clip (B); 29:37 MSFT bull case projections $452-$546 2026 to $1001-$1210 2030 (N); 30:34 MSFT base case $433-$527 to $898-$1093 (N); 31:23 Intel TV photo (U); 36:41 Alphabet after hours 296.73 -28.16 -8.68% (N); 42:33 Alphabet 295.74 -29.15 -8.97%, Google Cloud rev grew 103% (N); 48:03 face cam (B); 56:33 promo sale page (W).",
+  "labeling_notes": "Labeled by Claude from contact sheets; new-info only where text was readable. No control_sheet.jpg was produced; control frames were read individually from frames/.",
+  "trained_at": "2026-11-05"
+}

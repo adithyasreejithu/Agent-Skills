@@ -1,0 +1,21 @@
+{
+ "video": "pMQj9ZcEbQI",
+ "auto_dup": true,
+ "note": "Labeled by Claude from contact sheets; new-info only where text was readable (checked against full-size frames for c01, c02, c10, c11). Jeremy Lefebvre reaction format: browser screen share (X, ir.amd.com, Discord, CNBC, YouTube) with a face-cam bubble; full-screen face cam counts as blank; Discord channel browsing for the Jeremy AI promo is wrong.",
+ "cues": {
+  "c01": ["NRRRR", "+0", "X post with AMD position screenshot: AMD $486.30, 2,555 shares, avg cost $111.61, total value $1,241,333.97, gain +$956,165.41 (+335.29%)"],
+  "c02": ["RNRRR", "+0", "AMD tweet, then ir.amd.com GAAP/non-GAAP tables: GAAP diluted EPS $1.46 vs $0.75, non-GAAP EPS $2.09 vs $1.20 (captions said $146)"],
+  "c03": ["URRRR", "-2", "AMD Q4 outlook paragraph (~$17B +/-3%, ~66% Y/Y, ~27% seq, 55% non-GAAP GM); captions cover it"],
+  "c04": ["URRRR", "-2", "Non-GAAP table and segment summary (data center $8.5B +97%, client+gaming $3.7B -8%); captions cover it"],
+  "c05": ["RRRRR", null, "Same segment summary page as c04"],
+  "c06": ["URRRR", "-2", "Discord post: AMD expects 2027 opex to grow at less than half the rate of revenue; captions cover it"],
+  "c07": ["WWWWW", null, "Discord sidebar scrolling to find the Jeremy AI channel (promo)"],
+  "c08": ["NRBBB", "-2", "CNBC homepage with futures (Dow fut 51,668 -0.44%, S&P fut 7,545 -0.68%, Nas fut 27,941.50 -1.29%, oil 96.76; read from the matching control frame), then full-screen face cam"],
+  "c09": ["BBRRR", null, "Full-screen face cam, then the same CNBC homepage as c08"],
+  "c10": ["NRNRN", "+2", "CNBC Rasgon clip: AMD 518.99 +7.25% extended, Outperform $650 PT; AMD EPS beats $2.09 adj vs $1.95 est; real-time MU 868.08, SK Hynix 154.00, INTC 61.60"],
+  "c11": ["NNRRR", "+0", "AMD Q4 revenue outlook $17.0B vs $16.23B est; real-time AMD 515.42, NVDA 209.02, TSM 409.00, AVGO 335.55"],
+  "c12": ["UURNR", "+4", "Tom Lee CNBC clip on YouTube, then Fair Value card: S&P 500 +40.75, DJIA +306.00, Nasdaq +244.25 futures change"]
+ },
+ "control": "NBUBBNUUNRNW",
+ "control_note": "No control_sheet.jpg was produced; labeled from the 12 individual frames. N: AMD position screenshot (0:00); CNBC futures strip Dow fut 51,668, S&P fut 7,545, Nas fut 27,941.50, oil 96.76 (13:12); Ackman clip with META -7.45% / AMZN +7.97% YTD (29:47); CNBC futures again Dow 51,743, S&P 7,550.75, Nas 27,904.75, oil 96.13, US10Y 4.911% (37:16). U: Tom Lee video page (1:37), Rasgon clip mostly behind face cam (21:46), Tom Lee page behind face cam (26:19). B: blank CNBC page (1:15), full-screen face cam (5:32), blank Discord page (9:05). R: Ackman page again (31:05). W: Jeremy AI Discord promo (38:30)."
+}

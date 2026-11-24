@@ -1,0 +1,508 @@
+{
+  "video_id": "vdhKw6ywg1Y",
+  "creator": "Options With Ryan",
+  "title": "AI Stocks Rallying | More Upside Ahead? VXN Study + My TQQQ Update (Options With Ryan)",
+  "upload_date": "20261112",
+  "duration_seconds": 1537.3,
+  "source": "https://www.youtube.com/watch?v=vdhKw6ywg1Y",
+  "verdicts": "new-info | useful | redundant | blank | wrong  (see plan/watch-skill-testing-mode/PLAN.md)",
+  "cues": [
+    {
+      "cue_id": "c01",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 19.439,
+      "heard": "major volatility spike. We're also going to talk about about my TQQQ position,",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "wrong",
+        "+6": "wrong"
+      },
+      "best_offset": null,
+      "notes": "face cam intro with burned-in captions only"
+    },
+    {
+      "cue_id": "c02",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 26.48,
+      "heard": "some other AI stocks. So, let's go ahead and jump into it. Remember, this is not",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "blank",
+        "+4": "blank",
+        "+6": "blank"
+      },
+      "best_offset": null,
+      "notes": "face cam, then 'This is not financial advice' disclaimer slide"
+    },
+    {
+      "cue_id": "c03",
+      "term": "as-you-can-see",
+      "category": "pointing",
+      "t": 33.2,
+      "heard": "purposes only. Results may vary. As you can see here, this right here is my",
+      "offsets": {
+        "-2": "blank",
+        "+0": "new-info",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "disclaimer slide, then Schwab account summary: total value $1,779,692.99"
+    },
+    {
+      "cue_id": "c04",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 33.2,
+      "heard": "purposes only. Results may vary. As you can see here, this right here is my",
+      "offsets": {
+        "-2": "blank",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "same as c03 (same timestamp) [auto: within 1.5s of c03, marked redundant]"
+    },
+    {
+      "cue_id": "c05",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 80.24,
+      "heard": "transparency reasons. We actually did close out an SMH leaps call option that",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "useful",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "Schwab summary, then Realized Gain/Loss page 11/11/2026, gain/loss ratio 100.00%; other figures too small"
+    },
+    {
+      "cue_id": "c06",
+      "term": "as-you-can-see",
+      "category": "pointing",
+      "t": 103.03999999999999,
+      "heard": "principles and frameworks that I share here in the mentorship. As you can see,",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "new-info",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+2",
+      "notes": "Discord member profit posts; +2 member phone screenshot TQQQ $52 Call 1/21/28 +$630.00 (+18.21%)"
+    },
+    {
+      "cue_id": "c07",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 139.599,
+      "heard": "absolutely free. Now, let's go ahead and dive right into it. Okay, a few big",
+      "offsets": {
+        "-2": "useful",
+        "+0": "new-info",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "creator's X profile (promo), then CNBC: Anthropic IPO range $70-$78, trading Nov. 19"
+    },
+    {
+      "cue_id": "c08",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 144.4,
+      "heard": "catalysts that I see upon the horizon are the anthropic IPO. Okay, so they",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "same CNBC Anthropic IPO article"
+    },
+    {
+      "cue_id": "c09",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 151.04,
+      "heard": "shares at your brokerage. Uh they basically said they're setting the IP",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "same CNBC Anthropic IPO article"
+    },
+    {
+      "cue_id": "c10",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 176.31900000000002,
+      "heard": "when you have events like this where, you know, the MAG 7 stocks, lots of",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "same CNBC Anthropic IPO article"
+    },
+    {
+      "cue_id": "c11",
+      "term": "next-one",
+      "category": "transition",
+      "t": 232.0,
+      "heard": "uh trading it for the IPO day. So that is number one. Number two, okay,",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "useful",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+2",
+      "notes": "CNBC Anthropic article, then CNBC 'CoreWeave CEO Intrator ... canceled his planned share sale program'"
+    },
+    {
+      "cue_id": "c12",
+      "term": "take-a-look",
+      "category": "pointing",
+      "t": 295.919,
+      "heard": "major help for the overall AI sentiment as a whole. Okay. Now, if we take a look",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "useful",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+2",
+      "notes": "CoreWeave article, then MarketWatch economic calendar (rows too small to read)"
+    },
+    {
+      "cue_id": "c13",
+      "term": "inflation-data",
+      "category": "macro",
+      "t": 300.4,
+      "heard": "at the economic data, right, we had uh core CPI come out a little bit hot, 0.1%",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "MarketWatch economic calendar; values illegible"
+    },
+    {
+      "cue_id": "c14",
+      "term": "inflation-data",
+      "category": "macro",
+      "t": 327.44,
+      "heard": "have weekly jobless claims tomorrow. And then we have PPI, core PPI on Friday. So",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "same MarketWatch calendar"
+    },
+    {
+      "cue_id": "c15",
+      "term": "take-a-look",
+      "category": "pointing",
+      "t": 343.199,
+      "heard": "So that's going to be a big one as well. Now, if we take a look at the CME Fed",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "useful",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "MarketWatch calendar, then CME FedWatch aggregated probabilities table; cells too small"
+    },
+    {
+      "cue_id": "c16",
+      "term": "fed-watch",
+      "category": "macro",
+      "t": 344.8,
+      "heard": "Now, if we take a look at the CME Fed watch tool, okay, this hasn't improved.",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "same CME FedWatch table"
+    },
+    {
+      "cue_id": "c17",
+      "term": "fed-watch",
+      "category": "macro",
+      "t": 354.8,
+      "heard": "that third rate hike come back on the table. All right. And then we're pricing",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "FedWatch table with cursor highlighting rows; cells too small"
+    },
+    {
+      "cue_id": "c18",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 398.72,
+      "heard": "data. They track many different indicators like AAA gas prices, Amazon",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "nowflation.com: 'US inflation today 3.06%'"
+    },
+    {
+      "cue_id": "c19",
+      "term": "chart",
+      "category": "chart",
+      "t": 486.24,
+      "heard": "lagging data. Okay. So, if you look at the trends, the trend chart here, which",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "nowflation CPI gauge vs official CPI chart and outlook chart (-0.74pp); most values small"
+    },
+    {
+      "cue_id": "c20",
+      "term": "chart",
+      "category": "chart",
+      "t": 603.2,
+      "heard": "Coreweave, SOXL, which this is the second time I've seen this on the chart.",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "Unusual Whales market tide and fear/greed gauge at 53"
+    },
+    {
+      "cue_id": "c21",
+      "term": "volatility-index",
+      "category": "macro",
+      "t": 641.12,
+      "heard": "fear and greed index, we're at neutral. Okay, volatility is coming in. The VIX",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "Unusual Whales sentiment breakdown, gauge 53; table rows illegible"
+    },
+    {
+      "cue_id": "c22",
+      "term": "moving-average",
+      "category": "chart",
+      "t": 669.36,
+      "heard": "think the next level we see is 720 here near the 50-day moving average. Okay,",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "QQQ daily chart, last 690.38, with -8%/-10%/-13% drawdown zones"
+    },
+    {
+      "cue_id": "c23",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 698.0,
+      "heard": "I think we probably have, you know, some resistance around the 700 level. Maybe",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "useful",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+2",
+      "notes": "same QQQ chart with drawn path near 700"
+    },
+    {
+      "cue_id": "c24",
+      "term": "volatility-index",
+      "category": "macro",
+      "t": 712.24,
+      "heard": "upwards. Okay, so with the volatility being high, which we'll look at VXN,",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "new-info",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+2",
+      "notes": "QQQ chart with drawn path, then VXN chart at 27.08"
+    },
+    {
+      "cue_id": "c25",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 1046.64,
+      "heard": "higher from here, but I do think there's going to be some resistance around that",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "TQQQ daily chart, close 60.44, post-market 60.35"
+    },
+    {
+      "cue_id": "c26",
+      "term": "moving-average",
+      "category": "chart",
+      "t": 1048.079,
+      "heard": "going to be some resistance around that 200 day moving average on V or TQQQ. So,",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "same TQQQ chart near the 200-day MA [auto: within 1.5s of c25, marked redundant]"
+    },
+    {
+      "cue_id": "c27",
+      "term": "next-one",
+      "category": "transition",
+      "t": 1535.6,
+      "heard": "update, please give it a thumbs up. I'll see you on the next one and take",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "wrong",
+        "+6": "wrong"
+      },
+      "best_offset": null,
+      "notes": "face cam outro"
+    }
+  ],
+  "control": [
+    {
+      "t": 0.0,
+      "reason": "first-frame",
+      "verdict": "wrong"
+    },
+    {
+      "t": 105.966667,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 108.666667,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 113.066667,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 126.566667,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 163.966667,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 342.7,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 769.366667,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 962.9,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 1096.366667,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 1202.833333,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 1531.5,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    }
+  ],
+  "control_notes": "f1 face cam; f2 member post TQQQ $52 Call 1/21/28 +$630.00; f3 member Schwab gain/loss 11/05-11/11/2026 net gain +$6,821.19 (+14.81%); f4 member QQQ/TQQQ call table (QQQ280121C620, QQQ261231C705, TQQQ280121C50, QQQ261231C685), account total +$2,624.13; f5 creator Instagram profile; f6 CNBC article: Anthropic ticker symbol 'ANT' on Nasdaq, 825M shares at $70-$78; f7 blank white; f8 VXN study slide (VXN crossed 35 on 2026-11-05 at 38.26, 28.57 by 2026-11-10; ordinary 90-day +11.1%, crisis +1.8%); f9 blank black; f10 TQQQ chart 60.44, SMA200 65.68, BB upper 64.55 with circled target; f11 NVDA chart 173.73, SMA200 204.47, watchlist incl. CRDO, COHR, BE, SNDK, LRCX; f12 face cam outro",
+  "labeling_notes": "Labeled by Claude from contact sheets; new-info only where text was readable.",
+  "trained_at": "2026-11-12"
+}

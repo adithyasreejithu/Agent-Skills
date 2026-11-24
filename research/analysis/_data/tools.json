@@ -1,0 +1,273 @@
+{
+  "tools": {
+    "unidentifiedbrokerageapp": {
+      "name": "Unidentified brokerage app",
+      "kind": "app",
+      "used_for": "account value, return and per-position gain/loss screenshots"
+    },
+    "x": {
+      "name": "X",
+      "kind": "website",
+      "url": "x.com",
+      "used_for": "posting and showing the holdings table"
+    },
+    "youtube": {
+      "name": "YouTube",
+      "kind": "website",
+      "url": "youtube.com",
+      "used_for": "playing CNBC market segments"
+    },
+    "cnbc": {
+      "name": "CNBC",
+      "kind": "website",
+      "url": "cnbc.com",
+      "used_for": "market commentary segments with a live index and yield ticker"
+    },
+    "tradingview": {
+      "name": "TradingView",
+      "kind": "website",
+      "url": "tradingview.com",
+      "used_for": "price charts, P/E ratio pane, Bollinger Bands and VIX chart"
+    },
+    "unidentifiedoptionsbroker": {
+      "name": "Unidentified options broker",
+      "kind": "app",
+      "used_for": "options chain with delta, mid price and ROI"
+    },
+    "unusualwhales": {
+      "name": "Unusual Whales",
+      "kind": "website",
+      "url": "unusualwhales.com",
+      "used_for": "market tide, sentiment gauge and GEX market maker data"
+    },
+    "cmefedwatch": {
+      "name": "CME FedWatch",
+      "kind": "website",
+      "url": "cmegroup.com",
+      "used_for": "rate decision probabilities"
+    },
+    "nowflation": {
+      "name": "Nowflation",
+      "kind": "website",
+      "url": "nowflation.com",
+      "used_for": "real-time inflation tracking and projection"
+    },
+    "unidentifiedchartingsite": {
+      "name": "Unidentified charting site",
+      "kind": "website",
+      "used_for": "breadth, RSI, VIX/VXN and QQQ charts"
+    },
+    "otu": {
+      "name": "OTU",
+      "kind": "website",
+      "url": "otu.sensomarket.com",
+      "used_for": "options sentiment dashboard (market tide, fear/greed) and dark pool block trades"
+    }
+  },
+  "indicators": {
+    "accountvalue": {
+      "name": "Account value",
+      "measures": "total portfolio value",
+      "how_used": "checked against prior all-time highs",
+      "platform": "Unidentified brokerage app"
+    },
+    "rateofreturn": {
+      "name": "Rate of return",
+      "measures": "portfolio return over a period",
+      "how_used": "3-year return shown on the account chart",
+      "platform": "Unidentified brokerage app"
+    },
+    "dailygainloss": {
+      "name": "Daily gain/loss",
+      "measures": "dollar and percent move of each position today",
+      "how_used": "to see what drove the day",
+      "platform": "Unidentified brokerage app"
+    },
+    "totalgainlosspercent": {
+      "name": "Total gain/loss percent",
+      "measures": "return of a position since purchase",
+      "how_used": "to compare how far each holding has run",
+      "platform": "Unidentified brokerage app"
+    },
+    "positionvalue": {
+      "name": "Position value",
+      "measures": "current dollar size of a holding",
+      "how_used": "to gauge sizing within the account",
+      "platform": "Unidentified brokerage app"
+    },
+    "positionsize": {
+      "name": "Position size",
+      "measures": "share of capital in a stock",
+      "how_used": "judged across all portfolios, not one",
+      "platform": "Unidentified brokerage app"
+    },
+    "aaiisentimentsurvey": {
+      "name": "AAII sentiment survey",
+      "measures": "retail investor bullish/bearish sentiment",
+      "how_used": "cited by a panelist as rock-bottom sentiment; creator takes it as a contrarian reason to stay invested",
+      "platform": "CNBC"
+    },
+    "100daymovingaverage": {
+      "name": "100-day moving average",
+      "measures": "medium-term trend support",
+      "how_used": "cited by a CNBC panelist as where the market bottomed before the Fed meeting",
+      "platform": "CNBC"
+    },
+    "10yeartreasuryyield": {
+      "name": "10-year Treasury yield",
+      "measures": "interest-rate backdrop",
+      "how_used": "read from the CNBC ticker (4.974%) as a market backdrop",
+      "platform": "CNBC"
+    },
+    "peratio": {
+      "name": "P/E ratio",
+      "measures": "price relative to earnings per share",
+      "how_used": "must be positive and ideally under 100",
+      "platform": "TradingView"
+    },
+    "earningsbeats": {
+      "name": "Earnings beats",
+      "measures": "consecutive quarters beating estimates",
+      "how_used": "needs a consistent streak (five straight for CRDO)"
+    },
+    "grossmargin": {
+      "name": "Gross margin",
+      "measures": "profitability after cost of revenue",
+      "how_used": "high margins (67-69%) support quality"
+    },
+    "netmargin": {
+      "name": "Net margin",
+      "measures": "net profitability",
+      "how_used": "above 50% read as strong"
+    },
+    "revenuegrowth": {
+      "name": "Revenue growth",
+      "measures": "year-over-year revenue change",
+      "how_used": "114% projected growth read as bullish"
+    },
+    "vix": {
+      "name": "VIX",
+      "measures": "S&P 500 implied volatility / fear",
+      "how_used": "bands map to cash versus invested percent; low VIX means greed and more cash",
+      "platform": "TradingView"
+    },
+    "bollingerbands": {
+      "name": "Bollinger Bands",
+      "measures": "statistical price range (about 95% of the time)",
+      "how_used": "outside-band moves tend to revert; upper band means more risk when selling puts",
+      "platform": "TradingView"
+    },
+    "delta": {
+      "name": "Delta",
+      "measures": "option sensitivity and rough assignment probability",
+      "how_used": "25-30 delta for puts and 30 delta for calls",
+      "platform": "Unidentified options broker"
+    },
+    "thetadecay": {
+      "name": "Theta decay",
+      "measures": "time decay of option value",
+      "how_used": "sell within the 60-day window where decay is fastest"
+    },
+    "premiumroi": {
+      "name": "Premium ROI",
+      "measures": "option premium as percent of capital at risk",
+      "how_used": "target 2.5-5% per month",
+      "platform": "Unidentified options broker"
+    },
+    "midprice": {
+      "name": "Mid price",
+      "measures": "midpoint between bid and ask",
+      "how_used": "used to estimate premium collected",
+      "platform": "Unidentified options broker"
+    },
+    "adjustedebitda": {
+      "name": "Adjusted EBITDA",
+      "measures": "operating cash earnings before depreciation and amortization",
+      "how_used": "Used instead of net income for Wynn's properties."
+    },
+    "50daymovingaverage": {
+      "name": "50-day moving average",
+      "measures": "medium-term trend and support",
+      "how_used": "share of stocks above it for breadth; pullback target on single stocks",
+      "platform": "TradingView"
+    },
+    "rsi": {
+      "name": "RSI",
+      "measures": "momentum",
+      "how_used": "checked as mid-range on AAT",
+      "platform": "TradingView"
+    },
+    "macd": {
+      "name": "MACD",
+      "measures": "momentum trend",
+      "how_used": "slowing on AAT",
+      "platform": "TradingView"
+    },
+    "markettide": {
+      "name": "Market tide",
+      "measures": "net options premium flow",
+      "how_used": "institutional hedging versus calls",
+      "platform": "Unusual Whales"
+    },
+    "fearandgreedsentiment": {
+      "name": "Fear and greed sentiment",
+      "measures": "market sentiment gauge",
+      "how_used": "fear zone means sell puts",
+      "platform": "Unusual Whales"
+    },
+    "ratehikeprobability": {
+      "name": "Rate hike probability",
+      "measures": "market-implied odds of Fed hikes",
+      "how_used": "80% hold in October, 98% December",
+      "platform": "CME FedWatch"
+    },
+    "200daymovingaverage": {
+      "name": "200-day moving average",
+      "measures": "long-term trend",
+      "how_used": "AAT bounced off it",
+      "platform": "TradingView"
+    },
+    "20daymovingaverage": {
+      "name": "20-day moving average",
+      "measures": "short-term trend",
+      "how_used": "listed with other averages and VWAP for GLW",
+      "platform": "TradingView"
+    },
+    "vwap": {
+      "name": "VWAP",
+      "measures": "volume-weighted average price",
+      "how_used": "yearly VWAP as a level to eye for put strikes",
+      "platform": "TradingView"
+    },
+    "gex": {
+      "name": "GEX",
+      "measures": "market maker gamma exposure",
+      "how_used": "locate call and put walls",
+      "platform": "Unusual Whales"
+    },
+    "callwall": {
+      "name": "Call wall",
+      "measures": "strike with large call gamma, resistance",
+      "how_used": "upside resistance level",
+      "platform": "Unusual Whales"
+    },
+    "putwall": {
+      "name": "Put wall",
+      "measures": "strike with large put gamma, support",
+      "how_used": "support under the price",
+      "platform": "Unusual Whales"
+    },
+    "expectedmarketmakerrange": {
+      "name": "Expected market maker range",
+      "measures": "two-week expected high and low",
+      "how_used": "QQQ 727 to 771",
+      "platform": "Unusual Whales"
+    },
+    "vxn": {
+      "name": "VXN",
+      "measures": "Nasdaq-100 implied volatility",
+      "how_used": "preferred read of tech fear; drives cash allocation bands",
+      "platform": "Unidentified charting site"
+    }
+  }
+}

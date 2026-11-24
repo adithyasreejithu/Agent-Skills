@@ -1,0 +1,316 @@
+{
+  "video_id": "-pK9xC1M7wE",
+  "creator": "Jeremy Lefebvre Makes Money",
+  "title": "Tech Stocks Plunge, Here's What's Next",
+  "upload_date": "20261030",
+  "duration_seconds": 2196.9,
+  "source": "https://www.youtube.com/watch?v=-pK9xC1M7wE",
+  "verdicts": "new-info | useful | redundant | blank | wrong  (see plan/watch-skill-testing-mode/PLAN.md)",
+  "cues": [
+    {
+      "cue_id": "c01",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 13.36,
+      "heard": "Intel stock down 31% plus, SanDisk down 16% year-to-date, AMD [clears throat]",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "TradingView QQQ 1h chart (684.84, -9.98%) with Big Tech watchlist: INTC 63.68 -30.84%, SNDK 1,119.29 -15.85%, AMD 495.10 -12.59%, CRWV 54.08 -10.96%, SNOW 299.5x -9.30%, MU 864.11 -7.51%; same screen throughout"
+    },
+    {
+      "cue_id": "c02",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 247.174,
+      "heard": "know, you could be selling your stocks. You could be you know, having FOMO about",
+      "offsets": {
+        "-2": "blank",
+        "+0": "blank",
+        "+2": "blank",
+        "+4": "blank",
+        "+6": "blank"
+      },
+      "best_offset": null,
+      "notes": "Full-screen talking head (FOMO / 18 years in the market)"
+    },
+    {
+      "cue_id": "c03",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 304.254,
+      "heard": "know, this stock you hold is down 20% from its all-time high, you're like, \"Oh",
+      "offsets": {
+        "-2": "blank",
+        "+0": "blank",
+        "+2": "blank",
+        "+4": "blank",
+        "+6": "blank"
+      },
+      "best_offset": null,
+      "notes": "Full-screen talking head (stock down 20% from all-time high)"
+    },
+    {
+      "cue_id": "c04",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 350.454,
+      "heard": "happens, right? Next up here, let's talk about why is",
+      "offsets": {
+        "-2": "blank",
+        "+0": "blank",
+        "+2": "blank",
+        "+4": "blank",
+        "+6": "blank"
+      },
+      "best_offset": null,
+      "notes": "Full-screen talking head (why is this occurring)"
+    },
+    {
+      "cue_id": "c05",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 590.377,
+      "heard": "space. You know what happened? They said PC demand is going to be",
+      "offsets": {
+        "-2": "blank",
+        "+0": "blank",
+        "+2": "blank",
+        "+4": "blank",
+        "+6": "blank"
+      },
+      "best_offset": null,
+      "notes": "Full-screen talking head (Intel PC demand)"
+    },
+    {
+      "cue_id": "c06",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 837.939,
+      "heard": "12%, Coreweave down over 10%, look at the Snowflake move 9% there, and MU down",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "Same TradingView Big Tech watchlist at 13:58 with updated prices; QQQ around 686-687"
+    },
+    {
+      "cue_id": "c07",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 895.141,
+      "heard": "on Honest. So, that one remains a big buy. RH",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "TradingView 'My current positions' list: AMD 496.71 -12.31%, HNST 4.21 -8.2%, SHOP, SOFI, PLTR, FUBO, NOW 104.15 -5.03%, RH 145.34 -3.61%, RVLV, GOOG, AMZN, AXP, META, ELF, CRM, NFLX, EL, CAKE, WYNN +0.47%, NKE +0.96%, CELH +2.38%; VIX 22.28 +29.53%"
+    },
+    {
+      "cue_id": "c08",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 993.662,
+      "heard": "semiconductor analyst Vivek Arya. Uh Vivek, let's take a look at this. The",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "new-info",
+        "+6": "redundant"
+      },
+      "best_offset": "+4",
+      "notes": "CNBC 'Intel shares sink on weak Q4 outlook' with Vivek Arya; +4/+6 show INTC 68.94 -23.13 -25.12% 24-hour chart"
+    },
+    {
+      "cue_id": "c09",
+      "term": "take-a-look",
+      "category": "pointing",
+      "t": 993.662,
+      "heard": "semiconductor analyst Vivek Arya. Uh Vivek, let's take a look at this. The",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "Same frames as c08 (same timestamp) [auto: within 1.5s of c08, marked redundant]"
+    },
+    {
+      "cue_id": "c10",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 993.662,
+      "heard": "semiconductor analyst Vivek Arya. Uh Vivek, let's take a look at this. The",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "Same frames as c08 (same timestamp) [auto: within 1.5s of c09, marked redundant]"
+    },
+    {
+      "cue_id": "c11",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 1094.022,
+      "heard": "part of their uh production. Uh you know, there's a lot of IP that they",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "CNBC INTC intraday 68.81 -23.26 -25.26%, 3-YR +92.80% chart; price ticks to 68.65-68.77 at later offsets"
+    },
+    {
+      "cue_id": "c12",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 1309.065,
+      "heard": "Does this look like a strong company to you? Look at this. Look at this. Right?",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "useful"
+      },
+      "best_offset": "-2",
+      "notes": "1000xstocks.com INTC page $63.55: revenue TTM, margins, EPS (negative 2024-2025), free cash flow charts; +6 scrolled to financial health, unreadable"
+    },
+    {
+      "cue_id": "c13",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 1319.225,
+      "heard": "this is what's supposed to be coming, right? But look at this, right? And",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "Same INTC fundamentals scrolled; hover tooltip not legible; +6 back at top"
+    },
+    {
+      "cue_id": "c14",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 1596.309,
+      "heard": "quality. We call it LC. We call it Kmart, okay? Let's talk about some",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "CNBC 'Amazon shares slide on earnings miss, holds AI spending forecast at $220B', AMZN 226.40 -17.39 -7.1x%, YTD -1.91%"
+    },
+    {
+      "cue_id": "c15",
+      "term": "next-one",
+      "category": "transition",
+      "t": 1921.912,
+      "heard": "stock. It's Yeah, it's a number one pick, and it's",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "CNBC Mark Mahaney interview, AMZN 226.17 -17.62 -7.23%, YTD -2.01%; 226.74 -6.99% and 226.28 -7.18% at later offsets"
+    }
+  ],
+  "control": [
+    {
+      "t": 0.0,
+      "reason": "first-frame",
+      "verdict": "new-info"
+    },
+    {
+      "t": 57.633333,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 334.4,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 366.4,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 384.066667,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 561.066667,
+      "reason": "scene-change",
+      "verdict": "redundant"
+    },
+    {
+      "t": 827.3,
+      "reason": "scene-change",
+      "verdict": "redundant"
+    },
+    {
+      "t": 1301.833333,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 1519.266667,
+      "reason": "scene-change",
+      "verdict": "redundant"
+    },
+    {
+      "t": 1594.3,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 2021.5,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 2192.933333,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    }
+  ],
+  "control_notes": "No control_sheet.jpg was produced; labeled from the 12 individual frames. N: TradingView Big Tech watchlist with INTC/SNDK/AMD/CRWV prices (0:00), 1000xstocks INTC fundamentals $63.55 (21:40). B: blank loading pages (0:57, 6:06) and full-screen talking head (33:40). W: 1000x promo testimonial pages (6:23, 36:32). U: QQQ 685.18 -9.93% partly covered by face cam (5:34), Amazon CNBC clip 226.40 partly covered (26:33). R: repeat watchlist and INTC pages.",
+  "labeling_notes": "Labeled by Claude from contact sheets; new-info only where text was readable. Reaction-channel format: face cam bubble over TradingView, 1000xstocks.com and CNBC clips on YouTube. Full-screen talking-head cues are blank, as in 2s6hZre4TJo. c08, c09 and c10 share t=16:34 and the same frames, so c09 and c10 are redundant.",
+  "trained_at": "2026-11-05"
+}

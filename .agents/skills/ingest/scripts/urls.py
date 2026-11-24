@@ -40,3 +40,34 @@ def extract_video_id(text: str) -> str | None:
 
 def watch_url(video_id: str) -> str:
     return f'https://www.youtube.com/watch?v={video_id}'
+
+
+REEL_CODE = re.compile(r'[A-Za-z0-9_-]{5,40}')
+_IG_HOSTS = {'instagram.com', 'm.instagram.com'}
+
+
+def extract_reel_code(text: str) -> str | None:
+    """instagram.com/reel/<code>/, /reels/<code>/, /p/<code>/ or /<user>/reel/<code>/ -> <code>."""
+    text = (text or '').strip()
+    if not text:
+        return None
+    if '://' not in text:
+        text = 'https://' + text
+    try:
+        parsed = urlparse(text)
+    except ValueError:
+        return None
+    host = (parsed.hostname or '').lower()
+    if host.startswith('www.'):
+        host = host[4:]
+    if host not in _IG_HOSTS:
+        return None
+    parts = [p for p in parsed.path.split('/') if p]
+    for i, part in enumerate(parts[:-1]):
+        if part in ('reel', 'reels', 'p') and REEL_CODE.fullmatch(parts[i + 1]):
+            return parts[i + 1]
+    return None
+
+
+def reel_url(code: str) -> str:
+    return f'https://www.instagram.com/reel/{code}/'

@@ -1,0 +1,300 @@
+{
+  "video_id": "thDu_XGcHMI",
+  "creator": "Jeremy Lefebvre Makes Money",
+  "title": "once in 20 year panic",
+  "upload_date": "20261120",
+  "duration_seconds": 2396.5,
+  "source": "https://www.youtube.com/watch?v=thDu_XGcHMI",
+  "verdicts": "new-info | useful | redundant | blank | wrong  (see plan/watch-skill-testing-mode/PLAN.md)",
+  "cues": [
+    {
+      "cue_id": "c01",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 142.292,
+      "heard": "phase. Uh since that particular time SpaceX is down 15 %, AMD is down 18 %,",
+      "offsets": {
+        "-2": "useful",
+        "+0": "new-info",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "TradingView AI-trade overlay (SNDK, SPX, AMD, AVGO, TSM, NVDA...) with watchlist; same screen at every offset"
+    },
+    {
+      "cue_id": "c02",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 145.892,
+      "heard": "SpaceX is down 15 %, AMD is down 18 %, Avago is down 19 %, TSM is down 25 %,",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "new-info",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+2",
+      "notes": "Same AI-trade chart and watchlist; legend percentages and watchlist prices are readable at full size"
+    },
+    {
+      "cue_id": "c03",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 187.192,
+      "heard": "Sandisk is down 72 %, Iren is down 74 %, MUU, which is a 2x leverage on MU is",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "Same chart; MUU/SOXL rows in the watchlist, transcript already gives the percentages"
+    },
+    {
+      "cue_id": "c04",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 189.392,
+      "heard": "MUU, which is a 2x leverage on MU is down 82 and 1/2 %. This uh X uh SOXL",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "new-info"
+      },
+      "best_offset": "+6",
+      "notes": "Same chart; crosshair appears on the chart at the later offsets"
+    },
+    {
+      "cue_id": "c05",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 203.792,
+      "heard": "semiconductors. That one's down 86 % since then. And SNXX, that's a 2x",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "Same chart; SNXX row visible, transcript already covers it"
+    },
+    {
+      "cue_id": "c06",
+      "term": "next-one",
+      "category": "transition",
+      "t": 290.694,
+      "heard": "late. I always tell you guys with like number one way you can make a lot I mean",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "wrong",
+        "+6": "wrong"
+      },
+      "best_offset": null,
+      "notes": "Full-screen webcam only, no market content"
+    },
+    {
+      "cue_id": "c07",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 377.895,
+      "heard": "But I mean, there's a lot of stocks that are holding up decent. CRM's green",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "new-info",
+        "+6": "useful"
+      },
+      "best_offset": "+4",
+      "notes": "Switches to his own watchlist (CRM, AMZN, RH, WYNN, ELF); tooltips show Salesforce at +4"
+    },
+    {
+      "cue_id": "c08",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 852.599,
+      "heard": "it's at 58,000. Um you see get an updated look here.",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "wrong",
+        "+6": "wrong"
+      },
+      "best_offset": null,
+      "notes": "Full-screen webcam only, timer 14:12, no chart"
+    },
+    {
+      "cue_id": "c09",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 1288.305,
+      "heard": "Uh, so let's go ahead and let's take a peek",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+2",
+      "notes": "Moves from own watchlist to the Semiconductors list with readable prices (MU, AMD, AVGO, NVDA, TSM)"
+    },
+    {
+      "cue_id": "c10",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 1442.706,
+      "heard": "way or the other. >> Let's talk about the reason to maybe not",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "YouTube: Bloomberg Surveillance, Edward Yardeni, headline 'Nvidia results offer relief to AI trade'; transcript covers it"
+    },
+    {
+      "cue_id": "c11",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 1927.612,
+      "heard": "S&P is down about 10% from all time highs, no, which is decent. That's a",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "wrong",
+        "+6": "wrong"
+      },
+      "best_offset": null,
+      "notes": "Full-screen webcam only, no chart"
+    },
+    {
+      "cue_id": "c12",
+      "term": "take-a-look",
+      "category": "pointing",
+      "t": 1951.112,
+      "heard": "these guys and let's take a look at just the QQQ",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "wrong",
+        "+4": "useful",
+        "+6": "new-info"
+      },
+      "best_offset": "+6",
+      "notes": "Symbol search panel, then SNDK chart, then typing qqq, then QQQ chart loads at +6"
+    },
+    {
+      "cue_id": "c13",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 1951.112,
+      "heard": "these guys and let's take a look at just the QQQ",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "wrong",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "Same window as c12 (duplicate cue time) [auto: within 1.5s of c12, marked redundant]"
+    },
+    {
+      "cue_id": "c14",
+      "term": "take-a-look",
+      "category": "pointing",
+      "t": 1963.613,
+      "heard": "18% now at this point in time. Let's take a look.",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "new-info",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "QQQ 1h chart, price about 614.8 near the lows, legible; later offsets the same chart"
+    }
+  ],
+  "control": [
+    {
+      "t": 0.0,
+      "reason": "first-frame",
+      "verdict": "new-info"
+    },
+    {
+      "t": 55.7,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 556.033333,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 897.766667,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 1275.1,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 1586.733333,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 1636.633333,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 1734.966667,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 1824.166667,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 2001.666667,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 2071.2,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 2301.8,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    }
+  ],
+  "control_notes": "Scene-change frames: AI-trade chart with prices, Dan Ives and Yardeni videos, blank loading page, webcam-only and recommendation screens, semis list, Dan Ives ANT price 96.885, Discord post of the $88,000 buys.",
+  "labeling_notes": "Labeled by Claude from contact sheets; new-info only where text was readable.",
+  "trained_at": "2026-11-23"
+}

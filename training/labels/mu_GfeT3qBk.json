@@ -1,0 +1,284 @@
+{
+  "video_id": "mu_GfeT3qBk",
+  "creator": "Options With Ryan",
+  "title": "Options Trading University Review 2026 | Tom Shares His 1 Year Trading Journey (Options With Ryan)",
+  "upload_date": "20261107",
+  "duration_seconds": 1104.5,
+  "source": "https://www.youtube.com/watch?v=mu_GfeT3qBk",
+  "verdicts": "new-info | useful | redundant | blank | wrong  (see plan/watch-skill-testing-mode/PLAN.md)",
+  "cues": [
+    {
+      "cue_id": "c01",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 47.76,
+      "heard": "actually taught me a little bit about the zero DTE had mentioned the wheel",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "wrong",
+        "+6": "wrong"
+      },
+      "best_offset": null,
+      "notes": "guest talking head; 'DTE' is zero-DTE options, not a ticker; nothing on screen"
+    },
+    {
+      "cue_id": "c02",
+      "term": "strike",
+      "category": "options",
+      "t": 80.24,
+      "heard": "with you. But I had done a couple of um you know, I sold some cash secured puts.",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "wrong",
+        "+6": "wrong"
+      },
+      "best_offset": null,
+      "notes": "guest talking head; no cash-secured-put screen"
+    },
+    {
+      "cue_id": "c03",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 84.56,
+      "heard": "I'd never been assigned anything prior to joining OTU. And and then really",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "wrong",
+        "+6": "wrong"
+      },
+      "best_offset": null,
+      "notes": "guest talking head; 'OTU' is the course name, not a ticker"
+    },
+    {
+      "cue_id": "c04",
+      "term": "volatility-index",
+      "category": "macro",
+      "t": 94.03999999999999,
+      "heard": "rolled into doing it. I would see your cash allocate your cash your VIX",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "wrong",
+        "+6": "wrong"
+      },
+      "best_offset": null,
+      "notes": "guest talking head; no VIX chart"
+    },
+    {
+      "cue_id": "c05",
+      "term": "strike",
+      "category": "options",
+      "t": 165.052,
+      "heard": "but I thought I could get in at a better strike. I thought it was going to kind",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "wrong",
+        "+6": "wrong"
+      },
+      "best_offset": null,
+      "notes": "guest talking head while discussing PLTR assignment; no strike shown"
+    },
+    {
+      "cue_id": "c06",
+      "term": "strike",
+      "category": "options",
+      "t": 233.612,
+      "heard": "Trading University get assigned, covered call,",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "wrong",
+        "+6": "wrong"
+      },
+      "best_offset": null,
+      "notes": "guest talking head"
+    },
+    {
+      "cue_id": "c07",
+      "term": "bollinger",
+      "category": "chart",
+      "t": 417.295,
+      "heard": "primarily where are they at in the Bollinger Band?",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "wrong",
+        "+6": "wrong"
+      },
+      "best_offset": null,
+      "notes": "guest talking head; no Bollinger chart"
+    },
+    {
+      "cue_id": "c08",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 442.775,
+      "heard": "um, I would go pretty heavy. So instead of doing like one CLS or three CLSs, now",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "wrong",
+        "+6": "wrong"
+      },
+      "best_offset": null,
+      "notes": "guest talking head; CLS mentioned but no chart"
+    },
+    {
+      "cue_id": "c09",
+      "term": "bollinger",
+      "category": "chart",
+      "t": 474.055,
+      "heard": "I'm I'm comfortable at the lower Bollinger Band. And historically, you",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "wrong",
+        "+6": "wrong"
+      },
+      "best_offset": null,
+      "notes": "guest talking head; no Bollinger chart"
+    },
+    {
+      "cue_id": "c10",
+      "term": "bollinger",
+      "category": "chart",
+      "t": 552.577,
+      "heard": "it's just the um being comfortable with the Bollinger Bands, um getting better",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "wrong",
+        "+6": "wrong"
+      },
+      "best_offset": null,
+      "notes": "guest talking head"
+    },
+    {
+      "cue_id": "c11",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 554.777,
+      "heard": "the Bollinger Bands, um getting better at understanding MACD, and kind of",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "wrong",
+        "+6": "wrong"
+      },
+      "best_offset": null,
+      "notes": "guest talking head; MACD is an indicator, not a ticker"
+    },
+    {
+      "cue_id": "c12",
+      "term": "next-one",
+      "category": "transition",
+      "t": 764.979,
+      "heard": "know, perspective on why it's happening and um you know, the other ones a little",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "wrong",
+        "+6": "wrong"
+      },
+      "best_offset": null,
+      "notes": "guest talking head"
+    },
+    {
+      "cue_id": "c13",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 1041.622,
+      "heard": "to look at the new uh tool that you um put out today, the OTU SEMA. Is it SEMA?",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "wrong",
+        "+6": "wrong"
+      },
+      "best_offset": null,
+      "notes": "guest talking head then host talking head; 'SEMA' is an OTU tool name, not shown on screen"
+    }
+  ],
+  "control": [
+    {
+      "t": 0.0,
+      "reason": "first-frame",
+      "verdict": "wrong"
+    },
+    {
+      "t": 197.88,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 303.88,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 455.16,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 594.12,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 690.88,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 714.64,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 787.88,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 839.64,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 975.64,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 1068.64,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 1104.48,
+      "reason": "scene-change",
+      "verdict": "blank"
+    }
+  ],
+  "control_notes": "Control frames were viewed individually (no control sheet file was produced): alternating host and guest webcams throughout; final frame at 18:24 is black.",
+  "labeling_notes": "Labeled by Claude from contact sheets; new-info only where text was readable. Client-testimonial interview: the whole video is two webcams (guest Tom in a vertical phone frame, host Ryan full screen) with only an 'Options Trading University' logo bug. No charts, tickers or screen shares anywhere, so every cue frame is a talking head (W).",
+  "trained_at": "2026-11-07"
+}

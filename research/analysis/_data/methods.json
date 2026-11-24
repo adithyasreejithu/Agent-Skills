@@ -1,0 +1,350 @@
+{
+  "methods": {
+    "portfolio-performance-review-from-brokerage": {
+      "id": "portfolio-performance-review-from-brokerage",
+      "name": "Portfolio performance review from brokerage screenshots",
+      "domain": "stocks",
+      "description": "Reviewing the account's total value, rate of return and per-position gain/loss figures from brokerage app screenshots. Used to track progress, see which holdings drive gains and to frame later discussion of which names to hold.",
+      "steps": [
+        {
+          "id": "check-account-value-and-return",
+          "title": "Check account value and return",
+          "does": "Open a screenshot of the account overview and read total value, daily change and multi-year rate of return.",
+          "why": "To confirm overall portfolio progress against prior highs."
+        },
+        {
+          "id": "review-realized-gain-loss-by-year",
+          "title": "Review realized gain/loss by year",
+          "does": "Open the realized gain/loss report and compare the current year with the previous calendar year.",
+          "why": "Show how a repeated strategy has actually paid over time, not just in theory."
+        },
+        {
+          "id": "read-per-position-gains-and-losses",
+          "title": "Read per-position gains and losses",
+          "does": "Go through each holding's daily and total gain/loss and current value.",
+          "why": "To see which positions drive the day and total return."
+        }
+      ]
+    },
+    "risk-reward-pick-among-holdings": {
+      "id": "risk-reward-pick-among-holdings",
+      "name": "Risk-reward pick among holdings",
+      "domain": "stocks",
+      "description": "Choosing which one of several owned stocks to favour over a long horizon by weighing upside potential against business risk, valuation already realised, and total exposure across all portfolios. A qualitative comparison, no screen or chart.",
+      "steps": [
+        {
+          "id": "rank-upside-potential",
+          "title": "Rank upside potential",
+          "does": "Compare candidates on how much growth is still available from brands, expansion, margins and EPS.",
+          "why": "To find the name with the largest possible long-term payoff."
+        },
+        {
+          "id": "weigh-business-risk-and-valuation",
+          "title": "Weigh business risk and valuation",
+          "does": "Stress-test the highest-upside name for risks and note how much of the gain is already realised.",
+          "why": "To pick the best risk-adjusted holding, not just the highest upside."
+        },
+        {
+          "id": "check-total-exposure-across-portfolios",
+          "title": "Check total exposure across portfolios",
+          "does": "Account for how much of a stock is already held across all accounts before sizing.",
+          "why": "To avoid over-concentration and explain position sizes."
+        }
+      ]
+    },
+    "market-backdrop-from-cnbc-commentary": {
+      "id": "market-backdrop-from-cnbc-commentary",
+      "name": "Market backdrop from CNBC commentary",
+      "domain": "stocks",
+      "description": "Watching market-news segments from CNBC on YouTube to gather analyst views on index levels, yields, oil, sentiment and leadership, then reacting with the creator's own view. Used for the macro and market backdrop.",
+      "steps": [
+        {
+          "id": "play-cnbc-segment-and-react",
+          "title": "Play CNBC segment and react",
+          "does": "Play a CNBC clip, pause, and give a counterview or comment.",
+          "why": "To compare Wall Street opinion with the creator's own view of the market."
+        }
+      ]
+    },
+    "wheel-stock-qualification-checklist": {
+      "id": "wheel-stock-qualification-checklist",
+      "name": "Wheel stock qualification checklist",
+      "domain": "stocks",
+      "description": "Checking a candidate stock against fixed criteria before selling cash-secured puts on it as the first leg of the wheel: long-term uptrend, positive and reasonable P/E, consistent earnings beats and strong fundamentals. Used to avoid being assigned a stock in a downtrend.",
+      "steps": [
+        {
+          "id": "check-18-month-uptrend-on-chart",
+          "title": "Check 18-month uptrend on chart",
+          "does": "Open a long-term price chart and draw a line from about a year and a half ago to the current price to confirm an upward trend.",
+          "why": "The wheel is neutral to bullish, so the stock must be trending up in case of assignment."
+        },
+        {
+          "id": "check-p-e-ratio-is-positive",
+          "title": "Check P/E ratio is positive",
+          "does": "Read forward and trailing P/E from a slide, then confirm the P/E history on a chart site.",
+          "why": "A positive P/E (ideally under 100) shows the company is profitable; above 100 requires enough cash to cover debts."
+        },
+        {
+          "id": "confirm-consecutive-earnings-beats",
+          "title": "Confirm consecutive earnings beats",
+          "does": "Check the earnings record for consecutive quarterly beats and no misses.",
+          "why": "Two missed quarters typically cause selling and a downtrend, which hurts a wheel position."
+        },
+        {
+          "id": "review-company-fundamentals-and-scenarios",
+          "title": "Review company fundamentals and scenarios",
+          "does": "Read revenue, cash, margins and growth on a summary slide and note bull, neutral and bear price scenarios.",
+          "why": "Know the company being traded (Peter Lynch's 'know what you own') and set expectations for assignment outcomes."
+        }
+      ]
+    },
+    "vix-based-cash-allocation": {
+      "id": "vix-based-cash-allocation",
+      "name": "VIX-based cash allocation",
+      "domain": "stocks",
+      "description": "Using the VIX level to decide how much of the portfolio to keep in cash versus invested, with higher VIX meaning more fear and a lower cash buffer, plus a per-stock exposure cap. Used to stay liquid for volatility spikes without sitting out long calm rallies.",
+      "steps": [
+        {
+          "id": "read-vix-level-against-allocation-bands",
+          "title": "Read VIX level against allocation bands",
+          "does": "View the VIX chart and match the current level to a table of cash-versus-invested bands.",
+          "why": "Low VIX signals greed and a higher chance of a spike, so more cash is kept; high VIX is a better time to deploy."
+        },
+        {
+          "id": "cap-single-stock-put-exposure",
+          "title": "Cap single-stock put exposure",
+          "does": "Limit total cash-secured put assignment value in one stock to a percentage of the portfolio.",
+          "why": "Avoid concentration if assigned."
+        }
+      ]
+    },
+    "cash-secured-put-strike-selection": {
+      "id": "cash-secured-put-strike-selection",
+      "name": "Cash-secured put strike selection",
+      "domain": "options",
+      "description": "Choosing the expiry and strike of a cash-secured put on an options chain by delta, premium return and distance to assignment, with the chart used as a sanity check. Used as the entry leg of the wheel strategy.",
+      "steps": [
+        {
+          "id": "set-expiry-and-delta-targets",
+          "title": "Set expiry and delta targets",
+          "does": "Decide on days to expiration and a delta range before opening the chain.",
+          "why": "Capture the fastest theta decay while keeping enough time to be right."
+        },
+        {
+          "id": "compare-strikes-on-the-options-chain",
+          "title": "Compare strikes on the options chain",
+          "does": "Open the options chain for the chosen expiry and compare strikes by delta, mid price and ROI on capital.",
+          "why": "Balance premium against chance of assignment."
+        },
+        {
+          "id": "check-bollinger-bands-for-entry-risk",
+          "title": "Check Bollinger Bands for entry risk",
+          "does": "Look at where price sits relative to Bollinger Bands on the chart before choosing how far out of the money to sell.",
+          "why": "Price outside the bands tends to revert to the mean, so being at the upper band means more near-term pullback risk."
+        }
+      ]
+    },
+    "covered-call-strike-selection": {
+      "id": "covered-call-strike-selection",
+      "name": "Covered call strike selection",
+      "domain": "options",
+      "description": "After assignment in the wheel, picking the strike and expiry of a covered call on an options chain, never below the assignment price, trading off premium against appreciation. Used to collect income while holding the shares.",
+      "steps": [
+        {
+          "id": "pick-covered-call-strike-above-cost",
+          "title": "Pick covered call strike above cost",
+          "does": "Open the chain at about 15-25 days out and choose a strike at or above the assignment price by delta and premium.",
+          "why": "Never sell below cost basis, so the shares are only called away at a profit."
+        }
+      ]
+    },
+    "crashed-stock-candidate-list": {
+      "id": "crashed-stock-candidate-list",
+      "name": "Crashed-stock candidate list",
+      "domain": "stocks",
+      "description": "Building a watchlist or model portfolio from stocks that have fallen sharply over the past year, showing each one's price chart and percent decline, then justifying a rebound thesis with business fundamentals such as segment EBITDA, recurring revenue, growth levers and forward P/E. Used to find beaten-down names with multi-year upside.",
+      "steps": [
+        {
+          "id": "show-one-year-price-decline",
+          "title": "Show one-year price decline",
+          "does": "Display a price chart screenshot of each candidate with its past-year percent change and rank it in the list.",
+          "why": "Confirms the stock has genuinely crashed rather than being near highs."
+        },
+        {
+          "id": "check-segment-fundamentals",
+          "title": "Check segment fundamentals",
+          "does": "Go through the company's earnings drivers using the metric that fits the business, such as adjusted EBITDA per property for resorts.",
+          "why": "Shows the business is still producing cash despite the price drop."
+        },
+        {
+          "id": "judge-valuation-by-forward-p-e",
+          "title": "Judge valuation by forward P/E",
+          "does": "Compare the stock's forward P/E with the quality and growth levers of the business.",
+          "why": "A crashed stock is attractive only if it is cheap relative to its growth."
+        }
+      ]
+    },
+    "market-breadth-and-sentiment-check": {
+      "id": "market-breadth-and-sentiment-check",
+      "name": "Market breadth and sentiment check",
+      "domain": "stocks",
+      "description": "Checking what is under the surface of the index using the share of stocks above their 50-day moving average, a market-tide flow view and a fear/greed sentiment gauge. Used to judge whether a rally is narrow, whether rotation is under way and whether sentiment is fearful enough to start selling puts.",
+      "steps": [
+        {
+          "id": "read-breadth-of-stocks-above-50-day",
+          "title": "Read breadth of stocks above 50-day",
+          "does": "Open a chart of the percentage of index stocks above their 50-day moving average and compare today with prior days and prior lows.",
+          "why": "Reveal whether index highs are driven by a few mega caps while most stocks are weak."
+        },
+        {
+          "id": "read-options-market-tide",
+          "title": "Read options market tide",
+          "does": "Open an options-flow dashboard and read market tide, the biggest net put and call premium names and the fear/greed gauge.",
+          "why": "Gauge institutional hedging versus bullish positioning and the overall sentiment."
+        }
+      ]
+    },
+    "macro-check-with-cme-fedwatch": {
+      "id": "macro-check-with-cme-fedwatch",
+      "name": "Macro check with CME FedWatch",
+      "domain": "stocks",
+      "description": "Using the CME FedWatch tool to read the market-implied probabilities of rate decisions at upcoming meetings and relating them to upcoming data such as CPI. Used to judge whether rate hikes are being priced in or pushed out.",
+      "steps": [
+        {
+          "id": "read-meeting-probabilities",
+          "title": "Read meeting probabilities",
+          "does": "Open the FedWatch probability table and read the odds for the next meetings.",
+          "why": "See what rate path the market is pricing before key data."
+        }
+      ]
+    },
+    "technical-read-on-a-stock-chart": {
+      "id": "technical-read-on-a-stock-chart",
+      "name": "Technical read on a stock chart",
+      "domain": "stocks",
+      "description": "Reading a candlestick chart with Bollinger Bands, moving averages, VWAP, RSI and MACD to judge trend, pullback depth and likely support. Used to decide where a stock may pull back to and whether it is a candidate.",
+      "steps": [
+        {
+          "id": "read-bands-averages-and-oscillators",
+          "title": "Read bands, averages and oscillators",
+          "does": "Look at where price sits versus Bollinger Bands, key moving averages, VWAP, RSI and MACD.",
+          "why": "Estimate likely pullback targets and the trend state."
+        },
+        {
+          "id": "compare-rsi-and-bounce-levels-with-past-bottoms",
+          "title": "Compare RSI and bounce levels with past bottoms",
+          "does": "Read RSI on an index ETF chart, compare it with RSI at previous crash bottoms and mark likely bounce levels such as gap-up origins.",
+          "why": "To gauge how oversold the market is and where a bounce could start."
+        },
+        {
+          "id": "check-index-etf-drawdown-from-high",
+          "title": "Check index ETF drawdown from high",
+          "does": "Open a price chart of an index ETF and read how far it has fallen from its most recent high.",
+          "why": "To size the pullback and put the current selloff in context."
+        }
+      ]
+    },
+    "market-maker-gex-wall-read": {
+      "id": "market-maker-gex-wall-read",
+      "name": "Market maker GEX wall read",
+      "domain": "options",
+      "description": "Reading market maker gamma exposure data to find call walls (resistance), put walls (support) and acceleration levels, plus the expected two-week market maker range of an index. Used to check where hedging flows might support or accelerate a move before choosing strikes.",
+      "steps": [
+        {
+          "id": "find-call-and-put-walls",
+          "title": "Find call and put walls",
+          "does": "Open the GEX or market maker view for a ticker and read call wall, put wall and acceleration levels.",
+          "why": "Locate resistance, support and zones where moves may accelerate."
+        },
+        {
+          "id": "read-expected-market-maker-range",
+          "title": "Read expected market maker range",
+          "does": "Read the option-implied expected move range of an index ETF for the coming days.",
+          "why": "To size realistic downside and upside from volatility and options pricing."
+        }
+      ]
+    },
+    "seasonal-monthly-return-history-check": {
+      "id": "seasonal-monthly-return-history-check",
+      "name": "Seasonal monthly return history check",
+      "domain": "stocks",
+      "description": "Reviewing an index's return for the same calendar month in every year of a long history to judge whether that month tends to be volatile or rewarding. Used to set expectations and decide whether to look for buying opportunities in the coming month.",
+      "steps": [
+        {
+          "id": "read-yearly-returns-for-the-month",
+          "title": "Read yearly returns for the month",
+          "does": "Open a table or page of the index's return for one calendar month in each year and read the sequence of up and down years.",
+          "why": "To gauge how large and how mixed the month's moves have historically been."
+        }
+      ]
+    },
+    "inflation-tracker-check": {
+      "id": "inflation-tracker-check",
+      "name": "Inflation tracker check",
+      "domain": "stocks",
+      "description": "Checking a real-time inflation tracker website for the current inflation rate and its projected path toward the Fed target ahead of an inflation release. Used to keep a sell-off in macro context.",
+      "steps": [
+        {
+          "id": "read-real-time-inflation-rate-and-projection",
+          "title": "Read real-time inflation rate and projection",
+          "does": "Open the tracker and read the current inflation estimate and the projected path to the Fed's 2% target.",
+          "why": "To judge whether inflation is easing enough to calm rate fears."
+        }
+      ]
+    },
+    "vix-spike-history-and-forward-returns": {
+      "id": "vix-spike-history-and-forward-returns",
+      "name": "VIX spike history and forward returns",
+      "domain": "stocks",
+      "description": "Comparing the current VIX and VXN with past spikes and then reading a study of S&P 500 forward returns and time to normalise after VIX closes above a threshold. Used to put a panic sell-off in historical context and decide whether to buy or hold.",
+      "steps": [
+        {
+          "id": "compare-vix-and-vxn-with-past-spikes",
+          "title": "Compare VIX and VXN with past spikes",
+          "does": "View VIX and VXN charts and compare the current level with previous spike peaks.",
+          "why": "To judge how extreme the fear is relative to prior crashes."
+        },
+        {
+          "id": "read-forward-returns-after-vix-closes-above-35",
+          "title": "Read forward returns after VIX closes above 35",
+          "does": "Open a historical study of forward S&P 500 returns at 1, 3 and 6 months after VIX closed above 35 and days to return below 20.",
+          "why": "To replace emotion with data on what usually follows."
+        },
+        {
+          "id": "review-qqq-rallies-after-past-crashes",
+          "title": "Review QQQ rallies after past crashes",
+          "does": "Review index ETF performance after previous VIX/VXN spikes and bear-market first-month sell-offs to size a likely relief rally.",
+          "why": "To estimate rally targets and plan exits for those who do not believe in a recovery."
+        }
+      ]
+    },
+    "dark-pool-block-trade-read": {
+      "id": "dark-pool-block-trade-read",
+      "name": "Dark pool block trade read",
+      "domain": "stocks",
+      "description": "Reading off-exchange institutional block trades for an ETF or stock, filtered by size, to see whether large buyers or sellers dominated. Used to judge where institutions accumulate during a sell-off.",
+      "steps": [
+        {
+          "id": "filter-dark-pool-prints-by-size",
+          "title": "Filter dark pool prints by size",
+          "does": "Search a ticker and filter dark pool prints to whale or mega size, comparing buys to sells.",
+          "why": "To see where hidden institutional accumulation occurs before it hits the tape."
+        }
+      ]
+    },
+    "defensive-stock-rotation-watch": {
+      "id": "defensive-stock-rotation-watch",
+      "name": "Defensive stock rotation watch",
+      "domain": "stocks",
+      "description": "Comparing valuations and price action of defensive stocks such as staples with tech, and watching whether safe havens break down. Used to judge when rotation back into technology may begin.",
+      "steps": [
+        {
+          "id": "compare-defensive-and-tech-valuations",
+          "title": "Compare defensive and tech valuations",
+          "does": "Compare P/E and growth of crowded defensive names with tech names, then watch defensives for a breakdown.",
+          "why": "To spot crowded safe-haven trades likely to unwind into a rotation to tech."
+        }
+      ]
+    }
+  }
+}

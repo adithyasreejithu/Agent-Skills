@@ -171,6 +171,9 @@ TRANSCRIBE_PROMPT = ('Transcribe this audio verbatim. Output one line per senten
 _TS = r'(?:(\d+):)?(\d{1,2}):(\d{1,2}(?:\.\d+)?)s?'
 # '[MM:SS.s] words' (what we ask for) and '[MM:SS.s --> MM:SS.s] words' (what the model sometimes returns).
 _LINE = re.compile(r'^\s*(?:[-*]\s*)?\**\[' + _TS + r'(?:\s*(?:-->|-|–)\s*' + _TS + r')?\]\**\s*(.+?)\s*$')
+# A timestamp with no words after it: the model's way of saying there is no speech there.
+_BARE = re.compile(r'^\s*(?:[-*]\s*)?\**\[' + _TS + r'(?:\s*(?:-->|-|–)\s*' + _TS + r')?\]\**[\s.*_-]*$')
+_FILLER = ' \t*_.\u200b\u200e\u200f\ufeff'
 
 
 def _clock_seconds(hours, minutes, seconds) -> float:
@@ -185,10 +188,13 @@ def parse_timestamped_lines(text: str, duration: float | None = None):
         if match:
             h1, m1, s1, h2, m2, s2, words = match.groups()
             end = _clock_seconds(h2, m2, s2) if m2 is not None else None
-            starts.append((_clock_seconds(h1, m1, s1), end, words))
+            # Only markup or invisible characters after the timestamp: keep its time, drop the line.
+            starts.append((_clock_seconds(h1, m1, s1), end, words if words.strip(_FILLER) else None))
     starts.sort(key=lambda item: item[0])  # the model occasionally emits a line out of order
     segments = []
     for i, (start, end, words) in enumerate(starts):
+        if words is None:
+            continue
         if end is None:
             end = starts[i + 1][0] if i + 1 < len(starts) else max(duration or start, start)
         segments.append({'start': start, 'end': max(end, start), 'text': words})
@@ -213,7 +219,8 @@ def transcribe_audio(audio_path: Path, key: str, *, model: str, duration: float 
         except (ValueError, KeyError, TypeError, AttributeError):
             raise _fail('response', body[:300].decode('utf-8', errors='replace'), key) from None
         segments = parse_timestamped_lines(text, duration)
-        if text.strip() and not segments:
+        lines = [line for line in text.splitlines() if line.strip()]
+        if lines and not segments and not all(_BARE.match(line) for line in lines):
             raise _fail('response', 'the transcript came back in a format this version cannot read: '
                         + text[:120].replace(chr(10), ' '), key)
         segments.total_tokens = tokens if isinstance(tokens, int) else None

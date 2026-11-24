@@ -1,0 +1,316 @@
+{
+  "video_id": "sgawBWvCG2Y",
+  "creator": "Jeremy Lefebvre Makes Money",
+  "title": "The Largest Move in your lifetime",
+  "upload_date": "20261105",
+  "duration_seconds": 2842.7,
+  "source": "https://www.youtube.com/watch?v=sgawBWvCG2Y",
+  "verdicts": "new-info | useful | redundant | blank | wrong  (see plan/watch-skill-testing-mode/PLAN.md)",
+  "cues": [
+    {
+      "cue_id": "c01",
+      "term": "volatility-index",
+      "category": "macro",
+      "t": 48.64,
+      "heard": "that at the beginning of this video. The VIX was up almost 70% today. 70%.",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "new-info",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "-2 is the AI-trade watchlist (not VIX); +0..+6 TradingView VIX chart, header VIX 28.18 +11.57 +69.66% (level not in captions)"
+    },
+    {
+      "cue_id": "c02",
+      "term": "volatility-index",
+      "category": "macro",
+      "t": 59.91,
+      "heard": "I've seen the VIX up 70%. It's simply a",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "same VIX chart as c01"
+    },
+    {
+      "cue_id": "c03",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 323.199,
+      "heard": "these moves. This was today. Okay, so SNXX that SanDisk 2X leverage there was",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "X post: 1-month QQQ-vs-AI-names overlay + 'AI trade' watchlist with last/chg%: SNXX 3.06 -43.28%, MUU 12.60 -34.48%, SNDK 806.30 -22.28%, AMD 403.01, MU 658.53 -17.19%, IREN 18.03, MRVL 133.40, BE 167.40, NBIS 120.09, TSM 362.90, AVGO 291.47, CRWV 43.66, NVDA 181.60, SPCX 123.39, GEV 770.86, CAT 553.51"
+    },
+    {
+      "cue_id": "c04",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 327.039,
+      "heard": "SNXX that SanDisk 2X leverage there was down 43% today. MUU, this is a popular",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "same AI-trade watchlist screen as c03"
+    },
+    {
+      "cue_id": "c05",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 332.15999999999997,
+      "heard": "one. A lot of people like to play. It's a 2x leverage on MU stock. It was down",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "same AI-trade watchlist screen as c03"
+    },
+    {
+      "cue_id": "c06",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 341.12,
+      "heard": "today. Today SanDisk down 22%. A dosey do there. AMD AMD 17 12% here today. MU",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "same AI-trade watchlist screen as c03"
+    },
+    {
+      "cue_id": "c07",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 349.6,
+      "heard": "is down over 17%. This is like the AI trade watch list. I have this IN stock",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "same screen; watchlist resolves spoken 'IN' to IREN"
+    },
+    {
+      "cue_id": "c08",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 360.96,
+      "heard": "today. This Nebius or whatever is down 15% here today. TSM down 10%. Avago down",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "same AI-trade watchlist screen as c03"
+    },
+    {
+      "cue_id": "c09",
+      "term": "chart",
+      "category": "chart",
+      "t": 384.4,
+      "heard": "right? In Caterpillar stock. Incredible, right? So this is a one-mon chart here,",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "the 'one-month chart' is the same overlay as c03; right-axis % labels match what he reads"
+    },
+    {
+      "cue_id": "c10",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 817.2,
+      "heard": "company over the next several years. Right here what I hear here the way I'm",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "VIX chart + 'My current positions' list with prices (CELH 30.04 -2.31%, AMD 404.40, PLTR 154.99, SOFI 16.04, AXP 324.97, etc.)"
+    },
+    {
+      "cue_id": "c11",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 1038.64,
+      "heard": "March 17th, 2020. While retail traders typically support",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "TradingView article 'Retail investors flee single stocks... - Vanda' with chips SPY -4.41%, QQQ -6.49%, TQQQ -18.92%, SOXL -38.71%; Dow -1728 / -3.2%"
+    },
+    {
+      "cue_id": "c12",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 1543.44,
+      "heard": "discounting that with the lower.\" >> Let's talk about some of these AI",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "-2/+0 Bloomberg Ritholtz clip 'Stocks plunge as traders dump everything with AI exposure'; +2/+4 VIX + positions list again; +6 AI-trade watchlist again"
+    },
+    {
+      "cue_id": "c13",
+      "term": "next-one",
+      "category": "transition",
+      "t": 1933.679,
+      "heard": "No, no. And so, um, yeah, something to consider there. All right, next one up",
+      "offsets": {
+        "-2": "blank",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "new-info"
+      },
+      "best_offset": "+6",
+      "notes": "-2 full-screen webcam; +0..+4 Bloomberg Chaloff clip 'Nasdaq 100 plunges on chip rout'; +6 shows Microsoft 543.81 -11.99 -2.16% ticker"
+    },
+    {
+      "cue_id": "c14",
+      "term": "take-a-look",
+      "category": "pointing",
+      "t": 1987.519,
+      "heard": "So, Nvidia over the past year is down 7%, right? Uh but let's take a look at",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "-2",
+      "notes": "TradingView NVDA daily charts at widening ranges; -2 shows NVDA 181.60 -18.53 (-9.26%); later tiles show the prior-year drops he narrates"
+    },
+    {
+      "cue_id": "c15",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 1987.519,
+      "heard": "So, Nvidia over the past year is down 7%, right? Uh but let's take a look at",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "identical frames to c14 (same timestamp) [auto: within 1.5s of c14, marked redundant]"
+    }
+  ],
+  "control": [
+    {
+      "t": 0.0,
+      "reason": "first-frame",
+      "verdict": "new-info"
+    },
+    {
+      "t": 89.833333,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 308.0,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 738.166667,
+      "reason": "scene-change",
+      "verdict": "redundant"
+    },
+    {
+      "t": 991.633333,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 1334.633333,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 1443.333333,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 1759.533333,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 1932.7,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 2084.066667,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 2232.833333,
+      "reason": "scene-change",
+      "verdict": "redundant"
+    },
+    {
+      "t": 2766.166667,
+      "reason": "scene-change",
+      "verdict": "redundant"
+    }
+  ],
+  "control_notes": "0 AI-trade watchlist with prices (N); 1 CNBC 'Democrats flip House and Senate' clip (U); 2 full-screen webcam (B); 3 same watchlist as 0 (R); 4 Vanda article with SPY/QQQ/TQQQ/SOXL % (N); 5 webcam over Bloomberg (B); 6 Ritholtz clip with SOX 9,349.72 -8.95% (N); 7 webcam (B); 8 Chaloff clip (U); 9 NVDA chart + positions list with prices and VIX 28.18 +69.66% (N); 10 CNBC clip again (R); 11 CNBC clip with webcam (R)",
+  "labeling_notes": "Labeled by Claude from contact sheets; new-info only where text was readable.",
+  "trained_at": "2026-11-06"
+}

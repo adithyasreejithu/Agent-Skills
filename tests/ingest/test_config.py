@@ -21,8 +21,11 @@ class PathTests(unittest.TestCase):
     def test_zero_config_defaults(self):
         p = self.paths()
         self.assertEqual(p.home, self.tmp / 'queue')
-        self.assertEqual(p.notes, self.tmp / 'queue' / 'notes')
-        self.assertEqual(p.digests, self.tmp / 'queue' / 'notes' / '_digests')
+        self.assertEqual(p.research, self.tmp / 'queue' / 'research')
+        self.assertEqual(p.notes, self.tmp / 'queue' / 'research' / 'summaries')
+        self.assertEqual(p.briefs, self.tmp / 'queue' / 'research' / 'briefs')
+        self.assertEqual(p.reels().reel_notes, self.tmp / 'queue' / 'research' / 'reels')
+        self.assertEqual(p.analysis_root(), self.tmp / 'queue' / 'research' / 'analysis')
         self.assertEqual(p.raw, self.tmp / 'queue' / 'raw')
         self.assertEqual(p.state, p.home)
         self.assertEqual(p.sources_file, p.home / 'sources.toml')
@@ -40,11 +43,23 @@ class PathTests(unittest.TestCase):
         p = self.paths(env={'INGEST_HOME': 'env-home'}, project='INGEST_HOME=proj-home', cli='cli-home')
         self.assertEqual(p.home, self.tmp / 'cli-home')
 
-    def test_absolute_paths_kept_and_digests_follow_notes(self):
+    def test_absolute_paths_kept_and_siblings_follow_research(self):
         target = (self.tmp / 'elsewhere').resolve()
-        p = self.paths(env={'INGEST_NOTES_DIR': str(target)})
-        self.assertEqual(p.notes, target)
-        self.assertEqual(p.digests, target / '_digests')
+        p = self.paths(env={'INGEST_RESEARCH_DIR': str(target)})
+        self.assertEqual(p.research, target)
+        self.assertEqual(p.notes, target / 'summaries')
+        self.assertEqual(p.briefs, target / 'briefs')
+        self.assertEqual(p.reel_notes, target / 'reels')
+        self.assertEqual(p.analysis_dir, target / 'analysis')
+
+    def test_notes_override_does_not_move_the_others(self):
+        p = self.paths(env={'INGEST_RESEARCH_DIR': 'r', 'INGEST_NOTES_DIR': 'n'})
+        self.assertEqual(p.notes, self.tmp / 'n')
+        self.assertEqual(p.briefs, self.tmp / 'r' / 'briefs')
+
+    def test_analysis_flag_defaults_on(self):
+        self.assertTrue(self.paths().analysis)
+        self.assertFalse(self.paths(env={'INGEST_ANALYSIS': '0'}).analysis)
 
     def test_windows_style_value_not_mangled(self):
         p = self.paths(project='INGEST_RAW_DIR=D:\\data\\raw\n')

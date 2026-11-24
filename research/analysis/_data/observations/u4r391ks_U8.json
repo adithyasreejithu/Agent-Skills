@@ -1,0 +1,494 @@
+{
+  "title": "Stock Market Crash Warning | VIX Hit 40 + My $240K TQQQ Trade (Options With Ryan)",
+  "channel": "Options With Ryan",
+  "url": "https://www.youtube.com/watch?v=u4r391ks_U8",
+  "published_at": "2026-11-21T02:11:41+00:00",
+  "video_id": "u4r391ks_U8",
+  "methods": [
+    {
+      "method_id": "portfolio-performance-review-from-brokerage",
+      "new_method": null,
+      "steps": [
+        {
+          "step_id": "review-realized-gain-loss-by-year",
+          "new_step": null,
+          "at": "01:14",
+          "does": "Shows the realized gain/loss report for the month so far (done every Friday for transparency), noting monthly targets were still hit despite the sell-off.",
+          "why": "To show that hedges and aggressive covered calls keep income on target even in a falling market.",
+          "data": [
+            "monthly realized gain/loss",
+            "covered call and hedge results"
+          ],
+          "tools": [
+            "Unidentified brokerage app"
+          ],
+          "indicators": [],
+          "conclusion": "Monthly targets still being hit thanks to hedges and covered calls.",
+          "tag": "explicit"
+        },
+        {
+          "step_id": "read-per-position-gains-and-losses",
+          "new_step": null,
+          "at": "18:20",
+          "does": "Opens the options-broker positions table and goes to the TQQQ position: total size about 240k, several lots, the newest lot down about 11% with an average cost of 48, and the level needed to break even.",
+          "why": "To explain the sizing-up trade and show how little bounce is needed for the latest lot to break even.",
+          "data": [
+            "TQQQ position about $240K",
+            "newest lot about -11%",
+            "average cost 48",
+            "break even needs retrace of first candle"
+          ],
+          "tools": [
+            "Unidentified options broker"
+          ],
+          "indicators": [
+            "Position size",
+            "Total gain/loss percent"
+          ],
+          "conclusion": "Doubling down is justified because only a small bounce restores break even.",
+          "tag": "explicit"
+        }
+      ],
+      "rules": []
+    },
+    {
+      "method_id": "inflation-tracker-check",
+      "new_method": null,
+      "steps": [
+        {
+          "step_id": "read-real-time-inflation-rate-and-projection",
+          "new_step": null,
+          "at": "02:30",
+          "does": "Opens nowflation.com, built from real-time data such as AAA gas prices and Zillow, and reads current inflation (2.96%) and the projection toward the Fed's 2% target by early spring, ahead of core PCE on Wednesday.",
+          "why": "To keep the sell-off in macroeconomic context and judge whether a 2022-style bear market is likely.",
+          "data": [
+            "inflation 2.96%",
+            "projected path to 2% by spring",
+            "core PCE due Wednesday",
+            "inflation component heatmap vs BLS CPI"
+          ],
+          "tools": [
+            "Nowflation"
+          ],
+          "indicators": [],
+          "conclusion": "Inflation is coming down, unlike 2021's 9%, so it does not point to a bear market.",
+          "tag": "explicit"
+        }
+      ],
+      "rules": []
+    },
+    {
+      "method_id": "macro-check-with-cme-fedwatch",
+      "new_method": null,
+      "steps": [
+        {
+          "step_id": "read-meeting-probabilities",
+          "new_step": null,
+          "at": "03:13",
+          "does": "Opens CME FedWatch and reads how many rate hikes are priced in: the fourth hike is gone, the third came off today, and December hike odds are below 90% with about 10% for no hike.",
+          "why": "To check whether the rate-hike outlook is improving as a macro backdrop to the sell-off.",
+          "data": [
+            "fourth hike removed",
+            "third hike off the table today",
+            "December hike odds below 90%",
+            "no-hike odds about 10%"
+          ],
+          "tools": [
+            "CME FedWatch"
+          ],
+          "indicators": [
+            "Rate hike probability"
+          ],
+          "conclusion": "Rate expectations are getting better; not like 2022 when 200bps of hikes were priced.",
+          "tag": "explicit"
+        }
+      ],
+      "rules": []
+    },
+    {
+      "method_id": "market-breadth-and-sentiment-check",
+      "new_method": null,
+      "steps": [
+        {
+          "step_id": "read-breadth-of-stocks-above-50-day",
+          "new_step": null,
+          "at": "04:30",
+          "does": "Looks at breadth charts for S&P 500 and Nasdaq (S5FI and NDFI-style tickers) plus RSP equal-weight, reading the share of stocks above their 50-day average (about 49% yesterday, probably near 40% today).",
+          "why": "To see whether the market is oversold under the surface and whether the equal-weight hiding place is also being sold.",
+          "data": [
+            "S&P 500 stocks above 50-day about 49% (prior day)",
+            "likely about 40% today",
+            "NDFI oversold",
+            "RSP selling off"
+          ],
+          "tools": [
+            "Unidentified charting site"
+          ],
+          "indicators": [
+            "50-day moving average"
+          ],
+          "conclusion": "Breadth is getting oversold, a better setup going into the sell-off.",
+          "tag": "explicit"
+        },
+        {
+          "step_id": "read-options-market-tide",
+          "new_step": null,
+          "at": "05:03",
+          "does": "Opens the OTU (Options Trading University) sentiment dashboard: market tide, net put premium, top net impact tickers by call and put premium, and the Fear & Greed gauge with category breakdown.",
+          "why": "To see real-time where institutions are buying calls or hedging with puts and whether fear has peaked.",
+          "data": [
+            "market tide extremely bearish",
+            "Fear & Greed 16",
+            "call buying in SPY, IWM, BE, IGV",
+            "put hedging in NVDA, MU, QQQ, Mag 7"
+          ],
+          "tools": [
+            "OTU"
+          ],
+          "indicators": [
+            "Market tide",
+            "Fear and greed sentiment"
+          ],
+          "conclusion": "Extreme fear not seen since the Iran war bottom; institutions stepping in with call buying in index ETFs.",
+          "tag": "explicit"
+        }
+      ],
+      "rules": []
+    },
+    {
+      "method_id": "technical-read-on-a-stock-chart",
+      "new_method": null,
+      "steps": [
+        {
+          "step_id": "compare-rsi-and-bounce-levels-with-past-bottoms",
+          "new_step": null,
+          "at": "05:49",
+          "does": "On a QQQ chart reads RSI at 26, compares it with 28 at the Iran war bottom and about 24 at the tariffs crash bottom, and marks 602 as a bounce area where the gap-up started.",
+          "why": "To estimate how much further the Nasdaq can fall and where it may bounce.",
+          "data": [
+            "QQQ RSI 26",
+            "Iran war bottom RSI 28",
+            "tariffs crash RSI about 24",
+            "bounce area 602",
+            "Nasdaq down on the year"
+          ],
+          "tools": [
+            "Unidentified charting site"
+          ],
+          "indicators": [
+            "RSI"
+          ],
+          "conclusion": "Overextended to the downside; more selling into the close possible, 602 is a bounce area.",
+          "tag": "explicit"
+        }
+      ],
+      "rules": []
+    },
+    {
+      "method_id": "market-maker-gex-wall-read",
+      "new_method": null,
+      "steps": [
+        {
+          "step_id": "read-expected-market-maker-range",
+          "new_step": null,
+          "at": "06:45",
+          "does": "Reads the market maker move for QQQ based on volatility: up to 644 and down to 585 over the next 7 days.",
+          "why": "To see the potential downside implied by volatility and options pricing.",
+          "data": [
+            "upper range 644",
+            "lower range 585",
+            "7-day horizon"
+          ],
+          "tools": [
+            "Unidentified charting site"
+          ],
+          "indicators": [
+            "Expected market maker range"
+          ],
+          "conclusion": "A final Monday flush is possible but VIX/VXN levels make it less typical.",
+          "tag": "explicit"
+        }
+      ],
+      "rules": []
+    },
+    {
+      "method_id": "vix-spike-history-and-forward-returns",
+      "new_method": null,
+      "steps": [
+        {
+          "step_id": "compare-vix-and-vxn-with-past-spikes",
+          "new_step": null,
+          "at": "07:55",
+          "does": "Reviews the VIX chart (high 38, closing about 38) against the Iran war bottom (31), the tariffs crash (60), the yen carry trade, 2022 and COVID (97), then VXN (45 vs 52 at the tariffs crash).",
+          "why": "VXN gives a better read of fear in tech; the aim is to show how rare this fear level is.",
+          "data": [
+            "VIX high 38",
+            "Iran war bottom VIX 31",
+            "tariffs crash VIX 60",
+            "COVID VIX 97",
+            "VXN 45 vs 52 tariffs crash high"
+          ],
+          "tools": [
+            "Unidentified charting site"
+          ],
+          "indicators": [
+            "VIX",
+            "VXN"
+          ],
+          "conclusion": "Nasdaq fear is almost as bad as the tariffs crash; an opportunity not seen for two to three years; volatility usually comes back in as hedges are monetized.",
+          "tag": "explicit"
+        },
+        {
+          "step_id": "read-forward-returns-after-vix-closes-above-35",
+          "new_step": null,
+          "at": "10:50",
+          "does": "Opens a study 'VIX Hits 35: What the S&P 500 Did Next': forward S&P 500 returns of +5.1% at 1 month, +9.13% at 60 days and about +10% at 90 days, plus days until VIX falls back below 20, noting episodes where volatility kept climbing (1998, 2002, 2008, 2020).",
+          "why": "To get a more logical mindset during emotional sell-offs and hold a longer-term view.",
+          "data": [
+            "1 month +5.12%",
+            "60 days +9.13%",
+            "90 days +10.89%",
+            "25 days to return to 20 after tariffs crash",
+            "episodes where volatility kept climbing"
+          ],
+          "tools": [],
+          "indicators": [
+            "VIX"
+          ],
+          "conclusion": "Forward returns are historically positive; based on data not opinion.",
+          "tag": "explicit"
+        },
+        {
+          "step_id": "review-qqq-rallies-after-past-crashes",
+          "new_step": null,
+          "at": "13:56",
+          "does": "Looks at QQQ after each past VIX spike (Iran war bottom +14-15% in a month, tariffs crash about +33% in three months, yen carry trade about +15%) and at the 2022 bear market's first month (about 16% drop then an 11% rally), projecting 10-12% rallies to 660 or 675-685.",
+          "why": "To show crashes usually produce sharp rallies even in bear markets, and to give exit levels.",
+          "data": [
+            "Iran war +14-15%",
+            "tariffs crash +33% in 3 months",
+            "yen carry +15%",
+            "2022 first month -16% then +11%",
+            "targets 660 and 675-685"
+          ],
+          "tools": [
+            "Unidentified charting site"
+          ],
+          "indicators": [
+            "RSI"
+          ],
+          "conclusion": "A 10-12% rally would not be surprising; use it to reduce positions if you doubt the market.",
+          "tag": "explicit"
+        }
+      ],
+      "rules": [
+        {
+          "text": "If you hold a position you don't believe in or are overlevered, start exiting into a 10-12% relief rally.",
+          "tag": "explicit"
+        },
+        {
+          "text": "A 15-20% sell-off in the past six years has always been followed by a strong rally, even in bear markets.",
+          "tag": "explicit"
+        }
+      ]
+    },
+    {
+      "method_id": "dark-pool-block-trade-read",
+      "new_method": null,
+      "steps": [
+        {
+          "step_id": "filter-dark-pool-prints-by-size",
+          "new_step": null,
+          "at": "12:44",
+          "does": "On OTU's dark pool page searches QQQ, filters to whale trades (over $10 million) then mega (over $1 million), and reads buy vs sell values.",
+          "why": "To see where off-exchange purchases are happening during the sell-off.",
+          "data": [
+            "QQQ whale trades over $10M",
+            "mega over $1M",
+            "buys outnumber sells",
+            "example prints 66M, 34M, 85M"
+          ],
+          "tools": [
+            "OTU"
+          ],
+          "indicators": [],
+          "conclusion": "All whale prints that day were buys: institutions buying the index off exchange.",
+          "tag": "explicit"
+        }
+      ],
+      "rules": []
+    },
+    {
+      "method_id": "vix-based-cash-allocation",
+      "new_method": null,
+      "steps": [
+        {
+          "step_id": "read-vix-level-against-allocation-bands",
+          "new_step": null,
+          "at": "18:54",
+          "does": "Matches the VXN level to a VXN cash allocation table (extreme fear above 35 means 0-5% cash; 30-35 means 5-10% cash). At the day's start VXN was 30-35 with about 6.5% cash, so that cash was put into TQQQ.",
+          "why": "To follow a rules-based plan for deploying cash into fear rather than act on emotion.",
+          "data": [
+            "VXN above 35: 0-5% cash",
+            "VXN 30-35: 5-10% cash",
+            "about 6.5% cash left",
+            "cash deployed into TQQQ"
+          ],
+          "tools": [],
+          "indicators": [
+            "VIX"
+          ],
+          "conclusion": "Following the allocation levels led to buying TQQQ today.",
+          "tag": "explicit"
+        }
+      ],
+      "rules": [
+        {
+          "text": "Deploy cash by VXN band: above 35 hold 0-5% cash, 30-35 hold 5-10%, 25-30 hold 10-20%.",
+          "tag": "visual"
+        }
+      ]
+    },
+    {
+      "method_id": "defensive-stock-rotation-watch",
+      "new_method": null,
+      "steps": [
+        {
+          "step_id": "compare-defensive-and-tech-valuations",
+          "new_step": null,
+          "at": "19:56",
+          "does": "Cites a previous study with staples at 34x earnings versus tech at 24x, contrasts Costco (10% revenue growth, 34x-ish P/E) with Nvidia (93% revenue growth, 16.2% P/E), and watches Costco, P&G, AT&T, Simon Property for a roll over; recalls Costco fell about 17% in the 2022 first month.",
+          "why": "Safe havens are crowded and rich; a break down would signal money rotating back into tech.",
+          "data": [
+            "staples P/E 34x",
+            "tech P/E 24x",
+            "Costco revenue growth 10%",
+            "Nvidia revenue growth 93%, P/E 16.2%",
+            "Costco near all-time high",
+            "2022: Costco -17% first month, -28% year"
+          ],
+          "tools": [],
+          "indicators": [
+            "P/E ratio",
+            "Revenue growth"
+          ],
+          "conclusion": "Waiting for defensive stocks to roll over, then rotation back into tech; defensive bid today is bull-market behaviour.",
+          "tag": "explicit"
+        }
+      ],
+      "rules": []
+    }
+  ],
+  "tools": [
+    {
+      "name": "Nowflation",
+      "kind": "website",
+      "url": "nowflation.com",
+      "used_for": "real-time inflation tracking and projection"
+    },
+    {
+      "name": "CME FedWatch",
+      "kind": "website",
+      "url": "cmegroup.com",
+      "used_for": "market-implied rate hike probabilities"
+    },
+    {
+      "name": "OTU",
+      "kind": "website",
+      "url": "otu.sensomarket.com",
+      "used_for": "options sentiment dashboard (market tide, fear/greed) and dark pool block trades"
+    },
+    {
+      "name": "Unidentified charting site",
+      "kind": "website",
+      "url": "",
+      "used_for": "breadth, RSI, VIX/VXN and QQQ charts"
+    },
+    {
+      "name": "Unidentified options broker",
+      "kind": "app",
+      "url": "",
+      "used_for": "positions table with lots, P/L and Greeks"
+    },
+    {
+      "name": "Unidentified brokerage app",
+      "kind": "app",
+      "url": "",
+      "used_for": "realized gain/loss report"
+    }
+  ],
+  "indicators": [
+    {
+      "name": "Rate hike probability",
+      "measures": "market-implied odds of Fed hikes",
+      "how_used": "checks that hikes are being removed from pricing",
+      "platform": "CME FedWatch"
+    },
+    {
+      "name": "50-day moving average",
+      "measures": "share of stocks above their 50-day average (breadth)",
+      "how_used": "about 49% yesterday, near 40% today means getting oversold",
+      "platform": "Unidentified charting site"
+    },
+    {
+      "name": "Market tide",
+      "measures": "net call vs put premium flow",
+      "how_used": "extremely bearish, but with call buying in index ETFs",
+      "platform": "OTU"
+    },
+    {
+      "name": "Fear and greed sentiment",
+      "measures": "composite sentiment gauge",
+      "how_used": "reading of 16 is extreme fear, last seen at the Iran war bottom",
+      "platform": "OTU"
+    },
+    {
+      "name": "RSI",
+      "measures": "momentum / overbought-oversold",
+      "how_used": "QQQ RSI 26 compared with 28 and 24 at prior bottoms",
+      "platform": "Unidentified charting site"
+    },
+    {
+      "name": "Expected market maker range",
+      "measures": "option-implied expected move",
+      "how_used": "QQQ range 585-644 over 7 days",
+      "platform": "Unidentified charting site"
+    },
+    {
+      "name": "VIX",
+      "measures": "S&P 500 implied volatility",
+      "how_used": "compared with past spikes and used for forward-return study",
+      "platform": "Unidentified charting site"
+    },
+    {
+      "name": "VXN",
+      "measures": "Nasdaq-100 implied volatility",
+      "how_used": "preferred read of tech fear; drives cash allocation bands",
+      "platform": "Unidentified charting site"
+    },
+    {
+      "name": "P/E ratio",
+      "measures": "valuation",
+      "how_used": "compares staples and tech multiples",
+      "platform": ""
+    },
+    {
+      "name": "Revenue growth",
+      "measures": "sales growth rate",
+      "how_used": "contrasts Costco and Nvidia growth with valuation",
+      "platform": ""
+    },
+    {
+      "name": "Position size",
+      "measures": "dollar size of a holding",
+      "how_used": "TQQQ position sized to about $240K",
+      "platform": "Unidentified options broker"
+    },
+    {
+      "name": "Total gain/loss percent",
+      "measures": "gain or loss versus cost",
+      "how_used": "newest TQQQ lot down about 11%",
+      "platform": "Unidentified options broker"
+    }
+  ]
+}

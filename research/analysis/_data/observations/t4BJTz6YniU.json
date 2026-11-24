@@ -1,0 +1,151 @@
+{
+  "title": "The Market is about to GO INSANE‼️",
+  "channel": "Jeremy Lefebvre Makes Money",
+  "url": "https://www.youtube.com/watch?v=t4BJTz6YniU",
+  "published_at": "2026-09-29T23:29:44+00:00",
+  "video_id": "t4BJTz6YniU",
+  "methods": [
+    {
+      "method_id": "portfolio-performance-review-from-brokerage",
+      "new_method": null,
+      "steps": [
+        {
+          "step_id": "check-account-value-and-return",
+          "new_step": null,
+          "at": "00:00",
+          "does": "Opens a brokerage app screenshot of the public account at the start and reads the account value, today's dollar and percent gain, and the 3-year rate of return chart.",
+          "why": "To report the day's result to viewers and show long-run account progress before moving to market topics.",
+          "data": [
+            "Account value $5,152,548.56",
+            "Daily change +$15,385.26 (0.30%)",
+            "3Y rate of return +176.85%",
+            "Chart range Sep 28, 2023 to Sep 28, 2026"
+          ],
+          "tools": [
+            "Unidentified brokerage app"
+          ],
+          "indicators": [
+            "Account value",
+            "Daily gain/loss",
+            "Rate of return"
+          ],
+          "conclusion": "Account up about $15,000 on the day, a strong 3-year return.",
+          "tag": "explicit"
+        }
+      ],
+      "rules": []
+    },
+    {
+      "method_id": "seasonal-monthly-return-history-check",
+      "new_method": null,
+      "steps": [
+        {
+          "step_id": "read-yearly-returns-for-the-month",
+          "new_step": null,
+          "at": "01:16",
+          "does": "Reads out the Nasdaq's October return for each year since 2008 from an open browser tab titled Nasdaq October returns, going year by year from -18% in 2008 to about +5% in 2025.",
+          "why": "To show that October is historically volatile with big swings both ways, so viewers should be ready for large moves and buying opportunities.",
+          "data": [
+            "2008 about -18%",
+            "2009 -3.6%",
+            "2010 about +6%",
+            "2011 +11%",
+            "2012 -4.5%",
+            "2018 -9%",
+            "2019 +26%",
+            "2020 -2.2%",
+            "2024 about +0.5%",
+            "2025 about +5%"
+          ],
+          "tools": [],
+          "indicators": [],
+          "conclusion": "October is crazy in the market, a golden month for opportunities, especially smaller caps of $3-20 billion that can move 2-4x the index.",
+          "tag": "explicit"
+        }
+      ],
+      "rules": [
+        {
+          "text": "A 5% Nasdaq move means many individual stocks make 10-20% moves within the same month.",
+          "tag": "explicit"
+        }
+      ]
+    },
+    {
+      "method_id": "market-backdrop-from-cnbc-commentary",
+      "new_method": null,
+      "steps": [
+        {
+          "step_id": "play-cnbc-segment-and-react",
+          "new_step": null,
+          "at": "03:56",
+          "does": "Plays a Bloomberg Television YouTube clip of Ed Yardeni on bond yields, then a Dan Ives clip on AI and tech stocks, pausing to react to each; later reacts to an AMD CEO interview.",
+          "why": "To gather Wall Street views on yields and tech and give his own counterview, framing the macro backdrop for his audience.",
+          "data": [
+            "Yardeni not convinced 5.25% is the top in yields, possible 5.5-6%",
+            "Oil prices drive inflation fears and yields",
+            "Dan Ives on AI buildout and Anthropic IPO hype",
+            "Nasdaq 100 futures 30,601.50, +0.12% shown on clip"
+          ],
+          "tools": [
+            "YouTube"
+          ],
+          "indicators": [
+            "10-year Treasury yield"
+          ],
+          "conclusion": "Yields follow oil: if oil keeps rising yields keep rising, if oil chills yields fall; companies going public build hype to maximise valuation.",
+          "tag": "explicit"
+        }
+      ],
+      "rules": [
+        {
+          "text": "Oil is the whole story for yields: oil up means yields up, oil down means yields down.",
+          "tag": "explicit"
+        },
+        {
+          "text": "Companies going public have a job to build as much hype as possible to get a big valuation.",
+          "tag": "explicit"
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "name": "Unidentified brokerage app",
+      "kind": "app",
+      "url": "",
+      "used_for": "showing account value and rate of return"
+    },
+    {
+      "name": "YouTube",
+      "kind": "website",
+      "url": "youtube.com",
+      "used_for": "playing analyst interview clips to react to"
+    }
+  ],
+  "indicators": [
+    {
+      "name": "Account value",
+      "measures": "total portfolio value",
+      "how_used": "Read at the start of the video to report the day's gain",
+      "platform": "Unidentified brokerage app"
+    },
+    {
+      "name": "Daily gain/loss",
+      "measures": "dollar and percent change on the day",
+      "how_used": "Reported as the day's result for the public account",
+      "platform": "Unidentified brokerage app"
+    },
+    {
+      "name": "Rate of return",
+      "measures": "account performance over a period",
+      "how_used": "3-year return shown on the account chart",
+      "platform": "Unidentified brokerage app"
+    },
+    {
+      "name": "10-year Treasury yield",
+      "measures": "long-term interest rate level",
+      "how_used": "Discussed via Yardeni's view on 5.25% and linked by the creator to oil prices",
+      "platform": "YouTube"
+    }
+  ]
+}

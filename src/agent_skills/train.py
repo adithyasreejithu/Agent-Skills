@@ -26,7 +26,7 @@ def _pct(n: int, d: int) -> str:
 
 
 LOG_PATH = REPO_ROOT / "training" / "training-log.md"
-SUMMARIES_DIR = REPO_ROOT / "summaries"
+SUMMARIES_DIR = REPO_ROOT / "research" / "summaries"   # per-video notes; matches the ingest default layout
 
 
 def _video_stats(v: dict) -> dict:

@@ -1,0 +1,21 @@
+{
+ "video": "FcN3VBT_86I",
+ "auto_dup": true,
+ "note": "Labeled by Claude from contact sheets; new-info only where text was readable. Control frames were read one by one (no control_sheet.jpg was produced).",
+ "cues": {
+  "c01": ["NRRRR", "+0", "AMD positions page (Robinhood-style): 2,555 shares, avg cost $111.61, total value $1,497,178.90, total gain +$1,212,010.34 (+425.01%); same screen at every offset"],
+  "c02": ["WWWWW", null, "Same AMD positions screen while he thanks subscribers; unrelated to the all-time-high-subscribers remark"],
+  "c03": ["WWWWW", null, "Full-screen webcam only (Wynn/MGM story), no market data"],
+  "c04": ["NNUUU", "+0", "CNBC clip: NVDA 164.49 -5.32% with 'US probing if Alice Huang helped smuggle Super Micro products' banner, then 'Nvidia CEO Jensen Huang resigns, Colette Kress appointed interim CEO'; TPU/Broadcom mention itself not shown"],
+  "c05": ["WWWWW", null, "Full-screen webcam while he talks about Jensen dealing with 'BS'; tiny TradingView ticker strip at bottom only"],
+  "c06": ["UUUUU", "+2", "YouTube CNBC clip 'Nvidia is uninvestable at these levels: Investor' (Access Middle East graphic); title readable, transcript covers it"],
+  "c07": ["WWWWW", null, "Full-screen webcam, no data"],
+  "c08": ["WWWWW", null, "Full-screen webcam, no data"],
+  "c09": ["WNNNN", "+0", "After the webcam tile, CNBC clip shows NVDA 158.78 -14.95 -8.61% extended hours, 'Reyle: Nvidia uninvestable amid Huang controversy'"],
+  "c10": ["NNRNN", "+0", "1000xstocks watchlist: HNST 4.80, HIMS 19.73, RH 129.17, ELF 113.53, WHR 28.91, HOOD 81.35, CELH 31.69; later tiles scrolled with a MY STOCKS header"],
+  "c11": ["NRRNN", "+0", "Same watchlist; EL (Estee Lauder) 110.51, AXP 318.06, NFLX 62.69, NKE 37.76 readable in scrolled tiles"],
+  "c12": ["UUUUU", "+0", "Watchlist columns while he discusses S&P and QQQ drawdowns; no index chart shown, prices repeat earlier sheets"]
+ },
+ "control": "NBWWWNNUUUWN",
+ "control_note": "0s AMD positions (N); 68s blank white YouTube page (B); 398s, 582s, 669s and 1941s full-screen webcam (W); 1115s CNBC NVDA 164.92 with 'Malcolm Ethridge sells NVDA' (N); 1268s CNBC 'NVIDIA CEO Colette Kress' interim headline (N); 1534s and 1620s TradingView AMD +648.37% vs NVDA +72.58% (U, numbers also spoken); 1785s CNBC Reyle 'uninvestable' clip (U); 2099s watchlist with prices (N)."
+}

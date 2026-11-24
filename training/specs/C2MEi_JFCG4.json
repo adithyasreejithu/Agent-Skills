@@ -1,0 +1,24 @@
+{
+ "video": "C2MEi_JFCG4",
+ "auto_dup": true,
+ "note": "Labeled by Claude from contact sheets; new-info only where text was readable.",
+ "cues": {
+  "c01": ["NNNNN", "+0", "TradingView RH 5-min chart (140.09, +29.66%) beside Big Tech watchlist with prices: CRWV 55.60 -10.06%, SPCX 144.75 -9.14%, AMD 507.93 -8.10%, META 648.85 -6.98%, MU 856.49 -6.26%"],
+  "c02": ["NNNNN", "+0", "same RH chart + watchlist screen as c01"],
+  "c03": ["NNNNN", "+0", "RH chart on screen while he talks RH: 140.09 last, +29.66%; same watchlist"],
+  "c04": ["WWWWW", null, "full-screen face cam only; no Amazon/AWS visual"],
+  "c05": ["WWWWW", null, "face cam only"],
+  "c06": ["WWWWW", null, "face cam only; 'GVD' is a caption artifact, nothing on screen"],
+  "c07": ["NUUUU", "-2", "Fundstrat/Tom Lee clip; -2 shows Treasury yields 2y 4.646%, 5y 4.777%, 10y 4.961%, 30y 5.290%; later tiles CNBC ticker (LRCX 227.71, 10y 4.961%)"],
+  "c08": ["UUUUN", "+6", "Tom Lee clip; +6 shows Roundhill Memory ETF DRAM 45.36 -3.81 -7.74%, since IPO +63.40%"],
+  "c09": ["NUUNU", "-2", "'support' cue: CNBC XLP 89.76 +2.65 +3.04% chart, then XLU 42.73 +0.73 +1.74%"],
+  "c10": ["NWUUU", "-2", "-2 'Nasdaq heads for worst day since June', Bitcoin 81,293.19; +0 YouTube grid; then Jensen Huang GTC clip"],
+  "c11": ["UUUUN", "+6", "Bloomberg 'Stocks slide as tech earnings sour AI trade' panel; +6 S&P 500 7,690.34 -66.83 -0.86%"],
+  "c12": ["NNNNN", "-2", "Bloomberg 'Tech slide and oil rally spur flight to treasuries'; US 30-year yield 5.3534 -0.0555 on every tile"],
+  "c13": ["WWWWB", null, "face cam; he gets up for the tornado, +6 empty chair"],
+  "c14": ["WWWWW", null, "face cam, looking out the window"],
+  "c15": ["UUUNN", "+4", "pending home sales clip, Discord post 'Moves made in public account', then order fills: buy 1111 CELH @28.28, 2222 HNST @4.765, 69 AXP @324.70, 354 NFLX @67.2699, sell 555 NOW @156.75"]
+ },
+ "control": "NWBUNUBUNNUU",
+ "control_note": "0:00 RH chart + watchlist prices (N); 0:35 YouTube feed (W); 3:06 face cam zoom (B); 5:41 his X post on a 20%+ Nasdaq selloff (U); 13:11 CNBC Nasdaq 25,946.81 -2.83%, Brent 113.06 (N); 16:19 10y 4.961% bar (U); 20:30 Jensen clip transition (B); 22:18 Bloomberg panel (U); 27:37 US 2y yield 4.7334 -0.0726 (N); 33:09 30-yr fixed mortgage 7.38 (N); 38:32 pending home sales clip (U); 39:31 1000xstocks Halloween promo page (U)"
+}

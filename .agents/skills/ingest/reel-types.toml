@@ -1,0 +1,69 @@
+# Reel types, fixed after the 2026-10 trial (plan/reels/FINDINGS.md, section 2).
+# Each [[type]]: name, description (shown to the model), fields (keys the model must fill; "not stated" when the
+# reel does not say), brief = include | count-only | skip, max_points, compact (one line in the month file).
+# `filler` is also what reel_filter.py writes, without a model call, for near-silent reels with empty captions.
+
+[[type]]
+name = "stock-pick"
+description = "The creator argues for or against one or a few specific stocks: a buy, a sell, a stock to avoid, a valuation check, or a too-late / too-early / right-now comparison."
+fields = ["action", "entry", "target", "thesis"]
+brief = "include"
+max_points = 4
+
+[[type]]
+name = "watchlist"
+description = "A list of several stocks with a verdict or level for each: buy, hold, trim, watch, trade-or-invest rundowns, or a ticker list."
+fields = ["buy", "hold", "trim_or_sell", "watch"]
+brief = "include"
+max_points = 4
+
+[[type]]
+name = "trade"
+description = "A specific trade the creator opened, alerted, closed or showed off: shares, options or leveraged ETFs, with entry, exit or result."
+fields = ["instrument", "direction", "entry", "result"]
+brief = "include"
+max_points = 3
+
+[[type]]
+name = "portfolio-update"
+description = "What the creator bought or sold in their own portfolio, or a look back at their portfolio's results or mistakes."
+fields = ["bought", "sold", "result"]
+brief = "include"
+max_points = 3
+
+[[type]]
+name = "market-news"
+description = "A reaction to news, an earnings report (recap, preview or reaction), or a market update on indices, sectors or macro."
+fields = ["event", "market_effect", "creator_take"]
+brief = "include"
+max_points = 4
+
+[[type]]
+name = "insider-trade"
+description = "A disclosed trade by a politician, company insider or fund, and what the creator makes of it."
+fields = ["who", "trade", "disclosed_price", "now_vs_entry"]
+brief = "include"
+max_points = 3
+
+[[type]]
+name = "education"
+description = "General investing lessons, money habits, mindset or personal milestones, with no specific market call."
+fields = ["topic", "takeaway"]
+brief = "count-only"
+max_points = 2
+
+[[type]]
+name = "promo"
+description = "The reel is mainly an advert: a paid sponsor, a course, a paid group or Discord, a giveaway or self-promotion."
+fields = []
+brief = "skip"
+max_points = 1
+compact = true
+
+[[type]]
+name = "filler"
+description = "No market content: memes, music clips, lifestyle, hype or brag clips, or no usable speech with a caption that says nothing specific."
+fields = []
+brief = "skip"
+max_points = 1
+compact = true

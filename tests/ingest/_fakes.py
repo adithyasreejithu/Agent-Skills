@@ -8,7 +8,7 @@ CHANNEL = 'UCQnIfbieTyf53CZBiyLAkjg'
 
 
 def make_paths(root) -> Paths:
-    return Paths(home=root / 'queue', notes=root / 'notes', digests=root / 'notes' / '_digests',
+    return Paths(home=root / 'queue', notes=root / 'research' / 'summaries', briefs=root / 'research' / 'briefs',
                  raw=root / 'raw', state=root / 'queue', logs=root / 'queue' / 'logs',
                  sources_file=root / 'queue' / 'sources.toml')
 

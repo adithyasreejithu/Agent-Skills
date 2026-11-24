@@ -1,5 +1,8 @@
 # Instagram ingest (SHELVED)
 
+**Superseded on 2026-10-22 by `plan/reels/PLAN.md`**: a headless browser on public profiles of a vetted
+creator list replaces the Graph API, with the manual link inbox kept as a second way in.
+
 Status: shelved on 2026-10-20 by decision. The user has a personal account, so the official Graph API is not
 usable without converting to Creator/Business, and it often withholds video URLs. The agreed fallback when this
 is revisited: manual link inbox (`ingest/inbox/`) feeding the same queue, with yt-dlp on the permalink as a

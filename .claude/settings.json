@@ -14,7 +14,23 @@
       "Bash(gh *)",
       "Bash(ffmpeg *)",
       "Bash(ffprobe *)",
-      "Bash(yt-dlp *)"
+      "Bash(yt-dlp *)",
+      "Bash(uv *)",
+      "Bash(python *)",
+      "Bash(py *)",
+      "Bash(mv *)",
+      "Bash(cp *)",
+      "Bash(mkdir *)",
+      "Bash(rmdir *)",
+      "Bash(sed *)",
+      "Bash(awk *)",
+      "Bash(sort *)",
+      "Bash(wc *)",
+      "Bash(comm *)",
+      "Bash(diff *)",
+      "Bash(jq *)",
+      "Bash(echo *)",
+      "Bash(tasklist *)"
     ]
   }
 }

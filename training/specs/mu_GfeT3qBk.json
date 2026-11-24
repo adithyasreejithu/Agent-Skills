@@ -1,0 +1,22 @@
+{
+ "video": "mu_GfeT3qBk",
+ "auto_dup": true,
+ "note": "Labeled by Claude from contact sheets; new-info only where text was readable. Client-testimonial interview: the whole video is two webcams (guest Tom in a vertical phone frame, host Ryan full screen) with only an 'Options Trading University' logo bug. No charts, tickers or screen shares anywhere, so every cue frame is a talking head (W).",
+ "cues": {
+  "c01": ["WWWWW", null, "guest talking head; 'DTE' is zero-DTE options, not a ticker; nothing on screen"],
+  "c02": ["WWWWW", null, "guest talking head; no cash-secured-put screen"],
+  "c03": ["WWWWW", null, "guest talking head; 'OTU' is the course name, not a ticker"],
+  "c04": ["WWWWW", null, "guest talking head; no VIX chart"],
+  "c05": ["WWWWW", null, "guest talking head while discussing PLTR assignment; no strike shown"],
+  "c06": ["WWWWW", null, "guest talking head"],
+  "c07": ["WWWWW", null, "guest talking head; no Bollinger chart"],
+  "c08": ["WWWWW", null, "guest talking head; CLS mentioned but no chart"],
+  "c09": ["WWWWW", null, "guest talking head; no Bollinger chart"],
+  "c10": ["WWWWW", null, "guest talking head"],
+  "c11": ["WWWWW", null, "guest talking head; MACD is an indicator, not a ticker"],
+  "c12": ["WWWWW", null, "guest talking head"],
+  "c13": ["WWWWW", null, "guest talking head then host talking head; 'SEMA' is an OTU tool name, not shown on screen"]
+ },
+ "control": "WWWWWWWWWWWB",
+ "control_note": "Control frames were viewed individually (no control sheet file was produced): alternating host and guest webcams throughout; final frame at 18:24 is black."
+}

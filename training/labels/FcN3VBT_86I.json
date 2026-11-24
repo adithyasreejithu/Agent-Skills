@@ -1,0 +1,268 @@
+{
+  "video_id": "FcN3VBT_86I",
+  "creator": "Jeremy Lefebvre Makes Money",
+  "title": "New Millionaires will be made now",
+  "upload_date": "20261112",
+  "duration_seconds": 2143.4,
+  "source": "https://www.youtube.com/watch?v=FcN3VBT_86I",
+  "verdicts": "new-info | useful | redundant | blank | wrong  (see plan/watch-skill-testing-mode/PLAN.md)",
+  "cues": [
+    {
+      "cue_id": "c01",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 30.6,
+      "heard": "appreciate you all for joining me here as always. So AMD, [clears throat]",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "AMD positions page (Robinhood-style): 2,555 shares, avg cost $111.61, total value $1,497,178.90, total gain +$1,212,010.34 (+425.01%); same screen at every offset"
+    },
+    {
+      "cue_id": "c02",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 98.7,
+      "heard": "channel, you can certainly subscribe. We're at a new all-time high subscribers",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "wrong",
+        "+6": "wrong"
+      },
+      "best_offset": null,
+      "notes": "Same AMD positions screen while he thanks subscribers; unrelated to the all-time-high-subscribers remark"
+    },
+    {
+      "cue_id": "c03",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 811.899,
+      "heard": "difference, okay? Steve Wynn, Wynn Resorts, he had already sold MGM years",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "wrong",
+        "+6": "wrong"
+      },
+      "best_offset": null,
+      "notes": "Full-screen webcam only (Wynn/MGM story), no market data"
+    },
+    {
+      "cue_id": "c04",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 1338.805,
+      "heard": "come from? Maybe a Broadcom, maybe an Alphabet with the TPU. But again, I I",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "new-info",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "CNBC clip: NVDA 164.49 -5.32% with 'US probing if Alice Huang helped smuggle Super Micro products' banner, then 'Nvidia CEO Jensen Huang resigns, Colette Kress appointed interim CEO'; TPU/Broadcom mention itself not shown"
+    },
+    {
+      "cue_id": "c05",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 1444.306,
+      "heard": "He's a genius with dealing with all this BS. He's the guy that does it. He's the",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "wrong",
+        "+6": "wrong"
+      },
+      "best_offset": null,
+      "notes": "Full-screen webcam while he talks about Jensen dealing with 'BS'; tiny TradingView ticker strip at bottom only"
+    },
+    {
+      "cue_id": "c06",
+      "term": "next-one",
+      "category": "transition",
+      "t": 1696.709,
+      "heard": "at today. All right, let's get in the next one. Nvidia's",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+2",
+      "notes": "YouTube CNBC clip 'Nvidia is uninvestable at these levels: Investor' (Access Middle East graphic); title readable, transcript covers it"
+    },
+    {
+      "cue_id": "c07",
+      "term": "next-one",
+      "category": "transition",
+      "t": 1884.212,
+      "heard": "He never even made it publicly known of who's the number two at Nvidia. Unless",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "wrong",
+        "+6": "wrong"
+      },
+      "best_offset": null,
+      "notes": "Full-screen webcam, no data"
+    },
+    {
+      "cue_id": "c08",
+      "term": "next-one",
+      "category": "transition",
+      "t": 1924.312,
+      "heard": "Unless you're like insanely into Nvidia, you don't even know who the number two",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "wrong",
+        "+6": "wrong"
+      },
+      "best_offset": null,
+      "notes": "Full-screen webcam, no data"
+    },
+    {
+      "cue_id": "c09",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 1943.412,
+      "heard": "in the public eye, right? Uh okay, let's talk about some of the best",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "new-info",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+0",
+      "notes": "After the webcam tile, CNBC clip shows NVDA 158.78 -14.95 -8.61% extended hours, 'Reyle: Nvidia uninvestable amid Huang controversy'"
+    },
+    {
+      "cue_id": "c10",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 2009.513,
+      "heard": "I'm I'm slightly concerned there, right? RH is still a great opportunity, I",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "new-info",
+        "+2": "redundant",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+0",
+      "notes": "1000xstocks watchlist: HNST 4.80, HIMS 19.73, RH 129.17, ELF 113.53, WHR 28.91, HOOD 81.35, CELH 31.69; later tiles scrolled with a MY STOCKS header"
+    },
+    {
+      "cue_id": "c11",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 2018.913,
+      "heard": "you guys know how I feel about that. I believe them and EL both finish",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+0",
+      "notes": "Same watchlist; EL (Estee Lauder) 110.51, AXP 318.06, NFLX 62.69, NKE 37.76 readable in scrolled tiles"
+    },
+    {
+      "cue_id": "c12",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 2047.913,
+      "heard": "probably only down uh I don't know, 4 5% off all-time highs. You know, the the",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "Watchlist columns while he discusses S&P and QQQ drawdowns; no index chart shown, prices repeat earlier sheets"
+    }
+  ],
+  "control": [
+    {
+      "t": 0.0,
+      "reason": "first-frame",
+      "verdict": "new-info"
+    },
+    {
+      "t": 68.833333,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 398.8,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 582.766667,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 669.666667,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 1115.3,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 1268.633333,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 1534.5,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 1620.9,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 1785.233333,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 1941.5,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 2099.666667,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    }
+  ],
+  "control_notes": "0s AMD positions (N); 68s blank white YouTube page (B); 398s, 582s, 669s and 1941s full-screen webcam (W); 1115s CNBC NVDA 164.92 with 'Malcolm Ethridge sells NVDA' (N); 1268s CNBC 'NVIDIA CEO Colette Kress' interim headline (N); 1534s and 1620s TradingView AMD +648.37% vs NVDA +72.58% (U, numbers also spoken); 1785s CNBC Reyle 'uninvestable' clip (U); 2099s watchlist with prices (N).",
+  "labeling_notes": "Labeled by Claude from contact sheets; new-info only where text was readable. Control frames were read one by one (no control_sheet.jpg was produced).",
+  "trained_at": "2026-11-16"
+}

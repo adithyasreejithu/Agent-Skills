@@ -10,7 +10,7 @@ from pathlib import Path
 import _path  # noqa: F401
 from _fakes import make_paths
 from note import find_note, label_problems, summarize, validate
-from process import RunResult, agent_env, blocker, build_prompt, complete, fail, process_queue, write_digest
+from process import RunResult, agent_env, blocker, build_prompt, complete, fail, process_queue
 from store import Store, iso
 
 NOW = datetime(2026, 10, 20, 12, 0, tzinfo=timezone.utc)
@@ -262,19 +262,11 @@ class ProcessTests(unittest.TestCase):
         self.assertEqual(env['PATH'].split(os.pathsep)[0], str(Path(sys.executable).parent))
         self.assertTrue(env['PATH'].endswith(r'C:\elsewhere'))
 
-    def test_digest_groups_by_channel_and_appends_same_day(self):
+    def test_find_note_returns_the_written_note(self):
         self.store.add_pending(item())
         process_queue(self.store, lambda: NOW, runner=self.writer(), template=self.template)
-        path = write_digest(self.store, [VID], NOW)
-        text = path.read_text(encoding='utf-8')
-        self.assertIn('Options With Ryan', text)
-        self.assertIn('AMAT, CRDO', text)
-        rel = Path(os.path.relpath(self.paths.notes / f'{VID}-test.md', self.paths.digests)).as_posix()
-        self.assertIn(f'({rel})', text)
-        write_digest(self.store, [VID], NOW)                          # redone video: one line, not two
-        self.assertEqual(path.read_text(encoding='utf-8').count(VID), 1)
-        self.assertIsNone(write_digest(self.store, ['nothere0000'], NOW))
         self.assertEqual(find_note(self.paths.notes, VID).name, f'{VID}-test.md')
+        self.assertIsNone(find_note(self.paths.notes, 'nothere0000'))
 
 
 class TestingModeTests(unittest.TestCase):

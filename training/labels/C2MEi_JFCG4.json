@@ -1,0 +1,316 @@
+{
+  "video_id": "C2MEi_JFCG4",
+  "creator": "Jeremy Lefebvre Makes Money",
+  "title": "History is About to Be Made... [Stocks do this every 17 years]",
+  "upload_date": "20261023",
+  "duration_seconds": 2392.7,
+  "source": "https://www.youtube.com/watch?v=C2MEi_JFCG4",
+  "verdicts": "new-info | useful | redundant | blank | wrong  (see plan/watch-skill-testing-mode/PLAN.md)",
+  "cues": [
+    {
+      "cue_id": "c01",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 8.56,
+      "heard": "percentage points here today. SpaceX down over 9%. AMD [clears throat] down",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "new-info",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+0",
+      "notes": "TradingView RH 5-min chart (140.09, +29.66%) beside Big Tech watchlist with prices: CRWV 55.60 -10.06%, SPCX 144.75 -9.14%, AMD 507.93 -8.10%, META 648.85 -6.98%, MU 856.49 -6.26%"
+    },
+    {
+      "cue_id": "c02",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 11.0,
+      "heard": "down over 9%. AMD [clears throat] down over 8%. Meta down 7%. MU Micron down",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "new-info",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+0",
+      "notes": "same RH chart + watchlist screen as c01"
+    },
+    {
+      "cue_id": "c03",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 110.6,
+      "heard": "Can I share something good? Listen. RH stock. RH past six trading days is up",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "new-info",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+0",
+      "notes": "RH chart on screen while he talks RH: 140.09 last, +29.66%; same watchlist"
+    },
+    {
+      "cue_id": "c04",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 168.6,
+      "heard": "anything in relation to cloud, I'm going to play Amazon with AWS. Like I don't",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "wrong",
+        "+6": "wrong"
+      },
+      "best_offset": null,
+      "notes": "full-screen face cam only; no Amazon/AWS visual"
+    },
+    {
+      "cue_id": "c05",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 492.28,
+      "heard": "like how somebody like myself look at this, has been in the market 18 years.",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "wrong",
+        "+6": "wrong"
+      },
+      "best_offset": null,
+      "notes": "face cam only"
+    },
+    {
+      "cue_id": "c06",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 496.56,
+      "heard": "It's nothing. It's nothing. You know, I'm already so well positioned GVD. I",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "wrong",
+        "+6": "wrong"
+      },
+      "best_offset": null,
+      "notes": "face cam only; 'GVD' is a caption artifact, nothing on screen"
+    },
+    {
+      "cue_id": "c07",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 980.8,
+      "heard": "the the semiconductor index or the DRAM ETF, for",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "-2",
+      "notes": "Fundstrat/Tom Lee clip; -2 shows Treasury yields 2y 4.646%, 5y 4.777%, 10y 4.961%, 30y 5.290%; later tiles CNBC ticker (LRCX 227.71, 10y 4.961%)"
+    },
+    {
+      "cue_id": "c08",
+      "term": "chart",
+      "category": "chart",
+      "t": 989.6,
+      "heard": "I see so much destruction within that trade. I I just I wonder what that chart",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "new-info"
+      },
+      "best_offset": "+6",
+      "notes": "Tom Lee clip; +6 shows Roundhill Memory ETF DRAM 45.36 -3.81 -7.74%, since IPO +63.40%"
+    },
+    {
+      "cue_id": "c09",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 1160.16,
+      "heard": "does look like we're seeing some, you know, tech basically touching support.",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "new-info",
+        "+6": "useful"
+      },
+      "best_offset": "-2",
+      "notes": "'support' cue: CNBC XLP 89.76 +2.65 +3.04% chart, then XLU 42.73 +0.73 +1.74%"
+    },
+    {
+      "cue_id": "c10",
+      "term": "next-one",
+      "category": "transition",
+      "t": 1190.44,
+      "heard": "And coming up next >> Okay, next one up here Jensen.",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "wrong",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "-2",
+      "notes": "-2 'Nasdaq heads for worst day since June', Bitcoin 81,293.19; +0 YouTube grid; then Jensen Huang GTC clip"
+    },
+    {
+      "cue_id": "c11",
+      "term": "next-one",
+      "category": "transition",
+      "t": 1353.96,
+      "heard": "acknowledge. All right, let's get into the next one.",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "new-info"
+      },
+      "best_offset": "+6",
+      "notes": "Bloomberg 'Stocks slide as tech earnings sour AI trade' panel; +6 S&P 500 7,690.34 -66.83 -0.86%"
+    },
+    {
+      "cue_id": "c12",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 1689.84,
+      "heard": "had been expecting the last decade. >> Does this then support the argument for",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "new-info",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "-2",
+      "notes": "Bloomberg 'Tech slide and oil rally spur flight to treasuries'; US 30-year yield 5.3534 -0.0555 on every tile"
+    },
+    {
+      "cue_id": "c13",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 1859.76,
+      "heard": "device. I mean just on my desk right here, right here on my desk, I've got",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "wrong",
+        "+6": "blank"
+      },
+      "best_offset": null,
+      "notes": "face cam; he gets up for the tornado, +6 empty chair"
+    },
+    {
+      "cue_id": "c14",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 1870.56,
+      "heard": "Six mobile devices right on my desk right here, right? It happened. And so,",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "wrong",
+        "+6": "wrong"
+      },
+      "best_offset": null,
+      "notes": "face cam, looking out the window"
+    },
+    {
+      "cue_id": "c15",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 2317.32,
+      "heard": "we've got to got to acknowledge, okay? All right, so let's talk about some",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "new-info",
+        "+6": "new-info"
+      },
+      "best_offset": "+4",
+      "notes": "pending home sales clip, Discord post 'Moves made in public account', then order fills: buy 1111 CELH @28.28, 2222 HNST @4.765, 69 AXP @324.70, 354 NFLX @67.2699, sell 555 NOW @156.75"
+    }
+  ],
+  "control": [
+    {
+      "t": 0.0,
+      "reason": "first-frame",
+      "verdict": "new-info"
+    },
+    {
+      "t": 35.4,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 186.566667,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 341.866667,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 792.166667,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 979.7,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 1230.933333,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 1338.966667,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 1657.833333,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 1991.366667,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 2314.3,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 2373.9,
+      "reason": "scene-change",
+      "verdict": "useful"
+    }
+  ],
+  "control_notes": "0:00 RH chart + watchlist prices (N); 0:35 YouTube feed (W); 3:06 face cam zoom (B); 5:41 his X post on a 20%+ Nasdaq selloff (U); 13:11 CNBC Nasdaq 25,946.81 -2.83%, Brent 113.06 (N); 16:19 10y 4.961% bar (U); 20:30 Jensen clip transition (B); 22:18 Bloomberg panel (U); 27:37 US 2y yield 4.7334 -0.0726 (N); 33:09 30-yr fixed mortgage 7.38 (N); 38:32 pending home sales clip (U); 39:31 1000xstocks Halloween promo page (U)",
+  "labeling_notes": "Labeled by Claude from contact sheets; new-info only where text was readable.",
+  "trained_at": "2026-11-04"
+}

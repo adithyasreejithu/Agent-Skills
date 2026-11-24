@@ -1,0 +1,24 @@
+{
+ "video": "sgawBWvCG2Y",
+ "auto_dup": true,
+ "note": "Labeled by Claude from contact sheets; new-info only where text was readable.",
+ "cues": {
+  "c01": ["WNRRR", "+0", "-2 is the AI-trade watchlist (not VIX); +0..+6 TradingView VIX chart, header VIX 28.18 +11.57 +69.66% (level not in captions)"],
+  "c02": ["RRRRR", null, "same VIX chart as c01"],
+  "c03": ["NRRRR", "-2", "X post: 1-month QQQ-vs-AI-names overlay + 'AI trade' watchlist with last/chg%: SNXX 3.06 -43.28%, MUU 12.60 -34.48%, SNDK 806.30 -22.28%, AMD 403.01, MU 658.53 -17.19%, IREN 18.03, MRVL 133.40, BE 167.40, NBIS 120.09, TSM 362.90, AVGO 291.47, CRWV 43.66, NVDA 181.60, SPCX 123.39, GEV 770.86, CAT 553.51"],
+  "c04": ["RRRRR", null, "same AI-trade watchlist screen as c03"],
+  "c05": ["RRRRR", null, "same AI-trade watchlist screen as c03"],
+  "c06": ["RRRRR", null, "same AI-trade watchlist screen as c03"],
+  "c07": ["RRRRR", null, "same screen; watchlist resolves spoken 'IN' to IREN"],
+  "c08": ["RRRRR", null, "same AI-trade watchlist screen as c03"],
+  "c09": ["RRRRR", null, "the 'one-month chart' is the same overlay as c03; right-axis % labels match what he reads"],
+  "c10": ["NRRRR", "-2", "VIX chart + 'My current positions' list with prices (CELH 30.04 -2.31%, AMD 404.40, PLTR 154.99, SOFI 16.04, AXP 324.97, etc.)"],
+  "c11": ["NRRRR", "-2", "TradingView article 'Retail investors flee single stocks... - Vanda' with chips SPY -4.41%, QQQ -6.49%, TQQQ -18.92%, SOXL -38.71%; Dow -1728 / -3.2%"],
+  "c12": ["UURRR", "-2", "-2/+0 Bloomberg Ritholtz clip 'Stocks plunge as traders dump everything with AI exposure'; +2/+4 VIX + positions list again; +6 AI-trade watchlist again"],
+  "c13": ["BUUUN", "+6", "-2 full-screen webcam; +0..+4 Bloomberg Chaloff clip 'Nasdaq 100 plunges on chip rout'; +6 shows Microsoft 543.81 -11.99 -2.16% ticker"],
+  "c14": ["NUUUU", "-2", "TradingView NVDA daily charts at widening ranges; -2 shows NVDA 181.60 -18.53 (-9.26%); later tiles show the prior-year drops he narrates"],
+  "c15": ["RRRRR", null, "identical frames to c14 (same timestamp)"]
+ },
+ "control": "NUBRNBNBUNRR",
+ "control_note": "0 AI-trade watchlist with prices (N); 1 CNBC 'Democrats flip House and Senate' clip (U); 2 full-screen webcam (B); 3 same watchlist as 0 (R); 4 Vanda article with SPY/QQQ/TQQQ/SOXL % (N); 5 webcam over Bloomberg (B); 6 Ritholtz clip with SOX 9,349.72 -8.95% (N); 7 webcam (B); 8 Chaloff clip (U); 9 NVDA chart + positions list with prices and VIX 28.18 +69.66% (N); 10 CNBC clip again (R); 11 CNBC clip with webcam (R)"
+}

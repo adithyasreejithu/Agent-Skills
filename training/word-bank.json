@@ -23,6 +23,10 @@
     {"id": "breadth", "category": "macro", "pattern": "s5fi|ndfi|above their 50"},
     {"id": "volatility-index", "category": "macro", "pattern": "\\b(vix|vxn)\\b"},
 
+    {"id": "tool-names", "category": "tools", "pattern": "trading ?view|think ?or ?swim|unusual whales|fin ?viz|barchart|tradingview|webull|yahoo finance|seeking alpha"},
+    {"id": "scanner-screener", "category": "tools", "pattern": "\b(scanner|screener|watch ?list|heat ?map)\b"},
+    {"id": "indicator", "category": "tools", "pattern": "\b(rsi|macd|indicator|fibonacci|trend ?line|gamma|put wall|call wall)\b"},
+
     {"id": "next-one", "category": "transition", "pattern": "next one|number (one|two|three|four|five)|the other one"},
     {"id": "lets-dive", "category": "transition", "pattern": "let's (go ahead and )?(dive|talk|jump|look|take)"}
   ]

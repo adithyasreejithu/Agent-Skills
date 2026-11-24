@@ -1,0 +1,508 @@
+{
+  "video_id": "UB9-htqOC7s",
+  "creator": "Options With Ryan",
+  "title": "Stock Market Crash Risk? | VIX & VXN Spike + My $130K ETF Buy (Options With Ryan)",
+  "upload_date": "20261107",
+  "duration_seconds": 1670.5,
+  "source": "https://www.youtube.com/watch?v=UB9-htqOC7s",
+  "verdicts": "new-info | useful | redundant | blank | wrong  (see plan/watch-skill-testing-mode/PLAN.md)",
+  "cues": [
+    {
+      "cue_id": "c01",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 37.76,
+      "heard": "that I see tons of value in at these levels. So, let's go ahead and jump",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "blank",
+        "+6": "blank"
+      },
+      "best_offset": null,
+      "notes": "talking head intro, then 'not financial advice' disclaimer slide"
+    },
+    {
+      "cue_id": "c02",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 46.48,
+      "heard": "purposes. Only results may vary. Now, this right here is my personal portfolio",
+      "offsets": {
+        "-2": "blank",
+        "+0": "new-info",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "disclaimer slide, then brokerage summary showing total value $1,571,114.70"
+    },
+    {
+      "cue_id": "c03",
+      "term": "as-you-can-see",
+      "category": "pointing",
+      "t": 80.32,
+      "heard": "while the market's doing its thing. As you could see right here, nice little",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "blank",
+        "+2": "useful",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+2",
+      "notes": "portfolio summary (seen), loading page, then realized gain/loss page with 96.43% win gauge"
+    },
+    {
+      "cue_id": "c04",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 80.32,
+      "heard": "while the market's doing its thing. As you could see right here, nice little",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "blank",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "same timestamp as c03 (duplicate sheet) [auto: within 1.5s of c03, marked redundant]"
+    },
+    {
+      "cue_id": "c05",
+      "term": "as-you-can-see",
+      "category": "pointing",
+      "t": 97.92,
+      "heard": "inspiration um on the daily. As you can see, clients closing out trades here.",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "blank",
+        "+4": "new-info",
+        "+6": "useful"
+      },
+      "best_offset": "+4",
+      "notes": "Discord client-wins channel; dimmed overlay; Realized P&L +$18,966.59 card"
+    },
+    {
+      "cue_id": "c06",
+      "term": "strike",
+      "category": "options",
+      "t": 101.759,
+      "heard": "Even though we're having a down market, we are capitalizing on covered call",
+      "offsets": {
+        "-2": "blank",
+        "+0": "new-info",
+        "+2": "useful",
+        "+4": "useful",
+        "+6": "useful"
+      },
+      "best_offset": "+0",
+      "notes": "dimmed overlay, Realized P&L +$18,966.59, then Discord channel posts"
+    },
+    {
+      "cue_id": "c07",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 131.28,
+      "heard": "absolutely free. Now, let's go ahead and talk about it. Okay, I'm going to jump",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "new-info",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+2",
+      "notes": "his X profile page, then QQQ daily chart with -8/-10/-13% zones, price 656.10"
+    },
+    {
+      "cue_id": "c08",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 154.16,
+      "heard": "right here, yesterday was a huge down day. I believe the NASDAQ or QQQ rather",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "QQQ daily chart, already shown in c07"
+    },
+    {
+      "cue_id": "c09",
+      "term": "volatility-index",
+      "category": "macro",
+      "t": 185.36,
+      "heard": "levels. But, I'll talk about first I want to talk about the VXN, which is the",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "new-info",
+        "+6": "redundant"
+      },
+      "best_offset": "+4",
+      "notes": "QQQ chart, then VXN chart with spike, value 34.02"
+    },
+    {
+      "cue_id": "c10",
+      "term": "volatility-index",
+      "category": "macro",
+      "t": 221.76,
+      "heard": "July AI crash that we saw midsummer, right? The VXN only got up to 3083.",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "VXN chart, same as c09"
+    },
+    {
+      "cue_id": "c11",
+      "term": "take-a-look",
+      "category": "pointing",
+      "t": 313.199,
+      "heard": "lower which would send the VXN even higher. But if we look at the data,",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "new-info",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+2",
+      "notes": "VXN chart, then 'When VXN Explodes in a Single Day' study slide (+52.6%, three 50% days)"
+    },
+    {
+      "cue_id": "c12",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 355.52,
+      "heard": "March 16th of 2020 which was during the COVID crash. Okay. So very very rare",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "VXN study slide, unchanged"
+    },
+    {
+      "cue_id": "c13",
+      "term": "take-a-look",
+      "category": "pointing",
+      "t": 461.28,
+      "heard": "obviously there's more occurrences. If we look at 30% or more, right, 11 out of",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "VXN forward-returns table and list of 30%+ spikes since 2001; numbers too small to read"
+    },
+    {
+      "cue_id": "c14",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 554.0,
+      "heard": "going into this. Now, if we look at this margin debt chart, which is FINRA data,",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "FINRA margin-debt chart and YoY growth panel"
+    },
+    {
+      "cue_id": "c15",
+      "term": "chart",
+      "category": "chart",
+      "t": 554.0,
+      "heard": "going into this. Now, if we look at this margin debt chart, which is FINRA data,",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "same timestamp as c14 (duplicate sheet) [auto: within 1.5s of c14, marked redundant]"
+    },
+    {
+      "cue_id": "c16",
+      "term": "next-one",
+      "category": "transition",
+      "t": 684.16,
+      "heard": "of funds right now. Now, the reason why there's deleveraging is number one",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "X post listing hedge funds cracking this week (Axebrook, Walleye, Lone Pine, Millennium...)"
+    },
+    {
+      "cue_id": "c17",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 723.36,
+      "heard": "that, you have Enthropic, who is potentially going to IPO mid November.",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "CNBC article 'Investors brace for lower Anthropic valuation, calling $1.5 trillion a stretch'"
+    },
+    {
+      "cue_id": "c18",
+      "term": "fed-watch",
+      "category": "macro",
+      "t": 817.36,
+      "heard": "the macroeconomics. Okay, first thing here, CME Fed watch tool. Are we pricing",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "CME FedWatch aggregated meeting probabilities table (12/9/2026 ~79% row legible)"
+    },
+    {
+      "cue_id": "c19",
+      "term": "fed-watch",
+      "category": "macro",
+      "t": 828.56,
+      "heard": "were very close to pricing in six, maybe even seven rate hikes and that would be",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "FedWatch table, unchanged from c18"
+    },
+    {
+      "cue_id": "c20",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 923.44,
+      "heard": ">> And then, you know, obviously if we look at bigger indicators like XRT, I like to",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "new-info",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+2",
+      "notes": "US 10-year yield chart at 4.859, then XRT chart at 89.50 near highs"
+    },
+    {
+      "cue_id": "c21",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 941.8389999999999,
+      "heard": "retail ETF is doing just fine. In fact, it made uh new all-time high yesterday",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "XRT chart, unchanged from c20"
+    },
+    {
+      "cue_id": "c22",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 1008.24,
+      "heard": "January and then it touched there in April. So this would be a big support",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "QQQ chart with support lines from Nov 2025 / Jan / Apr"
+    },
+    {
+      "cue_id": "c23",
+      "term": "moving-average",
+      "category": "chart",
+      "t": 1067.6,
+      "heard": "something like this, like a V-shaped rebound all the way up past the 50-day",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "useful",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+2",
+      "notes": "QQQ chart, then drawn V-shaped rebound path past the 50-day"
+    },
+    {
+      "cue_id": "c24",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 1088.48,
+      "heard": "we're going to get into. And I'll talk about briefly um my TQQQ trade and why",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "new-info"
+      },
+      "best_offset": "+6",
+      "notes": "QQQ chart with drawn path, then Unusual Whales market tide and fear/greed gauge at 37"
+    },
+    {
+      "cue_id": "c25",
+      "term": "strike",
+      "category": "options",
+      "t": 1138.0,
+      "heard": "right? Because as an option seller, for me, I like to sell cash secured puts",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "NVDA daily chart, price 186.64, oversold RSI"
+    },
+    {
+      "cue_id": "c26",
+      "term": "moving-average",
+      "category": "chart",
+      "t": 1267.6,
+      "heard": "here. Um, that is exactly where I like it, right at that 200 day moving",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "PLTR daily chart at 160.38 near 200-day MA"
+    },
+    {
+      "cue_id": "c27",
+      "term": "next-one",
+      "category": "transition",
+      "t": 1300.48,
+      "heard": "pretty amazing and substantial uh fundamentals there. Okay. The next one's",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "new-info",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+2",
+      "notes": "PLTR TradingView financials, PLTR chart, then CRDO chart at 120.51"
+    }
+  ],
+  "control": [
+    {
+      "t": 0.0,
+      "reason": "first-frame",
+      "verdict": "wrong"
+    },
+    {
+      "t": 88.68,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 102.88,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 108.08,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 121.88,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 639.48,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 1123.92,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 1242.24,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 1265.24,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 1466.88,
+      "reason": "scene-change",
+      "verdict": "redundant"
+    },
+    {
+      "t": 1610.0,
+      "reason": "scene-change",
+      "verdict": "redundant"
+    },
+    {
+      "t": 1665.8,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    }
+  ],
+  "control_notes": "No control_sheet.jpg was produced; the 12 control frames were viewed individually: talking head 0:00, dark overlay, two Discord client-win screens, white blank, X post naming hedge funds, grey loading blank, brokerage positions grid (CRDO/DRAM/GLW/GOOGL/HOOD/PLTR/QQQ/SMH/TQQQ/WDC rows legible), PLTR chart 160.38, positions grid twice more (redundant), closing talking head.",
+  "labeling_notes": "Labeled by Claude from contact sheets; new-info only where text was readable. Options With Ryan screen-share format: webcam bubble over TradingView charts (QQQ, VXN, US10Y, XRT, NVDA, PLTR, CRDO), a VXN study slide, FINRA margin-debt chart, X posts, CNBC article, FedWatch table and his brokerage positions grid. Talking-head frames are W, disclaimer/white loading slides are B.",
+  "trained_at": "2026-11-07"
+}

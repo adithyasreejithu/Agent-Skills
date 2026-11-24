@@ -1,0 +1,2793 @@
+[
+ {
+  "asof": "2026-10-09",
+  "close": 751.27,
+  "snapshot": {
+   "ticker": "QQQ",
+   "date": "2026-10-09",
+   "close": 751.27001953125,
+   "off_52w_high_pct": -1.5,
+   "sma20": 737.54,
+   "sma50": 724.52,
+   "sma200": 672.18,
+   "bb_mid": 737.54,
+   "bb_up": 770.85,
+   "bb_lo": 704.23,
+   "rsi": 60.9,
+   "macd": 9.58,
+   "macd_sig": 8.73,
+   "macd_hist": 0.85,
+   "vwap_year": 659.47
+  },
+  "state": {
+   "pct_b": 0.71,
+   "vs_sma50_pct": 3.7,
+   "vs_sma200_pct": 11.8,
+   "vs_vwap_pct": 13.9
+  },
+  "forward_days_available": 32,
+  "horizons": {
+   "5": {
+    "ret_pct": -5.5,
+    "worst_pct": -5.9,
+    "best_pct": -0.2,
+    "baseline_ret_pct": 0.5,
+    "levels": [
+     {
+      "level": 737,
+      "dist_pct": -1.9,
+      "touched": true,
+      "closed_below": true
+     },
+     {
+      "level": 737.54,
+      "label": "middle band",
+      "dist_pct": -1.8,
+      "touched": true,
+      "closed_below": true
+     }
+    ]
+   },
+   "10": {
+    "ret_pct": -6.2,
+    "worst_pct": -6.7,
+    "best_pct": -0.2,
+    "baseline_ret_pct": 0.9,
+    "levels": [
+     {
+      "level": 737,
+      "dist_pct": -1.9,
+      "touched": true,
+      "closed_below": true
+     },
+     {
+      "level": 737.54,
+      "label": "middle band",
+      "dist_pct": -1.8,
+      "touched": true,
+      "closed_below": true
+     }
+    ]
+   }
+  },
+  "id": "c01",
+  "video": "33Yqdsr_vcA",
+  "date": "2026-10-10",
+  "ticker": "QQQ",
+  "kind": "pullback_mid",
+  "levels": [
+   737
+  ],
+  "quote": "mid Bollinger band kind of 737 area... potential short-term support"
+ },
+ {
+  "asof": "2026-10-09",
+  "close": 603.33,
+  "snapshot": {
+   "ticker": "SMH",
+   "date": "2026-10-09",
+   "close": 603.3300170898438,
+   "off_52w_high_pct": -10.2,
+   "sma20": 597.06,
+   "sma50": 578.24,
+   "sma200": 506.24,
+   "bb_mid": 597.06,
+   "bb_up": 654.05,
+   "bb_lo": 540.07,
+   "rsi": 53.03,
+   "macd": 13.26,
+   "macd_sig": 13.29,
+   "macd_hist": -0.03,
+   "vwap_year": 512.91
+  },
+  "state": {
+   "pct_b": 0.56,
+   "vs_sma50_pct": 4.3,
+   "vs_sma200_pct": 19.2,
+   "vs_vwap_pct": 17.6
+  },
+  "forward_days_available": 32,
+  "horizons": {
+   "5": {
+    "ret_pct": -10.5,
+    "worst_pct": -10.7,
+    "best_pct": -0.8,
+    "baseline_ret_pct": 1.0,
+    "levels": [
+     {
+      "level": 597.06,
+      "label": "middle band",
+      "dist_pct": -1.0,
+      "touched": true,
+      "closed_below": true
+     }
+    ]
+   },
+   "10": {
+    "ret_pct": -12.6,
+    "worst_pct": -13.7,
+    "best_pct": -0.8,
+    "baseline_ret_pct": 2.0,
+    "levels": [
+     {
+      "level": 597.06,
+      "label": "middle band",
+      "dist_pct": -1.0,
+      "touched": true,
+      "closed_below": true
+     }
+    ]
+   }
+  },
+  "id": "c02",
+  "video": "33Yqdsr_vcA",
+  "date": "2026-10-10",
+  "ticker": "SMH",
+  "kind": "pullback_mid",
+  "levels": [],
+  "quote": "hugging the upper Bollinger band to pull back either to the mid-Bollinger band"
+ },
+ {
+  "asof": "2026-10-09",
+  "close": 507.03,
+  "snapshot": {
+   "ticker": "AMAT",
+   "date": "2026-10-09",
+   "close": 507.0299987792969,
+   "off_52w_high_pct": -31.5,
+   "sma20": 484.12,
+   "sma50": 489.94,
+   "sma200": 434.32,
+   "bb_mid": 484.12,
+   "bb_up": 566.25,
+   "bb_lo": 401.98,
+   "rsi": 54.55,
+   "macd": 13.0,
+   "macd_sig": 9.13,
+   "macd_hist": 3.87,
+   "vwap_year": 452.46
+  },
+  "state": {
+   "pct_b": 0.64,
+   "vs_sma50_pct": 3.5,
+   "vs_sma200_pct": 16.7,
+   "vs_vwap_pct": 12.1
+  },
+  "forward_days_available": 32,
+  "horizons": {
+   "5": {
+    "ret_pct": -19.3,
+    "worst_pct": -19.7,
+    "best_pct": -1.1,
+    "baseline_ret_pct": 1.2,
+    "levels": [
+     {
+      "level": 500,
+      "dist_pct": -1.4,
+      "touched": true,
+      "closed_below": true
+     },
+     {
+      "level": 490,
+      "dist_pct": -3.4,
+      "touched": true,
+      "closed_below": true
+     },
+     {
+      "level": 460,
+      "dist_pct": -9.3,
+      "touched": true,
+      "closed_below": true
+     }
+    ]
+   },
+   "10": {
+    "ret_pct": -25.6,
+    "worst_pct": -26.5,
+    "best_pct": -1.1,
+    "baseline_ret_pct": 2.5,
+    "levels": [
+     {
+      "level": 500,
+      "dist_pct": -1.4,
+      "touched": true,
+      "closed_below": true
+     },
+     {
+      "level": 490,
+      "dist_pct": -3.4,
+      "touched": true,
+      "closed_below": true
+     },
+     {
+      "level": 460,
+      "dist_pct": -9.3,
+      "touched": true,
+      "closed_below": true
+     }
+    ]
+   }
+  },
+  "id": "c03",
+  "video": "33Yqdsr_vcA",
+  "date": "2026-10-10",
+  "ticker": "AMAT",
+  "kind": "support",
+  "levels": [
+   500,
+   490,
+   460
+  ],
+  "quote": "490 500 area... VWAP about 460 next place to eye"
+ },
+ {
+  "asof": "2026-10-09",
+  "close": 156.68,
+  "snapshot": {
+   "ticker": "GLW",
+   "date": "2026-10-09",
+   "close": 156.67999267578125,
+   "off_52w_high_pct": -42.4,
+   "sma20": 155.15,
+   "sma50": 155.46,
+   "sma200": 152.34,
+   "bb_mid": 155.15,
+   "bb_up": 168.76,
+   "bb_lo": 141.55,
+   "rsi": 49.75,
+   "macd": 1.23,
+   "macd_sig": 1.02,
+   "macd_hist": 0.22,
+   "vwap_year": 159.69
+  },
+  "state": {
+   "pct_b": 0.56,
+   "vs_sma50_pct": 0.8,
+   "vs_sma200_pct": 2.8,
+   "vs_vwap_pct": -1.9
+  },
+  "forward_days_available": 32,
+  "horizons": {
+   "5": {
+    "ret_pct": -15.8,
+    "worst_pct": -16.0,
+    "best_pct": -1.1,
+    "baseline_ret_pct": 1.6,
+    "levels": [
+     {
+      "level": 140,
+      "dist_pct": -10.6,
+      "touched": true,
+      "closed_below": true
+     },
+     {
+      "level": 135,
+      "dist_pct": -13.8,
+      "touched": true,
+      "closed_below": true
+     }
+    ]
+   },
+   "10": {
+    "ret_pct": -21.1,
+    "worst_pct": -22.3,
+    "best_pct": -1.1,
+    "baseline_ret_pct": 3.1,
+    "levels": [
+     {
+      "level": 140,
+      "dist_pct": -10.6,
+      "touched": true,
+      "closed_below": true
+     },
+     {
+      "level": 135,
+      "dist_pct": -13.8,
+      "touched": true,
+      "closed_below": true
+     }
+    ]
+   }
+  },
+  "id": "c04",
+  "video": "33Yqdsr_vcA",
+  "date": "2026-10-10",
+  "ticker": "GLW",
+  "kind": "support",
+  "levels": [
+   140,
+   135
+  ],
+  "quote": "puts below this lower Bollinger band, 135 to 140 strikes look solid"
+ },
+ {
+  "asof": "2026-10-09",
+  "close": 109.02,
+  "snapshot": {
+   "ticker": "HOOD",
+   "date": "2026-10-09",
+   "close": 109.0199966430664,
+   "off_52w_high_pct": -29.0,
+   "sma20": 114.5,
+   "sma50": 107.23,
+   "sma200": 94.1,
+   "bb_mid": 114.5,
+   "bb_up": 125.59,
+   "bb_lo": 103.41,
+   "rsi": 45.8,
+   "macd": 0.01,
+   "macd_sig": 1.57,
+   "macd_hist": -1.56,
+   "vwap_year": 91.65
+  },
+  "state": {
+   "pct_b": 0.25,
+   "vs_sma50_pct": 1.7,
+   "vs_sma200_pct": 15.9,
+   "vs_vwap_pct": 19.0
+  },
+  "forward_days_available": 32,
+  "horizons": {
+   "5": {
+    "ret_pct": -9.3,
+    "worst_pct": -13.3,
+    "best_pct": 2.7,
+    "baseline_ret_pct": 1.9,
+    "levels": [
+     {
+      "level": 105,
+      "dist_pct": -3.7,
+      "touched": true,
+      "closed_below": true
+     },
+     {
+      "level": 99,
+      "dist_pct": -9.2,
+      "touched": true,
+      "closed_below": false
+     }
+    ]
+   },
+   "10": {
+    "ret_pct": -12.8,
+    "worst_pct": -13.3,
+    "best_pct": 2.7,
+    "baseline_ret_pct": 3.9,
+    "levels": [
+     {
+      "level": 105,
+      "dist_pct": -3.7,
+      "touched": true,
+      "closed_below": true
+     },
+     {
+      "level": 99,
+      "dist_pct": -9.2,
+      "touched": true,
+      "closed_below": true
+     }
+    ]
+   }
+  },
+  "id": "c05",
+  "video": "33Yqdsr_vcA",
+  "date": "2026-10-10",
+  "ticker": "HOOD",
+  "kind": "support",
+  "levels": [
+   105,
+   99
+  ],
+  "quote": "bounce right off the 50-day... puts 105, 99"
+ },
+ {
+  "asof": "2026-10-09",
+  "close": 280.5,
+  "snapshot": {
+   "ticker": "BE",
+   "date": "2026-10-09",
+   "close": 280.5,
+   "off_52w_high_pct": -20.1,
+   "sma20": 276.88,
+   "sma50": 246.48,
+   "sma200": 212.43,
+   "bb_mid": 276.88,
+   "bb_up": 298.77,
+   "bb_lo": 254.99,
+   "rsi": 53.97,
+   "macd": 10.55,
+   "macd_sig": 12.12,
+   "macd_hist": -1.57,
+   "vwap_year": 218.84
+  },
+  "state": {
+   "pct_b": 0.58,
+   "vs_sma50_pct": 13.8,
+   "vs_sma200_pct": 32.0,
+   "vs_vwap_pct": 28.2
+  },
+  "forward_days_available": 32,
+  "horizons": {
+   "5": {
+    "ret_pct": -21.1,
+    "worst_pct": -23.3,
+    "best_pct": -1.6,
+    "baseline_ret_pct": 4.4,
+    "levels": [
+     {
+      "level": 240,
+      "dist_pct": -14.4,
+      "touched": true,
+      "closed_below": true
+     },
+     {
+      "level": 225,
+      "dist_pct": -19.8,
+      "touched": true,
+      "closed_below": true
+     }
+    ]
+   },
+   "10": {
+    "ret_pct": -31.1,
+    "worst_pct": -32.6,
+    "best_pct": -1.6,
+    "baseline_ret_pct": 9.3,
+    "levels": [
+     {
+      "level": 240,
+      "dist_pct": -14.4,
+      "touched": true,
+      "closed_below": true
+     },
+     {
+      "level": 225,
+      "dist_pct": -19.8,
+      "touched": true,
+      "closed_below": true
+     }
+    ]
+   }
+  },
+  "id": "c06",
+  "video": "33Yqdsr_vcA",
+  "date": "2026-10-10",
+  "ticker": "BE",
+  "kind": "support",
+  "levels": [
+   240,
+   225
+  ],
+  "quote": "down to the lower band or the 50-day... puts 240, 225"
+ },
+ {
+  "asof": "2026-10-13",
+  "close": 743.57,
+  "snapshot": {
+   "ticker": "QQQ",
+   "date": "2026-10-13",
+   "close": 743.5700073242188,
+   "off_52w_high_pct": -2.5,
+   "sma20": 741.34,
+   "sma50": 726.55,
+   "sma200": 673.4,
+   "bb_mid": 741.34,
+   "bb_up": 767.7,
+   "bb_lo": 714.97,
+   "rsi": 54.59,
+   "macd": 7.95,
+   "macd_sig": 8.59,
+   "macd_hist": -0.64,
+   "vwap_year": 659.95
+  },
+  "state": {
+   "pct_b": 0.54,
+   "vs_sma50_pct": 2.3,
+   "vs_sma200_pct": 10.4,
+   "vs_vwap_pct": 12.7
+  },
+  "forward_days_available": 30,
+  "horizons": {
+   "5": {
+    "ret_pct": -3.5,
+    "worst_pct": -4.9,
+    "best_pct": -0.4,
+    "baseline_ret_pct": 0.5,
+    "levels": [
+     {
+      "level": 740,
+      "dist_pct": -0.5,
+      "touched": true,
+      "closed_below": true
+     },
+     {
+      "level": 725,
+      "dist_pct": -2.5,
+      "touched": true,
+      "closed_below": true
+     }
+    ]
+   },
+   "10": {
+    "ret_pct": -3.0,
+    "worst_pct": -5.7,
+    "best_pct": -0.4,
+    "baseline_ret_pct": 0.9,
+    "levels": [
+     {
+      "level": 740,
+      "dist_pct": -0.5,
+      "touched": true,
+      "closed_below": true
+     },
+     {
+      "level": 725,
+      "dist_pct": -2.5,
+      "touched": true,
+      "closed_below": true
+     }
+    ]
+   }
+  },
+  "id": "c07",
+  "video": "667m_tyzrDo",
+  "date": "2026-10-13",
+  "ticker": "QQQ",
+  "kind": "support",
+  "levels": [
+   740,
+   725
+  ],
+  "quote": "mid Bollinger 740 first stop... 50-day 725 next, I don't think we get that low"
+ },
+ {
+  "asof": "2026-10-13",
+  "close": 309.84,
+  "snapshot": {
+   "ticker": "AXP",
+   "date": "2026-10-13",
+   "close": 309.8399963378906,
+   "off_52w_high_pct": -20.0,
+   "sma20": 307.07,
+   "sma50": 323.5,
+   "sma200": 329.71,
+   "bb_mid": 307.07,
+   "bb_up": 314.18,
+   "bb_lo": 299.97,
+   "rsi": 45.78,
+   "macd": -4.17,
+   "macd_sig": -5.82,
+   "macd_hist": 1.65,
+   "vwap_year": 327.21
+  },
+  "state": {
+   "pct_b": 0.69,
+   "vs_sma50_pct": -4.2,
+   "vs_sma200_pct": -6.0,
+   "vs_vwap_pct": -5.3
+  },
+  "forward_days_available": 30,
+  "horizons": {
+   "5": {
+    "ret_pct": 2.7,
+    "worst_pct": -1.6,
+    "best_pct": 4.1,
+    "baseline_ret_pct": 0.2,
+    "levels": [
+     {
+      "level": 300,
+      "dist_pct": -3.2,
+      "touched": false,
+      "closed_below": false
+     }
+    ]
+   },
+   "10": {
+    "ret_pct": 1.0,
+    "worst_pct": -1.6,
+    "best_pct": 5.3,
+    "baseline_ret_pct": 0.4,
+    "levels": [
+     {
+      "level": 300,
+      "dist_pct": -3.2,
+      "touched": false,
+      "closed_below": false
+     }
+    ]
+   }
+  },
+  "id": "c08",
+  "video": "667m_tyzrDo",
+  "date": "2026-10-13",
+  "ticker": "AXP",
+  "kind": "support",
+  "levels": [
+   300
+  ],
+  "quote": "deeply oversold... 300 put near the lower Bollinger band"
+ },
+ {
+  "asof": "2026-10-13",
+  "close": 198.31,
+  "snapshot": {
+   "ticker": "CRDO",
+   "date": "2026-10-13",
+   "close": 198.30999755859375,
+   "off_52w_high_pct": -35.8,
+   "sma20": 198.79,
+   "sma50": 209.33,
+   "sma200": 179.72,
+   "bb_mid": 198.79,
+   "bb_up": 231.75,
+   "bb_lo": 165.82,
+   "rsi": 48.1,
+   "macd": 3.28,
+   "macd_sig": 2.02,
+   "macd_hist": 1.26,
+   "vwap_year": 180.89
+  },
+  "state": {
+   "pct_b": 0.49,
+   "vs_sma50_pct": -5.3,
+   "vs_sma200_pct": 10.3,
+   "vs_vwap_pct": 9.6
+  },
+  "forward_days_available": 30,
+  "horizons": {
+   "5": {
+    "ret_pct": -13.5,
+    "worst_pct": -18.8,
+    "best_pct": -1.4,
+    "baseline_ret_pct": 2.7,
+    "levels": [
+     {
+      "level": 170,
+      "dist_pct": -14.3,
+      "touched": true,
+      "closed_below": false
+     },
+     {
+      "level": 160,
+      "dist_pct": -19.3,
+      "touched": false,
+      "closed_below": false
+     }
+    ]
+   },
+   "10": {
+    "ret_pct": -15.6,
+    "worst_pct": -27.9,
+    "best_pct": -1.4,
+    "baseline_ret_pct": 5.4,
+    "levels": [
+     {
+      "level": 170,
+      "dist_pct": -14.3,
+      "touched": true,
+      "closed_below": true
+     },
+     {
+      "level": 160,
+      "dist_pct": -19.3,
+      "touched": true,
+      "closed_below": true
+     }
+    ]
+   }
+  },
+  "id": "c09",
+  "video": "667m_tyzrDo",
+  "date": "2026-10-13",
+  "ticker": "CRDO",
+  "kind": "support",
+  "levels": [
+   170,
+   160
+  ],
+  "quote": "want it back below the mid band, then add puts at 160 to 170"
+ },
+ {
+  "asof": "2026-10-13",
+  "close": 52.84,
+  "snapshot": {
+   "ticker": "DRAM",
+   "date": "2026-10-13",
+   "close": 52.84000015258789,
+   "off_52w_high_pct": -35.0,
+   "sma20": 59.52,
+   "sma50": 57.4,
+   "sma200": null,
+   "bb_mid": 59.52,
+   "bb_up": 65.08,
+   "bb_lo": 53.97,
+   "rsi": 36.28,
+   "macd": -0.56,
+   "macd_sig": 0.43,
+   "macd_hist": -0.99,
+   "vwap_year": 57.72
+  },
+  "state": {
+   "pct_b": -0.1,
+   "vs_sma50_pct": -7.9,
+   "vs_sma200_pct": null,
+   "vs_vwap_pct": -8.5
+  },
+  "forward_days_available": 30,
+  "horizons": {
+   "5": {
+    "ret_pct": -9.7,
+    "worst_pct": -12.4,
+    "best_pct": -1.7,
+    "baseline_ret_pct": 3.1,
+    "levels": []
+   },
+   "10": {
+    "ret_pct": -4.4,
+    "worst_pct": -14.3,
+    "best_pct": -1.7,
+    "baseline_ret_pct": 6.1,
+    "levels": []
+   }
+  },
+  "id": "c10",
+  "video": "667m_tyzrDo",
+  "date": "2026-10-13",
+  "ticker": "DRAM",
+  "kind": "bounce",
+  "levels": [],
+  "quote": "sitting right at the lower Bollinger Band at 54, RSI 39"
+ },
+ {
+  "asof": "2026-10-13",
+  "close": 445.12,
+  "snapshot": {
+   "ticker": "TSM",
+   "date": "2026-10-13",
+   "close": 445.1199951171875,
+   "off_52w_high_pct": -8.7,
+   "sma20": 453.36,
+   "sma50": 434.05,
+   "sma200": 393.24,
+   "bb_mid": 453.36,
+   "bb_up": 485.39,
+   "bb_lo": 421.33,
+   "rsi": 48.08,
+   "macd": 7.09,
+   "macd_sig": 9.91,
+   "macd_hist": -2.81,
+   "vwap_year": 391.57
+  },
+  "state": {
+   "pct_b": 0.37,
+   "vs_sma50_pct": 2.6,
+   "vs_sma200_pct": 13.2,
+   "vs_vwap_pct": 13.7
+  },
+  "forward_days_available": 30,
+  "horizons": {
+   "5": {
+    "ret_pct": -4.5,
+    "worst_pct": -8.5,
+    "best_pct": -1.1,
+    "baseline_ret_pct": 1.0,
+    "levels": [
+     {
+      "level": 427,
+      "dist_pct": -4.1,
+      "touched": true,
+      "closed_below": true
+     }
+    ]
+   },
+   "10": {
+    "ret_pct": -1.9,
+    "worst_pct": -8.5,
+    "best_pct": -1.1,
+    "baseline_ret_pct": 1.9,
+    "levels": [
+     {
+      "level": 427,
+      "dist_pct": -4.1,
+      "touched": true,
+      "closed_below": true
+     }
+    ]
+   }
+  },
+  "id": "c11",
+  "video": "667m_tyzrDo",
+  "date": "2026-10-13",
+  "ticker": "TSM",
+  "kind": "support",
+  "levels": [
+   427
+  ],
+  "quote": "could go down into the 420s, like 427"
+ },
+ {
+  "asof": "2026-10-15",
+  "close": 728.0,
+  "snapshot": {
+   "ticker": "QQQ",
+   "date": "2026-10-15",
+   "close": 728.0,
+   "off_52w_high_pct": -4.6,
+   "sma20": 743.1,
+   "sma50": 726.87,
+   "sma200": 674.46,
+   "bb_mid": 743.1,
+   "bb_up": 762.12,
+   "bb_lo": 724.09,
+   "rsi": 44.09,
+   "macd": 4.33,
+   "macd_sig": 7.33,
+   "macd_hist": -2.99,
+   "vwap_year": 660.69
+  },
+  "state": {
+   "pct_b": 0.1,
+   "vs_sma50_pct": 0.2,
+   "vs_sma200_pct": 7.9,
+   "vs_vwap_pct": 10.2
+  },
+  "forward_days_available": 28,
+  "horizons": {
+   "5": {
+    "ret_pct": -3.2,
+    "worst_pct": -3.6,
+    "best_pct": -0.0,
+    "baseline_ret_pct": 0.4,
+    "levels": [
+     {
+      "level": 710,
+      "dist_pct": -2.5,
+      "touched": true,
+      "closed_below": false
+     },
+     {
+      "level": 686,
+      "dist_pct": -5.8,
+      "touched": false,
+      "closed_below": false
+     }
+    ]
+   },
+   "10": {
+    "ret_pct": -1.7,
+    "worst_pct": -3.7,
+    "best_pct": -0.0,
+    "baseline_ret_pct": 0.9,
+    "levels": [
+     {
+      "level": 710,
+      "dist_pct": -2.5,
+      "touched": true,
+      "closed_below": false
+     },
+     {
+      "level": 686,
+      "dist_pct": -5.8,
+      "touched": false,
+      "closed_below": false
+     }
+    ]
+   }
+  },
+  "id": "c12",
+  "video": "hpUnLAXgOYQ",
+  "date": "2026-10-15",
+  "ticker": "QQQ",
+  "kind": "support",
+  "levels": [
+   710,
+   686
+  ],
+  "quote": "maybe down to 710, where there is a lot of support; 686 only with bad earnings"
+ },
+ {
+  "asof": "2026-10-15",
+  "close": 315.25,
+  "snapshot": {
+   "ticker": "CLS",
+   "date": "2026-10-15",
+   "close": 315.25,
+   "off_52w_high_pct": -33.5,
+   "sma20": 359.18,
+   "sma50": 333.05,
+   "sma200": 333.45,
+   "bb_mid": 359.18,
+   "bb_up": 397.01,
+   "bb_lo": 321.34,
+   "rsi": 39.36,
+   "macd": 1.16,
+   "macd_sig": 8.29,
+   "macd_hist": -7.13,
+   "vwap_year": 332.99
+  },
+  "state": {
+   "pct_b": -0.08,
+   "vs_sma50_pct": -5.3,
+   "vs_sma200_pct": -5.5,
+   "vs_vwap_pct": -5.3
+  },
+  "forward_days_available": 28,
+  "horizons": {
+   "5": {
+    "ret_pct": -14.7,
+    "worst_pct": -15.1,
+    "best_pct": 0.0,
+    "baseline_ret_pct": 2.3,
+    "levels": []
+   },
+   "10": {
+    "ret_pct": -10.3,
+    "worst_pct": -21.9,
+    "best_pct": 0.0,
+    "baseline_ret_pct": 4.5,
+    "levels": []
+   }
+  },
+  "id": "c13",
+  "video": "hpUnLAXgOYQ",
+  "date": "2026-10-15",
+  "ticker": "CLS",
+  "kind": "bounce",
+  "levels": [],
+  "quote": "CLS at the lower Bollinger Band, holding up pretty well"
+ },
+ {
+  "asof": "2026-10-15",
+  "close": 178.5,
+  "snapshot": {
+   "ticker": "CRDO",
+   "date": "2026-10-15",
+   "close": 178.5,
+   "off_52w_high_pct": -42.2,
+   "sma20": 200.19,
+   "sma50": 207.24,
+   "sma200": 180.06,
+   "bb_mid": 200.19,
+   "bb_up": 227.99,
+   "bb_lo": 172.39,
+   "rsi": 40.27,
+   "macd": -0.95,
+   "macd_sig": 1.25,
+   "macd_hist": -2.2,
+   "vwap_year": 180.88
+  },
+  "state": {
+   "pct_b": 0.11,
+   "vs_sma50_pct": -13.9,
+   "vs_sma200_pct": -0.9,
+   "vs_vwap_pct": -1.3
+  },
+  "forward_days_available": 28,
+  "horizons": {
+   "5": {
+    "ret_pct": -8.8,
+    "worst_pct": -9.8,
+    "best_pct": 6.4,
+    "baseline_ret_pct": 2.6,
+    "levels": []
+   },
+   "10": {
+    "ret_pct": -7.4,
+    "worst_pct": -19.9,
+    "best_pct": 6.4,
+    "baseline_ret_pct": 5.3,
+    "levels": []
+   }
+  },
+  "id": "c14",
+  "video": "hpUnLAXgOYQ",
+  "date": "2026-10-15",
+  "ticker": "CRDO",
+  "kind": "bounce",
+  "levels": [],
+  "quote": "back below the 200-day, right at that VWAP, RSI almost oversold"
+ },
+ {
+  "asof": "2026-10-15",
+  "close": 103.99,
+  "snapshot": {
+   "ticker": "HOOD",
+   "date": "2026-10-15",
+   "close": 103.98999786376953,
+   "off_52w_high_pct": -30.9,
+   "sma20": 113.79,
+   "sma50": 108.47,
+   "sma200": 93.85,
+   "bb_mid": 113.79,
+   "bb_up": 126.43,
+   "bb_lo": 101.15,
+   "rsi": 41.63,
+   "macd": -1.51,
+   "macd_sig": 0.1,
+   "macd_hist": -1.61,
+   "vwap_year": 91.83
+  },
+  "state": {
+   "pct_b": 0.11,
+   "vs_sma50_pct": -4.1,
+   "vs_sma200_pct": 10.8,
+   "vs_vwap_pct": 13.2
+  },
+  "forward_days_available": 28,
+  "horizons": {
+   "5": {
+    "ret_pct": -7.1,
+    "worst_pct": -8.9,
+    "best_pct": 0.4,
+    "baseline_ret_pct": 1.9,
+    "levels": [
+     {
+      "level": 95,
+      "dist_pct": -8.6,
+      "touched": true,
+      "closed_below": false
+     },
+     {
+      "level": 90,
+      "dist_pct": -13.5,
+      "touched": false,
+      "closed_below": false
+     }
+    ]
+   },
+   "10": {
+    "ret_pct": -11.9,
+    "worst_pct": -14.5,
+    "best_pct": 0.4,
+    "baseline_ret_pct": 3.8,
+    "levels": [
+     {
+      "level": 95,
+      "dist_pct": -8.6,
+      "touched": true,
+      "closed_below": true
+     },
+     {
+      "level": 90,
+      "dist_pct": -13.5,
+      "touched": true,
+      "closed_below": false
+     }
+    ]
+   }
+  },
+  "id": "c15",
+  "video": "hpUnLAXgOYQ",
+  "date": "2026-10-15",
+  "ticker": "HOOD",
+  "kind": "support",
+  "levels": [
+   95,
+   90
+  ],
+  "quote": "90 to 95 range for cash secured puts, around the 200-day or the VWAP"
+ },
+ {
+  "asof": "2026-10-15",
+  "close": 356.45,
+  "snapshot": {
+   "ticker": "WDC",
+   "date": "2026-10-15",
+   "close": 356.45001220703125,
+   "off_52w_high_pct": -55.4,
+   "sma20": 425.54,
+   "sma50": 444.57,
+   "sma200": 409.74,
+   "bb_mid": 425.54,
+   "bb_up": 495.99,
+   "bb_lo": 355.09,
+   "rsi": 30.8,
+   "macd": -23.48,
+   "macd_sig": -16.35,
+   "macd_hist": -7.13,
+   "vwap_year": 407.77
+  },
+  "state": {
+   "pct_b": 0.01,
+   "vs_sma50_pct": -19.8,
+   "vs_sma200_pct": -13.0,
+   "vs_vwap_pct": -12.6
+  },
+  "forward_days_available": 28,
+  "horizons": {
+   "5": {
+    "ret_pct": -0.6,
+    "worst_pct": -6.9,
+    "best_pct": 7.1,
+    "baseline_ret_pct": 2.5,
+    "levels": []
+   },
+   "10": {
+    "ret_pct": 10.9,
+    "worst_pct": -6.9,
+    "best_pct": 12.8,
+    "baseline_ret_pct": 5.0,
+    "levels": []
+   }
+  },
+  "id": "c16",
+  "video": "hpUnLAXgOYQ",
+  "date": "2026-10-15",
+  "ticker": "WDC",
+  "kind": "bounce",
+  "levels": [],
+  "quote": "below the 200-day, oversold on the RSI, at the lower Bollinger band"
+ },
+ {
+  "asof": "2026-10-15",
+  "close": 349.22,
+  "snapshot": {
+   "ticker": "GOOGL",
+   "date": "2026-10-15",
+   "close": 349.2200012207031,
+   "off_52w_high_pct": -14.5,
+   "sma20": 346.86,
+   "sma50": 344.92,
+   "sma200": 340.77,
+   "bb_mid": 346.86,
+   "bb_up": 356.61,
+   "bb_lo": 337.12,
+   "rsi": 52.8,
+   "macd": 1.76,
+   "macd_sig": 1.21,
+   "macd_hist": 0.55,
+   "vwap_year": 339.79
+  },
+  "state": {
+   "pct_b": 0.62,
+   "vs_sma50_pct": 1.2,
+   "vs_sma200_pct": 2.5,
+   "vs_vwap_pct": 2.8
+  },
+  "forward_days_available": 28,
+  "horizons": {
+   "5": {
+    "ret_pct": -7.2,
+    "worst_pct": -7.8,
+    "best_pct": 0.4,
+    "baseline_ret_pct": 0.9,
+    "levels": [
+     {
+      "level": 400,
+      "reached": false
+     }
+    ]
+   },
+   "10": {
+    "ret_pct": -18.7,
+    "worst_pct": -19.7,
+    "best_pct": 0.4,
+    "baseline_ret_pct": 1.7,
+    "levels": [
+     {
+      "level": 400,
+      "reached": false
+     }
+    ]
+   }
+  },
+  "id": "c17",
+  "video": "hpUnLAXgOYQ",
+  "date": "2026-10-15",
+  "ticker": "GOOGL",
+  "kind": "target",
+  "levels": [
+   400
+  ],
+  "quote": "riding this thing up until 400, then let go of the shares"
+ },
+ {
+  "asof": "2026-10-16",
+  "close": 709.8,
+  "snapshot": {
+   "ticker": "QQQ",
+   "date": "2026-10-16",
+   "close": 709.7999877929688,
+   "off_52w_high_pct": -7.0,
+   "sma20": 742.52,
+   "sma50": 726.77,
+   "sma200": 674.91,
+   "bb_mid": 742.52,
+   "bb_up": 764.62,
+   "bb_lo": 720.42,
+   "rsi": 35.0,
+   "macd": 1.52,
+   "macd_sig": 6.17,
+   "macd_hist": -4.64,
+   "vwap_year": 661.06
+  },
+  "state": {
+   "pct_b": -0.24,
+   "vs_sma50_pct": -2.3,
+   "vs_sma200_pct": 5.2,
+   "vs_vwap_pct": 7.4
+  },
+  "forward_days_available": 27,
+  "horizons": {
+   "5": {
+    "ret_pct": -0.8,
+    "worst_pct": -1.2,
+    "best_pct": 2.6,
+    "baseline_ret_pct": 0.4,
+    "levels": [
+     {
+      "level": 700,
+      "dist_pct": -1.4,
+      "touched": false,
+      "closed_below": false
+     },
+     {
+      "level": 685,
+      "dist_pct": -3.5,
+      "touched": false,
+      "closed_below": false
+     }
+    ]
+   },
+   "10": {
+    "ret_pct": -2.7,
+    "worst_pct": -3.7,
+    "best_pct": 2.6,
+    "baseline_ret_pct": 0.9,
+    "levels": [
+     {
+      "level": 700,
+      "dist_pct": -1.4,
+      "touched": true,
+      "closed_below": true
+     },
+     {
+      "level": 685,
+      "dist_pct": -3.5,
+      "touched": true,
+      "closed_below": false
+     }
+    ]
+   }
+  },
+  "id": "c18",
+  "video": "ik7Mong73Hg",
+  "date": "2026-10-17",
+  "ticker": "QQQ",
+  "kind": "support",
+  "levels": [
+   700,
+   685
+  ],
+  "quote": "700 and 685 as an absolute bottom"
+ },
+ {
+  "asof": "2026-10-16",
+  "close": 313.59,
+  "snapshot": {
+   "ticker": "AXP",
+   "date": "2026-10-16",
+   "close": 313.5899963378906,
+   "off_52w_high_pct": -19.1,
+   "sma20": 307.04,
+   "sma50": 321.42,
+   "sma200": 328.74,
+   "bb_mid": 307.04,
+   "bb_up": 314.46,
+   "bb_lo": 299.61,
+   "rsi": 51.91,
+   "macd": -2.54,
+   "macd_sig": -4.5,
+   "macd_hist": 1.95,
+   "vwap_year": 327.0
+  },
+  "state": {
+   "pct_b": 0.94,
+   "vs_sma50_pct": -2.4,
+   "vs_sma200_pct": -4.6,
+   "vs_vwap_pct": -4.1
+  },
+  "forward_days_available": 27,
+  "horizons": {
+   "5": {
+    "ret_pct": -0.1,
+    "worst_pct": -0.8,
+    "best_pct": 4.0,
+    "baseline_ret_pct": 0.2,
+    "levels": [
+     {
+      "level": 300,
+      "dist_pct": -4.3,
+      "touched": false,
+      "closed_below": false
+     }
+    ]
+   },
+   "10": {
+    "ret_pct": 1.8,
+    "worst_pct": -0.8,
+    "best_pct": 4.1,
+    "baseline_ret_pct": 0.4,
+    "levels": [
+     {
+      "level": 300,
+      "dist_pct": -4.3,
+      "touched": false,
+      "closed_below": false
+     }
+    ]
+   }
+  },
+  "id": "c19",
+  "video": "ik7Mong73Hg",
+  "date": "2026-10-17",
+  "ticker": "AXP",
+  "kind": "support",
+  "levels": [
+   300
+  ],
+  "quote": "300 put right at the lower Bollinger band, previous support"
+ },
+ {
+  "asof": "2026-10-16",
+  "close": 303.81,
+  "snapshot": {
+   "ticker": "CLS",
+   "date": "2026-10-16",
+   "close": 303.80999755859375,
+   "off_52w_high_pct": -35.9,
+   "sma20": 357.73,
+   "sma50": 332.84,
+   "sma200": 333.48,
+   "bb_mid": 357.73,
+   "bb_up": 401.27,
+   "bb_lo": 314.2,
+   "rsi": 36.66,
+   "macd": -2.59,
+   "macd_sig": 6.12,
+   "macd_hist": -8.71,
+   "vwap_year": 332.89
+  },
+  "state": {
+   "pct_b": -0.12,
+   "vs_sma50_pct": -8.7,
+   "vs_sma200_pct": -8.9,
+   "vs_vwap_pct": -8.7
+  },
+  "forward_days_available": 27,
+  "horizons": {
+   "5": {
+    "ret_pct": -14.4,
+    "worst_pct": -16.5,
+    "best_pct": 3.8,
+    "baseline_ret_pct": 2.3,
+    "levels": [
+     {
+      "level": 340,
+      "dist_pct": 11.9,
+      "touched": true,
+      "closed_below": true
+     },
+     {
+      "level": 310,
+      "dist_pct": 2.0,
+      "touched": true,
+      "closed_below": true
+     }
+    ]
+   },
+   "10": {
+    "ret_pct": -12.6,
+    "worst_pct": -18.9,
+    "best_pct": 3.8,
+    "baseline_ret_pct": 4.4,
+    "levels": [
+     {
+      "level": 340,
+      "dist_pct": 11.9,
+      "touched": true,
+      "closed_below": true
+     },
+     {
+      "level": 310,
+      "dist_pct": 2.0,
+      "touched": true,
+      "closed_below": true
+     }
+    ]
+   }
+  },
+  "id": "c20",
+  "video": "ik7Mong73Hg",
+  "date": "2026-10-17",
+  "ticker": "CLS",
+  "kind": "support",
+  "levels": [
+   340,
+   310
+  ],
+  "quote": "trading below the lower Bollinger Band, almost oversold; puts 340, 310"
+ },
+ {
+  "asof": "2026-10-16",
+  "close": 340.59,
+  "snapshot": {
+   "ticker": "GOOGL",
+   "date": "2026-10-16",
+   "close": 340.5899963378906,
+   "off_52w_high_pct": -16.6,
+   "sma20": 346.41,
+   "sma50": 344.58,
+   "sma200": 340.9,
+   "bb_mid": 346.41,
+   "bb_up": 356.44,
+   "bb_lo": 336.38,
+   "rsi": 44.45,
+   "macd": 1.0,
+   "macd_sig": 1.17,
+   "macd_hist": -0.17,
+   "vwap_year": 339.81
+  },
+  "state": {
+   "pct_b": 0.21,
+   "vs_sma50_pct": -1.2,
+   "vs_sma200_pct": -0.1,
+   "vs_vwap_pct": 0.2
+  },
+  "forward_days_available": 27,
+  "horizons": {
+   "5": {
+    "ret_pct": -6.0,
+    "worst_pct": -6.0,
+    "best_pct": 1.8,
+    "baseline_ret_pct": 0.9,
+    "levels": [
+     {
+      "level": 400,
+      "reached": false
+     }
+    ]
+   },
+   "10": {
+    "ret_pct": -17.8,
+    "worst_pct": -18.7,
+    "best_pct": 1.8,
+    "baseline_ret_pct": 1.7,
+    "levels": [
+     {
+      "level": 400,
+      "reached": false
+     }
+    ]
+   }
+  },
+  "id": "c21",
+  "video": "ik7Mong73Hg",
+  "date": "2026-10-17",
+  "ticker": "GOOGL",
+  "kind": "target",
+  "levels": [
+   400
+  ],
+  "quote": "run-up to my target of 400 on Google"
+ },
+ {
+  "asof": "2026-10-16",
+  "close": 169.7,
+  "snapshot": {
+   "ticker": "CRDO",
+   "date": "2026-10-16",
+   "close": 169.6999969482422,
+   "off_52w_high_pct": -45.0,
+   "sma20": 199.88,
+   "sma50": 206.02,
+   "sma200": 180.18,
+   "bb_mid": 199.88,
+   "bb_up": 228.87,
+   "bb_lo": 170.89,
+   "rsi": 37.16,
+   "macd": -3.13,
+   "macd_sig": 0.37,
+   "macd_hist": -3.5,
+   "vwap_year": 180.84
+  },
+  "state": {
+   "pct_b": -0.02,
+   "vs_sma50_pct": -17.6,
+   "vs_sma200_pct": -5.8,
+   "vs_vwap_pct": -6.2
+  },
+  "forward_days_available": 27,
+  "horizons": {
+   "5": {
+    "ret_pct": -13.2,
+    "worst_pct": -15.8,
+    "best_pct": 11.9,
+    "baseline_ret_pct": 2.5,
+    "levels": [
+     {
+      "level": 175,
+      "dist_pct": 3.1,
+      "touched": true,
+      "closed_below": true
+     },
+     {
+      "level": 155,
+      "dist_pct": -8.7,
+      "touched": true,
+      "closed_below": true
+     },
+     {
+      "level": 145,
+      "dist_pct": -14.6,
+      "touched": true,
+      "closed_below": false
+     }
+    ]
+   },
+   "10": {
+    "ret_pct": -11.0,
+    "worst_pct": -15.8,
+    "best_pct": 11.9,
+    "baseline_ret_pct": 5.2,
+    "levels": [
+     {
+      "level": 175,
+      "dist_pct": 3.1,
+      "touched": true,
+      "closed_below": true
+     },
+     {
+      "level": 155,
+      "dist_pct": -8.7,
+      "touched": true,
+      "closed_below": true
+     },
+     {
+      "level": 145,
+      "dist_pct": -14.6,
+      "touched": true,
+      "closed_below": false
+     }
+    ]
+   }
+  },
+  "id": "c22",
+  "video": "ik7Mong73Hg",
+  "date": "2026-10-17",
+  "ticker": "CRDO",
+  "kind": "support",
+  "levels": [
+   175,
+   155,
+   145
+  ],
+  "quote": "at the lower Bollinger Band; layers 175, 155, 145"
+ },
+ {
+  "asof": "2026-10-16",
+  "close": 98.87,
+  "snapshot": {
+   "ticker": "HOOD",
+   "date": "2026-10-16",
+   "close": 98.87000274658203,
+   "off_52w_high_pct": -34.3,
+   "sma20": 112.74,
+   "sma50": 108.63,
+   "sma200": 93.76,
+   "bb_mid": 112.74,
+   "bb_up": 126.62,
+   "bb_lo": 98.86,
+   "rsi": 36.79,
+   "macd": -2.2,
+   "macd_sig": -0.36,
+   "macd_hist": -1.84,
+   "vwap_year": 91.86
+  },
+  "state": {
+   "pct_b": 0.0,
+   "vs_sma50_pct": -9.0,
+   "vs_sma200_pct": 5.5,
+   "vs_vwap_pct": 7.6
+  },
+  "forward_days_available": 27,
+  "horizons": {
+   "5": {
+    "ret_pct": -3.8,
+    "worst_pct": -4.1,
+    "best_pct": 4.3,
+    "baseline_ret_pct": 1.9,
+    "levels": [
+     {
+      "level": 105,
+      "dist_pct": 6.2,
+      "touched": true,
+      "closed_below": true
+     },
+     {
+      "level": 99,
+      "dist_pct": 0.1,
+      "touched": true,
+      "closed_below": true
+     },
+     {
+      "level": 95,
+      "dist_pct": -3.9,
+      "touched": true,
+      "closed_below": false
+     }
+    ]
+   },
+   "10": {
+    "ret_pct": -14.0,
+    "worst_pct": -17.1,
+    "best_pct": 4.3,
+    "baseline_ret_pct": 3.7,
+    "levels": [
+     {
+      "level": 105,
+      "dist_pct": 6.2,
+      "touched": true,
+      "closed_below": true
+     },
+     {
+      "level": 99,
+      "dist_pct": 0.1,
+      "touched": true,
+      "closed_below": true
+     },
+     {
+      "level": 95,
+      "dist_pct": -3.9,
+      "touched": true,
+      "closed_below": true
+     }
+    ]
+   }
+  },
+  "id": "c23",
+  "video": "ik7Mong73Hg",
+  "date": "2026-10-17",
+  "ticker": "HOOD",
+  "kind": "support",
+  "levels": [
+   105,
+   99,
+   95
+  ],
+  "quote": "slightly above the 200-day and yearly VWAP; layer 105, 99, 95"
+ },
+ {
+  "asof": "2026-10-16",
+  "close": 221.31,
+  "snapshot": {
+   "ticker": "BE",
+   "date": "2026-10-16",
+   "close": 221.30999755859375,
+   "off_52w_high_pct": -37.0,
+   "sma20": 271.38,
+   "sma50": 248.62,
+   "sma200": 216.3,
+   "bb_mid": 271.38,
+   "bb_up": 309.95,
+   "bb_lo": 232.8,
+   "rsi": 36.51,
+   "macd": -3.21,
+   "macd_sig": 5.14,
+   "macd_hist": -8.34,
+   "vwap_year": 219.58
+  },
+  "state": {
+   "pct_b": -0.15,
+   "vs_sma50_pct": -11.0,
+   "vs_sma200_pct": 2.3,
+   "vs_vwap_pct": 0.8
+  },
+  "forward_days_available": 27,
+  "horizons": {
+   "5": {
+    "ret_pct": -12.7,
+    "worst_pct": -14.6,
+    "best_pct": 9.1,
+    "baseline_ret_pct": 4.4,
+    "levels": []
+   },
+   "10": {
+    "ret_pct": -8.2,
+    "worst_pct": -14.6,
+    "best_pct": 9.1,
+    "baseline_ret_pct": 9.2,
+    "levels": []
+   }
+  },
+  "id": "c24",
+  "video": "ik7Mong73Hg",
+  "date": "2026-10-17",
+  "ticker": "BE",
+  "kind": "bounce",
+  "levels": [],
+  "quote": "every time it breaches the 200-day, you can see what happens next"
+ },
+ {
+  "asof": "2026-10-16",
+  "close": 186.03,
+  "snapshot": {
+   "ticker": "PLTR",
+   "date": "2026-10-16",
+   "close": 186.02999877929688,
+   "off_52w_high_pct": -12.6,
+   "sma20": 193.55,
+   "sma50": 182.57,
+   "sma200": 152.65,
+   "bb_mid": 193.55,
+   "bb_up": 209.51,
+   "bb_lo": 177.59,
+   "rsi": 46.27,
+   "macd": 6.11,
+   "macd_sig": 6.93,
+   "macd_hist": -0.82,
+   "vwap_year": 149.06
+  },
+  "state": {
+   "pct_b": 0.26,
+   "vs_sma50_pct": 1.9,
+   "vs_sma200_pct": 21.9,
+   "vs_vwap_pct": 24.8
+  },
+  "forward_days_available": 27,
+  "horizons": {
+   "5": {
+    "ret_pct": 5.8,
+    "worst_pct": 0.1,
+    "best_pct": 8.9,
+    "baseline_ret_pct": 2.0,
+    "levels": [
+     {
+      "level": 165,
+      "dist_pct": -11.3,
+      "touched": false,
+      "closed_below": false
+     }
+    ]
+   },
+   "10": {
+    "ret_pct": -1.0,
+    "worst_pct": -2.8,
+    "best_pct": 8.9,
+    "baseline_ret_pct": 4.0,
+    "levels": [
+     {
+      "level": 165,
+      "dist_pct": -11.3,
+      "touched": false,
+      "closed_below": false
+     }
+    ]
+   }
+  },
+  "id": "c25",
+  "video": "ik7Mong73Hg",
+  "date": "2026-10-17",
+  "ticker": "PLTR",
+  "kind": "support",
+  "levels": [
+   165
+  ],
+  "quote": "falling off a cliff right now... 165s look good"
+ },
+ {
+  "asof": "2026-10-20",
+  "close": 717.63,
+  "snapshot": {
+   "ticker": "QQQ",
+   "date": "2026-10-20",
+   "close": 717.6300048828125,
+   "off_52w_high_pct": -5.9,
+   "sma20": 739.87,
+   "sma50": 726.62,
+   "sma200": 675.95,
+   "bb_mid": 739.87,
+   "bb_up": 766.25,
+   "bb_lo": 713.5,
+   "rsi": 40.79,
+   "macd": -1.27,
+   "macd_sig": 3.69,
+   "macd_hist": -4.96,
+   "vwap_year": 661.47
+  },
+  "state": {
+   "pct_b": 0.08,
+   "vs_sma50_pct": -1.2,
+   "vs_sma200_pct": 6.2,
+   "vs_vwap_pct": 8.5
+  },
+  "forward_days_available": 25,
+  "horizons": {
+   "5": {
+    "ret_pct": 0.5,
+    "worst_pct": -2.3,
+    "best_pct": 1.4,
+    "baseline_ret_pct": 0.4,
+    "levels": [
+     {
+      "level": 700,
+      "dist_pct": -2.5,
+      "touched": false,
+      "closed_below": false
+     },
+     {
+      "level": 694,
+      "dist_pct": -3.3,
+      "touched": false,
+      "closed_below": false
+     }
+    ]
+   },
+   "10": {
+    "ret_pct": -4.5,
+    "worst_pct": -5.2,
+    "best_pct": 1.4,
+    "baseline_ret_pct": 0.9,
+    "levels": [
+     {
+      "level": 700,
+      "dist_pct": -2.5,
+      "touched": true,
+      "closed_below": true
+     },
+     {
+      "level": 694,
+      "dist_pct": -3.3,
+      "touched": true,
+      "closed_below": true
+     }
+    ]
+   }
+  },
+  "id": "c26",
+  "video": "4zPSPmVxhr0",
+  "date": "2026-10-20",
+  "ticker": "QQQ",
+  "kind": "support",
+  "levels": [
+   700,
+   694
+  ],
+  "quote": "694... definitely a buy zone; 700 is still very strong"
+ },
+ {
+  "asof": "2026-10-20",
+  "close": 192.6,
+  "snapshot": {
+   "ticker": "PLTR",
+   "date": "2026-10-20",
+   "close": 192.60000610351562,
+   "off_52w_high_pct": -9.6,
+   "sma20": 194.48,
+   "sma50": 183.36,
+   "sma200": 152.85,
+   "bb_mid": 194.48,
+   "bb_up": 209.15,
+   "bb_lo": 179.82,
+   "rsi": 52.12,
+   "macd": 4.79,
+   "macd_sig": 6.27,
+   "macd_hist": -1.48,
+   "vwap_year": 149.26
+  },
+  "state": {
+   "pct_b": 0.44,
+   "vs_sma50_pct": 5.0,
+   "vs_sma200_pct": 26.0,
+   "vs_vwap_pct": 29.0
+  },
+  "forward_days_available": 25,
+  "horizons": {
+   "5": {
+    "ret_pct": 3.2,
+    "worst_pct": -1.4,
+    "best_pct": 5.2,
+    "baseline_ret_pct": 2.0,
+    "levels": [
+     {
+      "level": 170,
+      "dist_pct": -11.7,
+      "touched": false,
+      "closed_below": false
+     },
+     {
+      "level": 165,
+      "dist_pct": -14.3,
+      "touched": false,
+      "closed_below": false
+     }
+    ]
+   },
+   "10": {
+    "ret_pct": -8.9,
+    "worst_pct": -14.2,
+    "best_pct": 5.2,
+    "baseline_ret_pct": 4.0,
+    "levels": [
+     {
+      "level": 170,
+      "dist_pct": -11.7,
+      "touched": true,
+      "closed_below": false
+     },
+     {
+      "level": 165,
+      "dist_pct": -14.3,
+      "touched": false,
+      "closed_below": false
+     }
+    ]
+   }
+  },
+  "id": "c27",
+  "video": "4zPSPmVxhr0",
+  "date": "2026-10-20",
+  "ticker": "PLTR",
+  "kind": "support",
+  "levels": [
+   170,
+   165
+  ],
+  "quote": "165 to 170 for the puts below the lower Bollinger band"
+ },
+ {
+  "asof": "2026-10-20",
+  "close": 425.08,
+  "snapshot": {
+   "ticker": "TSM",
+   "date": "2026-10-20",
+   "close": 425.0799865722656,
+   "off_52w_high_pct": -12.8,
+   "sma20": 449.88,
+   "sma50": 434.5,
+   "sma200": 396.16,
+   "bb_mid": 449.88,
+   "bb_up": 489.21,
+   "bb_lo": 410.54,
+   "rsi": 41.94,
+   "macd": -3.66,
+   "macd_sig": 2.48,
+   "macd_hist": -6.14,
+   "vwap_year": 392.47
+  },
+  "state": {
+   "pct_b": 0.18,
+   "vs_sma50_pct": -2.2,
+   "vs_sma200_pct": 7.3,
+   "vs_vwap_pct": 8.3
+  },
+  "forward_days_available": 25,
+  "horizons": {
+   "5": {
+    "ret_pct": 2.8,
+    "worst_pct": -3.5,
+    "best_pct": 3.2,
+    "baseline_ret_pct": 0.9,
+    "levels": [
+     {
+      "level": 432.5,
+      "dist_pct": 1.7,
+      "touched": true,
+      "closed_below": true
+     }
+    ]
+   },
+   "10": {
+    "ret_pct": -4.8,
+    "worst_pct": -6.3,
+    "best_pct": 3.7,
+    "baseline_ret_pct": 1.8,
+    "levels": [
+     {
+      "level": 432.5,
+      "dist_pct": 1.7,
+      "touched": true,
+      "closed_below": true
+     }
+    ]
+   }
+  },
+  "id": "c28",
+  "video": "4zPSPmVxhr0",
+  "date": "2026-10-20",
+  "ticker": "TSM",
+  "kind": "support",
+  "levels": [
+   432.5
+  ],
+  "quote": "right below the 50-day and near the lower Bollinger band; assigned 432.5"
+ },
+ {
+  "asof": "2026-10-20",
+  "close": 170.93,
+  "snapshot": {
+   "ticker": "FTNT",
+   "date": "2026-10-20",
+   "close": 170.92999267578125,
+   "off_52w_high_pct": -13.3,
+   "sma20": 181.57,
+   "sma50": 169.77,
+   "sma200": 124.8,
+   "bb_mid": 181.57,
+   "bb_up": 196.65,
+   "bb_lo": 166.48,
+   "rsi": 42.92,
+   "macd": 1.83,
+   "macd_sig": 4.54,
+   "macd_hist": -2.72,
+   "vwap_year": 118.65
+  },
+  "state": {
+   "pct_b": 0.15,
+   "vs_sma50_pct": 0.7,
+   "vs_sma200_pct": 37.0,
+   "vs_vwap_pct": 44.1
+  },
+  "forward_days_available": 25,
+  "horizons": {
+   "5": {
+    "ret_pct": 8.2,
+    "worst_pct": -2.8,
+    "best_pct": 9.0,
+    "baseline_ret_pct": 1.0,
+    "levels": [
+     {
+      "level": 165,
+      "dist_pct": -3.5,
+      "touched": false,
+      "closed_below": false
+     }
+    ]
+   },
+   "10": {
+    "ret_pct": -25.1,
+    "worst_pct": -26.4,
+    "best_pct": 9.0,
+    "baseline_ret_pct": 2.1,
+    "levels": [
+     {
+      "level": 165,
+      "dist_pct": -3.5,
+      "touched": true,
+      "closed_below": true
+     }
+    ]
+   }
+  },
+  "id": "c29",
+  "video": "4zPSPmVxhr0",
+  "date": "2026-10-20",
+  "ticker": "FTNT",
+  "kind": "support",
+  "levels": [
+   165
+  ],
+  "quote": "very good entry below the lower Bollinger band; own 165 puts"
+ },
+ {
+  "asof": "2026-10-20",
+  "close": 216.47,
+  "snapshot": {
+   "ticker": "NVDA",
+   "date": "2026-10-20",
+   "close": 216.47000122070312,
+   "off_52w_high_pct": -11.1,
+   "sma20": 227.04,
+   "sma50": 222.92,
+   "sma200": 203.26,
+   "bb_mid": 227.04,
+   "bb_up": 241.21,
+   "bb_lo": 212.87,
+   "rsi": 40.9,
+   "macd": -1.31,
+   "macd_sig": 1.01,
+   "macd_hist": -2.32,
+   "vwap_year": 201.06
+  },
+  "state": {
+   "pct_b": 0.13,
+   "vs_sma50_pct": -2.9,
+   "vs_sma200_pct": 6.5,
+   "vs_vwap_pct": 7.7
+  },
+  "forward_days_available": 25,
+  "horizons": {
+   "5": {
+    "ret_pct": 0.7,
+    "worst_pct": -2.9,
+    "best_pct": 2.6,
+    "baseline_ret_pct": 0.6,
+    "levels": [
+     {
+      "level": 210,
+      "dist_pct": -3.0,
+      "touched": false,
+      "closed_below": false
+     },
+     {
+      "level": 205,
+      "dist_pct": -5.3,
+      "touched": false,
+      "closed_below": false
+     }
+    ]
+   },
+   "10": {
+    "ret_pct": -4.5,
+    "worst_pct": -7.2,
+    "best_pct": 2.6,
+    "baseline_ret_pct": 1.2,
+    "levels": [
+     {
+      "level": 210,
+      "dist_pct": -3.0,
+      "touched": true,
+      "closed_below": true
+     },
+     {
+      "level": 205,
+      "dist_pct": -5.3,
+      "touched": true,
+      "closed_below": true
+     }
+    ]
+   }
+  },
+  "id": "c30",
+  "video": "4zPSPmVxhr0",
+  "date": "2026-10-20",
+  "ticker": "NVDA",
+  "kind": "support",
+  "levels": [
+   210,
+   205
+  ],
+  "quote": "whenever it gets the lower Bollinger band, probably a good entry; 205-210 puts"
+ },
+ {
+  "asof": "2026-10-20",
+  "close": 222.65,
+  "snapshot": {
+   "ticker": "BE",
+   "date": "2026-10-20",
+   "close": 222.64999389648438,
+   "off_52w_high_pct": -36.6,
+   "sma20": 266.35,
+   "sma50": 249.0,
+   "sma200": 217.61,
+   "bb_mid": 266.35,
+   "bb_up": 313.92,
+   "bb_lo": 218.77,
+   "rsi": 37.61,
+   "macd": -7.53,
+   "macd_sig": 0.9,
+   "macd_hist": -8.43,
+   "vwap_year": 219.62
+  },
+  "state": {
+   "pct_b": 0.04,
+   "vs_sma50_pct": -10.6,
+   "vs_sma200_pct": 2.3,
+   "vs_vwap_pct": 1.4
+  },
+  "forward_days_available": 25,
+  "horizons": {
+   "5": {
+    "ret_pct": -1.9,
+    "worst_pct": -15.1,
+    "best_pct": 8.4,
+    "baseline_ret_pct": 4.3,
+    "levels": [
+     {
+      "level": 200,
+      "dist_pct": -10.2,
+      "touched": true,
+      "closed_below": true
+     },
+     {
+      "level": 190,
+      "dist_pct": -14.7,
+      "touched": true,
+      "closed_below": false
+     }
+    ]
+   },
+   "10": {
+    "ret_pct": -3.9,
+    "worst_pct": -15.1,
+    "best_pct": 8.4,
+    "baseline_ret_pct": 9.1,
+    "levels": [
+     {
+      "level": 200,
+      "dist_pct": -10.2,
+      "touched": true,
+      "closed_below": true
+     },
+     {
+      "level": 190,
+      "dist_pct": -14.7,
+      "touched": true,
+      "closed_below": false
+     }
+    ]
+   }
+  },
+  "id": "c31",
+  "video": "4zPSPmVxhr0",
+  "date": "2026-10-20",
+  "ticker": "BE",
+  "kind": "support",
+  "levels": [
+   200,
+   190
+  ],
+  "quote": "bounced off the 200-day; add puts about 200 and in the 190s"
+ },
+ {
+  "asof": "2026-10-20",
+  "close": 404.98,
+  "snapshot": {
+   "ticker": "AMAT",
+   "date": "2026-10-20",
+   "close": 404.9800109863281,
+   "off_52w_high_pct": -45.2,
+   "sma20": 484.44,
+   "sma50": 477.35,
+   "sma200": 440.49,
+   "bb_mid": 484.44,
+   "bb_up": 570.13,
+   "bb_lo": 398.74,
+   "rsi": 29.28,
+   "macd": -16.18,
+   "macd_sig": -3.5,
+   "macd_hist": -12.68,
+   "vwap_year": 451.92
+  },
+  "state": {
+   "pct_b": 0.04,
+   "vs_sma50_pct": -15.2,
+   "vs_sma200_pct": -8.1,
+   "vs_vwap_pct": -10.4
+  },
+  "forward_days_available": 25,
+  "horizons": {
+   "5": {
+    "ret_pct": -2.2,
+    "worst_pct": -7.9,
+    "best_pct": 2.2,
+    "baseline_ret_pct": 1.1,
+    "levels": [
+     {
+      "level": 500,
+      "dist_pct": 23.5,
+      "touched": true,
+      "closed_below": true
+     },
+     {
+      "level": 475,
+      "dist_pct": 17.3,
+      "touched": true,
+      "closed_below": true
+     },
+     {
+      "level": 455,
+      "dist_pct": 12.4,
+      "touched": true,
+      "closed_below": true
+     }
+    ]
+   },
+   "10": {
+    "ret_pct": -5.7,
+    "worst_pct": -7.9,
+    "best_pct": 5.3,
+    "baseline_ret_pct": 2.3,
+    "levels": [
+     {
+      "level": 500,
+      "dist_pct": 23.5,
+      "touched": true,
+      "closed_below": true
+     },
+     {
+      "level": 475,
+      "dist_pct": 17.3,
+      "touched": true,
+      "closed_below": true
+     },
+     {
+      "level": 455,
+      "dist_pct": 12.4,
+      "touched": true,
+      "closed_below": true
+     }
+    ]
+   }
+  },
+  "id": "c32",
+  "video": "4zPSPmVxhr0",
+  "date": "2026-10-20",
+  "ticker": "AMAT",
+  "kind": "support",
+  "levels": [
+   500,
+   475,
+   455
+  ],
+  "quote": "oversold on the RSI; plans assignment 500/475/455"
+ },
+ {
+  "asof": "2026-10-22",
+  "close": 704.47,
+  "snapshot": {
+   "ticker": "QQQ",
+   "date": "2026-10-22",
+   "close": 704.469970703125,
+   "off_52w_high_pct": -7.7,
+   "sma20": 737.24,
+   "sma50": 726.37,
+   "sma200": 676.89,
+   "bb_mid": 737.24,
+   "bb_up": 768.24,
+   "bb_lo": 706.24,
+   "rsi": 36.54,
+   "macd": -3.57,
+   "macd_sig": 1.39,
+   "macd_hist": -4.95,
+   "vwap_year": 661.98
+  },
+  "state": {
+   "pct_b": -0.03,
+   "vs_sma50_pct": -3.0,
+   "vs_sma200_pct": 4.1,
+   "vs_vwap_pct": 6.4
+  },
+  "forward_days_available": 23,
+  "horizons": {
+   "5": {
+    "ret_pct": 1.5,
+    "worst_pct": -0.5,
+    "best_pct": 3.1,
+    "baseline_ret_pct": 0.4,
+    "levels": [
+     {
+      "level": 706,
+      "dist_pct": 0.2,
+      "touched": true,
+      "closed_below": false
+     },
+     {
+      "level": 700,
+      "dist_pct": -0.6,
+      "touched": false,
+      "closed_below": false
+     }
+    ]
+   },
+   "10": {
+    "ret_pct": -8.2,
+    "worst_pct": -8.2,
+    "best_pct": 3.1,
+    "baseline_ret_pct": 0.9,
+    "levels": [
+     {
+      "level": 706,
+      "dist_pct": 0.2,
+      "touched": true,
+      "closed_below": true
+     },
+     {
+      "level": 700,
+      "dist_pct": -0.6,
+      "touched": true,
+      "closed_below": true
+     }
+    ]
+   }
+  },
+  "id": "c33",
+  "video": "kHo2a6DIn2I",
+  "date": "2026-10-22",
+  "ticker": "QQQ",
+  "kind": "support",
+  "levels": [
+   706,
+   700
+  ],
+  "quote": "bounced off that low of 706; retest of 700 is lower likelihood"
+ },
+ {
+  "asof": "2026-10-22",
+  "close": 217.77,
+  "snapshot": {
+   "ticker": "BE",
+   "date": "2026-10-22",
+   "close": 217.77000427246094,
+   "off_52w_high_pct": -38.0,
+   "sma20": 262.07,
+   "sma50": 249.16,
+   "sma200": 218.86,
+   "bb_mid": 262.07,
+   "bb_up": 315.0,
+   "bb_lo": 209.14,
+   "rsi": 38.48,
+   "macd": -9.52,
+   "macd_sig": -2.57,
+   "macd_hist": -6.95,
+   "vwap_year": 219.69
+  },
+  "state": {
+   "pct_b": 0.08,
+   "vs_sma50_pct": -12.6,
+   "vs_sma200_pct": -0.5,
+   "vs_vwap_pct": -0.9
+  },
+  "forward_days_available": 23,
+  "horizons": {
+   "5": {
+    "ret_pct": 2.1,
+    "worst_pct": -13.2,
+    "best_pct": 6.4,
+    "baseline_ret_pct": 4.3,
+    "levels": [
+     {
+      "level": 226,
+      "dist_pct": 3.8,
+      "touched": true,
+      "closed_below": true
+     }
+    ]
+   },
+   "10": {
+    "ret_pct": -23.1,
+    "worst_pct": -28.4,
+    "best_pct": 6.4,
+    "baseline_ret_pct": 9.0,
+    "levels": [
+     {
+      "level": 226,
+      "dist_pct": 3.8,
+      "touched": true,
+      "closed_below": true
+     }
+    ]
+   }
+  },
+  "id": "c34",
+  "video": "kHo2a6DIn2I",
+  "date": "2026-10-22",
+  "ticker": "BE",
+  "kind": "support",
+  "levels": [
+   226
+  ],
+  "quote": "bounced off the 200-day; 224 toward the VWAP line (range 226 to 265)"
+ },
+ {
+  "asof": "2026-10-22",
+  "close": 230.15,
+  "snapshot": {
+   "ticker": "LRCX",
+   "date": "2026-10-22",
+   "close": 230.14999389648438,
+   "off_52w_high_pct": -47.5,
+   "sma20": 304.19,
+   "sma50": 304.53,
+   "sma200": 283.29,
+   "bb_mid": 304.19,
+   "bb_up": 368.73,
+   "bb_lo": 239.66,
+   "rsi": 24.56,
+   "macd": -15.16,
+   "macd_sig": -6.37,
+   "macd_hist": -8.79,
+   "vwap_year": 281.23
+  },
+  "state": {
+   "pct_b": -0.07,
+   "vs_sma50_pct": -24.4,
+   "vs_sma200_pct": -18.8,
+   "vs_vwap_pct": -18.2
+  },
+  "forward_days_available": 23,
+  "horizons": {
+   "5": {
+    "ret_pct": 10.5,
+    "worst_pct": -2.2,
+    "best_pct": 13.2,
+    "baseline_ret_pct": 1.5,
+    "levels": []
+   },
+   "10": {
+    "ret_pct": -19.5,
+    "worst_pct": -19.9,
+    "best_pct": 13.2,
+    "baseline_ret_pct": 3.2,
+    "levels": []
+   }
+  },
+  "id": "c35",
+  "video": "kHo2a6DIn2I",
+  "date": "2026-10-22",
+  "ticker": "LRCX",
+  "kind": "bounce",
+  "levels": [],
+  "quote": "at the lower Bollinger band, oversold on the RSI; odds of a pop on good earnings"
+ },
+ {
+  "asof": "2026-10-22",
+  "close": 354.19,
+  "snapshot": {
+   "ticker": "WDC",
+   "date": "2026-10-22",
+   "close": 354.19000244140625,
+   "off_52w_high_pct": -55.7,
+   "sma20": 400.7,
+   "sma50": 435.87,
+   "sma200": 413.93,
+   "bb_mid": 400.7,
+   "bb_up": 481.23,
+   "bb_lo": 320.16,
+   "rsi": 37.68,
+   "macd": -25.38,
+   "macd_sig": -23.01,
+   "macd_hist": -2.37,
+   "vwap_year": 406.4
+  },
+  "state": {
+   "pct_b": 0.21,
+   "vs_sma50_pct": -18.7,
+   "vs_sma200_pct": -14.4,
+   "vs_vwap_pct": -12.8
+  },
+  "forward_days_available": 23,
+  "horizons": {
+   "5": {
+    "ret_pct": 11.6,
+    "worst_pct": -4.1,
+    "best_pct": 13.6,
+    "baseline_ret_pct": 2.4,
+    "levels": []
+   },
+   "10": {
+    "ret_pct": -24.4,
+    "worst_pct": -25.2,
+    "best_pct": 13.6,
+    "baseline_ret_pct": 4.9,
+    "levels": []
+   }
+  },
+  "id": "c36",
+  "video": "kHo2a6DIn2I",
+  "date": "2026-10-22",
+  "ticker": "WDC",
+  "kind": "bounce",
+  "levels": [],
+  "quote": "definitely got oversold on the RSI, trending back upwards; some upside"
+ },
+ {
+  "asof": "2026-10-02",
+  "close": 218.64,
+  "snapshot": {
+   "ticker": "CRDO",
+   "date": "2026-10-02",
+   "close": 218.63999938964844,
+   "off_52w_high_pct": -29.2,
+   "sma20": 181.24,
+   "sma50": 208.06,
+   "sma200": 177.37,
+   "bb_mid": 181.24,
+   "bb_up": 220.88,
+   "bb_lo": 141.61,
+   "rsi": 59.89,
+   "macd": 0.57,
+   "macd_sig": -5.53,
+   "macd_hist": 6.1,
+   "vwap_year": 179.7
+  },
+  "state": {
+   "pct_b": 0.97,
+   "vs_sma50_pct": 5.1,
+   "vs_sma200_pct": 23.3,
+   "vs_vwap_pct": 21.7
+  },
+  "forward_days_available": 37,
+  "horizons": {
+   "5": {
+    "ret_pct": -1.0,
+    "worst_pct": -5.8,
+    "best_pct": 3.6,
+    "baseline_ret_pct": 2.8,
+    "levels": [
+     {
+      "level": 200,
+      "dist_pct": -8.5,
+      "touched": false,
+      "closed_below": false
+     },
+     {
+      "level": 190,
+      "dist_pct": -13.1,
+      "touched": false,
+      "closed_below": false
+     },
+     {
+      "level": 185,
+      "dist_pct": -15.4,
+      "touched": false,
+      "closed_below": false
+     }
+    ]
+   },
+   "10": {
+    "ret_pct": -22.4,
+    "worst_pct": -23.8,
+    "best_pct": 3.6,
+    "baseline_ret_pct": 5.4,
+    "levels": [
+     {
+      "level": 200,
+      "dist_pct": -8.5,
+      "touched": true,
+      "closed_below": true
+     },
+     {
+      "level": 190,
+      "dist_pct": -13.1,
+      "touched": true,
+      "closed_below": true
+     },
+     {
+      "level": 185,
+      "dist_pct": -15.4,
+      "touched": true,
+      "closed_below": true
+     }
+    ]
+   }
+  },
+  "id": "c37",
+  "video": "ioSr_jyNKoo",
+  "date": "2026-10-04",
+  "ticker": "CRDO",
+  "kind": "support",
+  "levels": [
+   200,
+   190,
+   185
+  ],
+  "quote": "the 200 strike is about an 8% drop; the 185, 15%"
+ },
+ {
+  "asof": "2026-10-16",
+  "close": 98.87,
+  "snapshot": {
+   "ticker": "HOOD",
+   "date": "2026-10-16",
+   "close": 98.87000274658203,
+   "off_52w_high_pct": -34.3,
+   "sma20": 112.74,
+   "sma50": 108.63,
+   "sma200": 93.76,
+   "bb_mid": 112.74,
+   "bb_up": 126.62,
+   "bb_lo": 98.86,
+   "rsi": 36.79,
+   "macd": -2.2,
+   "macd_sig": -0.36,
+   "macd_hist": -1.84,
+   "vwap_year": 91.86
+  },
+  "state": {
+   "pct_b": 0.0,
+   "vs_sma50_pct": -9.0,
+   "vs_sma200_pct": 5.5,
+   "vs_vwap_pct": 7.6
+  },
+  "forward_days_available": 27,
+  "horizons": {
+   "5": {
+    "ret_pct": -3.8,
+    "worst_pct": -4.1,
+    "best_pct": 4.3,
+    "baseline_ret_pct": 1.9,
+    "levels": [
+     {
+      "level": 93,
+      "dist_pct": -5.9,
+      "touched": false,
+      "closed_below": false
+     },
+     {
+      "level": 90,
+      "dist_pct": -9.0,
+      "touched": false,
+      "closed_below": false
+     },
+     {
+      "level": 80,
+      "dist_pct": -19.1,
+      "touched": false,
+      "closed_below": false
+     },
+     {
+      "level": 70,
+      "dist_pct": -29.2,
+      "touched": false,
+      "closed_below": false
+     }
+    ]
+   },
+   "10": {
+    "ret_pct": -14.0,
+    "worst_pct": -17.1,
+    "best_pct": 4.3,
+    "baseline_ret_pct": 3.7,
+    "levels": [
+     {
+      "level": 93,
+      "dist_pct": -5.9,
+      "touched": true,
+      "closed_below": true
+     },
+     {
+      "level": 90,
+      "dist_pct": -9.0,
+      "touched": true,
+      "closed_below": true
+     },
+     {
+      "level": 80,
+      "dist_pct": -19.1,
+      "touched": false,
+      "closed_below": false
+     },
+     {
+      "level": 70,
+      "dist_pct": -29.2,
+      "touched": false,
+      "closed_below": false
+     }
+    ]
+   }
+  },
+  "id": "c38",
+  "video": "SLBmkUzyGtA",
+  "date": "2026-10-18",
+  "ticker": "HOOD",
+  "kind": "support",
+  "levels": [
+   93,
+   90,
+   80,
+   70
+  ],
+  "quote": "near the 200-day, maybe the 90 or 93 strike; then 80; then 70"
+ }
+]

@@ -1,0 +1,268 @@
+{
+  "video_id": "pMQj9ZcEbQI",
+  "creator": "Jeremy Lefebvre Makes Money",
+  "title": "AMD Just FLIPPED THE ENTIRE MARKET & ITS OWN STOCK",
+  "upload_date": "20261104",
+  "duration_seconds": 2335.8,
+  "source": "https://www.youtube.com/watch?v=pMQj9ZcEbQI",
+  "verdicts": "new-info | useful | redundant | blank | wrong  (see plan/watch-skill-testing-mode/PLAN.md)",
+  "cues": [
+    {
+      "cue_id": "c01",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 0.56,
+      "heard": "AMD [clears throat]",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "X post with AMD position screenshot: AMD $486.30, 2,555 shares, avg cost $111.61, total value $1,241,333.97, gain +$956,165.41 (+335.29%)"
+    },
+    {
+      "cue_id": "c02",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 126.479,
+      "heard": "subscribed here to the channel. Okay, look at this",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "new-info",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "AMD tweet, then ir.amd.com GAAP/non-GAAP tables: GAAP diluted EPS $1.46 vs $0.75, non-GAAP EPS $2.09 vs $1.20 (captions said $146)"
+    },
+    {
+      "cue_id": "c03",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 295.6,
+      "heard": "quarter on this last quarter was 16%. Right? And non-GAAP gross margin is",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "AMD Q4 outlook paragraph (~$17B +/-3%, ~66% Y/Y, ~27% seq, 55% non-GAAP GM); captions cover it"
+    },
+    {
+      "cue_id": "c04",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 346.08,
+      "heard": "if you guys looked at these in-depth numbers. Look at this. Data center",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "Non-GAAP table and segment summary (data center $8.5B +97%, client+gaming $3.7B -8%); captions cover it"
+    },
+    {
+      "cue_id": "c05",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 365.28,
+      "heard": "the thing, okay? Now, you could look at this as a negative. I actually look at",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "Same segment summary page as c04"
+    },
+    {
+      "cue_id": "c06",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 592.48,
+      "heard": "have seen this yet. Uh, it is called Jeremy GPT. I was shouted this out on",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "Discord post: AMD expects 2027 opex to grow at less than half the rate of revenue; captions cover it"
+    },
+    {
+      "cue_id": "c07",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 599.8389999999999,
+      "heard": "going to shout this out. Uh the main channel yesterday, Jeremy GBT, where'd",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "wrong",
+        "+6": "wrong"
+      },
+      "best_offset": null,
+      "notes": "Discord sidebar scrolling to find the Jeremy AI channel (promo)"
+    },
+    {
+      "cue_id": "c08",
+      "term": "next-one",
+      "category": "transition",
+      "t": 796.32,
+      "heard": "cycle again because now, you know, the next one up you'll get",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "blank",
+        "+4": "blank",
+        "+6": "blank"
+      },
+      "best_offset": "-2",
+      "notes": "CNBC homepage with futures (Dow fut 51,668 -0.44%, S&P fut 7,545 -0.68%, Nas fut 27,941.50 -1.29%, oil 96.76; read from the matching control frame), then full-screen face cam"
+    },
+    {
+      "cue_id": "c09",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 845.68,
+      "heard": "big bounce back. Um, whether they get back to all-time highs, that's",
+      "offsets": {
+        "-2": "blank",
+        "+0": "blank",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "Full-screen face cam, then the same CNBC homepage as c08"
+    },
+    {
+      "cue_id": "c10",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 884.0,
+      "heard": "Uh they had a very poor client revenues. PC's markets have been in a lot of",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "new-info",
+        "+4": "redundant",
+        "+6": "new-info"
+      },
+      "best_offset": "+2",
+      "notes": "CNBC Rasgon clip: AMD 518.99 +7.25% extended, Outperform $650 PT; AMD EPS beats $2.09 adj vs $1.95 est; real-time MU 868.08, SK Hynix 154.00, INTC 61.60"
+    },
+    {
+      "cue_id": "c11",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 1102.08,
+      "heard": "to see what they they see for their own server CPU growth because uh the the",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "new-info",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "AMD Q4 revenue outlook $17.0B vs $16.23B est; real-time AMD 515.42, NVDA 209.02, TSM 409.00, AVGO 335.55"
+    },
+    {
+      "cue_id": "c12",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 1694.24,
+      "heard": "contrarian view that Democrat House Democrats will support AI",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "redundant",
+        "+4": "new-info",
+        "+6": "redundant"
+      },
+      "best_offset": "+4",
+      "notes": "Tom Lee CNBC clip on YouTube, then Fair Value card: S&P 500 +40.75, DJIA +306.00, Nasdaq +244.25 futures change"
+    }
+  ],
+  "control": [
+    {
+      "t": 0.0,
+      "reason": "first-frame",
+      "verdict": "new-info"
+    },
+    {
+      "t": 75.533333,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 97.9,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 332.433333,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 545.566667,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 792.8,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 1306.966667,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 1580.766667,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 1787.7,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 1865.933333,
+      "reason": "scene-change",
+      "verdict": "redundant"
+    },
+    {
+      "t": 2236.5,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 2310.4,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    }
+  ],
+  "control_notes": "No control_sheet.jpg was produced; labeled from the 12 individual frames. N: AMD position screenshot (0:00); CNBC futures strip Dow fut 51,668, S&P fut 7,545, Nas fut 27,941.50, oil 96.76 (13:12); Ackman clip with META -7.45% / AMZN +7.97% YTD (29:47); CNBC futures again Dow 51,743, S&P 7,550.75, Nas 27,904.75, oil 96.13, US10Y 4.911% (37:16). U: Tom Lee video page (1:37), Rasgon clip mostly behind face cam (21:46), Tom Lee page behind face cam (26:19). B: blank CNBC page (1:15), full-screen face cam (5:32), blank Discord page (9:05). R: Ackman page again (31:05). W: Jeremy AI Discord promo (38:30).",
+  "labeling_notes": "Labeled by Claude from contact sheets; new-info only where text was readable (checked against full-size frames for c01, c02, c10, c11). Jeremy Lefebvre reaction format: browser screen share (X, ir.amd.com, Discord, CNBC, YouTube) with a face-cam bubble; full-screen face cam counts as blank; Discord channel browsing for the Jeremy AI promo is wrong.",
+  "trained_at": "2026-11-05"
+}

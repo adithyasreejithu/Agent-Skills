@@ -12,7 +12,7 @@ import tempfile
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-# Video data lives in watch-output/video-data/; summaries are stored outside watch-output and never touched here.
+# Video data lives in watch-output/video-data/; summaries (research/) are stored outside watch-output and never touched here.
 WATCH_OUTPUT = Path(os.environ.get("WATCH_OUTPUT_DIR") or REPO_ROOT / "watch-output" / "video-data").expanduser().resolve()
 
 FRAME_TARGETS = ("frames", "cues", "sheets")

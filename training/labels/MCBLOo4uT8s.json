@@ -1,0 +1,460 @@
+{
+  "video_id": "MCBLOo4uT8s",
+  "creator": "Jeremy Lefebvre Makes Money",
+  "title": "Top 5 AI stocks to BUY NOW since they have Collapsed -60%+",
+  "upload_date": "20261111",
+  "duration_seconds": 2385.3,
+  "source": "https://www.youtube.com/watch?v=MCBLOo4uT8s",
+  "verdicts": "new-info | useful | redundant | blank | wrong  (see plan/watch-skill-testing-mode/PLAN.md)",
+  "cues": [
+    {
+      "cue_id": "c01",
+      "term": "volatility-index",
+      "category": "macro",
+      "t": 191.36,
+      "heard": "starts to move up from there. >> The second is the VIX. Uh, the VIX term",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "new-info",
+        "+4": "new-info",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "CNBC Tom Lee clip ticker carousel: NVDA 177.27 -5.02%, SPCX 141.31 +5.24%, TSLA 380.70 +6.27%; no VIX on screen"
+    },
+    {
+      "cue_id": "c02",
+      "term": "volatility-index",
+      "category": "macro",
+      "t": 210.799,
+      "heard": "cuz you were saying look the mark >> Hey before we go further here the VIX",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "CNBC Closing Bell panel, banner 'S&P 500 on track for best day since April 8'"
+    },
+    {
+      "cue_id": "c03",
+      "term": "volatility-index",
+      "category": "macro",
+      "t": 220.799,
+      "heard": "almost always it's a great buying opportunity you see the VIX spike 60 70%",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "same CNBC panel as c02"
+    },
+    {
+      "cue_id": "c04",
+      "term": "moving-average",
+      "category": "chart",
+      "t": 320.0,
+      "heard": "almost 60% of members above their 200 day moving average by the end of last",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "new-info",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "RSP equal weight 221.71 +2.62%, 'All 11 S&P sectors higher today'; +4 shows RSP YTD +15.74% and 'Dow rallies 1,200 points'"
+    },
+    {
+      "cue_id": "c05",
+      "term": "fed-watch",
+      "category": "macro",
+      "t": 607.6,
+      "heard": "right when you switch from expecting rate cuts to actually having hikes",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "new-info",
+        "+4": "redundant",
+        "+6": "new-info"
+      },
+      "best_offset": "+2",
+      "notes": "CNBC panel then XLF 58.23 +1.07 +1.86%; +6 banner 'Nasdaq on track for best day since June 15'"
+    },
+    {
+      "cue_id": "c06",
+      "term": "take-a-look",
+      "category": "pointing",
+      "t": 620.8,
+      "heard": "signal that at some point it got topheavy and then but now let's look",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "XLF 58.22 chart repeated"
+    },
+    {
+      "cue_id": "c07",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 620.8,
+      "heard": "signal that at some point it got topheavy and then but now let's look",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "same frames as c06 [auto: within 1.5s of c06, marked redundant]"
+    },
+    {
+      "cue_id": "c08",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 981.68,
+      "heard": "consider. Okay. All righty. Next up here, let's talk about my favorite AI",
+      "offsets": {
+        "-2": "blank",
+        "+0": "new-info",
+        "+2": "new-info",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "face cam, then X post: Kalshi odds Jensen leaving 45% before 2028, 58% before 2029, 62% before 2031; then TradingView S&P 500 7,520.93 -0.38%"
+    },
+    {
+      "cue_id": "c09",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 1003.92,
+      "heard": "portfolio for the next five years, number one, I'm still taking AMD. I'm",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "TradingView market summary with watchlist (AMD 515.21 +1.30% legible at full size); static screen"
+    },
+    {
+      "cue_id": "c10",
+      "term": "next-one",
+      "category": "transition",
+      "t": 1003.92,
+      "heard": "portfolio for the next five years, number one, I'm still taking AMD. I'm",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "same frames as c09 [auto: within 1.5s of c09, marked redundant]"
+    },
+    {
+      "cue_id": "c11",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 1011.279,
+      "heard": "still taking AMD. I mean AMD is just we know how well they're set up on the GPU",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "same static TradingView market summary"
+    },
+    {
+      "cue_id": "c12",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 1012.88,
+      "heard": "know how well they're set up on the GPU and CPU side for the next number of",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "same static TradingView market summary"
+    },
+    {
+      "cue_id": "c13",
+      "term": "next-one",
+      "category": "transition",
+      "t": 1173.44,
+      "heard": "pulled off over time, right? So I would say that's still number one. Number two,",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "same static TradingView market summary during AMZN/GOOG talk"
+    },
+    {
+      "cue_id": "c14",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 1181.6,
+      "heard": "amazing on Amazon. Uh Amazon's a number two AI play. If you look at what AWS",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "same static TradingView market summary"
+    },
+    {
+      "cue_id": "c15",
+      "term": "next-one",
+      "category": "transition",
+      "t": 1229.12,
+      "heard": "right now. Caler. Caterpillar would be my number four. When it comes to",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "same static TradingView screen during CAT talk"
+    },
+    {
+      "cue_id": "c16",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 1317.6,
+      "heard": "it's between two stocks. The fifth one, it's between MU and Nvidia. And that's a",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "same static TradingView screen during MU/NVDA talk"
+    },
+    {
+      "cue_id": "c17",
+      "term": "take-a-look",
+      "category": "pointing",
+      "t": 1378.4,
+      "heard": "ridiculous. Like Nvidia's trading at a um let's take a look at where Nvidia is",
+      "offsets": {
+        "-2": "blank",
+        "+0": "blank",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "new-info"
+      },
+      "best_offset": "+6",
+      "notes": "full face cam, TradingView again, then 1000xstocks NVDA $168.89 valuation page"
+    },
+    {
+      "cue_id": "c18",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 1378.4,
+      "heard": "ridiculous. Like Nvidia's trading at a um let's take a look at where Nvidia is",
+      "offsets": {
+        "-2": "blank",
+        "+0": "blank",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "same frames as c17 [auto: within 1.5s of c17, marked redundant]"
+    },
+    {
+      "cue_id": "c19",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 1427.36,
+      "heard": "about valuation, let me show you an investor group. Look at this.",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "useful",
+        "+4": "new-info",
+        "+6": "redundant"
+      },
+      "best_offset": "+4",
+      "notes": "1000xstocks NVDA page, then MU $725.11 page with forward valuation table (small)"
+    },
+    {
+      "cue_id": "c20",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 1610.0,
+      "heard": "times PE. Like we on ThousandX, we have it at a 14 forward PE. Um CNBC has it at",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "CNBC forward valuation NVDA 178.67 -7.97 -4.27%, PE ratio 14.77 fwd"
+    },
+    {
+      "cue_id": "c21",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 1925.279,
+      "heard": "that we have on. So, for me, I look at this and I go, there was a lot of",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "CNBC NVDA 2-day chart 178.67 -4.27%, banner Trump says he spoke to Jensen Huang"
+    },
+    {
+      "cue_id": "c22",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 2045.679,
+      "heard": "but we don't. And so I kind of look at this and I go, I'm not here to pass",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "CNBC one-week chart NVDA -11.58% vs SOXX -2.95%, banner Commerce Dept chip inquiry halted after Nvidia intervention"
+    },
+    {
+      "cue_id": "c23",
+      "term": "support-resistance",
+      "category": "chart",
+      "t": 2184.88,
+      "heard": ">> Yeah, S&P's only 6% from an all-time high, and that's before you consider the",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "CNBC energy board: WTI Dec 86.90 -4.33%, Brent Jan 93.83 -4.57%, nat gas 3.139 +4.70%; not an all-time-high chart"
+    },
+    {
+      "cue_id": "c24",
+      "term": "chart",
+      "category": "chart",
+      "t": 2251.76,
+      "heard": "additional losses today. I think if you call up that oil chart, you'll see that",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "new-info"
+      },
+      "best_offset": "+6",
+      "notes": "S&P 500 7,376.86 +0.31% (1-yr +9.63%), 'Monday econ data'; +6 energy markets WTI 86.77 -4.47%, Brent 93.66"
+    }
+  ],
+  "control": [
+    {
+      "t": 0.0,
+      "reason": "first-frame",
+      "verdict": "new-info"
+    },
+    {
+      "t": 86.933333,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 258.4,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 608.5,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 820.366667,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 1026.6,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 1308.333333,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 1380.066667,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 1446.433333,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 1564.7,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 1838.433333,
+      "reason": "scene-change",
+      "verdict": "useful"
+    },
+    {
+      "t": 2122.566667,
+      "reason": "scene-change",
+      "verdict": "blank"
+    }
+  ],
+  "control_notes": "0:00 CAT chart annotated -45% from highs (584.57 -45.11%); Niles NVDA probe clip; Tom Lee panel; XLF 58.23; Kalshi Jensen odds post; face cam x2; TradingView watchlist (NVDA 168.89, MU 725.11, CAT 584.57, AMD 515.21, AMZN 270.87, GOOG 284.92); blank page; Niles clips; face cam",
+  "labeling_notes": "Labeled by Claude from contact sheets; new-info only where text was readable.",
+  "trained_at": "2026-11-11"
+}

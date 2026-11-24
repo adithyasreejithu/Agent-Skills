@@ -1,0 +1,171 @@
+{
+  "title": "once in 20 year panic‼️",
+  "channel": "Jeremy Lefebvre Makes Money",
+  "url": "https://www.youtube.com/watch?v=thDu_XGcHMI",
+  "published_at": "2026-11-20T20:14:05+00:00",
+  "video_id": "thDu_XGcHMI",
+  "methods": [
+    {
+      "method_id": "crashed-stock-candidate-list",
+      "new_method": null,
+      "steps": [
+        {
+          "step_id": "show-one-year-price-decline",
+          "new_step": null,
+          "at": "02:12",
+          "does": "Shows a TradingView overlay chart of many AI-trade and semiconductor stocks and leveraged ETFs, normalised to percent change since the June top, with a colour-coded legend of percent declines, and reads the declines off one by one.",
+          "why": "To show that stocks already crashed are now seeing capitulation selling, i.e. panic rather than an orderly market.",
+          "data": [
+            "Percent decline since June top per stock (SpaceX -15%, AMD -18%, Avago -19%, TSM -25%, Nvidia -30%+, Oracle -32%, Micron about -50%, Caterpillar -51%, Marvell -55%, CoreWeave -59%, Nebius -67%, Sandisk -72%, Iren -74%)",
+            "Leveraged ETFs: MUU -82.5%, SOXL -86%, SNXX -96%"
+          ],
+          "tools": [
+            "TradingView"
+          ],
+          "indicators": [],
+          "conclusion": "Already-obliterated stocks falling double digits again signals pure capitulation, with leverage being unwound.",
+          "tag": "explicit"
+        },
+        {
+          "step_id": "judge-valuation-by-forward-p-e",
+          "new_step": null,
+          "at": "08:33",
+          "does": "States forward P/E of the crashed semiconductor names to argue valuations are on the floor and there is no fundamental case for the crash yet; no screen shown for these figures.",
+          "why": "To separate fear-driven selling from a real fundamental deterioration.",
+          "data": [
+            "Sandisk forward P/E about 2",
+            "Micron forward P/E about 3",
+            "Nvidia forward P/E about 11",
+            "Hyperscaler CapEx still guided up for 2027"
+          ],
+          "tools": [],
+          "indicators": [
+            "P/E ratio"
+          ],
+          "conclusion": "Fundamentals still strong for one to several years; the selloff is fear on fear.",
+          "tag": "explicit"
+        }
+      ],
+      "rules": [
+        {
+          "text": "Run a bear, base and bull case on each company and understand its risk profile before buying a crash.",
+          "tag": "explicit"
+        },
+        {
+          "text": "A major correction is usually not over until even resilient names like Apple take a 10-15% hit.",
+          "tag": "explicit"
+        }
+      ]
+    },
+    {
+      "method_id": "technical-read-on-a-stock-chart",
+      "new_method": null,
+      "steps": [
+        {
+          "step_id": "check-index-etf-drawdown-from-high",
+          "new_step": null,
+          "at": "32:31",
+          "does": "Searches QQQ in TradingView and views a plain line chart of QQQ since its October high, noting the percent decline.",
+          "why": "To see how deep the Nasdaq-100 pullback is before reacting to commentators.",
+          "data": [
+            "QQQ about 18% below October high",
+            "last price around 614"
+          ],
+          "tools": [
+            "TradingView"
+          ],
+          "indicators": [],
+          "conclusion": "QQQ is roughly 18% off its highs.",
+          "tag": "visual"
+        }
+      ],
+      "rules": []
+    },
+    {
+      "method_id": "market-backdrop-from-cnbc-commentary",
+      "new_method": null,
+      "steps": [
+        {
+          "step_id": "play-cnbc-segment-and-react",
+          "new_step": null,
+          "at": "13:15",
+          "does": "Plays YouTube clips of CNBC interviews with Tom Lee, Ed Yardeni and Dan Ives, pausing to react (for example noting Anthropic is also crashing, and that commodities are crashing).",
+          "why": "To gather Wall Street views on whether the tech correction is healthy and offer a counterview.",
+          "data": [
+            "Tom Lee: healthy correction, comparing to Cisco in 1997",
+            "Ed Yardeni: AI trade alive and well",
+            "Dan Ives: dark period for tech"
+          ],
+          "tools": [
+            "YouTube",
+            "CNBC"
+          ],
+          "indicators": [],
+          "conclusion": "Creator treats the commentary as context and focuses on buying the dip over years.",
+          "tag": "explicit"
+        }
+      ],
+      "rules": []
+    },
+    {
+      "method_id": "portfolio-performance-review-from-brokerage",
+      "new_method": null,
+      "steps": [
+        {
+          "step_id": "read-per-position-gains-and-losses",
+          "new_step": null,
+          "at": "06:02",
+          "does": "Switches the TradingView right-hand watchlist to his own holdings and reads each stock's day change, naming which are green or down only 1-2% (CRM, Google, Estee Lauder, On, AmEx, Wynn, RH, Nike).",
+          "why": "To show which of his holdings are holding up while the AI trade is crashing.",
+          "data": [
+            "Daily percent change per holding",
+            "CRM green; Estee Lauder, On, AmEx about -1%; Wynn, RH, Nike about -2%"
+          ],
+          "tools": [
+            "TradingView"
+          ],
+          "indicators": [
+            "Daily gain/loss"
+          ],
+          "conclusion": "Defensive and previously crashed holdings are holding up; usually everything gets hit by the end of a correction.",
+          "tag": "explicit"
+        }
+      ],
+      "rules": []
+    }
+  ],
+  "tools": [
+    {
+      "name": "TradingView",
+      "kind": "website",
+      "url": "tradingview.com",
+      "used_for": "overlay percent-change chart, watchlists and single-symbol charts"
+    },
+    {
+      "name": "YouTube",
+      "kind": "website",
+      "url": "youtube.com",
+      "used_for": "playing CNBC interview clips"
+    },
+    {
+      "name": "CNBC",
+      "kind": "website",
+      "url": "cnbc.com",
+      "used_for": "market commentary segments"
+    }
+  ],
+  "indicators": [
+    {
+      "name": "P/E ratio",
+      "measures": "valuation relative to earnings",
+      "how_used": "Quotes forward P/E of crashed semiconductor names to argue valuations are very low",
+      "platform": ""
+    },
+    {
+      "name": "Daily gain/loss",
+      "measures": "one-day percent change of a holding",
+      "how_used": "Read down a watchlist to see which holdings are resilient",
+      "platform": "TradingView"
+    }
+  ]
+}

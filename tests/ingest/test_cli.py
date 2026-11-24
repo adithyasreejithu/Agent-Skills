@@ -85,6 +85,60 @@ class CliTests(unittest.TestCase):
         stage, item = store.find('done0000000')
         self.assertEqual((stage, item['channel_name']), ('pending', 'C'))
 
+    def test_a_run_that_finished_videos_writes_the_brief_not_a_digest(self):
+        from types import SimpleNamespace
+        from unittest import mock
+        from process import ProcessReport
+        cli('--home', str(self.home), 'init')
+        calls = []
+
+        def fake_brief(store, day, **kwargs):
+            calls.append(day)
+            return SimpleNamespace(path=Path(f'{day}.md'), generated='claude', videos=1,
+                                   history_notes=1, attempts=1, usage={})
+
+        with mock.patch.object(run, 'process_queue', lambda *a, **k: ProcessReport(done=['aaaaaaaaaa1'])), \
+                mock.patch.object(run, 'write_brief', fake_brief):
+            code, out, _ = cli('--home', str(self.home), 'process')
+        self.assertEqual(code, 0)
+        self.assertEqual(calls, [run.today()])
+        self.assertIn(f'brief     {run.today()}.md  (claude)', out)
+        self.assertNotIn('digest', out)
+
+    def test_brief_on_a_day_with_no_videos_is_harmless(self):
+        cli('--home', str(self.home), 'init')
+        code, out, _ = cli('--home', str(self.home), 'brief', '--date', '2001-01-01')
+        self.assertEqual((code, out.strip()), (0, 'no videos finished on 2001-01-01'))
+        code, out, _ = cli('--home', str(self.home), 'brief', '--date', 'yesterday')
+        self.assertEqual(code, 2)
+
+    def test_analyze_with_nothing_to_do_and_render_only_are_harmless(self):
+        import os
+        from unittest import mock
+        cli('--home', str(self.home), 'init')
+        with mock.patch.dict(os.environ, {'INGEST_RESEARCH_DIR': str(self.home.parent / 'research')}):   # not the repo's
+            code, out, _ = cli('--home', str(self.home), 'analyze')
+            self.assertEqual((code, 'nothing to analyse' in out), (0, True))
+            code, out, _ = cli('--home', str(self.home), 'analyze', '--render-only')
+        self.assertEqual(code, 0)
+        self.assertIn('rendered 2 file(s)', out)
+        self.assertTrue((self.home.parent / 'research' / 'analysis' / 'methods.md').is_file())
+
+    def test_a_run_that_finished_videos_analyses_them_without_failing_the_run(self):
+        from unittest import mock
+        from process import ProcessReport
+        cli('--home', str(self.home), 'init')
+        seen = []
+
+        def boom(store, ids, **kwargs):
+            seen.append(list(ids))
+            raise RuntimeError('model down')
+
+        with mock.patch.object(run, 'process_queue', lambda *a, **k: ProcessReport(done=['aaaaaaaaaa1'])),                 mock.patch.object(run, 'write_brief', lambda *a, **k: None),                 mock.patch.object(run.analysis, 'analyse_many', boom):
+            code, out, _ = cli('--home', str(self.home), 'process')
+        self.assertEqual((code, seen), (0, [['aaaaaaaaaa1']]))
+        self.assertIn('analysis failed: RuntimeError: model down', out)
+
     def test_testing_flag_comes_from_settings(self):
         from config import resolve_paths
         self.assertFalse(resolve_paths(None, env={}, cwd=self.home, user_config=self.home / 'none').testing)

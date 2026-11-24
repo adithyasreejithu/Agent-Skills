@@ -1,0 +1,508 @@
+{
+  "video_id": "kHo2a6DIn2I",
+  "creator": "Options With Ryan",
+  "title": "Why I Sold One Stock + BE, LRCX & WDC Earnings Update (Options With Ryan)",
+  "upload_date": "20261022",
+  "duration_seconds": 1193.4,
+  "source": "https://www.youtube.com/watch?v=kHo2a6DIn2I",
+  "verdicts": "new-info | useful | redundant | blank | wrong  (see plan/watch-skill-testing-mode/PLAN.md)",
+  "cues": [
+    {
+      "cue_id": "c01",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 1.839,
+      "heard": "We had amazing earnings come out of SpaceX, Rathon, and GE, which helped",
+      "offsets": {
+        "-2": "blank",
+        "+0": "blank",
+        "+2": "blank",
+        "+4": "blank",
+        "+6": "blank"
+      },
+      "best_offset": null,
+      "notes": "Full-screen talking-head intro (SpaceX, RTX, GE earnings)"
+    },
+    {
+      "cue_id": "c02",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 13.759,
+      "heard": "Research, Bloom Energy, and Western Digital, WDC. That's been a highly",
+      "offsets": {
+        "-2": "blank",
+        "+0": "blank",
+        "+2": "blank",
+        "+4": "blank",
+        "+6": "blank"
+      },
+      "best_offset": null,
+      "notes": "Full-screen talking-head intro (LRCX, BE, WDC)"
+    },
+    {
+      "cue_id": "c03",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 29.599,
+      "heard": "what I did with the capital. So, let's go ahead and dive right into it.",
+      "offsets": {
+        "-2": "blank",
+        "+0": "blank",
+        "+2": "blank",
+        "+4": "blank",
+        "+6": "blank"
+      },
+      "best_offset": null,
+      "notes": "Talking head, then the 'not financial advice' slide"
+    },
+    {
+      "cue_id": "c04",
+      "term": "take-a-look",
+      "category": "pointing",
+      "t": 36.399,
+      "heard": "doing for educational purposes only. Results may vary. Now, if we take a look",
+      "offsets": {
+        "-2": "blank",
+        "+0": "blank",
+        "+2": "useful",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+2",
+      "notes": "Disclaimer slide, then Schwab account Summary page; total value too small on the sheet"
+    },
+    {
+      "cue_id": "c05",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 39.44,
+      "heard": "at the account, you can see this right here is my public portfolio that I share",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "Same Schwab Summary page as c04"
+    },
+    {
+      "cue_id": "c06",
+      "term": "take-a-look",
+      "category": "pointing",
+      "t": 60.48,
+      "heard": "and I appreciate you being here. Now, let's go ahead and took take a look at",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "useful",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+2",
+      "notes": "Summary page, then Realized Gain/Loss page (today, 100% gauge); figures not legible on the sheet"
+    },
+    {
+      "cue_id": "c07",
+      "term": "as-you-can-see",
+      "category": "pointing",
+      "t": 64.0,
+      "heard": "the realized gain loss for transparency. As you can see, today we did close out",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "Same Realized Gain/Loss page"
+    },
+    {
+      "cue_id": "c08",
+      "term": "strike",
+      "category": "options",
+      "t": 66.24,
+      "heard": "As you can see, today we did close out some cash secured puts on Amazon for a",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "Same Realized Gain/Loss page while he mentions the Amazon cash-secured puts"
+    },
+    {
+      "cue_id": "c09",
+      "term": "as-you-can-see",
+      "category": "pointing",
+      "t": 80.08,
+      "heard": "that I share here in the mentorship. As you could see, Maria sharing some",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "wrong",
+        "+6": "wrong"
+      },
+      "best_offset": null,
+      "notes": "Discord client-wins channel and moomoo P/L screenshots (mentorship promo)"
+    },
+    {
+      "cue_id": "c10",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 92.07900000000001,
+      "heard": "if you do want access to my Ryan's Trades channel and my LEAPS, entries,",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "wrong",
+        "+6": "wrong"
+      },
+      "best_offset": null,
+      "notes": "Discord post of a member's closed QQQ $650 Call 1/21/28 (+$1,010); promo, not the creator's trade"
+    },
+    {
+      "cue_id": "c11",
+      "term": "lets-dive",
+      "category": "transition",
+      "t": 113.2,
+      "heard": "Friday. So, be sure to be subscribed to those. Now, let's go ahead and jump",
+      "offsets": {
+        "-2": "wrong",
+        "+0": "wrong",
+        "+2": "wrong",
+        "+4": "new-info",
+        "+6": "redundant"
+      },
+      "best_offset": "+4",
+      "notes": "X profile promo, then earnings calendar Oct 19-23 with SPCX card: Q3 EPS $0.35 vs $0.16 est, revenue $14.58B vs $12.94B; BE and WDC Thu 22 after close, LRCX Wed 21 after close"
+    },
+    {
+      "cue_id": "c12",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 183.92,
+      "heard": "have had positive earnings come out last week ASML and TSM and then as of now you",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "'Who Beat, Who Missed' card (SpaceX, RTX, GE Aerospace, Netflix); numbers too small on the sheet"
+    },
+    {
+      "cue_id": "c13",
+      "term": "fed-watch",
+      "category": "macro",
+      "t": 191.599,
+      "heard": "well. Now, how is that affecting, you know, the CME Fed Watch tool, right?",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "Who Beat card, then CME FedWatch page and probabilities table; table cells unreadable on the sheet"
+    },
+    {
+      "cue_id": "c14",
+      "term": "fed-watch",
+      "category": "macro",
+      "t": 207.2,
+      "heard": "still bullish because we are only pricing in three more rate hikes. Okay?",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "Same CME FedWatch probabilities table"
+    },
+    {
+      "cue_id": "c15",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 279.44,
+      "heard": "much higher than the average S&P 500 Ford PE here at 18.9. S&P 500 IT",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "Yardeni forward P/E chart: S&P 500 18.9 vs S&P 500 IT 19.3 (Oct 20); captions said 19 for IT"
+    },
+    {
+      "cue_id": "c16",
+      "term": "breadth",
+      "category": "macro",
+      "t": 394.8,
+      "heard": "right, and then now if we take a look at S5FI,",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+0",
+      "notes": "US10Y daily chart at 5.111% (BB upper 5.347%, SMA200 4.513%), then S5FI chart with marked zones"
+    },
+    {
+      "cue_id": "c17",
+      "term": "moving-average",
+      "category": "chart",
+      "t": 401.6,
+      "heard": "bit. So now, currently 52% of S&P 500 stocks are above their 50-day moving",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "Same S5FI chart"
+    },
+    {
+      "cue_id": "c18",
+      "term": "ticker-mention",
+      "category": "ticker",
+      "t": 409.44,
+      "heard": "the underlying market, but we're also not overbought. Okay, NDFI is kind of",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "useful",
+        "+6": "redundant"
+      },
+      "best_offset": "+4",
+      "notes": "S5FI chart, then NDFI chart at +4"
+    },
+    {
+      "cue_id": "c19",
+      "term": "breadth",
+      "category": "macro",
+      "t": 409.44,
+      "heard": "the underlying market, but we're also not overbought. Okay, NDFI is kind of",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "Duplicate of c18 (same timestamp) [auto: within 1.5s of c18, marked redundant]"
+    },
+    {
+      "cue_id": "c20",
+      "term": "moving-average",
+      "category": "chart",
+      "t": 417.36,
+      "heard": "stocks in the NASDAQ are above their 50-day moving average. So, 50/50, right?",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "Same NDFI chart"
+    },
+    {
+      "cue_id": "c21",
+      "term": "chart",
+      "category": "chart",
+      "t": 497.44,
+      "heard": "was a bullish day. institutions, topnet impact chart, buying call options on",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "useful",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "+2",
+      "notes": "Unusual Whales Market Tide, then Top Net Impact chart and Market Sentiment panel; tickers not legible on the sheet"
+    },
+    {
+      "cue_id": "c22",
+      "term": "volatility-index",
+      "category": "macro",
+      "t": 595.12,
+      "heard": "my cash prepared for that so let's also take a look at the VIX which is the fear",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "new-info",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "QQQ daily 727.04 with -8%/-10%/-13% levels drawn; then VIX 16.67 with 13-20 range box"
+    },
+    {
+      "cue_id": "c23",
+      "term": "volatility-index",
+      "category": "macro",
+      "t": 610.24,
+      "heard": "in the slight fear zone at 16. Uh, we did see, you know, the VIX spike up to",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": null,
+      "notes": "Same VIX chart"
+    },
+    {
+      "cue_id": "c24",
+      "term": "strike",
+      "category": "options",
+      "t": 706.24,
+      "heard": "5 to 7%. Um, and I'm just trading cash secured puts and doing the wheel",
+      "offsets": {
+        "-2": "new-info",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "blank"
+      },
+      "best_offset": "-2",
+      "notes": "BE daily chart, last 240.58 (241.07 a moment later); +6 is the disclaimer slide"
+    },
+    {
+      "cue_id": "c25",
+      "term": "expected-move",
+      "category": "options",
+      "t": 736.16,
+      "heard": "take a look at the expected market maker move plus or minus $24 from here. So we",
+      "offsets": {
+        "-2": "useful",
+        "+0": "useful",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "thinkorswim BE trades, then BE option chain; strikes not legible on the sheet (control frame shows them)"
+    },
+    {
+      "cue_id": "c26",
+      "term": "next-one",
+      "category": "transition",
+      "t": 811.6,
+      "heard": "they solve a major problem okay and their services are needed. The next one",
+      "offsets": {
+        "-2": "redundant",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "new-info",
+        "+6": "redundant"
+      },
+      "best_offset": "+4",
+      "notes": "BE chart, then LRCX daily 262.90 with 200-day near 283 and lower band near 254"
+    },
+    {
+      "cue_id": "c27",
+      "term": "look-here",
+      "category": "pointing",
+      "t": 1020.72,
+      "heard": "you know, almost to that lower Ballinger band right here. And then above 400",
+      "offsets": {
+        "-2": "useful",
+        "+0": "redundant",
+        "+2": "redundant",
+        "+4": "redundant",
+        "+6": "redundant"
+      },
+      "best_offset": "-2",
+      "notes": "WDC daily chart with Bollinger bands; price not legible on the sheet"
+    }
+  ],
+  "control": [
+    {
+      "t": 0.0,
+      "reason": "first-frame",
+      "verdict": "blank"
+    },
+    {
+      "t": 98.1981,
+      "reason": "scene-change",
+      "verdict": "wrong"
+    },
+    {
+      "t": 115.5154,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 340.373367,
+      "reason": "scene-change",
+      "verdict": "blank"
+    },
+    {
+      "t": 669.435433,
+      "reason": "scene-change",
+      "verdict": "redundant"
+    },
+    {
+      "t": 731.397333,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 849.882367,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 894.860633,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 978.444133,
+      "reason": "scene-change",
+      "verdict": "redundant"
+    },
+    {
+      "t": 987.6867,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 1002.434767,
+      "reason": "scene-change",
+      "verdict": "new-info"
+    },
+    {
+      "t": 1146.9458,
+      "reason": "scene-change",
+      "verdict": "redundant"
+    }
+  ],
+  "control_notes": "No control_sheet.jpg was produced; labeled from the 12 individual frames. B: talking head (0:00), blank page (5:40). W: Instagram profile promo (1:38). N: earnings calendar with SPCX Q3 card (1:55); BE thinkorswim trades -1 Oct 30 240 P, -2 Nov 6 225 P, account value $1,892,164.65 (12:11); Unusual Whales BE earnings history, implied move $20.22 (8.42%) for 10/22 (14:09); LRCX trades +100 LRCX at 330, -1 Oct 23 285 P, -1 Oct 30 315 P, -1 Oct 30 330 C (14:54); full positions table incl. DRAM +700 at 48.19, -7 Nov 20 57 C (16:27); WDC trades +300 WDC at 514.14, -1 Oct 23 367.5 P, -1 Oct 23 435 P, -3 Oct 23 515 C (16:42). R: earnings calendar again (11:09, 16:18), WDC option chain/trades again (19:06).",
+  "labeling_notes": "Labeled by Claude from contact sheets; new-info only where text was readable (checked against full-size frames for c15, c16, c22, c26). Options With Ryan format: face cam over screen shares (Schwab, thinkorswim, TradingView, Unusual Whales, Discord promo). Full-screen talking head and the disclaimer slide are blank; Discord/Instagram/X promo screens are wrong.",
+  "trained_at": "2026-10-22"
+}

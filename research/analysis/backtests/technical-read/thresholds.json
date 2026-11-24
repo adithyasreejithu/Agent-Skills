@@ -1,0 +1,13 @@
+{
+  "status": "draft",
+  "frozen_on": null,
+  "note": "DRAFT, set from the calibration half only. Becomes frozen (status 'frozen' and a date) before the holdout half is scored. The video gives no cut-offs; these are my choices, taken from the numbers he says aloud (RSI 30-35 for QQQ, 'lower band', 'oversold') and from common defaults.",
+  "rules": {
+    "lower_band":   {"pct_b_max": 0.05, "meaning": "close at or below the lower Bollinger band (pct_b = (close - lower) / (upper - lower))"},
+    "oversold":     {"rsi_max": 35, "meaning": "RSI(14) at or below 35 (he says 30-35 for QQQ)"},
+    "stretched_up": {"pct_b_min": 0.95, "run_days": 15, "run_pct": 10, "meaning": "close in the top 5% of the band after a gain of at least 10% over 15 trading days"},
+    "at_200d":      {"within_pct": 3, "meaning": "close within 3% of the 200-day average"},
+    "level_hold_tolerance_pct": 1.0
+  },
+  "study": {"min_gap_days_between_signals": 10, "horizons": [5, 10]}
+}
