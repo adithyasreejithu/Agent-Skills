@@ -1,7 +1,7 @@
 [project]
 name = "agent-skills"
 version = "0.1.0"
-description = "Add your description here"
+description = "Autonomous research pipeline built from Claude Code skills: watches finance videos and reels, writes validated notes and a daily brief."
 readme = "README.md"
 authors = [
     { name = "Adithya Sreejithu", email = "1adithyapanicker@gmail.com" }
